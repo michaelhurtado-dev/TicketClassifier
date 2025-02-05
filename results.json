@@ -1,34 +1,22 @@
 [
     {
-        "number": "INC41365569",
-        "description": "User is requesting to unlock their active directory account.",
-        "short_description": "Unlock AD Account - IRIS RODRIGUEZ",
-        "u_error_symptoms": "",
-        "sys_created_on": "2025-02-03 18:28:52",
+        "number": "INC41400728",
+        "description": "There's this application which we work on and which is known as Oracle and uh, we are not able to refund.",
+        "short_description": "IRIS (Integrated Rx Information System) - Credit Card On-screen Entry Not Available",
+        "u_error_symptoms": "Credit Card On-screen Entry Not Available",
+        "sys_created_on": "2025-02-05 07:48:43",
         "tags": [
             [
-                "User Login"
+                "Payment"
             ]
         ]
     },
     {
-        "number": "INC41365890",
-        "description": "I can't get in to IRIS.  I can't get in with the password I'm using. ",
-        "short_description": "IRIS - Unable to Log IN",
+        "number": "INC41400967",
+        "description": "Need to change cloud routing  for testing purposes \r\nTs02-  0%\r\nTS04- 100% ",
+        "short_description": "Change cloud routing ",
         "u_error_symptoms": "",
-        "sys_created_on": "2025-02-03 18:36:22",
-        "tags": [
-            [
-                "User Login"
-            ]
-        ]
-    },
-    {
-        "number": "INC41365830",
-        "description": "Need table XXIRIS_NF_CAG_RESTRICTIONS access added to the OM Super user responsibility.  ",
-        "short_description": "Need to get the CAG suppression table added to the OM Super user role ",
-        "u_error_symptoms": "",
-        "sys_created_on": "2025-02-03 18:39:03",
+        "sys_created_on": "2025-02-05 08:58:30",
         "tags": [
             [
                 "?"
@@ -36,14 +24,98 @@
         ]
     },
     {
-        "number": "INC41366309",
-        "description": "I can't connect to my IRIS application it always asking me to my password ",
-        "short_description": "IRIS (Integrated Rx Information System) - Application Blocked by Security Settin",
-        "u_error_symptoms": "Asking for username and password ",
-        "sys_created_on": "2025-02-03 18:49:55",
+        "number": "INC41401309",
+        "description": "Management Node reboot on IRIS Dev PCA to resolve the Platinum patching precheck issue\r\n\r\n 3-39613564231 : mysql backup status showing failed - PCA prepatch step failure\r\n",
+        "short_description": "Management Node reboot on IRIS Dev PCA to resolve the Platinum patching precheck issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 09:45:22",
         "tags": [
             [
-                "User Login"
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41401805",
+        "description": "reset the password for NUID for mentioned NUID\r\nrpa_orx_dex7_t2",
+        "short_description": "reset the password for NUID",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 11:02:54",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41402005",
+        "description": "i have issue with image viewer in IRIS\r\nunable to view ",
+        "short_description": "FLW RXS Imaging - Unable to load images or faxes in PAS/IRIS",
+        "u_error_symptoms": "FLW RXS Imaging - Unable to load images or faxes in PAS/IRIS",
+        "sys_created_on": "2025-02-05 11:21:04",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41402213",
+        "description": "2+ days aged orders not closed in wms/iris assing ticket to Orx_PCS_OV_SPT",
+        "short_description": "IRIS (Integrated Rx Information System) - order not closed",
+        "u_error_symptoms": "2+ days aged orders not closed in wms/iris assing ticket to Orx_PCS_OV_SPT",
+        "sys_created_on": "2025-02-05 11:50:22",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41402407",
+        "description": "IRIS LOCKED UP- While trying to add a reprocess pv hold on one line - it placed the hold on the incorrect line 3x - and when speaking w/ rph to remove - rph IRIS locked as well",
+        "short_description": "IRIS : Application got locked on a record",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 12:09:59",
+        "tags": [
+            [
+                "RX locked"
+            ]
+        ]
+    },
+    {
+        "number": "INC41402577",
+        "description": "no work is loaded into our MF system",
+        "short_description": "HDP Growth IBT Camunda Application - no work is loaded into our MF system",
+        "u_error_symptoms": "no work is loaded into our MF system",
+        "sys_created_on": "2025-02-05 12:26:17",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41402779",
+        "description": "SITE 32              \r\n779002098\t\tSA\t1\tTracking#9234690350467932258245\r\n779004202\t        SA\t1      Tracking# 9261290350467916070609\r\n779416652  \t        SA\t1\tTracking# 1ZC6R5140106323824\r\n\r\nProduct entered by customer: ",
+        "short_description": "SA - Orders open in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 12:43:45",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41404129",
+        "description": "Information request to find out msids of users in prerx who matched drug to rx 454887500 and rx 456527470. Same issue that Sunil figured out how to find who matched the drug in prerx as INC37254742. route to MSA ORACLE EBS (RXS) \u2013 SPT",
+        "short_description": "IRIS (Integrated Rx Information System)  : Information request to find out msids of users in prerx who matched drug to rx 454887500 and rx 456527470. Same issue that Sunil figured out how to find who matched the drug in prerx as INC37254742. route to",
+        "u_error_symptoms": "Information request to find out msids of users in prerx who matched drug to rx 454887500 and rx 456527470. Same issue that Sunil figured out how to find who matched the drug in prerx as INC37254742. route to MSA ORACLE EBS (RXS) \u2013 SPT",
+        "sys_created_on": "2025-02-05 13:45:21",
+        "tags": [
+            [
+                "User Requests"
             ]
         ]
     }

@@ -2,7 +2,7 @@
 #02/04/2024
 from model.load_model import classify, classify_text
 from process_data.process_data import process, split_into_phrases
-from load_data import load_data, write_data
+from load_data import load_data, write_data,json_to_csv
 import json
 import time
 
@@ -115,6 +115,8 @@ def process_ticket(ticket):
 
     return proposed_tags if proposed_tags else "?"
 
+
+
 def main():
     """
     Main function to load tickets, process them, and write the results.
@@ -138,6 +140,8 @@ def main():
         print(f"Tags: {tags}")
         print("------------------\n")
         print(f"# Tickets processed: {ticket_counter}")
+
+    json_to_csv('results.json','results.csv')
 
 if __name__ == "__main__":
     start_time = time.time()

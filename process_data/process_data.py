@@ -6,7 +6,7 @@ import spacy
 from spacy.language import Language
 
 # Load the spaCy model
-nlp = spacy.load("en_core_web_lg")
+nlp = spacy.load("../en_core_web_md/en_core_web_md-3.7.1")
 
 # Define patterns to be removed from the text
 patterns = [

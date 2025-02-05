@@ -12,7 +12,8 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..',
 from categories import categories
 
 # Load spaCy model
-nlp = spacy.load('en_core_web_md')
+#nlp = spacy.load('')
+nlp = spacy.load('../en_core_web_md/en_core_web_md-3.7.1')
 
 # Load the local model for sentence transformers
 local_model_path = "/Users/mhurta16/Downloads/sent-trans"

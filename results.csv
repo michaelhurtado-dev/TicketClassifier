@@ -1,0 +1,80 @@
+number,description,short_description,u_error_symptoms,sys_created_on,tags
+INC41400728,"There's this application which we work on and which is known as Oracle and uh, we are not able to refund.",IRIS (Integrated Rx Information System) - Credit Card On-screen Entry Not Available,Credit Card On-screen Entry Not Available,2025-02-05 07:48:43,Payment
+INC41400967,"Need to change cloud routing  for testing purposes 
+Ts02-  0%
+TS04- 100% ",Change cloud routing ,,2025-02-05 08:58:30,?
+INC41401309,"Management Node reboot on IRIS Dev PCA to resolve the Platinum patching precheck issue
+
+ 3-39613564231 : mysql backup status showing failed - PCA prepatch step failure
+",Management Node reboot on IRIS Dev PCA to resolve the Platinum patching precheck issue,,2025-02-05 09:45:22,?
+INC41401805,"reset the password for NUID for mentioned NUID
+rpa_orx_dex7_t2",reset the password for NUID,,2025-02-05 11:02:54,Password
+INC41402005,"i have issue with image viewer in IRIS
+unable to view ",FLW RXS Imaging - Unable to load images or faxes in PAS/IRIS,FLW RXS Imaging - Unable to load images or faxes in PAS/IRIS,2025-02-05 11:21:04,Image Viewer
+INC41402213,2+ days aged orders not closed in wms/iris assing ticket to Orx_PCS_OV_SPT,IRIS (Integrated Rx Information System) - order not closed,2+ days aged orders not closed in wms/iris assing ticket to Orx_PCS_OV_SPT,2025-02-05 11:50:22,Order Issue
+INC41402407,IRIS LOCKED UP- While trying to add a reprocess pv hold on one line - it placed the hold on the incorrect line 3x - and when speaking w/ rph to remove - rph IRIS locked as well,IRIS : Application got locked on a record,,2025-02-05 12:09:59,RX locked
+INC41402577,no work is loaded into our MF system,HDP Growth IBT Camunda Application - no work is loaded into our MF system,no work is loaded into our MF system,2025-02-05 12:26:17,?
+INC41402779,"SITE 32              
+779002098		SA	1	Tracking#9234690350467932258245
+779004202	        SA	1      Tracking# 9261290350467916070609
+779416652  	        SA	1	Tracking# 1ZC6R5140106323824
+
+Product entered by customer: ",SA - Orders open in IRIS,,2025-02-05 12:43:45,Order Issue
+INC41404129,Information request to find out msids of users in prerx who matched drug to rx 454887500 and rx 456527470. Same issue that Sunil figured out how to find who matched the drug in prerx as INC37254742. route to MSA ORACLE EBS (RXS) – SPT,IRIS (Integrated Rx Information System)  : Information request to find out msids of users in prerx who matched drug to rx 454887500 and rx 456527470. Same issue that Sunil figured out how to find who matched the drug in prerx as INC37254742. route to,Information request to find out msids of users in prerx who matched drug to rx 454887500 and rx 456527470. Same issue that Sunil figured out how to find who matched the drug in prerx as INC37254742. route to MSA ORACLE EBS (RXS) – SPT,2025-02-05 13:45:21,User Requests
+INC41404414,Umm I am calling because umm Iris is asking me for a new password. I have entered like 10 different ones and all of them are saying error.,IRIS (Integrated Rx Information System) - Unable to Login,Unable to Login,2025-02-05 13:56:58,Password
+INC41404854,having a hard time w/password will not allow to log in,IRIS login issue,,2025-02-05 14:10:59,User Login
+INC41405256,"requesting to reset password on irish
+",IRIS (Integrated Rx Information System) - Unable to Login,need to reset password on iris,2025-02-05 14:21:52,Password
+INC41405470,I need help resetting my IRIS pw,IRIS - password reset for  IRIS , password reset for  IRIS ,2025-02-05 14:27:31,Password
+INC41405997,IRIS password reset. ,IRIS password reset. ,,2025-02-05 14:52:49,Password
+INC41406407,"Image viewer is not opening in TS02 Iris
+
+Product entered by customer: NON-Prod Iris TS02 environment",Image viewer is not opening in TS02 Iris,Image viewer is not opening in TS02 Iris,2025-02-05 14:56:24,Image Viewer
+INC41407899,"Please close the below order as it has tracking movement.
+
+Tracking Number: 1ZC6R5140306366436
+Order Number: 778979886-1
+
+Product entered by customer: ",SA - Order Open in IRIS,,2025-02-05 15:40:54,Order Issue
+INC41408355,"Assign the ticket to @ORx_Dispensing_IT_Support orders 
+778824545-1 and  
+779232611-1 shipped with error-please close",RG - Orders Open in IRIS,,2025-02-05 15:52:43,Order Issue
+INC41408356,"Please assign to ""IRIS-Pharmacy Central Non Prod"" ServiceNow Group, in IRIS TS02 environment, unable to add CCG Card through EBC. I have attempted to add a CCG Card with Email, Text, and On-Screen options, but the credit card is not added onto the patient's Accounting OAF Page.
+
+Product entered by customer: Please assign to ""IRIS-Pharmacy Central Non Prod"" ServiceNow Group"," IRIS TS02 environment, unable to add CCG Card through EBC"," IRIS TS02 environment, unable to add CCG Card through EBC",2025-02-05 15:52:44,Payment
+INC41408717,"Need Pharmacy Central Access for provided users - Pharmacist and OM lookup maintenance on Non prod- DV05
+
+Product entered by customer: ",Need Pharmacy Central Access for provided users - Pharmacist and OM lookup maintenance on Non prod- DV05,Need Pharmacy Central Access for provided users - Pharmacist and OM lookup maintenance on Non prod- DV05,2025-02-05 16:01:53,?
+INC41408733,"System rebooted from a download of Infopath and had trouble getting IRIS and Genesys back up, want to make sure the update didnt affect anything",Selected Issue: IRIS,,2025-02-05 16:02:29,General Error
+INC41408849,Leadership is requesting to find out why dur-pps hold is displaying incorrect medication name.  Please route to SOS- Systems Operations Solutions (ORx),Leadership is requesting to find out why dur-pps hold is displaying incorrect medication name.  Please route to SOS- Systems Operations Solutions (ORx),Leadership is requesting to find out why dur-pps hold is displaying incorrect medication name.  Please route to SOS- Systems Operations Solutions (ORx),2025-02-05 16:05:31,?
+INC41408894,"Not able to login to IRIS
+able to do a password reset
+user mentioned that she had an access
+user stated that she was using her ms id and password",TX950 - cannot login to IRIS,,2025-02-05 16:08:28,Password
+INC41410011,IRIS issue REMS orders not falling in RPh queue,IRIS (Integrated Rx Information System),IRIS issue REMS orders not falling in RPh queue,2025-02-05 16:36:45,Order Issue
+INC41410013,"IRIS screen turned black, lost signal, dropped calls ","IRIS screen turned black, lost signal, dropped calls",,2025-02-05 16:36:47,?
+INC41410359,"CH ORDERS NOT CLOSED IN IRIS
+
+Product entered by customer: PCS, WMS, IRIS",CH -ORDERS NOT CLOSED IN IRIS,,2025-02-05 16:46:09,Order Issue
+INC41410581,"CH ORDERS NOT CLOSED IN IRIS
+
+Product entered by customer: IRIS, PCS, WMS",CH -ORDERS NOT CLOSED IN IRIS,,2025-02-05 16:53:09,Order Issue
+INC41410625,reset iris password,IRIS (Integrated Rx Information System) - Unable to Login,Unable to Login,2025-02-05 16:54:06,Password
+INC41411254,"INC NUMBER ONLY. IRIS was not allowing me to create accounts after multiple attempts to restart the program. Restarted system and cleared cache.
+
+Product entered by customer: ",Self Service Ticket,,2025-02-05 17:12:21,Crash
+INC41411875,"Please clear the HASH value for INCORRECT account -  #411174049
+
+CORRECT account #474887391",Need HASH value cleared for ERx attached to wrong patient,,2025-02-05 17:31:45,?
+INC41411877,Dex Reject – Automation Bot/DAW preventing pairing in PV match and PV Match Plus,Dex Reject – Automation Bot/DAW preventing pairing in PV match and PV Match Plus,,2025-02-05 17:33:00,?
+INC41412026,"Please clear the HASH value for INCORRECT account -  #473662522
+
+CORRECT account #474888135",Need HASH value cleared for ERx attached to wrong patient,,2025-02-05 17:39:25,?
+INC41412363,After an IT Specialist fixed my Genesys softphone I began to have an issue where the font of all my applications looks blurry. ,Selected Issue: Other,,2025-02-05 17:47:28,?
+INC41412513,"Requesting for research to be done to see if there is a possible break. When an order is canceled the credit that was being applied to the order as ""Credit as Order Payment"" is not being released back once the order is cancelled. The credit is still showing as applied with a Receipt Write Off ""Credit as Order Payment"" and does not allow the member to use the credit for future orders.",IRIS (Integrated Rx Information System) Requesting for research to be done to see if there is a possible break,Requesting for research to be done to see if there is a possible break.,2025-02-05 17:53:00,"Payment, Order Issue"
+INC41413486,need rx 448059836 unlocked,Request for Help Desk support,Need rx 448059836 unlocked,2025-02-05 18:24:05,RX locked
+INC41413771,Iris kicked me out and/or freezes while on calls. Blue circle spinning for long periods of time,Selected Issue: IRIS,,2025-02-05 18:34:16,Latency
+INC41414652,"Please assign to ""IRIS-Pharmacy Central Non Prod"" ServiceNow Group-MSA ORACLE EBS (RXS) - SPT -  -- In PVSingle stage even after a successful rx unlock call(rxNumber 406809900) for of given procedure(procedureName:XXIRIS_OM_RX_K.xxiris_rx_lock_del). rx still remains locked. while procedure response output is also empty. So, we have no idea what happened on the other side. and why rx is still locked. --",Request for Help Desk support,,2025-02-05 19:02:34,RX locked
+INC41414666,"iris freezing a lot take long to finish my calls
+",Selected Issue: IRIS,,2025-02-05 19:03:00,?
+INC41414728,"Agent returned from LOA. Secure request was sent to add access to IRIS, however, he still can't log in.",(OBO) - Selected Issue: IRIS,,2025-02-05 19:04:54,User Login
