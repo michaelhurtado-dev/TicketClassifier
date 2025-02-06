@@ -1,6 +1,57 @@
 number,description,short_description,u_error_symptoms,sys_created_on,tags
-INC41414666,"iris freezing a lot take long to finish my calls
-",Selected Issue: IRIS,,2025-02-05 19:03:00,?
-INC41414728,"Agent returned from LOA. Secure request was sent to add access to IRIS, however, he still can't log in.",(OBO) - Selected Issue: IRIS,,2025-02-05 19:04:54,User Login
-INC41414665,"iris is freezing a lot. takes a long time to finish my calls.
-",Selected Issue: IRIS,,2025-02-05 19:03:00,Latency
+INC41424330,Need aceess for IRIS TS02,Request for Help Desk support,,2025-02-06 08:44:48,?
+INC41425716,Erx records are stuck in phase 7 - ts09 ,Erx records are stuck in phase 7 - ts09 ,,2025-02-06 12:27:01,?
+INC41426313,2+ days aged orders need to be cleared in WMS and Iris send orders to ORx_Dispensing_IT_Support <OptumRx_Dispensing_IT_Support_DL@ds.uhc.com>778145209 774064185 774064185 778737152 778932178 779383071,Request for Help Desk support,2+ days aged orders need to be cleared in WMS and Iris send orders to ORx_Dispensing_IT_Support ,2025-02-06 13:09:23,Order Issue
+INC41426331,Iris wont open up ,IRIS issue,,2025-02-06 13:10:21,Launch Issues
+INC41426505,login error,Selected Issue: IRIS,,2025-02-06 13:18:29,User Login
+INC41426897,My IRIS is froze - I can't do anything with it,FLW - IRIS (Integrated Rx Information System) - Not responding,Not responding,2025-02-06 13:34:28,FRM Error
+INC41427520,In OPEx-Specialty a work item was submitted two times. The user received a successful message both times but it remained on the 'Current Tasks' tab and did not save to the 'Program History' tab. This ticket should be routed to Assignment Group: Optum Therapy Management Platform APP,IRIS (Integrated Rx Information System) -In OPEx-Specialty a work item was submitted two times. ,In OPEx-Specialty a work item was submitted two times. The user received a successful message both times but it remained on the 'Current Tasks' tab and did not save to the 'Program History' tab. This ticket should be routed to Assignment Group: Optum Therapy Management Platform APP,2025-02-06 13:54:14,?
+INC41427971,Iris Password reset,IRIS (Integrated Rx Information System) - Unable to Login,,2025-02-06 14:07:47,Password
+INC41428114,"IRIS skill set table is allowing already pved/ineligible orders to pair to queues in PC and IRIS. See attachments.  Note per PC and workbench team, this is an issue with the iris skill set table and not air specifically so please do not route to air team. Please route to SOS- Systems Operations Solutions (ORx)",IRIS skill set table is allowing already pved/ineligible orders to pair to queues in PC and IRIS,,2025-02-06 14:11:36,?
+INC41428687,please run attached file through capital rx concurrent program ,Capital RX concurrent run ,,2025-02-06 14:34:16,?
+INC41429001,"Sending in a request re: IRIS Front-End Read-Only access for Richard Carlson's team (as well as setting up some basic training on IRIS). Requesting after talking with Melissa Ayo; Christine Hoppe, to document where we last left off for everyone. Basically, just making sure that the info is somewhere that can be referenced for you guys. The Goal of the access is to assist in our back-end IRIS work: we have some processes that would benefit from getting a look at the front, relative to the back end. Our team specifically wants Read-Only access.  When we last left off, some customer service roles in IRIS were identified as a possible fit. A custom role was discussed, but tabled for later conversations after the busy season, etc.  One team member has some IRIS access, and shared his IRIS info w/ Melissa to double check if any of those would work for the Read-Only role.",IRIS Front-End Read-Only access for Richard Carlson's team ,,2025-02-06 14:38:41,nonsense
+INC41429323,please run the capital rx suffix data fix ,Capital  rx suffix Data fix ,,2025-02-06 14:49:16,Data Fix
+INC41429519,"ORX PCS SA -SPT
+
+Product entered by customer: 
+Order number: 779002098-1
+Tracking number: 9234690350467932258245",SA - Orders Open in IRIS,,2025-02-06 14:53:26,Order Issue
+INC41430131,"Image marry up services need moved from DV02 back to TS02
+	“Please assign to IRIS-Pharmacy Central Non Prod”
+
+Product entered by customer: Image marry up services
+	“Please assign to IRIS-Pharmacy Central Non Prod”",IRIS (Integrated Rx Information System) - Please assign to IRIS-Pharmacy Central Non Prod,IRIS (Integrated Rx Information System) - Please assign to IRIS-Pharmacy Central Non Prod,2025-02-06 15:11:10,Image Viewer
+INC41430156,"Yes, I can't get into my Citrix and also I can't get into my Iris, but they've activated it.",IRIS (Integrated Rx Information System) - Unable to Login,Unable to Login,2025-02-06 15:11:46,"User Requests, User Login"
+INC41430448,i cant log in to my iris,IRIS (Integrated Rx Information System) - Unable to Login,"Validate your credentials
+",2025-02-06 15:20:03,User Login
+INC41431230,"Please update the member name in IRIS . As per Rxclaim and MDM the member name does not have teh Jr as suffix 
+
+member id : 001068182
+Patient id:  130175871 
+First name: DAVID
+Last name : ESPINOSA
+
+Also please review teh member details and make sure no duplicate patient id nor there is any coverage issues for this member 
+",Update IRIS record ,,2025-02-06 15:48:04,?
+INC41431685,Advocate Central issue with duplicating accounts. Cathy states this keeps happening to her. It looks to duplicate members info whenever she switches over to IRIS and back in adv central and will swipe off all her notes,(OBO) - Selected Issue: Other - Advocate Central issue with duplicating accounts. Cathy states this keeps happening to her. It looks to duplicate members info whenever she switches over to IRIS and back in adv central and will swipe off all her notes,,2025-02-06 15:56:40,User Requests
+INC41431773,"I was calling because I'm having issues with my Iris for some reason umm, it's been going on a couple of days now. It's either when I log in, it either gives me like weird like screen that pops up or like sometimes it pauses and freezes or it just doesn't. You can't like copy and paste or anything like that. It gives you like all these weird messages about the connection and everything like that. So I'm not sure what's going on with it. My supervisor told me to reach out to IT to see if I can assist.",IRIS (Integrated Rx Information System) - slowness/not responding,slowness/not responding,2025-02-06 15:59:16,"Latency, User Login"
+INC41432449,Advocate Central issue with duplicating accounts. Cathy states this keeps happening to her. It looks to duplicate members info whenever she switches over to IRIS and back in adv central and will swipe off all her notes,(OBO) - Selected Issue: Other - Advocate Central issue with duplicating accounts. Cathy states this keeps happening to her. It looks to duplicate members info whenever she switches over to IRIS and back in adv central and will swipe off all her notes,,2025-02-06 16:17:53,User Requests
+INC41433629,launch issues,IRIS (Integrated Rx Information System) - launch issues,launch issues,2025-02-06 16:51:56,Launch Issues
+INC41433880,"I need order #778876752-1 closed out in IRIS.  This order shipped. Please assign to @ORx_Dispensing_IT_Support.
+776014908-1",RG - Orders Open in IRIS,,2025-02-06 16:59:07,Order Issue
+INC41434208,Need to verify the status of the API from IRIS to SFMC for alert 26 and alert 27 emails.. SFMC is stating they have no record of receiving the payloads,Need to verify the status of the API from IRIS to SFMC for alert 26 and alert 27 email,,2025-02-06 17:09:15,Alert
+INC41434233,"Having a diff issue with each acct but tabs im clicking have been delayed,Freezes when in Sp info tab & last account accessed i was unable to create a delset note.Issues are resolved in the acct after i force close in task manager & relaunch.Then another issue & delays occur shortly after",IRIS/VPN dropped,,2025-02-06 17:09:55,Crash
+INC41434190,"computer did an update. 
+cannot login to the advocate central and asking for PIN
+
+",TX950 - advocate central: Cannot login and asking for pin,,2025-02-06 17:11:36,User Login
+INC41434754,Assign the ticket to @ORx_Dispensing_IT_Support: order 778572104-1 shipped but did not close-please close in system,RG - Orders Open in IRIS,,2025-02-06 17:25:23,Order Issue
+INC41435446,CA950-Unable to login to iris,CA950-Unable to login to iris,,2025-02-06 17:48:37,User Login
+INC41435639,Personal Communications 15.0.2.0 Install (REBOOT) *WARN*   -- An existing connection was forcibly closed by the remote host. ,Personal Communications 15.0.2.0 Install (REBOOT) *WARN*   -- An existing connection was forcibly closed by the remote host. ,An existing connection was forcibly closed by the remote host. ,2025-02-06 18:01:49,Alert
+INC41436087,I need to reset the password for my iris account.,IRIS (Integrated Rx Information System) - needs to reset the password for IRIS account,needs to reset the password for IRIS account,2025-02-06 18:10:17,Password
+INC41436140,"We're returning back on using the IRIS app, and we set to get the reset, but we did not hear anything for the password or the reset. They already process the access request, but I did not get any email or information about it.",FLW - IRIS (Integrated Rx Information System) - Unable to Login,,2025-02-06 18:12:13,Password
+INC41436382,doc id 1274005861 doc set id 6595983930 doc id 1274005744 doc set id 6581127860 doc id 1274005924 doc set id 6509839410 doc id 1274004100 doc set id 6569149840 doc id 1274004228 doc set id 6520470060 merge to doc set id 6518574860,Request for Help Desk support,,2025-02-06 18:21:08,?
+INC41437109,unlock rx 457207037 and order 780176144,Request for Help Desk support,,2025-02-06 18:48:12,"Order Issue, RX locked"
+INC41437131,Iris is non responsive,Selected Issue: IRIS,,2025-02-06 18:48:54,?
+INC41437908,"IRIS asking to change password, and not letting change my password ",FLW IRIS (Integrated Rx Information System) - Unable to Login,Unable to login,2025-02-06 19:16:20,Password
+INC41438143,IRIS is not allowing my temp ppassword,IRIS is not allowing my temp ppassword,,2025-02-06 19:24:10,Password

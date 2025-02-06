@@ -1,10 +1,10 @@
 [
     {
-        "number": "INC41414666",
-        "description": "iris freezing a lot take long to finish my calls\n",
-        "short_description": "Selected Issue: IRIS",
+        "number": "INC41424330",
+        "description": "Need aceess for IRIS TS02",
+        "short_description": "Request for Help Desk support",
         "u_error_symptoms": "",
-        "sys_created_on": "2025-02-05 19:03:00",
+        "sys_created_on": "2025-02-06 08:44:48",
         "tags": [
             [
                 "?"
@@ -12,11 +12,47 @@
         ]
     },
     {
-        "number": "INC41414728",
-        "description": "Agent returned from LOA. Secure request was sent to add access to IRIS, however, he still can't log in.",
-        "short_description": "(OBO) - Selected Issue: IRIS",
+        "number": "INC41425716",
+        "description": "Erx records are stuck in phase 7 - ts09 ",
+        "short_description": "Erx records are stuck in phase 7 - ts09 ",
         "u_error_symptoms": "",
-        "sys_created_on": "2025-02-05 19:04:54",
+        "sys_created_on": "2025-02-06 12:27:01",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41426313",
+        "description": "2+ days aged orders need to be cleared in WMS and Iris send orders to ORx_Dispensing_IT_Support <OptumRx_Dispensing_IT_Support_DL@ds.uhc.com>778145209 774064185 774064185 778737152 778932178 779383071",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "2+ days aged orders need to be cleared in WMS and Iris send orders to ORx_Dispensing_IT_Support ",
+        "sys_created_on": "2025-02-06 13:09:23",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41426331",
+        "description": "Iris wont open up ",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 13:10:21",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41426505",
+        "description": "login error",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 13:18:29",
         "tags": [
             [
                 "User Login"
@@ -24,14 +60,365 @@
         ]
     },
     {
-        "number": "INC41414665",
-        "description": "iris is freezing a lot. takes a long time to finish my calls.\n",
-        "short_description": "Selected Issue: IRIS",
-        "u_error_symptoms": "",
-        "sys_created_on": "2025-02-05 19:03:00",
+        "number": "INC41426897",
+        "description": "My IRIS is froze - I can't do anything with it",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Not responding",
+        "u_error_symptoms": "Not responding",
+        "sys_created_on": "2025-02-06 13:34:28",
         "tags": [
             [
-                "Latency"
+                "FRM Error"
+            ]
+        ]
+    },
+    {
+        "number": "INC41427520",
+        "description": "In OPEx-Specialty a work item was submitted two times. The user received a successful message both times but it remained on the 'Current Tasks' tab and did not save to the 'Program History' tab. This ticket should be routed to Assignment Group: Optum Therapy Management Platform APP",
+        "short_description": "IRIS (Integrated Rx Information System) -In OPEx-Specialty a work item was submitted two times. ",
+        "u_error_symptoms": "In OPEx-Specialty a work item was submitted two times. The user received a successful message both times but it remained on the 'Current Tasks' tab and did not save to the 'Program History' tab. This ticket should be routed to Assignment Group: Optum Therapy Management Platform APP",
+        "sys_created_on": "2025-02-06 13:54:14",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41427971",
+        "description": "Iris Password reset",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 14:07:47",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41428114",
+        "description": "IRIS skill set table is allowing already pved/ineligible orders to pair to queues in PC and IRIS. See attachments.  Note per PC and workbench team, this is an issue with the iris skill set table and not air specifically so please do not route to air team. Please route to SOS- Systems Operations Solutions (ORx)",
+        "short_description": "IRIS skill set table is allowing already pved/ineligible orders to pair to queues in PC and IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 14:11:36",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41428687",
+        "description": "please run attached file through capital rx concurrent program ",
+        "short_description": "Capital RX concurrent run ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 14:34:16",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41429001",
+        "description": "Sending in a request re: IRIS Front-End Read-Only access for Richard Carlson's team (as well as setting up some basic training on IRIS). Requesting after talking with Melissa Ayo; Christine Hoppe, to document where we last left off for everyone. Basically, just making sure that the info is somewhere that can be referenced for you guys. The Goal of the access is to assist in our back-end IRIS work: we have some processes that would benefit from getting a look at the front, relative to the back end. Our team specifically wants Read-Only access.  When we last left off, some customer service roles in IRIS were identified as a possible fit. A custom role was discussed, but tabled for later conversations after the busy season, etc.  One team member has some IRIS access, and shared his IRIS info w/ Melissa to double check if any of those would work for the Read-Only role.",
+        "short_description": "IRIS Front-End Read-Only access for Richard Carlson's team ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 14:38:41",
+        "tags": [
+            [
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41429323",
+        "description": "please run the capital rx suffix data fix ",
+        "short_description": "Capital  rx suffix Data fix ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 14:49:16",
+        "tags": [
+            [
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41429519",
+        "description": "ORX PCS SA -SPT\r\n\r\nProduct entered by customer: \r\nOrder number: 779002098-1\r\nTracking number: 9234690350467932258245",
+        "short_description": "SA - Orders Open in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 14:53:26",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41430131",
+        "description": "Image marry up services need moved from DV02 back to TS02\r\n\uf0a7\t\u201cPlease assign to IRIS-Pharmacy Central Non Prod\u201d\n\nProduct entered by customer: Image marry up services\r\n\uf0a7\t\u201cPlease assign to IRIS-Pharmacy Central Non Prod\u201d",
+        "short_description": "IRIS (Integrated Rx Information System) - Please assign to IRIS-Pharmacy Central Non Prod",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System) - Please assign to IRIS-Pharmacy Central Non Prod",
+        "sys_created_on": "2025-02-06 15:11:10",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41430156",
+        "description": "Yes, I can't get into my Citrix and also I can't get into my Iris, but they've activated it.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-06 15:11:46",
+        "tags": [
+            [
+                "User Requests",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41430448",
+        "description": "i cant log in to my iris",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Validate your credentials\r\n",
+        "sys_created_on": "2025-02-06 15:20:03",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41431230",
+        "description": "Please update the member name in IRIS . As per Rxclaim and MDM the member name does not have teh Jr as suffix \r\n\r\nmember id : 001068182\r\nPatient id:  130175871 \r\nFirst name: DAVID\r\nLast name : ESPINOSA\r\n\r\nAlso please review teh member details and make sure no duplicate patient id nor there is any coverage issues for this member \r\n",
+        "short_description": "Update IRIS record ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 15:48:04",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41431685",
+        "description": "Advocate Central issue with duplicating accounts. Cathy states this keeps happening to her. It looks to duplicate members info whenever she switches over to IRIS and back in adv central and will swipe off all her notes",
+        "short_description": "(OBO) - Selected Issue: Other - Advocate Central issue with duplicating accounts. Cathy states this keeps happening to her. It looks to duplicate members info whenever she switches over to IRIS and back in adv central and will swipe off all her notes",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 15:56:40",
+        "tags": [
+            [
+                "User Requests"
+            ]
+        ]
+    },
+    {
+        "number": "INC41431773",
+        "description": "I was calling because I'm having issues with my Iris for some reason umm, it's been going on a couple of days now. It's either when I log in, it either gives me like weird like screen that pops up or like sometimes it pauses and freezes or it just doesn't. You can't like copy and paste or anything like that. It gives you like all these weird messages about the connection and everything like that. So I'm not sure what's going on with it. My supervisor told me to reach out to IT to see if I can assist.",
+        "short_description": "IRIS (Integrated Rx Information System) - slowness/not responding",
+        "u_error_symptoms": "slowness/not responding",
+        "sys_created_on": "2025-02-06 15:59:16",
+        "tags": [
+            [
+                "Latency",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41432449",
+        "description": "Advocate Central issue with duplicating accounts. Cathy states this keeps happening to her. It looks to duplicate members info whenever she switches over to IRIS and back in adv central and will swipe off all her notes",
+        "short_description": "(OBO) - Selected Issue: Other - Advocate Central issue with duplicating accounts. Cathy states this keeps happening to her. It looks to duplicate members info whenever she switches over to IRIS and back in adv central and will swipe off all her notes",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 16:17:53",
+        "tags": [
+            [
+                "User Requests"
+            ]
+        ]
+    },
+    {
+        "number": "INC41433629",
+        "description": "launch issues",
+        "short_description": "IRIS (Integrated Rx Information System) - launch issues",
+        "u_error_symptoms": "launch issues",
+        "sys_created_on": "2025-02-06 16:51:56",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41433880",
+        "description": "I need order #778876752-1 closed out in IRIS.  This order shipped. Please assign to @ORx_Dispensing_IT_Support.\r\n776014908-1",
+        "short_description": "RG - Orders Open in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 16:59:07",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41434208",
+        "description": "Need to verify the status of the API from IRIS to SFMC for alert 26 and alert 27 emails.. SFMC is stating they have no record of receiving the payloads",
+        "short_description": "Need to verify the status of the API from IRIS to SFMC for alert 26 and alert 27 email",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 17:09:15",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41434233",
+        "description": "Having a diff issue with each acct but tabs im clicking have been delayed,Freezes when in Sp info tab & last account accessed i was unable to create a delset note.Issues are resolved in the acct after i force close in task manager & relaunch.Then another issue & delays occur shortly after",
+        "short_description": "IRIS/VPN dropped",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 17:09:55",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41434190",
+        "description": "computer did an update. \r\ncannot login to the advocate central and asking for PIN\r\n\r\n",
+        "short_description": "TX950 - advocate central: Cannot login and asking for pin",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 17:11:36",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41434754",
+        "description": "Assign the ticket to @ORx_Dispensing_IT_Support: order 778572104-1 shipped but did not close-please close in system",
+        "short_description": "RG - Orders Open in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 17:25:23",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41435446",
+        "description": "CA950-Unable to login to iris",
+        "short_description": "CA950-Unable to login to iris",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 17:48:37",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41435639",
+        "description": "Personal Communications 15.0.2.0 Install (REBOOT) *WARN*   -- An existing connection was forcibly closed by the remote host. ",
+        "short_description": "Personal Communications 15.0.2.0 Install (REBOOT) *WARN*   -- An existing connection was forcibly closed by the remote host. ",
+        "u_error_symptoms": "An existing connection was forcibly closed by the remote host. ",
+        "sys_created_on": "2025-02-06 18:01:49",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41436087",
+        "description": "I need to reset the password for my iris account.",
+        "short_description": "IRIS (Integrated Rx Information System) - needs to reset the password for IRIS account",
+        "u_error_symptoms": "needs to reset the password for IRIS account",
+        "sys_created_on": "2025-02-06 18:10:17",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41436140",
+        "description": "We're returning back on using the IRIS app, and we set to get the reset, but we did not hear anything for the password or the reset. They already process the access request, but I did not get any email or information about it.",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 18:12:13",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41436382",
+        "description": "doc id 1274005861 doc set id 6595983930 doc id 1274005744 doc set id 6581127860 doc id 1274005924 doc set id 6509839410 doc id 1274004100 doc set id 6569149840 doc id 1274004228 doc set id 6520470060 merge to doc set id 6518574860",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 18:21:08",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41437109",
+        "description": "unlock rx 457207037 and order 780176144",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 18:48:12",
+        "tags": [
+            [
+                "Order Issue",
+                "RX locked"
+            ]
+        ]
+    },
+    {
+        "number": "INC41437131",
+        "description": "Iris is non responsive",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 18:48:54",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41437908",
+        "description": "IRIS asking to change password, and not letting change my password ",
+        "short_description": "FLW IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to login",
+        "sys_created_on": "2025-02-06 19:16:20",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41438143",
+        "description": "IRIS is not allowing my temp ppassword",
+        "short_description": "IRIS is not allowing my temp ppassword",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 19:24:10",
+        "tags": [
+            [
+                "Password"
             ]
         ]
     }

@@ -4,6 +4,7 @@
 import re
 import spacy
 from spacy.language import Language
+from textblob import TextBlob
 
 # Load the spaCy model
 nlp = spacy.load("../en_core_web_md/en_core_web_md-3.7.1")
@@ -63,6 +64,11 @@ def handle_contractions(text):
         text = re.sub(contraction, full_form, text)
     
     return text
+
+def correct_grammar(text):
+    blob = TextBlob(text)
+    corrected_text = str(blob.correct())
+    return corrected_text
 
 def preprocess_description(description, patterns):
     """
@@ -136,6 +142,7 @@ def process(text):
     processed_list = []
     text = handle_contractions(text)
     text = preprocess_description(text, patterns)
+    text = correct_grammar(text)
     doc = nlp(text)
     sentences = list(doc.sents)
     
