@@ -140,7 +140,7 @@ def main():
         print(f"Tags: {tags}")
         print("------------------\n")
         print(f"# Tickets processed: {ticket_counter}")
-
+    
     json_to_csv('results.json','results.csv')
 
 if __name__ == "__main__":
