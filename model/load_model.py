@@ -11,14 +11,22 @@ import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'categories')))
 from categories import categories
 
-# Load spaCy model
-#nlp = spacy.load('')
-nlp = spacy.load('../en_core_web_md/en_core_web_md-3.7.1')
+# Construct the path to the model
+spacy_lang_path = os.path.join("en_core_web_md", "en_core_web_md-3.7.1")
+
+# Load the spaCy model
+nlp = spacy.load(spacy_lang_path)
 
 # Load the local model for sentence transformers
-local_model_path = "/Users/mhurta16/Downloads/sent-trans"
-tokenizer = AutoTokenizer.from_pretrained(local_model_path)
-model = AutoModel.from_pretrained(local_model_path)
+model_path =  os.path.join("sent-trans")
+
+# Check if the path exists
+if not os.path.exists(model_path):
+    print(f"Error: The path '{model_path}' does not exist. Please place the externally downloaded 'sent-trans' file in the same 'TicketClassifier' directory")
+    sys.exit(1)  # Exit the program with a non-zero status
+
+tokenizer = AutoTokenizer.from_pretrained(model_path)
+model = AutoModel.from_pretrained(model_path)
 
 from spacy.tokens import Doc
 
