@@ -5,6 +5,7 @@ from process_data.process_data import process, split_into_phrases
 from load_data import load_data, write_data,json_to_csv
 import json
 import time
+import argparse
 
 def get_tags_from_phrase(phrases, ticket):
     """
@@ -116,6 +117,18 @@ def process_ticket(ticket):
     return proposed_tags if proposed_tags else "?"
 
 
+def testing_mode():
+    """
+    Testing mode to continuously prompt the user for input and classify the entered text.
+    """
+    while True:
+        user_input = input("Enter text (or type 'exit' to quit): ")
+        if user_input.lower() == 'exit':
+            break
+        phrases = process(user_input)
+        tags = get_tags_from_phrase(phrases, {})
+        print(f"Tags: {tags}")
+
 
 def main():
     """
@@ -143,9 +156,18 @@ def main():
     
     json_to_csv('results.json','results.csv')
 
+
+
 if __name__ == "__main__":
-    start_time = time.time()
-    main()
-    end_time = time.time()
-    elapsed_time = end_time - start_time
-    print(f"Time Elapsed: {elapsed_time}")
+    parser = argparse.ArgumentParser(description="Process tickets or enter testing mode.")
+    parser.add_argument('-t', '--test', action='store_true', help="Enter testing mode")
+    args = parser.parse_args()
+
+    if args.test:
+        testing_mode()
+    else:
+        start_time = time.time()
+        main()
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        print(f"Time Elapsed: {elapsed_time}")
