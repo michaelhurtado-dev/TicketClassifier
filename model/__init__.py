@@ -1,0 +1,1 @@
+from .load_model import classify_text,classify
