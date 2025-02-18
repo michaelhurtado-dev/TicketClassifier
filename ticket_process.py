@@ -32,7 +32,7 @@ def text_too_big(text):
 
 def process_ticket(ticket):
     # List of fields which the algo will use to predict categories
-    relevant_fields = ['description', 'short_description']
+    relevant_fields = ['description', 'short_description','u_error_symptoms']
 
     # Set to which this algo will append its categorization predictions
     proposed_tags = set()

@@ -11,7 +11,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # Add the categories module to the system path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'categories')))
-from categories import categories
+from categories import categories,parent_categories
 
 # Construct the path to the model
 spacy_lang_path = os.path.join("en_core_web_md", "en_core_web_md-3.7.1")
@@ -20,7 +20,7 @@ spacy_lang_path = os.path.join("en_core_web_md", "en_core_web_md-3.7.1")
 nlp = spacy.load(spacy_lang_path)
 
 # Load the local model for sentence transformers
-model_path = os.path.join("sent-trans")
+model_path = os.path.join(,"sent-trans")
 
 # Check if the path exists
 if not os.path.exists(model_path):
@@ -94,4 +94,12 @@ def classify(text):
     if not filtered_scores:
         return "NA"
 
-    return filtered_scores
+     # Map subcategories to parent categories
+    hierarchical_scores = {}
+    for subcategory, score in filtered_scores.items():
+        parent_category = parent_categories.get(subcategory, subcategory)
+        if parent_category not in hierarchical_scores:
+            hierarchical_scores[parent_category] = {}
+        hierarchical_scores[parent_category][subcategory] = score
+
+    return hierarchical_scores

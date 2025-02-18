@@ -7,8 +7,8 @@
         "sys_created_on": "2025-02-17 06:01:13",
         "tags": [
             [
-                "Stalling",
-                "Order Issue"
+                "Order Issue",
+                "Latency"
             ]
         ]
     },
@@ -21,7 +21,7 @@
         "tags": [
             [
                 "Launch Issues",
-                "Service Down"
+                "Errors"
             ]
         ]
     },
@@ -69,8 +69,8 @@
         "sys_created_on": "2025-02-17 11:26:56",
         "tags": [
             [
-                "User Requests",
-                "Alert"
+                "Alert",
+                "User Request"
             ]
         ]
     },
@@ -167,7 +167,8 @@
         "sys_created_on": "2025-02-17 14:15:13",
         "tags": [
             [
-                "User Login"
+                "User Login",
+                "Password"
             ]
         ]
     },
@@ -228,7 +229,8 @@
         "sys_created_on": "2025-02-17 14:33:11",
         "tags": [
             [
-                "User Requests"
+                "User Login",
+                "User Request"
             ]
         ]
     },
@@ -264,7 +266,7 @@
         "sys_created_on": "2025-02-17 14:56:54",
         "tags": [
             [
-                "User Requests"
+                "User Request"
             ]
         ]
     },
@@ -301,7 +303,7 @@
         "sys_created_on": "2025-02-17 15:48:13",
         "tags": [
             [
-                "User Requests"
+                "User Request"
             ]
         ]
     },
@@ -313,7 +315,7 @@
         "sys_created_on": "2025-02-17 15:49:28",
         "tags": [
             [
-                "Blank Screen",
+                "Latency",
                 "Crash"
             ]
         ]
@@ -326,7 +328,7 @@
         "sys_created_on": "2025-02-17 15:53:31",
         "tags": [
             [
-                "General Error"
+                "Errors"
             ]
         ]
     },
@@ -338,7 +340,7 @@
         "sys_created_on": "2025-02-17 16:05:51",
         "tags": [
             [
-                "User Requests"
+                "User Request"
             ]
         ]
     },
@@ -376,7 +378,7 @@
         "tags": [
             [
                 "Launch Issues",
-                "Frozen"
+                "Latency"
             ]
         ]
     },
@@ -473,7 +475,7 @@
         "sys_created_on": "2025-02-17 17:13:20",
         "tags": [
             [
-                "General Error"
+                "Errors"
             ]
         ]
     },
@@ -485,7 +487,7 @@
         "sys_created_on": "2025-02-17 17:23:30",
         "tags": [
             [
-                "?"
+                "User Request"
             ]
         ]
     },
@@ -497,7 +499,7 @@
         "sys_created_on": "2025-02-17 17:31:34",
         "tags": [
             [
-                "Frozen"
+                "Latency"
             ]
         ]
     },
@@ -509,7 +511,7 @@
         "sys_created_on": "2025-02-17 17:33:16",
         "tags": [
             [
-                "Java"
+                "Errors"
             ]
         ]
     },
@@ -521,10 +523,10 @@
         "sys_created_on": "2025-02-17 18:12:38",
         "tags": [
             [
-                "User Requests",
                 "Data Fix",
-                "Order Issue",
-                "General Error"
+                "Errors",
+                "User Request",
+                "Order Issue"
             ]
         ]
     },
@@ -584,7 +586,7 @@
         "sys_created_on": "2025-02-17 19:44:50",
         "tags": [
             [
-                "General Error"
+                "Errors"
             ]
         ]
     },
@@ -681,7 +683,7 @@
         "sys_created_on": "2025-02-17 21:20:35",
         "tags": [
             [
-                "Spinning"
+                "Latency"
             ]
         ]
     },
@@ -743,7 +745,7 @@
         "tags": [
             [
                 "Data Fix",
-                "User Requests"
+                "User Request"
             ]
         ]
     },
@@ -755,7 +757,7 @@
         "sys_created_on": "2025-02-18 00:05:31",
         "tags": [
             [
-                "General Error"
+                "Errors"
             ]
         ]
     },

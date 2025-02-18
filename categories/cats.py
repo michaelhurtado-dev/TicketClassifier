@@ -7,9 +7,10 @@ categories = {
     "Data Fix": ["df","data fix","need data fix","datafix","refill smoothing","Cap RX suffix DF","need datafix","datafix for last fill"],
     "Image Viewer":["imageviewer","image viewer","image","viewer","image not loading","rxs imaging"],
     "Payment":["credit card","credit","card","cc","credit card declining","debit card","card issue","declining","cc not working","unable add cc"],
-    "User Requests":["skillset","run xxiris", "common auto refill program","job submitted","please assign","request for helpdesk","Turn off profile","self service ticket","increasing","requesting","need support","need to update","please"],
+    "User Request":["skillset","run xxiris", "common auto refill program","job submitted","please assign","request for helpdesk","Turn off profile","self service ticket","increasing","requesting","need support","need to update","please"],
     "Launch Issues":["launching","unable to launch","cannot launch","not working","unable to open","launch issues","cannot access","issues"],
-    "Crash":["crashing","crashes", "closes", "cut out", "shuts down", "dropping", "shut down", "closing out", "closing automatically", "kicked", "shutting down", "force closing","screen turned black","lost signal"],
+    "Crash":["crashing","crashes", "shuts down", "dropping", "shut down",  "kicked", "shutting down", "screen turned black","lost signal"],
+    "Close": ["closing out","cut out","force closing","closes","closing automatically"],
     "Stalling":["stalling","stalls"],
     "Slow": ["slow","lagging","delay","latency"],
     "Blank Screen": ["black screen", "screen is black","blank screen"],
@@ -24,4 +25,19 @@ categories = {
     "FRM Error": ["FRM","failure in the forms server"],
     "nonsense": ["poc"]
 }
+
+parent_categories = {
+    "Stalling": "Latency",
+    "Unresponsive": "Latency",
+    "Frozen": "Latency",
+    "Spinning": "Latency",
+    "Slow": "Latency",
+    "Close": "Crash",
+    "Blank Screen": "Latency",
+    "General Error": "Errors",
+    "FRM Error": "Errors",
+    "Service Down": "Errors",
+    "Java": "Errors",
+}
+
 

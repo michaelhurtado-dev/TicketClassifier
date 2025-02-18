@@ -1,17 +1,17 @@
 number,description,short_description,u_error_symptoms,sys_created_on,tags
 INC41584190,"Orders are being stuck In progress and not able to process the inventories for RPA ORX SPH COGNITIVE MRD HOLD RELEASE when bot is applying the manual hold and connecting with hive started, getting stuck and not able to process the order for a longer period of time which in turn is impacting the AHT of the automation.
 
-We have opened the warrroom as the data is not processed since Saturday(2/15/25).",RPA ORX SPH COGNITIVE MRD HOLD RELEASE - IRIS Screens are stucked due to which orders are not picked up by bots,,2025-02-17 06:01:13,"Stalling, Order Issue"
+We have opened the warrroom as the data is not processed since Saturday(2/15/25).",RPA ORX SPH COGNITIVE MRD HOLD RELEASE - IRIS Screens are stucked due to which orders are not picked up by bots,,2025-02-17 06:01:13,"Order Issue, Latency"
 INC41584317,"DSM Server isnot accessible on EDGE
 unable to process device replacement and application installation, please check
 Site: II519
-http://dsmep0410/",DSM are not accessible,,2025-02-17 06:21:56,"Launch Issues, Service Down"
+http://dsmep0410/",DSM are not accessible,,2025-02-17 06:21:56,"Launch Issues, Errors"
 INC41584725,orxpcatst1ebs.uhc.com:4450/OA_HTML/AppsLogin This test environment is not working. My team needs it up for the work to resume.,orxpcatst1ebs.uhc.com:4450/OA_HTML/AppsLogin This test environment is not working. My team needs it up for the work to resume.,rxpcatst1ebs.uhc.com:4450/OA_HTML/AppsLogin This test environment is not working,2025-02-17 07:23:51,?
 INC41584948,RXEPRR: Invalids recompilation,RXEPRR: Invalids recompilation,,2025-02-17 08:13:45,Data Fix
 INC41585285,"Need to reset password for IRIS TS02 environment
 
 Product entered by customer: ",IRIS (Integrated Rx Information System) - How to reset your IRIS password,Reset password,2025-02-17 09:21:46,Password
-INC41586512,PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator Domain: ppv Origin: GCP-PPV Application: EERA Category: Application Source: ENT ELG RA Severity: Minor Alertid: 0024481882,PROD-SCHEDULED PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator,,2025-02-17 11:26:56,"User Requests, Alert"
+INC41586512,PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator Domain: ppv Origin: GCP-PPV Application: EERA Category: Application Source: ENT ELG RA Severity: Minor Alertid: 0024481882,PROD-SCHEDULED PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator,,2025-02-17 11:26:56,"Alert, User Request"
 INC41587602,"CH Orders Not Closed in IRIS
 
 Product entered by customer: IRIS",Orders not closed in IRIS,,2025-02-17 12:08:51,Order Issue
@@ -23,7 +23,7 @@ INC41589177,I'm trying to log into like a application so I can start work. I was
 INC41589688,unable to login,IRIS (Integrated Rx Information System) - Unable to Login,unable to login,2025-02-17 13:56:13,User Login
 INC41589911,"I have requested UNET Sign-On 1.0, IBM Personal Communications 15.0.2.0 and Macro Express 6.3.3.1 - No Editor Standard on 02-13-2025. These are needed on my replacement lap top - LHTU05CG4511W2V -",AppStore - Application installation request. ,"I have requested UNET Sign-On 1.0, IBM Personal Communications 15.0.2.0 and Macro Express 6.3.3.1 - No Editor Standard on 02-13-2025. These are needed on my replacement lap top - LHTU05CG4511W2V -",2025-02-17 14:03:35,?
 INC41590139,Order 780607884 is stuck in a DEX HOLD loop hitting the max attempt in RxClaim for retry,Order 780607884 is stuck in a DEX HOLD loop hitting the max attempt in RxClaim for retry,,2025-02-17 14:13:36,?
-INC41590334,i have the robo attached to my app,FLW - IRIS (Integrated Rx Information System) - Unable to login,password reset for iris,2025-02-17 14:15:13,User Login
+INC41590334,i have the robo attached to my app,FLW - IRIS (Integrated Rx Information System) - Unable to login,password reset for iris,2025-02-17 14:15:13,"User Login, Password"
 INC41590497,I am having a hard time accessing my IRIS,IRIS (Integrated Rx Information System) - Fatal Initialization error,Fatal Initialization error,2025-02-17 14:19:49,User Login
 INC41590521,"trouble logging in to my IRIS account
 asking update my password
@@ -31,24 +31,24 @@ its reject 14 character is needed
 using 14 characters but still rejecting",IRIS (Integrated Rx Information System) - Unable to Login,Unable to Login,2025-02-17 14:20:24,"User Login, Password"
 INC41590331,My browser favorites are not on my replacement computer,Microsoft Edge -  missing IRIS link and request to have a shortcut from desktop as well,Microsoft Edge -  missing IRIS and request to have a shortcut from desktop as well,2025-02-17 14:24:05,?
 INC41591005,iris password reset,IRIS (Integrated Rx Information System) - iris password,password reset,2025-02-17 14:32:22,Password
-INC41591025,provide access to IRIS application,IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System),need access ,2025-02-17 14:33:11,User Requests
+INC41591025,provide access to IRIS application,IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System),need access ,2025-02-17 14:33:11,"User Login, User Request"
 INC41591206,"Is it possible to pull the account information from an inactive account that was merged
 
 Trying to get the details for account #434446476 ",Is it possible to pull the account information from an inactive account that was merged,,2025-02-17 14:40:33,?
 INC41591741,Unable to change password.,Selected Issue: IRIS,,2025-02-17 14:51:10,Password
-INC41591922,AHT not matching between IRIS and IEX for ct_id 4612 for Jan month. Please review.,AHT not matching between IRIS and IEX for ct_id 4612 for Jan month,AHT not matching between IRIS and IEX for ct_id 4612 for Jan month. Please review.,2025-02-17 14:56:54,User Requests
+INC41591922,AHT not matching between IRIS and IEX for ct_id 4612 for Jan month. Please review.,AHT not matching between IRIS and IEX for ct_id 4612 for Jan month,AHT not matching between IRIS and IEX for ct_id 4612 for Jan month. Please review.,2025-02-17 14:56:54,User Request
 INC41592461,need assistance resetting iris password,IRIS password reset,,2025-02-17 15:11:18,Password
 INC41593045,I am coming back from and LOA and i needed iris access i was told the access was restored but i have tried all passwords i can remember and still can not get in ,IRIS - Password Reset,,2025-02-17 15:27:59,"User Login, Password"
-INC41593773,"Unable to access IRIS TS02, requesting access to the application",IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System),Request or Update Access to IRIS (Integrated Rx Information System),2025-02-17 15:48:13,User Requests
-INC41593815,"When I am on a call, and I have to open IRIS. It will load for 1-3 minutes then freeze my monitor screen entirely. I'm unable to close out, I'm unable to ctrl+alt+dlt to exit out. The only thing I'm able to do is restart the system entirely.","When I am on a call, and I have to open IRIS. It will load for 1-3 minutes then freeze my monitor screen entirely. I'm unable to close out, I'm unable to ctrl+alt+dlt to exit out. The only thing I'm able to do is restart the system entirely.","When I am on a call, and I have to open IRIS. It will load for 1-3 minutes then freeze my monitor screen entirely. I'm unable to close out, I'm unable to ctrl+alt+dlt to exit out. The only thing I'm able to do is restart the system entirely.",2025-02-17 15:49:28,"Blank Screen, Crash"
-INC41593954,IRIS isn't downloading properly,IRIS issue and replacement laptop setup.,,2025-02-17 15:53:31,General Error
+INC41593773,"Unable to access IRIS TS02, requesting access to the application",IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System),Request or Update Access to IRIS (Integrated Rx Information System),2025-02-17 15:48:13,User Request
+INC41593815,"When I am on a call, and I have to open IRIS. It will load for 1-3 minutes then freeze my monitor screen entirely. I'm unable to close out, I'm unable to ctrl+alt+dlt to exit out. The only thing I'm able to do is restart the system entirely.","When I am on a call, and I have to open IRIS. It will load for 1-3 minutes then freeze my monitor screen entirely. I'm unable to close out, I'm unable to ctrl+alt+dlt to exit out. The only thing I'm able to do is restart the system entirely.","When I am on a call, and I have to open IRIS. It will load for 1-3 minutes then freeze my monitor screen entirely. I'm unable to close out, I'm unable to ctrl+alt+dlt to exit out. The only thing I'm able to do is restart the system entirely.",2025-02-17 15:49:28,"Latency, Crash"
+INC41593954,IRIS isn't downloading properly,IRIS issue and replacement laptop setup.,,2025-02-17 15:53:31,Errors
 INC41594394,"Please assign to group: MSA ORACLE EBS (RXS) – SPT
 We need to run the attached script first, and then turn ON this profile: XXIRIS_US7790001_FULLMED_SPECIALTY_PF in IRIS production to go live with Specialty Full Med Name logic from the February release.
 
-Product entered by customer: ",IRIS - Please assign to group: MSA ORACLE EBS (RXS) – SPT,,2025-02-17 16:05:51,User Requests
+Product entered by customer: ",IRIS - Please assign to group: MSA ORACLE EBS (RXS) – SPT,,2025-02-17 16:05:51,User Request
 INC41594407,"It stated that I needed to set up a new pw but when I did, it would not allow me to log in with it",Selected Issue: IRIS,,2025-02-17 16:06:11,User Login
 INC41594800,"I have an Iris application that reset, it needs to be reset",IRIS (Integrated Rx Information System) - Unable to Login,Unable to Login,2025-02-17 16:16:48,"User Login, Password"
-INC41594865,"Every time I have to use IRIS, it loads for about 1-3 (or more) mins then freezes my entire monitor. I'm unable to exit out. I'm unable to Task Manager to close out. The only thing I am able to do is restart my cpu.",IRIS freezing issue,,2025-02-17 16:18:13,"Launch Issues, Frozen"
+INC41594865,"Every time I have to use IRIS, it loads for about 1-3 (or more) mins then freezes my entire monitor. I'm unable to exit out. I'm unable to Task Manager to close out. The only thing I am able to do is restart my cpu.",IRIS freezing issue,,2025-02-17 16:18:13,"Launch Issues, Latency"
 INC41594924,"need datafix for last fill date for rx 449753845 fixed. On rx organizer and rx history is is showing 2/2/25. However that order/fill was cancelled and never shipped but rx history did not correctly update. Actually last fill date was 1/13/25 (shipped 1/14/25)
 
 Product entered by customer: IRIS",need datafix for last fill date for rx 449753845 ,,2025-02-17 16:19:55,"Data Fix, Order Issue"
@@ -65,15 +65,15 @@ Srihari Bulagakula",Doc missing even we have the response from filenet to IRIS ,
 INC41596067,"It stated that I needed to set up a new pw but when I did, it would not allow me to log in with it",Selected Issue: IRIS,,2025-02-17 16:50:29,User Login
 INC41596435,"I keep getting same issue with my IRIS issue, I'm trying to reset it it's not working. ",IRIS (Integrated Rx Information System) - Unable to Login,Login failed. Please verify your login information or contact the system administrator.,2025-02-17 17:00:33,User Login
 INC41596478,"EVERY SINGLE TIME A REP CALLS IN (CAPITAL PREFERRABLY) I GET A CERTAIN ACCT NAME THAT POPS UP. IM NOT SURE WHY THATS WHY I AM CONTACTING YOU GUYS. I RESTARTED AND ITS STILL POPS UP, BEEN HAPPENING OVER A WEEK","IRIS - EVERY SINGLE TIME A REP CALLS IN (CAPITAL PREFERRABLY) I GET A CERTAIN ACCT NAME THAT POPS UP. IM NOT SURE WHY THATS WHY I AM CONTACTING YOU GUYS. I RESTARTED AND ITS STILL POPS UP, BEEN HAPPENING OVER A WEEK",,2025-02-17 17:02:00,Crash
-INC41593905,User has issues with IRIS. ,User has issues with IRIS. ,,2025-02-17 17:13:20,General Error
+INC41593905,User has issues with IRIS. ,User has issues with IRIS. ,,2025-02-17 17:13:20,Errors
 INC41597158,"IRIS configuration please
 Assign to the sysadmins
 Please move/allow access for the lookup table XXIRIS_30DS_OPIOID_GPI_DRUGS 
 in the OM Lookup Maintenance responsibility
 
 Product entered by customer: ",IRIS (Integrated Rx Information System) - IRIS configuration please Assign to the sysadmins,"Please move/allow access for the lookup table XXIRIS_30DS_OPIOID_GPI_DRUGS 
-in the OM Lookup Maintenance responsibility",2025-02-17 17:23:30,?
-INC41597432,IRIS KEEPS FREEZING & NOT LETTING CLICK ON ANYTHING,Selected Issue: IRIS,,2025-02-17 17:31:34,Frozen
+in the OM Lookup Maintenance responsibility",2025-02-17 17:23:30,User Request
+INC41597432,IRIS KEEPS FREEZING & NOT LETTING CLICK ON ANYTHING,Selected Issue: IRIS,,2025-02-17 17:31:34,Latency
 INC41597483,"Hello, to perform JAVA testing with the IRIS system I need the following:
 
 
@@ -93,18 +93,18 @@ C:\Windows\Sun\Java\Deployment\Security
 
 Entered by Matthew Tinder: My location- Product entered by customer: C:\Windows\Sun\Java\Deployment\Security
 
-Product entered by customer: Windows Security",Java testing,Java testing,2025-02-17 17:33:16,Java
+Product entered by customer: Windows Security",Java testing,Java testing,2025-02-17 17:33:16,Errors
 INC41598705,"Some IRIS users are getting the “ORA-06502: PL/SQL; numberic or value error: character to number conversion error” preventing users form making changes to Rx Form, do price check, etc”.  Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.
 
 Product entered by customer: IRIS
-Assign ticket to: MSA ORACLE EBS (RXS) – SPT",IRIS - Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.,,2025-02-17 18:12:38,"User Requests, Data Fix, Order Issue, General Error"
+Assign ticket to: MSA ORACLE EBS (RXS) – SPT",IRIS - Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.,,2025-02-17 18:12:38,"Data Fix, Errors, User Request, Order Issue"
 INC41599940,i need a password reset for iris,IRIS (Integrated Rx Information System)-IRIS password reset,IRIS password reset,2025-02-17 18:55:40,Password
 INC41600241,"In response to the prior ticket INC41596478, Cora is still having issues in IRIS
 
 Account always populates when taking calls from a CapitalRx member","In response to the prior ticket INC41596478, Cora is still having issues in IRIS",,2025-02-17 19:08:53,?
 INC41600629,cannot change the password via Iris,NC950 -  Iris: Cannot create a new password,,2025-02-17 19:23:25,Password
 INC41601077,"I received a coaching that I had no orders, so I need this fix to see the priors order ",IRIS (Integrated Rx Information System) - unable to search the order in application ,cannot search the order in IRIS,2025-02-17 19:40:34,Order Issue
-INC41601195,iris and AC not working properly ,iris and AC not working properly ,,2025-02-17 19:44:50,General Error
+INC41601195,iris and AC not working properly ,iris and AC not working properly ,,2025-02-17 19:44:50,Errors
 INC41601294,my headset is not showing for me to be connecting and my IRIS account I'm trying to reset my password but it's not taking it,IRIS (Integrated Rx Information System) - Unable to Login,unable to login to IRIS,2025-02-17 19:49:21,User Login
 INC41601347,"Iris issue with specific member.  Unable to add CC over several weeks,  please redirect to iris team to update account #409229899",Selected Issue: IRIS,,2025-02-17 19:51:19,?
 INC41601798,"Iris issue with specific member.  Unable to add CC over several weeks,  please redirect to iris team to update account #409229899",Selected Issue: IRIS,,2025-02-17 20:06:40,?
@@ -113,7 +113,7 @@ INC41602437,Please assign this service now ticket to AV 340B-SPT work group. Can
 INC41602636,Unable to log into IRIS application,IRIS (Integrated Rx Information System) - Launch Issues,Launch Issues,2025-02-17 20:39:44,"Launch Issues, User Login"
 INC41603505,"issues login in password updated today but cant sign in 
 ",IRIS - issues login in password updated today but cant sign in ,,2025-02-17 21:13:24,User Login
-INC41603682,"Assignment Group to be added to ticket Orbit - Tableau External Assign to Shirish Pathak or KEERTHI KUMAR K, Santosh Kumar <santosh_keerthi@optum.com>; Nandigama, Praveen <praveen_nandigama@optum.com>","Orbit Tableau (Internal), Assignment Group to be added to ticket Orbit - Tableau External Assign to Shirish Pathak or KEERTHI KUMAR K, Santosh Kumar <santosh_keerthi@optum.com>; Nandigama, Praveen <praveen_nandigama@optum.com>","Assignment Group to be added to ticket Orbit - Tableau External Assign to Shirish Pathak or KEERTHI KUMAR K, Santosh Kumar <santosh_keerthi@optum.com>; Nandigama, Praveen <praveen_nandigama@optum.com>",2025-02-17 21:20:35,Spinning
+INC41603682,"Assignment Group to be added to ticket Orbit - Tableau External Assign to Shirish Pathak or KEERTHI KUMAR K, Santosh Kumar <santosh_keerthi@optum.com>; Nandigama, Praveen <praveen_nandigama@optum.com>","Orbit Tableau (Internal), Assignment Group to be added to ticket Orbit - Tableau External Assign to Shirish Pathak or KEERTHI KUMAR K, Santosh Kumar <santosh_keerthi@optum.com>; Nandigama, Praveen <praveen_nandigama@optum.com>","Assignment Group to be added to ticket Orbit - Tableau External Assign to Shirish Pathak or KEERTHI KUMAR K, Santosh Kumar <santosh_keerthi@optum.com>; Nandigama, Praveen <praveen_nandigama@optum.com>",2025-02-17 21:20:35,Latency
 INC41603801,"Please close group order . everything is packed but group order still says processing
 
 Product entered by customer: ","IRIS (Integrated Rx Information System), Please close group order",Please close group order,2025-02-17 21:26:03,?
@@ -122,11 +122,11 @@ INC41603846,"please close group order G2025021700160304. nothing is in this grou
 Product entered by customer: ",IRIS find,,2025-02-17 21:27:09,?
 INC41604158,IRIS not recognizing my log in information,IRIS Login Issue,,2025-02-17 21:41:20,User Login
 INC41604940,I need to change my IRIS password ,IRIS (Integrated Rx Information System) - Unable to Login, Unable to Login,2025-02-17 22:15:10,"User Login, Password"
-INC41605751,"""""""XXIRIS New Refill Smoothing Drop Date Update DF"""" Refill Smoothing 3/4/2025 to 3/7/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) – SPT""",Refill Smoothing ,,2025-02-17 23:03:38,"Data Fix, User Requests"
+INC41605751,"""""""XXIRIS New Refill Smoothing Drop Date Update DF"""" Refill Smoothing 3/4/2025 to 3/7/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) – SPT""",Refill Smoothing ,,2025-02-17 23:03:38,"Data Fix, User Request"
 INC41606363,"FL950: IRIS: Record is currently being worked on by another user please try to update it later
 Iris is not allowing to save anything and it will close out. Error 
 
-",IRIS: Record is currently being worked on by another user please try to update it later,,2025-02-18 00:05:31,General Error
+",IRIS: Record is currently being worked on by another user please try to update it later,,2025-02-18 00:05:31,Errors
 INC41607706,"DE-Merge updated but HSID needs to be updated with correct name as below, current name now reflecting as DEBBIE PESTO
 Member Id - M00201922
 DEBBIE  TESTO
