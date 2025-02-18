@@ -5,7 +5,7 @@ We have opened the warrroom as the data is not processed since Saturday(2/15/25)
 INC41584317,"DSM Server isnot accessible on EDGE
 unable to process device replacement and application installation, please check
 Site: II519
-http://dsmep0410/",DSM are not accessible,,2025-02-17 06:21:56,"Launch Issues, Errors"
+http://dsmep0410/",DSM are not accessible,,2025-02-17 06:21:56,"Errors, Launch Issues"
 INC41584725,orxpcatst1ebs.uhc.com:4450/OA_HTML/AppsLogin This test environment is not working. My team needs it up for the work to resume.,orxpcatst1ebs.uhc.com:4450/OA_HTML/AppsLogin This test environment is not working. My team needs it up for the work to resume.,rxpcatst1ebs.uhc.com:4450/OA_HTML/AppsLogin This test environment is not working,2025-02-17 07:23:51,?
 INC41584948,RXEPRR: Invalids recompilation,RXEPRR: Invalids recompilation,,2025-02-17 08:13:45,Data Fix
 INC41585285,"Need to reset password for IRIS TS02 environment
@@ -28,7 +28,7 @@ INC41590497,I am having a hard time accessing my IRIS,IRIS (Integrated Rx Inform
 INC41590521,"trouble logging in to my IRIS account
 asking update my password
 its reject 14 character is needed
-using 14 characters but still rejecting",IRIS (Integrated Rx Information System) - Unable to Login,Unable to Login,2025-02-17 14:20:24,"Password, User Login"
+using 14 characters but still rejecting",IRIS (Integrated Rx Information System) - Unable to Login,Unable to Login,2025-02-17 14:20:24,"User Login, Password"
 INC41590331,My browser favorites are not on my replacement computer,Microsoft Edge -  missing IRIS link and request to have a shortcut from desktop as well,Microsoft Edge -  missing IRIS and request to have a shortcut from desktop as well,2025-02-17 14:24:05,?
 INC41591005,iris password reset,IRIS (Integrated Rx Information System) - iris password,password reset,2025-02-17 14:32:22,Password
 INC41591025,provide access to IRIS application,IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System),need access ,2025-02-17 14:33:11,"User Login, User Request"
@@ -47,11 +47,11 @@ We need to run the attached script first, and then turn ON this profile: XXIRIS_
 
 Product entered by customer: ",IRIS - Please assign to group: MSA ORACLE EBS (RXS) – SPT,,2025-02-17 16:05:51,User Request
 INC41594407,"It stated that I needed to set up a new pw but when I did, it would not allow me to log in with it",Selected Issue: IRIS,,2025-02-17 16:06:11,User Login
-INC41594800,"I have an Iris application that reset, it needs to be reset",IRIS (Integrated Rx Information System) - Unable to Login,Unable to Login,2025-02-17 16:16:48,"Password, User Login"
+INC41594800,"I have an Iris application that reset, it needs to be reset",IRIS (Integrated Rx Information System) - Unable to Login,Unable to Login,2025-02-17 16:16:48,"User Login, Password"
 INC41594865,"Every time I have to use IRIS, it loads for about 1-3 (or more) mins then freezes my entire monitor. I'm unable to exit out. I'm unable to Task Manager to close out. The only thing I am able to do is restart my cpu.",IRIS freezing issue,,2025-02-17 16:18:13,"Latency, Launch Issues"
 INC41594924,"need datafix for last fill date for rx 449753845 fixed. On rx organizer and rx history is is showing 2/2/25. However that order/fill was cancelled and never shipped but rx history did not correctly update. Actually last fill date was 1/13/25 (shipped 1/14/25)
 
-Product entered by customer: IRIS",need datafix for last fill date for rx 449753845 ,,2025-02-17 16:19:55,"Order Issue, Data Fix"
+Product entered by customer: IRIS",need datafix for last fill date for rx 449753845 ,,2025-02-17 16:19:55,"Data Fix, Order Issue"
 INC41595495,Need datafix on rx#426495655 to update Last fill date field to align with the most recent shipment for o#767343401,Need datafix on rx#426495655 to update Last fill date field to align with the most recent shipment for o#767343401,,2025-02-17 16:34:48,Data Fix
 INC41595692,"Check in profiles and lookups and xxiris_con table, is there is any reference to %ping%
 also query table for forms personalization for %ping%.  See attached email
@@ -97,7 +97,7 @@ Product entered by customer: Windows Security",Java testing,Java testing,2025-02
 INC41598705,"Some IRIS users are getting the “ORA-06502: PL/SQL; numberic or value error: character to number conversion error” preventing users form making changes to Rx Form, do price check, etc”.  Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.
 
 Product entered by customer: IRIS
-Assign ticket to: MSA ORACLE EBS (RXS) – SPT",IRIS - Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.,,2025-02-17 18:12:38,"Errors, User Request, Order Issue, Data Fix"
+Assign ticket to: MSA ORACLE EBS (RXS) – SPT",IRIS - Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.,,2025-02-17 18:12:38,"Data Fix, Errors, User Request, Order Issue"
 INC41599940,i need a password reset for iris,IRIS (Integrated Rx Information System)-IRIS password reset,IRIS password reset,2025-02-17 18:55:40,Password
 INC41600241,"In response to the prior ticket INC41596478, Cora is still having issues in IRIS
 
@@ -121,8 +121,8 @@ INC41603846,"please close group order G2025021700160304. nothing is in this grou
 
 Product entered by customer: ",IRIS find,,2025-02-17 21:27:09,?
 INC41604158,IRIS not recognizing my log in information,IRIS Login Issue,,2025-02-17 21:41:20,User Login
-INC41604940,I need to change my IRIS password ,IRIS (Integrated Rx Information System) - Unable to Login, Unable to Login,2025-02-17 22:15:10,"Password, User Login"
-INC41605751,"""""""XXIRIS New Refill Smoothing Drop Date Update DF"""" Refill Smoothing 3/4/2025 to 3/7/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) – SPT""",Refill Smoothing ,,2025-02-17 23:03:38,"User Request, Data Fix"
+INC41604940,I need to change my IRIS password ,IRIS (Integrated Rx Information System) - Unable to Login, Unable to Login,2025-02-17 22:15:10,"User Login, Password"
+INC41605751,"""""""XXIRIS New Refill Smoothing Drop Date Update DF"""" Refill Smoothing 3/4/2025 to 3/7/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) – SPT""",Refill Smoothing ,,2025-02-17 23:03:38,"Data Fix, User Request"
 INC41606363,"FL950: IRIS: Record is currently being worked on by another user please try to update it later
 Iris is not allowing to save anything and it will close out. Error 
 
