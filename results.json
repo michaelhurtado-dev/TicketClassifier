@@ -7,8 +7,8 @@
         "sys_created_on": "2025-02-17 06:01:13",
         "tags": [
             [
-                "Order Issue",
-                "Latency"
+                "Latency",
+                "Order Issue"
             ]
         ]
     },
@@ -20,8 +20,8 @@
         "sys_created_on": "2025-02-17 06:21:56",
         "tags": [
             [
-                "Errors",
-                "Launch Issues"
+                "Launch Issues",
+                "Errors"
             ]
         ]
     },
@@ -69,8 +69,8 @@
         "sys_created_on": "2025-02-17 11:26:56",
         "tags": [
             [
-                "Alert",
-                "User Request"
+                "User Request",
+                "Alert"
             ]
         ]
     },
@@ -523,10 +523,10 @@
         "sys_created_on": "2025-02-17 18:12:38",
         "tags": [
             [
-                "Order Issue",
                 "Errors",
-                "Data Fix",
-                "User Request"
+                "User Request",
+                "Order Issue",
+                "Data Fix"
             ]
         ]
     },
@@ -744,8 +744,8 @@
         "sys_created_on": "2025-02-17 23:03:38",
         "tags": [
             [
-                "Data Fix",
-                "User Request"
+                "User Request",
+                "Data Fix"
             ]
         ]
     },

@@ -1,17 +1,17 @@
 number,description,short_description,u_error_symptoms,sys_created_on,tags
 INC41584190,"Orders are being stuck In progress and not able to process the inventories for RPA ORX SPH COGNITIVE MRD HOLD RELEASE when bot is applying the manual hold and connecting with hive started, getting stuck and not able to process the order for a longer period of time which in turn is impacting the AHT of the automation.
 
-We have opened the warrroom as the data is not processed since Saturday(2/15/25).",RPA ORX SPH COGNITIVE MRD HOLD RELEASE - IRIS Screens are stucked due to which orders are not picked up by bots,,2025-02-17 06:01:13,"Order Issue, Latency"
+We have opened the warrroom as the data is not processed since Saturday(2/15/25).",RPA ORX SPH COGNITIVE MRD HOLD RELEASE - IRIS Screens are stucked due to which orders are not picked up by bots,,2025-02-17 06:01:13,"Latency, Order Issue"
 INC41584317,"DSM Server isnot accessible on EDGE
 unable to process device replacement and application installation, please check
 Site: II519
-http://dsmep0410/",DSM are not accessible,,2025-02-17 06:21:56,"Errors, Launch Issues"
+http://dsmep0410/",DSM are not accessible,,2025-02-17 06:21:56,"Launch Issues, Errors"
 INC41584725,orxpcatst1ebs.uhc.com:4450/OA_HTML/AppsLogin This test environment is not working. My team needs it up for the work to resume.,orxpcatst1ebs.uhc.com:4450/OA_HTML/AppsLogin This test environment is not working. My team needs it up for the work to resume.,rxpcatst1ebs.uhc.com:4450/OA_HTML/AppsLogin This test environment is not working,2025-02-17 07:23:51,?
 INC41584948,RXEPRR: Invalids recompilation,RXEPRR: Invalids recompilation,,2025-02-17 08:13:45,Data Fix
 INC41585285,"Need to reset password for IRIS TS02 environment
 
 Product entered by customer: ",IRIS (Integrated Rx Information System) - How to reset your IRIS password,Reset password,2025-02-17 09:21:46,Password
-INC41586512,PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator Domain: ppv Origin: GCP-PPV Application: EERA Category: Application Source: ENT ELG RA Severity: Minor Alertid: 0024481882,PROD-SCHEDULED PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator,,2025-02-17 11:26:56,"Alert, User Request"
+INC41586512,PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator Domain: ppv Origin: GCP-PPV Application: EERA Category: Application Source: ENT ELG RA Severity: Minor Alertid: 0024481882,PROD-SCHEDULED PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator,,2025-02-17 11:26:56,"User Request, Alert"
 INC41587602,"CH Orders Not Closed in IRIS
 
 Product entered by customer: IRIS",Orders not closed in IRIS,,2025-02-17 12:08:51,Order Issue
@@ -97,7 +97,7 @@ Product entered by customer: Windows Security",Java testing,Java testing,2025-02
 INC41598705,"Some IRIS users are getting the “ORA-06502: PL/SQL; numberic or value error: character to number conversion error” preventing users form making changes to Rx Form, do price check, etc”.  Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.
 
 Product entered by customer: IRIS
-Assign ticket to: MSA ORACLE EBS (RXS) – SPT",IRIS - Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.,,2025-02-17 18:12:38,"Order Issue, Errors, Data Fix, User Request"
+Assign ticket to: MSA ORACLE EBS (RXS) – SPT",IRIS - Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.,,2025-02-17 18:12:38,"Errors, User Request, Order Issue, Data Fix"
 INC41599940,i need a password reset for iris,IRIS (Integrated Rx Information System)-IRIS password reset,IRIS password reset,2025-02-17 18:55:40,Password
 INC41600241,"In response to the prior ticket INC41596478, Cora is still having issues in IRIS
 
@@ -122,7 +122,7 @@ INC41603846,"please close group order G2025021700160304. nothing is in this grou
 Product entered by customer: ",IRIS find,,2025-02-17 21:27:09,?
 INC41604158,IRIS not recognizing my log in information,IRIS Login Issue,,2025-02-17 21:41:20,User Login
 INC41604940,I need to change my IRIS password ,IRIS (Integrated Rx Information System) - Unable to Login, Unable to Login,2025-02-17 22:15:10,"Password, User Login"
-INC41605751,"""""""XXIRIS New Refill Smoothing Drop Date Update DF"""" Refill Smoothing 3/4/2025 to 3/7/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) – SPT""",Refill Smoothing ,,2025-02-17 23:03:38,"Data Fix, User Request"
+INC41605751,"""""""XXIRIS New Refill Smoothing Drop Date Update DF"""" Refill Smoothing 3/4/2025 to 3/7/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) – SPT""",Refill Smoothing ,,2025-02-17 23:03:38,"User Request, Data Fix"
 INC41606363,"FL950: IRIS: Record is currently being worked on by another user please try to update it later
 Iris is not allowing to save anything and it will close out. Error 
 
