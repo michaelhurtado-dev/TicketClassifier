@@ -11,7 +11,7 @@ INC41584948,RXEPRR: Invalids recompilation,RXEPRR: Invalids recompilation,,2025-
 INC41585285,"Need to reset password for IRIS TS02 environment
 
 Product entered by customer: ",IRIS (Integrated Rx Information System) - How to reset your IRIS password,Reset password,2025-02-17 09:21:46,Password
-INC41586512,PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator Domain: ppv Origin: GCP-PPV Application: EERA Category: Application Source: ENT ELG RA Severity: Minor Alertid: 0024481882,PROD-SCHEDULED PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator,,2025-02-17 11:26:56,"Alert, User Request"
+INC41586512,PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator Domain: ppv Origin: GCP-PPV Application: EERA Category: Application Source: ENT ELG RA Severity: Minor Alertid: 0024481882,PROD-SCHEDULED PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator,,2025-02-17 11:26:56,"User Request, Alert"
 INC41587602,"CH Orders Not Closed in IRIS
 
 Product entered by customer: IRIS",Orders not closed in IRIS,,2025-02-17 12:08:51,Order Issue
@@ -31,7 +31,7 @@ its reject 14 character is needed
 using 14 characters but still rejecting",IRIS (Integrated Rx Information System) - Unable to Login,Unable to Login,2025-02-17 14:20:24,"Password, User Login"
 INC41590331,My browser favorites are not on my replacement computer,Microsoft Edge -  missing IRIS link and request to have a shortcut from desktop as well,Microsoft Edge -  missing IRIS and request to have a shortcut from desktop as well,2025-02-17 14:24:05,?
 INC41591005,iris password reset,IRIS (Integrated Rx Information System) - iris password,password reset,2025-02-17 14:32:22,Password
-INC41591025,provide access to IRIS application,IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System),need access ,2025-02-17 14:33:11,"User Login, User Request"
+INC41591025,provide access to IRIS application,IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System),need access ,2025-02-17 14:33:11,"User Request, User Login"
 INC41591206,"Is it possible to pull the account information from an inactive account that was merged
 
 Trying to get the details for account #434446476 ",Is it possible to pull the account information from an inactive account that was merged,,2025-02-17 14:40:33,?
@@ -51,7 +51,7 @@ INC41594800,"I have an Iris application that reset, it needs to be reset",IRIS (
 INC41594865,"Every time I have to use IRIS, it loads for about 1-3 (or more) mins then freezes my entire monitor. I'm unable to exit out. I'm unable to Task Manager to close out. The only thing I am able to do is restart my cpu.",IRIS freezing issue,,2025-02-17 16:18:13,"Launch Issues, Latency"
 INC41594924,"need datafix for last fill date for rx 449753845 fixed. On rx organizer and rx history is is showing 2/2/25. However that order/fill was cancelled and never shipped but rx history did not correctly update. Actually last fill date was 1/13/25 (shipped 1/14/25)
 
-Product entered by customer: IRIS",need datafix for last fill date for rx 449753845 ,,2025-02-17 16:19:55,"Order Issue, Data Fix"
+Product entered by customer: IRIS",need datafix for last fill date for rx 449753845 ,,2025-02-17 16:19:55,"Data Fix, Order Issue"
 INC41595495,Need datafix on rx#426495655 to update Last fill date field to align with the most recent shipment for o#767343401,Need datafix on rx#426495655 to update Last fill date field to align with the most recent shipment for o#767343401,,2025-02-17 16:34:48,Data Fix
 INC41595692,"Check in profiles and lookups and xxiris_con table, is there is any reference to %ping%
 also query table for forms personalization for %ping%.  See attached email
@@ -97,7 +97,7 @@ Product entered by customer: Windows Security",Java testing,Java testing,2025-02
 INC41598705,"Some IRIS users are getting the “ORA-06502: PL/SQL; numberic or value error: character to number conversion error” preventing users form making changes to Rx Form, do price check, etc”.  Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.
 
 Product entered by customer: IRIS
-Assign ticket to: MSA ORACLE EBS (RXS) – SPT",IRIS - Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.,,2025-02-17 18:12:38,"Order Issue, Errors, Data Fix, User Request"
+Assign ticket to: MSA ORACLE EBS (RXS) – SPT",IRIS - Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.,,2025-02-17 18:12:38,"Data Fix, Order Issue, Errors, User Request"
 INC41599940,i need a password reset for iris,IRIS (Integrated Rx Information System)-IRIS password reset,IRIS password reset,2025-02-17 18:55:40,Password
 INC41600241,"In response to the prior ticket INC41596478, Cora is still having issues in IRIS
 
