@@ -1,11 +1,13 @@
-#Author: Michael Hurtado
-#02/04/2024
+# Author: Michael Hurtado
+# 02/18/2024
 import spacy
 from transformers import AutoTokenizer, AutoModel
 from spacy.language import Language
 import torch
 import sys
 import os
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
 
 # Add the categories module to the system path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'categories')))
@@ -18,7 +20,7 @@ spacy_lang_path = os.path.join("en_core_web_md", "en_core_web_md-3.7.1")
 nlp = spacy.load(spacy_lang_path)
 
 # Load the local model for sentence transformers
-model_path =  os.path.join("sent-trans")
+model_path = os.path.join("sent-trans")
 
 # Check if the path exists
 if not os.path.exists(model_path):
@@ -34,6 +36,17 @@ from spacy.tokens import Doc
 if not Doc.has_extension("cats"):
     Doc.set_extension("cats", default={})
 
+# Cache category embeddings to avoid repeated computations
+category_embeddings = {}
+for label, texts in categories.items():
+    label_embeddings = []
+    for text in texts:
+        inputs = tokenizer(text, return_tensors="pt")
+        outputs = model(**inputs)
+        label_embedding = outputs.last_hidden_state.mean(dim=1).detach().numpy()
+        label_embeddings.append(label_embedding)
+    category_embeddings[label] = np.mean(label_embeddings, axis=0)
+
 @Language.component("classify_text")
 def classify_text(doc):
     """
@@ -45,23 +58,13 @@ def classify_text(doc):
     Returns:
         Doc: The Doc object with classification scores added as an extension.
     """
-    candidate_labels = list(categories.keys())
     inputs = tokenizer(doc.text, return_tensors="pt")
     outputs = model(**inputs)
     embeddings = outputs.last_hidden_state.mean(dim=1).detach().numpy()
     
     # Simple cosine similarity for classification
-    from sklearn.metrics.pairwise import cosine_similarity
-    scores = {}
-    for label, texts in categories.items():
-        label_embeddings = []
-        for text in texts:
-            inputs = tokenizer(text, return_tensors="pt")
-            outputs = model(**inputs)
-            label_embedding = outputs.last_hidden_state.mean(dim=1).detach().numpy()
-            label_embeddings.append(label_embedding)
-        label_embeddings = torch.tensor(label_embeddings).mean(dim=0).numpy()
-        scores[label] = cosine_similarity(embeddings, label_embeddings.reshape(1, -1)).flatten()[0]
+    scores = {label: cosine_similarity(embeddings, label_embedding.reshape(1, -1)).flatten()[0]
+              for label, label_embedding in category_embeddings.items()}
 
     doc._.cats = scores
     return doc

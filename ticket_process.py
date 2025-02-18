@@ -2,12 +2,14 @@
 from model.load_model import classify
 from process_data.process_data import process, split_into_phrases
 
-def get_tags_from_phrase(phrases, ticket):
+
+
+def get_tags_from_phrase(phrases):
     tags = []
     for phrase in phrases:
         if phrase.strip() != '':
             description_classification = classify(phrase)
-            print(f" {phrase}: {description_classification}")
+            print(f"Phrase: {phrase}: {description_classification}")
             first_element = next(iter(description_classification))
             if first_element != "N":
                 tags.append(first_element)
@@ -27,45 +29,50 @@ def update_ticket(ticket):
 def text_too_big(text):
     return len(text.split()) > 512
 
+
 def process_ticket(ticket):
-    print(f"Ticket: {ticket['number']}")
-    print(f"Desc: {ticket['description']}")
-    print("....Starting process now...")
+    # List of fields which the algo will use to predict categories
+    relevant_fields = ['description', 'short_description']
 
-    proposed_tags = []
+    # Set to which this algo will append its categorization predictions
+    proposed_tags = set()
+    # Variable to store the text that has already been processed
+    processed_texts = set()
 
-    text_too_big(ticket['description'])
+    print(f"\n****Processing Ticket: {ticket['number']}****")
 
-    print("....Analyzing ticket's description....")
+    # Iterate through the specified relevant_fields list
+    for field in relevant_fields:
+        print(f"\n...Checking {field}...")
+        # Get raw text from the field of the ticket
+        raw_text = ticket[field]
 
-    phrases = process(ticket['description'])
-    print(phrases)
-    proposed_tags = get_tags_from_phrase(phrases, ticket)
-    print(f"From Description: {ticket['description']}, {proposed_tags}\n")
+         # Check if the text has already been processed
+        if raw_text in processed_texts:
+            print(f"...Skipping {field} as it is a duplicate...")
+            continue
 
-    if not proposed_tags:
-        print("Description attempt #1 FAILED...beginning attempt #2")
-        new_phrases = split_into_phrases(ticket['description'])
-        print(new_phrases)
-        proposed_tags = get_tags_from_phrase(new_phrases, ticket)
+        # Add the text to the set of processed texts
+        processed_texts.add(raw_text)
 
-    if not proposed_tags or proposed_tags in [['User Login'], ['nonsense'], ['Image Viewer']]:
-        if proposed_tags == ['User Login']:
-            print("Description attempt #2 is general...analyzing 'action' for more potential details ")
-        elif proposed_tags == ['nonsense']:
-            proposed_tags = []
-        else:
-            print("Description attempt #2 FAILED...beginning action attempt #1 now ")
+        # Check whether the raw_text is too large
+        text_too_big(raw_text)
 
-        phrases = process(ticket['short_description'])
-        print(phrases)
-        proposed_tags += get_tags_from_phrase(phrases, ticket)
-        print(f"From Action: {ticket['short_description']}, {proposed_tags}\n")
 
-    if not proposed_tags:
-        print("Action attempt #1 FAILED...beginning attempt #2")
-        new_phrases = split_into_phrases(ticket['short_description'])
-        proposed_tags += get_tags_from_phrase(new_phrases, ticket)
-        print(f"Action attempt #2: {ticket['short_description']}, {proposed_tags}\n")
+        # Split raw_text into phrases and get the tags
+        phrases = process(raw_text)
+        proposed_tags.update(get_tags_from_phrase(phrases))
 
-    return proposed_tags if proposed_tags else "?"
+        # If no tags are collected then break up the raw_text further and repeat again
+        if not proposed_tags:
+            print("...Breaking raw text up for better results...")
+            smaller_phrases = split_into_phrases(raw_text)
+            proposed_tags.update(get_tags_from_phrase(smaller_phrases))
+
+    if proposed_tags:
+        print(f"Predicted: {list(proposed_tags)}")
+    else:
+        print(f"Predicted: ?")
+
+    return list(proposed_tags) if proposed_tags else "?"
+
