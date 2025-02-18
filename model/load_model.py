@@ -20,7 +20,7 @@ spacy_lang_path = os.path.join("en_core_web_md", "en_core_web_md-3.7.1")
 nlp = spacy.load(spacy_lang_path)
 
 # Load the local model for sentence transformers
-model_path = os.path.join("sent-trans")
+model_path = os.path.join("..","sent-trans")
 
 # Check if the path exists
 if not os.path.exists(model_path):
