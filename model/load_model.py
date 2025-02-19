@@ -1,5 +1,8 @@
 # Author: Michael Hurtado
 # 02/18/2024
+import certifi
+import ssl
+import urllib3
 import spacy
 from transformers import AutoTokenizer, AutoModel
 from spacy.language import Language
@@ -9,12 +12,20 @@ import os
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
+
+
 # Add the categories module to the system path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'categories')))
 from categories import categories,parent_categories
 
 # Construct the path to the model
-spacy_lang_path = os.path.join("en_core_web_md", "en_core_web_md-3.7.1")
+spacy_lang_path = os.path.join("en_core_web_md-3.8.0", "en_core_web_md","en_core_web_md-3.8.0")
+
+# Create a default SSL context with certifi
+ssl_context = ssl.create_default_context(cafile=certifi.where())
+
+# Use the SSL context in your requests
+http = urllib3.PoolManager(ssl_context=ssl_context)
 
 # Load the spaCy model
 nlp = spacy.load(spacy_lang_path)

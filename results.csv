@@ -11,7 +11,7 @@ INC41584948,RXEPRR: Invalids recompilation,RXEPRR: Invalids recompilation,,2025-
 INC41585285,"Need to reset password for IRIS TS02 environment
 
 Product entered by customer: ",IRIS (Integrated Rx Information System) - How to reset your IRIS password,Reset password,2025-02-17 09:21:46,Password
-INC41586512,PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator Domain: ppv Origin: GCP-PPV Application: EERA Category: Application Source: ENT ELG RA Severity: Minor Alertid: 0024481882,PROD-SCHEDULED PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator,,2025-02-17 11:26:56,"Alert, User Request"
+INC41586512,PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator Domain: ppv Origin: GCP-PPV Application: EERA Category: Application Source: ENT ELG RA Severity: Minor Alertid: 0024481882,PROD-SCHEDULED PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator,,2025-02-17 11:26:56,"User Request, Alert"
 INC41587602,"CH Orders Not Closed in IRIS
 
 Product entered by customer: IRIS",Orders not closed in IRIS,,2025-02-17 12:08:51,Order Issue
@@ -31,7 +31,7 @@ its reject 14 character is needed
 using 14 characters but still rejecting",IRIS (Integrated Rx Information System) - Unable to Login,Unable to Login,2025-02-17 14:20:24,"User Login, Password"
 INC41590331,My browser favorites are not on my replacement computer,Microsoft Edge -  missing IRIS link and request to have a shortcut from desktop as well,Microsoft Edge -  missing IRIS and request to have a shortcut from desktop as well,2025-02-17 14:24:05,?
 INC41591005,iris password reset,IRIS (Integrated Rx Information System) - iris password,password reset,2025-02-17 14:32:22,Password
-INC41591025,provide access to IRIS application,IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System),need access ,2025-02-17 14:33:11,"User Request, User Login"
+INC41591025,provide access to IRIS application,IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System),need access ,2025-02-17 14:33:11,"User Login, User Request"
 INC41591206,"Is it possible to pull the account information from an inactive account that was merged
 
 Trying to get the details for account #434446476 ",Is it possible to pull the account information from an inactive account that was merged,,2025-02-17 14:40:33,?
@@ -97,7 +97,7 @@ Product entered by customer: Windows Security",Java testing,Java testing,2025-02
 INC41598705,"Some IRIS users are getting the “ORA-06502: PL/SQL; numberic or value error: character to number conversion error” preventing users form making changes to Rx Form, do price check, etc”.  Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.
 
 Product entered by customer: IRIS
-Assign ticket to: MSA ORACLE EBS (RXS) – SPT",IRIS - Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.,,2025-02-17 18:12:38,"Data Fix, User Request, Order Issue, Errors"
+Assign ticket to: MSA ORACLE EBS (RXS) – SPT",IRIS - Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.,,2025-02-17 18:12:38,"Order Issue, Data Fix, User Request, nonsense, Errors"
 INC41599940,i need a password reset for iris,IRIS (Integrated Rx Information System)-IRIS password reset,IRIS password reset,2025-02-17 18:55:40,Password
 INC41600241,"In response to the prior ticket INC41596478, Cora is still having issues in IRIS
 
@@ -122,7 +122,7 @@ INC41603846,"please close group order G2025021700160304. nothing is in this grou
 Product entered by customer: ",IRIS find,,2025-02-17 21:27:09,?
 INC41604158,IRIS not recognizing my log in information,IRIS Login Issue,,2025-02-17 21:41:20,User Login
 INC41604940,I need to change my IRIS password ,IRIS (Integrated Rx Information System) - Unable to Login, Unable to Login,2025-02-17 22:15:10,"User Login, Password"
-INC41605751,"""""""XXIRIS New Refill Smoothing Drop Date Update DF"""" Refill Smoothing 3/4/2025 to 3/7/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) – SPT""",Refill Smoothing ,,2025-02-17 23:03:38,"User Request, Data Fix"
+INC41605751,"""""""XXIRIS New Refill Smoothing Drop Date Update DF"""" Refill Smoothing 3/4/2025 to 3/7/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) – SPT""",Refill Smoothing ,,2025-02-17 23:03:38,"Data Fix, User Request"
 INC41606363,"FL950: IRIS: Record is currently being worked on by another user please try to update it later
 Iris is not allowing to save anything and it will close out. Error 
 

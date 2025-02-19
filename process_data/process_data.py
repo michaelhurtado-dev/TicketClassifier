@@ -7,7 +7,7 @@ from spacy.language import Language
 import os
 
 # Construct the path to the model
-spacy_lang_path = os.path.join("en_core_web_md", "en_core_web_md-3.7.1")
+spacy_lang_path = os.path.join("en_core_web_md-3.8.0", "en_core_web_md","en_core_web_md-3.8.0")
 
 # Load the spaCy model
 nlp = spacy.load(spacy_lang_path)

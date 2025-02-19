@@ -78,6 +78,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process tickets or enter testing mode.")
     parser.add_argument('-t', '--test', action='store_true', help="Enter testing mode")
     args = parser.parse_args()
+    print("...Loading....")
 
     if args.test:
         testing_mode()
