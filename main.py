@@ -29,7 +29,7 @@ def testing_mode():
                 short_desc_input = input("Enter short_description of ticket (or type 'exit' to quit): ")
                 if short_desc_input.lower() == 'exit':
                     break
-                uerror_input = input("Enter short_description of ticket (or type 'exit' to quit): ")
+                uerror_input = input("Enter u_error_symptomss of ticket (or type 'exit' to quit): ")
                 if uerror_input.lower() == 'exit':
                     break
                 test_ticket = {
