@@ -20,30 +20,46 @@ def write_data(filepath,data):
     with open (filepath,"w",encoding="utf-8") as f:
         json.dump(data,f,indent=4)
 
-def json_to_csv(json_file, csv_file):
-    """
-    Convert JSON data to CSV format.
+import json
+import csv
+
+def json_to_csv(json_file_path, csv_file_path):
+    # Read the JSON data from the file
+    with open(json_file_path, 'r') as jsonfile:
+        json_data = json.load(jsonfile)
     
-    Args:
-        json_file (str): Path to the input JSON file.
-        csv_file (str): Path to the output CSV file.
-    """
-    # Load JSON data
-    with open(json_file, 'r') as f:
-        data = json.load(f)
+    # Extract all unique keys from the JSON data
+    keys = set()
+    for record in json_data:
+        keys.update(record.keys())
     
-    # Open CSV file for writing
-    with open(csv_file, 'w', newline='') as f:
-        writer = csv.writer(f)
+    # Convert the set of keys to a list, ensuring 'tags' is at the end
+    keys = list(keys)
+    if 'tags' in keys:
+        keys.remove('tags')
+        keys.append('tags')
+    
+    # Open the CSV file for writing
+    with open(csv_file_path, 'w', newline='', encoding='utf-8') as csvfile:
+        # Create a CSV writer object
+        csv_writer = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
         
-        # Write headers
-        headers = data[0].keys()
-        writer.writerow(headers)
+        # Write the header row
+        csv_writer.writerow(keys)
         
-        # Write data rows
-        for entry in data:
-            entry['tags'] = ', '.join([tag for sublist in entry['tags'] for tag in sublist])
-            writer.writerow(entry.values())
+        # Write the data rows
+        for record in json_data:
+            row = []
+            for key in keys:
+                value = record.get(key, "")
+                if isinstance(value, list):
+                     value = ", ".join([", ".join(sublist) if isinstance(sublist, list) else str(sublist) for sublist in value])
+                elif isinstance(value, str):
+                    value = value.replace("\r\n", " ").replace("\n", " ")
+                row.append(value)
+            csv_writer.writerow(row)
+
+
 
 
         
