@@ -7,44 +7,1795 @@ from datetime import datetime
 data = {
   "tickets":[
     {
-        "in_id": "INC41363470",
-        "description": "IRIS (Integrated Rx Information System) -unable to login to iris being onleave. inactive access",
-        "action": "i just came back from maternity leave and i cant access iris",
-        "open_time": "2025-02-03T17:17:55.000Z",
+        "number": "INC41346782",
+        "description": "IRIS password reset ",
+        "short_description": "CA950- IRIS password reset ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-01 14:07:46",
         "tags": [
             [
-                "User Login"
-            ]
-        ]
-    },
-    {
-        "in_id": "INC41354348",
-        "description": "IRIS - Unable To Login",
-        "action": "I'm trying to get in to IRIS but it's telling me my password is incorrect; I tried every password I could think of.",
-        "open_time": "2025-02-03T13:13:04.000Z",
-        "tags": [
-            [
-                "User Login"
-            ]
-        ]
-    },
-    {
-        "in_id": "INC41357741",
-        "description": "FLW - IRIS (Integrated Rx Information System) - Unable to Login",
-        "action": "I am not able to get in to IRIS. It did let me change the password which I did but still not working.",
-        "open_time": "2025-02-03T14:54:12.000Z",
-        "tags": [
-            [
-                "User Login",
                 "Password"
             ]
         ]
     },
     {
-        "in_id": "INC41361957",
-        "description": "FLW-IRIS (Integrated Rx Information System)-Enquiry on member credit card info error",
-        "action": "I have a question for you. I'm trying to assist a member. She's trying to make payments online but she getting she's getting error messages.",
-        "open_time": "2025-02-03T16:36:39.000Z",
+        "number": "INC41346825",
+        "description": "I can't login to IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) / Unable to login",
+        "u_error_symptoms": "Unable to login",
+        "sys_created_on": "2025-02-01 14:14:12",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41347003",
+        "description": "\nThe kafka client certificate orx-pharmac320e41d9e5492c54 (rg-pharmacy-central-kafka-prod-60fa261/hcc-dataplatform-certificate-v1/orx-pharmac320e41d9e5492c54) has been automatically renewed as it is less than 60 days from the expiration.\nYour new certificate will expire on Sun, 01 Feb 2026 15:14:53 UTC.\nThe new certificate download information has been sent to: bhakat_jayesh@optum.com, lavanya.nalaballa@optum.com, prashant.mangidkar@optum.com, satya.chundru@optum.com, somasekhar_munupally@optum.com, sowmya_surisetti@optum.com.\nA renewal email and INC will be sent around Tue, 02 Dec 2025 19:14:53 UTC.\nPlease update all uses of this certificate immediately with the newly sent certificate to avoid any expiration resulting in downtime for your application(s).\n\t",
+        "short_description": "Kafka Certificate Renewal",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-01 15:15:24",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41347007",
+        "description": "i am having issues with IRIS, not letting me place order, just stuck on enter",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "this order is currently accessed by another user\r\n\r\nrecord is currently being worked on by another user",
+        "sys_created_on": "2025-02-01 15:16:30",
+        "tags": [
+            [
+                "Order Issue",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41347625",
+        "description": "iris froze on edge and google and I have to restart",
+        "short_description": "IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "freeze",
+        "sys_created_on": "2025-02-01 19:16:59",
+        "tags": [
+            [
+                "Launch Issues",
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41347916",
+        "description": "When I pull up an account in IRIS, and click on a tab, everything goes away",
+        "short_description": "IRIS (Integrated Rx Information System) / Not responding, close all information",
+        "u_error_symptoms": "Not responding, close all information",
+        "sys_created_on": "2025-02-01 21:31:38",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41348021",
+        "description": "member's are getting orders that they not order. Prescriptions are being refilled automatically even if the automatic refill option is not selected.",
+        "short_description": "TX950 - Member's are getting refills without ordering in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-01 22:32:17",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41348290",
+        "description": "my IRIS was asking to change the password",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "invalid credentials",
+        "sys_created_on": "2025-02-02 01:18:52",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41348722",
+        "description": "Kindly compile the invalids in Prod\r\n\r\nBelow is the Invalid AD Objects count more than 30\r\n\r\n    Owner      |Count    |Total Count\r\n    --------------------------------------------\r\n\r\n   APPS          |             34 |            292                             \r\n   ARCHIVER12D   |             86 |            292                             \r\n   XXIRIS        |             85 |            292                             \r\n   XXRXSOL1      |             87 |            292                             \r\n",
+        "short_description": "Kindly compile the invalids in Prod",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-02 06:37:30",
+        "tags": [
+            [
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41350121",
+        "description": "I am trying to change the password   IRIS and I am not able to change it ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "I am trying to change the password   IRIS and I am not able to change it ",
+        "sys_created_on": "2025-02-02 18:17:41",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41350353",
+        "description": "unable to login to the IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": " Unable to Login",
+        "sys_created_on": "2025-02-02 20:38:55",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41350376",
+        "description": "Per the customer when she open the Genesys there is an error\r\nerror retrieving setting from server.",
+        "short_description": "Genesys Issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-02 20:58:26",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41350937",
+        "description": "Calls to PVS backend services from PVS UI are blocked when certain words are included in the service payload.",
+        "short_description": "PVS service calls are blocked for specific set of words in the service payload.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 02:39:18",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41351482",
+        "description": "Request is to share data with a recipient team for all orders in the running month which have non cancelled lines but has multiple billing lines with the same claim id having non zero amount value.",
+        "short_description": "Data request for INC41261578",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 05:57:51",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41351762",
+        "description": "Unable to view Transfer Request Form through Image viewer instead getting \"REQUEST PROCESSING ERROR\"\r\n\r\nDetails: Environment TS04\r\nSwitching to Pharmacist , Universal search member use Account Number and open eBc center form.\r\nClick on Rx History/Mdcomm tab and click on create DOE in eBc center\r\nEnter Prescription details , save, approve, release.\r\nIn the EBC form create New TMS order and save. Book the Order with New Rx count '0'.\r\nNow click on Txfr Request button that was enabled.\r\nOnce Transfer Request Form opened enter Pharmacy details and Drug, Rx number that was captured from prescription form.\r\nAfter submittig, you can see a sccessful note popup.\r\nYou will be back to SOF. Refresh the page and click on MDComm tab.\r\nIn the first row, we can see the Order number we created, Drug name under Med Request column and Type as TRANSFER-IN-RX-FAX-TMS\r\nOnce you verify these details, from the menu bar click on Action > open Image viewer\r\n\r\nThe Expected Form is \"Transfer Request Form\" but we are getting  as \"REQUEST PROCESSING ERROR\"which is not as expected.\r\nExpected : Transfer Request Form along with Document type 3410\n\nProduct entered by customer: ",
+        "short_description": "Informational - Submit a Documentation Only Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 06:51:30",
+        "tags": [
+            [
+                "Errors",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41352142",
+        "description": "Hi Rahul  \r\n \r\nTeam is sending request in surescript in ts09  \r\n \r\n \r\nhowever they are not able to find the transactions \r\n \r\n \r\ncan u pls check \r\n \r\nd69e299cb925403bb719acd19c4079bf15a\r\nda8ca721b68c4935b719b74c6a93f5e0498  \r\n \r\nmsg id 's\r\n ",
+        "short_description": "TS09 surescript connectivty not working",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 08:20:26",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41352824",
+        "description": "Update Alert 301 query to run Gryphon First run for 5000 records.\r\n\r\nRun the Request Set to transfer files to Gryphon\r\nRequest Set:  \r\nParameters: \r\nGryphon Reassigned Outbound\r\nGryphon Litigators Outbound\r\n\r\n",
+        "short_description": "Gryphon First Run for 5000 records transfer",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 10:32:45",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41353220",
+        "description": "working session with Imaging and testing team to fix the request renewal failing",
+        "short_description": "working session with Imaging and testing team to fix the request renewal failing",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 11:34:14",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41353257",
+        "description": "I am unable to login IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-03 11:37:20",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41353280",
+        "description": "I tried to reset my password unable to login...",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to login to the oracle IRIS",
+        "sys_created_on": "2025-02-03 11:41:20",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41353524",
+        "description": "shipped orders not closed in wms iris assign to ORx_pcs_OV_SPT",
+        "short_description": "ORx Pharmacy Control System (Orlando) - Shipped orders not closed in wms iris ",
+        "u_error_symptoms": "Shipped orders not closed in wms iris ",
+        "sys_created_on": "2025-02-03 12:12:06",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41353986",
+        "description": "Iris password need to be updated.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to receive email to receive password.",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System) - Unable to receive email to receive password.",
+        "sys_created_on": "2025-02-03 12:51:23",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41354262",
+        "description": "When going into rx form, the medical conditions are not showing up unless you go into sp info. Box blank on med conditions in rx form",
+        "short_description": "IRIS (Integrated Rx Information System) - When going into rx form, the medical conditions are not showing up unless you go into sp info. Box blank on med conditions in rx form",
+        "u_error_symptoms": "When going into rx form, the medical conditions are not showing up unless you go into sp info. Box blank on med conditions in rx form",
+        "sys_created_on": "2025-02-03 13:09:34",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41354348",
+        "description": "I'm trying to get in to IRIS but it's telling me my password is incorrect; I tried every password I could think of.",
+        "short_description": "IRIS - Unable To Login",
+        "u_error_symptoms": "rxeprrapp.uhc.com ; \"Login failed. Please verify your login information or contact the system administrator.\"",
+        "sys_created_on": "2025-02-03 13:13:04",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41354468",
+        "description": "IRIS Application login issue ",
+        "short_description": "KY950 - IRIS Application login issue ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 13:18:34",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41354714",
+        "description": "I am trying to log in to everything and .. the iris is asking for a new password",
+        "short_description": " IRIS (Integrated Rx Information System) - . the iris is asking for a new password",
+        "u_error_symptoms": ". the iris is asking for a new password",
+        "sys_created_on": "2025-02-03 13:26:57",
+        "tags": [
+            [
+                "Password",
+                "User Login",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41355024",
+        "description": "So ive been reassignment for 4 months and so i cant get into iris or genesys. i dont know if this gets deleted . Im using thoses systems. well I havent logged in since october so it says contact your administrator. I havent had to to use those to accept occations.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Login failed. Please verify your login information or contact the system administrator.",
+        "sys_created_on": "2025-02-03 13:39:00",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41355414",
+        "description": "I HAVE BEEN TRYING TO SIGN INTO IRIS FOR A WEEK NOW MY SUP SAYS I SHOULD STILL HAVE ACCESS BUT SYSTEM PROMPT ME TO CHANGE MY PASSWORD IT WORKED ONCE BUT I CANT SIGN IN",
+        "short_description": "IRIS - cannot sign in for a week",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 13:51:40",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41355845",
+        "description": "I HAVE BEEN TRYING TO SIGN INTO IRIS FOR A WEEK NOW MY SUP SAYS I SHOULD STILL HAVE ACCESS BUT SYSTEM PROMPT ME TO CHANGE MY PASSWORD IT WORKED ONCE BUT I CANT SIGN IN",
+        "short_description": "IRIS - cannot sign in for a week",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 14:05:46",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41355914",
+        "description": "I am unable to login to IRIS my password didn't push through.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Password failed please contact your admin",
+        "sys_created_on": "2025-02-03 14:07:50",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41356106",
+        "description": "IRIS will not allow me to reset my password",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 14:13:23",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41356181",
+        "description": "When trying to log into IRIS this morning it asked me to change my password.  I've tried changing it multiple times but it keeps giving me the error message: Password must not contain repeating characters, but I am NOT repeating characters. ",
+        "short_description": "When trying to log into IRIS this morning it asked me to change my password.  I've tried changing it multiple times but it keeps giving me the error message: Pa",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 14:15:12",
+        "tags": [
+            [
+                "Password",
+                "Errors",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41356200",
+        "description": "Unable to login to Oracle",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to reset password",
+        "sys_created_on": "2025-02-03 14:15:45",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41356279",
+        "description": "I'm not able to login to IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - unable to login",
+        "u_error_symptoms": "unable to login ",
+        "sys_created_on": "2025-02-03 14:18:07",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41356291",
+        "description": "IRIS - unable to reset my password. ",
+        "short_description": "IRIS (Integrated Rx Information System) - IRIS - unable to reset my password. ",
+        "u_error_symptoms": "IRIS - unable to reset my password. ",
+        "sys_created_on": "2025-02-03 14:18:29",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41356578",
+        "description": "training sup, contract with optumrx. have the ms id and pw and works fine. need to reset pw",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "training sup, contract with optumrx. have the ms id and pw and works fine. need to reset pw",
+        "sys_created_on": "2025-02-03 14:25:05",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41356597",
+        "description": "Please clear the HASH value for INCORRECT account -  #427386574 \r\n\r\nCORRECT account #474730282 ",
+        "short_description": "Need HASH value cleared for ERx attached to wrong patient",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 14:26:55",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41356750",
+        "description": "IRIS login issue ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "IRIS login issue ",
+        "sys_created_on": "2025-02-03 14:30:16",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41356850",
+        "description": "My iris password stating I need to update and it will not allow me to enter password\r\n",
+        "short_description": "IRIS - Unable to reset the password",
+        "u_error_symptoms": "IRIS - Unable to Reset the Password",
+        "sys_created_on": "2025-02-03 14:32:32",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41356967",
+        "description": "I am unable to log in and unable to reset password \r\n",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to log in and unable to reset password \r\n",
+        "sys_created_on": "2025-02-03 14:35:33",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41357252",
+        "description": "\nThe kafka client certificate orx-pharmacf785fa9fd4b33b55 (rg-pharmacy-central-kafka-prod-60fa261/hcc-dataplatform-certificate-v1/orx-pharmacf785fa9fd4b33b55) has been automatically renewed as it is less than 60 days from the expiration.\nYour new certificate will expire on Tue, 03 Feb 2026 14:41:15 UTC.\nThe new certificate download information has been sent to: hieu.le@optum.com, kevin.kinder@optum.com, prashant.mangidkar@optum.com, roshan_chirayil@optum.com, satya.chundru@optum.com, somasekhar_munupally@optum.com, sowmya_surietti@optum.com.\nA renewal email and INC will be sent around Thu, 04 Dec 2025 18:41:15 UTC.\nPlease update all uses of this certificate immediately with the newly sent certificate to avoid any expiration resulting in downtime for your application(s).\n\t",
+        "short_description": "Kafka Certificate Renewal",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 14:42:17",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41357329",
+        "description": "cannot log in to iris due to invalid password",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-03 14:44:13",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41357741",
+        "description": "I am not able to get in to IRIS. It did let me change the password which I did but still not working.",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-03 14:54:12",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41358345",
+        "description": "Login to Java",
+        "short_description": "Login to Java",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 15:09:08",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41358247",
+        "description": "Files to share from PROD\r\n\r\nPath: db1000/app/oracle/r122rxeprr/fs_ne/EBSapps/appl/xxiris/inbound/Gryphon/disposition_files\r\n\r\nFilenames:\r\nGRY_00002573_ORXHDPSP_O_00021_GRYRND_1_02032025045932.zip\r\nGRY_00002573_ORXHDPSP_O_00110_GRYLIT01_1_02032025045954.zip",
+        "short_description": "Files to share from PROD for Gryphon",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 15:09:19",
+        "tags": [
+            [
+                "Alert",
+                "Payment",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41358410",
+        "description": "Submitting ticket request due to outage time being over 10 minutes: System froze and Genesys call error where call details and call would not release from system. restarted PC - VPN timeout causing delay rejoining back online. ",
+        "short_description": "Selected Issue: OMNI Genesys (WWE)",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 15:09:36",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41358786",
+        "description": "I am unable to login to IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - unable to login",
+        "u_error_symptoms": "unable to login",
+        "sys_created_on": "2025-02-03 15:17:42",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41358801",
+        "description": "HELLO- Please assist on all following orders to close in IRIS \r\nOrder# 778545783-4  Tracking# 1ZC6R5104404464326 (Delivered)  --  done\r\nOrder# 776518590-1  Tracking# 1ZC6R5101304464741 (Delivered)  --  done\r\nOrder# 777424090-3  Tracking# 9270190350467716830862 (In Transit)  --  done\r\nOrder# 777442362-3  Tracking# 9234690350467731825488 (Delivered)  --  done\r\nOrder# 777151641-2  Tracking# 1ZC6R5104404467494 (Delivered)  --  done\r\nOrder# 777857910-1  Tracking# 1ZC6R5124400915440 (Delivered)  --  done\r\nOrder# 778808458-1  Tracking# 9261290350467717088704 (Processed)  --  done\r\nOrder# 778826785-1  Tracking# 1ZC6R5100104490815 (Processed)  --  done\r\nOrder# 779166050-1  Tracking# 1ZC6R5100104495543 (Processed)  --  done",
+        "short_description": "PB - Orders Open in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 15:17:52",
+        "tags": [
+            [
+                "Order Issue",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41358998",
+        "description": "\"Refill Smoothing 2/18/2025 to 2/21/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) \u2013 SPT\"",
+        "short_description": "IRIS - . Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) \u2013 SPT\"",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 15:22:22",
+        "tags": [
+            [
+                "User Request",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41359199",
+        "description": "Need datafix for issue of multiple outbound open md comms without order # association, type TRANSFER RX-FAX- and NEWFAX. Per Bryan Lamb on previous ticket INC39898266 needed to wait for after black out period before datafix can be implemented. RCA from Sunil in email chain attached. Please route to SOS- Systems Operations Solutions (ORx)",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 15:26:53",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41359389",
+        "description": "IRIS FREEZE WHEN DOING HFF",
+        "short_description": "Selected Issue: IRIS: NO RESPONSE",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 15:31:24",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41359419",
+        "description": "My current access to IRIS system is no longer working. Seeking asssstance to get access to perform work responsibilities",
+        "short_description": "IRIS (Integrated Rx Information System), Restriction error via Citrix ",
+        "u_error_symptoms": "Restriction error",
+        "sys_created_on": "2025-02-03 15:32:05",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41359434",
+        "description": "I am not able to access IRIS .couldnt put in notes and unable to open",
+        "short_description": "IRIS - Unable to launch this application",
+        "u_error_symptoms": "Unable to launch this application ",
+        "sys_created_on": "2025-02-03 15:32:22",
+        "tags": [
+            [
+                "Launch Issues",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41359822",
+        "description": "I am unable to login to IRIS, I changed my password earlier, now it's not allowing me ",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": " Launch Issues",
+        "sys_created_on": "2025-02-03 15:41:41",
+        "tags": [
+            [
+                "Launch Issues",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41359989",
+        "description": "I want to reset IRIS password. ",
+        "short_description": "IRIS (Integrated Rx Information System) - Password reset - SHAAN  2/3",
+        "u_error_symptoms": "I want to reset IRIS password. ",
+        "sys_created_on": "2025-02-03 15:46:25",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41360292",
+        "description": "I need my IRIS reset the password",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Too many pending requests already exist in the system. Please check your email or contact the System Administrator for further assistance.",
+        "sys_created_on": "2025-02-03 15:54:08",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41360307",
+        "description": "Need to have 'Cag Maintenance responsibility' resposibility in DV02 please",
+        "short_description": "Need to have 'Cag Maintenance responsibility' resposibility in DV02",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 15:54:36",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41360543",
+        "description": "I'm having an issue with my IRIS system",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Freezing",
+        "u_error_symptoms": "Freezing",
+        "sys_created_on": "2025-02-03 16:01:30",
+        "tags": [
+            [
+                "Latency",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41360675",
+        "description": "IRIS - unable to login ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login ",
+        "u_error_symptoms": "unable to login ",
+        "sys_created_on": "2025-02-03 16:04:58",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41360852",
+        "description": "i am experiencing delays in both iris and a/c. keeps getting forzen",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 16:09:37",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41360973",
+        "description": "IRIS - Shortcuts are missing from IRIS dashboard",
+        "short_description": "IRIS (Integrated Rx Information System) - Shortcuts are missing from IRIS dashboard",
+        "u_error_symptoms": "Shortcuts are missing from IRIS dashboard",
+        "sys_created_on": "2025-02-03 16:12:07",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41361317",
+        "description": "hff iris freeze",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 16:20:07",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41361957",
+        "description": "I have a question for you. I'm trying to assist a member. She's trying to make payments online but she getting she's getting error messages.",
+        "short_description": "FLW-IRIS (Integrated Rx Information System)-Enquiry on member credit card info error",
+        "u_error_symptoms": "Enquiry on member credit card info error",
+        "sys_created_on": "2025-02-03 16:36:39",
+        "tags": [
+            [
+                "Payment",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41362227",
+        "description": "im having trouble getting into citrix  showing my password is incorrect \r\n\" 2nd concern - unable to log in to IRIS",
+        "short_description": "IRIS - unable to log in ",
+        "u_error_symptoms": "unable to log in to IRIS",
+        "sys_created_on": "2025-02-03 16:43:12",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41362365",
+        "description": "PROMTED TO CHANGE PASSWORD IT KEEPS GIIVING AN ERROR SAID IT ACCEPTED ON PASSWORD WHEN I TRIED TO LOGIN  IT DID NOT ACCEPT IT AND NOT TAKING ANY PASSWORDS THAT I TRY TO USE THAT MEET THE CRITERIA",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 16:47:25",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41362614",
+        "description": "Hi I I have to enter my systems through Genesis and I was trying to get into.",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "Launch Issues",
+        "sys_created_on": "2025-02-03 16:54:26",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41363077",
+        "description": "http://dsmep0645/dsweb  it is just clocking, stuck with loading.  \r\nTried InCognito, InPrivate as well",
+        "short_description": "dsmep0645,   it is just clocking, stuck with loading",
+        "u_error_symptoms": "stuck with loading",
+        "sys_created_on": "2025-02-03 17:07:34",
+        "tags": [
+            [
+                "Launch Issues",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41363470",
+        "description": "i just came back from maternity leave and i cant access iris",
+        "short_description": "IRIS (Integrated Rx Information System) -unable to login to iris being onleave. inactive access",
+        "u_error_symptoms": "unable to login to iris being onleave. inactive access",
+        "sys_created_on": "2025-02-03 17:17:55",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41363513",
+        "description": "Unable to login in was instructed to change password and will not accept ",
+        "short_description": "IRIS password issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 17:19:26",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41363703",
+        "description": " My supervisor told me to call because my iris is being weird. I guess like reboot it every other 3 calls as far as like spinning or it loads for like the longest time and then there's an error message and I have to close out with task manager to get it to come back up and do that a couple of times this week so don't need to call.",
+        "short_description": "IRIS not responding, crashing",
+        "u_error_symptoms": "not responding, crashing",
+        "sys_created_on": "2025-02-03 17:24:55",
+        "tags": [
+            [
+                "Latency",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41363973",
+        "description": "having trouble with iris, every time I have a call, need to have reversal in the claim it stuck and freeze, to use it need to force close when I reopen it works ",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "in and out connection with iris",
+        "sys_created_on": "2025-02-03 17:32:43",
+        "tags": [
+            [
+                "Launch Issues",
+                "Latency",
+                "Errors",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41364010",
+        "description": "I cannot login in IRIS ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "I cannot login in IRIS ",
+        "sys_created_on": "2025-02-03 17:33:57",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41364681",
+        "description": "getting internal error when trying to add a cc to Iris acct 464872144 member name is  <Protected Information was moved to secure confidential data field in the incident record>\r\n\r\nProduct entered by customer: adding a cc in Iris",
+        "short_description": "IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "Direct assign",
+        "sys_created_on": "2025-02-03 17:54:59",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41364682",
+        "description": "Please unlock O778486461- User confirmed she is no longer in the order and agents cannot access the order.\n\nProduct entered by customer: IRIS",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 17:55:00",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41365569",
+        "description": "User is requesting to unlock their active directory account.",
+        "short_description": "Unlock AD Account - IRIS RODRIGUEZ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 18:28:52",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41365681",
+        "description": "Deepdive RCA",
+        "short_description": "\"Failed to perform State reg\" Issue Observations: 3rd Feb (1.40 AM to 1.48 AM CT)",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 18:30:24",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41365890",
+        "description": "I can't get in to IRIS.  I can't get in with the password I'm using. ",
+        "short_description": "IRIS - Unable to Log IN",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 18:36:22",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41365830",
+        "description": "Need table XXIRIS_NF_CAG_RESTRICTIONS access added to the OM Super user responsibility.  ",
+        "short_description": "Need to get the CAG suppression table added to the OM Super user role ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 18:39:03",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41365978",
+        "description": "iris ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to access",
+        "u_error_symptoms": " Unable to access",
+        "sys_created_on": "2025-02-03 18:39:22",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41366309",
+        "description": "I can't connect to my IRIS application it always asking me to my password ",
+        "short_description": "IRIS (Integrated Rx Information System) - Application Blocked by Security Settin",
+        "u_error_symptoms": "Asking for username and password ",
+        "sys_created_on": "2025-02-03 18:49:55",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41366469",
+        "description": "need hash clear between accounts 474751145 and 430816307 (rxs for account 474751145 created on this account) please route to MSA ORACLE EBS (RXS) - SPT",
+        "short_description": "need hash clear between accounts 474751145 and 430816307",
+        "u_error_symptoms": "need hash clear between accounts 474751145 and 430816307",
+        "sys_created_on": "2025-02-03 18:54:55",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41366875",
+        "description": "Need a query using the Rx numbers in column \"AX\" to report out the following . (Please use the DOS in the query to pull the correct fill date) \r\nPrimary CAG details\r\nPrimary CAG copay field \r\nSecondary CAG details \r\nSecondary CAG copay field \r\n\r\nIdentify the STATUS of where the prescription is in workflow ",
+        "short_description": "Need a query to identify orders that may or may not have been billed appropriately to M3P ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 19:12:57",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41367176",
+        "description": "My Iris keeps truning black & freezing",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 19:16:43",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41367266",
+        "description": "Iris keeps clocking and freezing, had to end task 7 times in one call and still couldn't get it to work\ncleared cache and reboot still wasn't working correctly",
+        "short_description": "Selected Issue: IRIS - cleared cache and reboot still wasn't working correctly",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 19:19:01",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41367809",
+        "description": "Need access to IRIS-Pharmacy Central Non Prod for the following:\r\nFirst Name and Last Name\r\nemail\r\nMSID\r\nOptum EmpID\r\nKomma, Ananthalakshmi\r\nananthalakshmi_komma@optum.com\r\nakomma\r\n2294659\r\nPraneeth, Poolla S\r\nsaipraneeth_poolla@optum.com\r\nppranee9\r\n2285671\r\nNagur Shailk Meeravalli\r\nnagurmeeravali_shaik@optum.com\r\nnshaik75\r\n2292964\r\nKalyani Rajguru\r\nkalyani_rajguru@optum.com\r\nkrajguru\r\n2292989\r\nSannasi, Mahalakshmi\r\nmahalakshmi_sannasi@optum.com\r\nmsannasi\r\n2289764\r\nShanmugarajan Thiyagarajan\r\nshanmugarajan_thiyagarajan@optum.com\r\nsthiya12\r\n2290946\r\nVipul Raj\r\nvipul_raj@optum.com\r\nvraj23\r\n2292992\r\nVezha Vendan\r\nvezhavendan_k@optum.com\r\nvk94\r\n2291188\r\nS, Monesha\r\nmonesha_s2@optum.com\r\nms78\r\n2186371\r\nRatul Lahkar\r\nsriratul.lahkar@cognizant.com\r\nratullahkar\r\n2295710\n\nProduct entered by customer: ",
+        "short_description": "Need Pharmacy Central Access for provided users - Pharmacist and OM lookup maintenance",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 19:37:00",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41367747",
+        "description": "User is unable to log into IRIS",
+        "short_description": "Cannot log into IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 19:37:19",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41368033",
+        "description": "issues with mouse focus and also iris spinning, cleared catch and it froze again",
+        "short_description": "IRIS - issues with mouse focus and also iris spinning, cleared catch and it froze again",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 19:45:21",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41368121",
+        "description": "unable to login to the IRIS application ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": " Unable to Login",
+        "sys_created_on": "2025-02-03 19:48:18",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41368359",
+        "description": "Need to add missing allergies so that system can perform the DUR checks and apply systematic Dur Allergy Hold.\r\n\r\nProduct entered by customer: IRIS\r\nAssign ticket to following workgroup: MSA ORACLE EBS (RXS) \u2013 SPT",
+        "short_description": "IRIS (Integrated Rx Information System) - Need to add missing allergies so that system can perform the DUR checks and apply systematic Dur Allergy Hold.",
+        "u_error_symptoms": "Need a data fix to add missing allergies so that system can perform the DUR checks and apply systematic Dur Allergy Hold.",
+        "sys_created_on": "2025-02-03 19:56:11",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41368639",
+        "description": "I'm unable to launch IRIS ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "I'm unable to launch IRIS ",
+        "sys_created_on": "2025-02-03 20:05:46",
+        "tags": [
+            [
+                "Launch Issues",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41368679",
+        "description": "Can you help me because I forgot my password. I just reset my password in Iris. I mean the yeah.",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to login to iris",
+        "sys_created_on": "2025-02-03 20:06:35",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41369362",
+        "description": "Unable to login to IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to login",
+        "u_error_symptoms": " Unable to login",
+        "sys_created_on": "2025-02-03 20:28:13",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41369553",
+        "description": "cannot get into Iris",
+        "short_description": "(OBO) - Selected Issue: IRIS: NO RESPONSE",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 20:34:27",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41369572",
+        "description": "I'm the tech lead on the Specialty Patient Portal, I'd like an api available to close IRIS orders we could utilize on our regression test, this will reduce manual intervention while running test cases.  I was asked to create this INC and have it assigned to the SOS team.",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 20:35:04",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41369769",
+        "description": "FREEZING DURING AN ORDER. WILL NOT LET TME UPDATE, IT SHOWS THE RECORD HAS BEEN CHANGED/UPDATED BY ANOTHER USER.. IT WILL NOT REFRESH.\nTHE SYSTEM KEEPS FREEZING. ",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 20:41:54",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41369864",
+        "description": "Iris freezing and was able to get out and come back in, did reboot ",
+        "short_description": "IRIS - Self Resolved",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 20:44:52",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41370348",
+        "description": "Sporadic issues started last Thursday evening, Jan 30. I lost connection to my Workspace and had issues with IRIS freezing and not loading all info the next time I worked on Sunday, Feb 2. Today my IRIS froze on my call, had to End Task, my AC only half loaded the account info and when I looked at my Workspace, the call info and status were not correct with it showing my as Ready evening though I was still on the call and actively helping the customer. I have reset my modem and restarted, twice....incoming calls also have stuttered/delayed beeping audio.",
+        "short_description": "Selected Issue: OMNI Genesys (WWE)",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 21:02:18",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41370564",
+        "description": "Hi, Please, help a docset merged\r\nImage  Doc ID   1275239348                Image DocSet ID  7702651291 \r\nImage  Doc ID   1275239347                 Image DocSet ID  7702651290\r\nImage  Doc ID   1275239344                Image DocSet ID   7702651289 \r\nneed to be changed to  Header DocSetID  7702651419",
+        "short_description": "DocSet Merged  for Order  779378685",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 21:10:26",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41370746",
+        "description": "I was calling on behalf my Dylan because he was locked out IRIS ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 21:15:04",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41370872",
+        "description": "User is unable to log into IRIS",
+        "short_description": "Cannot log into IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 21:21:51",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41370986",
+        "description": "need iris password reset we have contractor",
+        "short_description": "IRIS (Integrated Rx Information System) - need iris password reset",
+        "u_error_symptoms": "need iris password reset",
+        "sys_created_on": "2025-02-03 21:24:06",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41371168",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod\r\nTS04, need to find decision pop box in Release action form- to change the wording to match what is in TS01 and production. just need navigation.\n\nProduct entered by customer: Please assign to IRIS-Pharmacy Central Non Prod\r\nTS04, need to find decision pop box in Release action form- to change the wording to match what is in TS01 and production.",
+        "short_description": "TS04, need to find decision pop box in Release action form- to change the wording to match what is in TS01 and production.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 21:31:17",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41371281",
+        "description": "Change Frequency of the Proposed ORTF Load Count report to once daily at 6pm per the attached email",
+        "short_description": "Change Frequency of the Proposed ORTF Load Count report..Also review other reports from INC40741938",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 21:35:07",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41371409",
+        "description": "Macess is not installing from Altiris to her computer.\r\nTelecommuter",
+        "short_description": "Macess is not installing from Altiris to her computer.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 21:41:07",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41371670",
+        "description": "the screen is not loading\r\nnot able to login as well\r\n\r\n",
+        "short_description": "NY950 -  Iris: not moving the screen",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 21:53:50",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41372454",
+        "description": "Assign ticket to ORX PCS IT - SP\r\nplease close in IRIS\r\n\r\n778164597-1\n\nProduct entered by customer: ",
+        "short_description": "Irwindale - Orders Open in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 22:18:27",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41372475",
+        "description": "iris will not load",
+        "short_description": "Selected Issue: IRIS - iris will not load",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 22:19:07",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41372833",
+        "description": "need rx 456895927 unlocked please route to . Please route to msa oracle spt",
+        "short_description": "IRIS (Integrated Rx Information System) - Please route to msa oracle spt",
+        "u_error_symptoms": "need rx 456895927 unlocked please route to . Please route to msa oracle spt",
+        "sys_created_on": "2025-02-03 22:33:57",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41373282",
+        "description": "Hi, Please help to release hold Adj Rev order 778123964 cancelled status",
+        "short_description": "release hold order 778123964 cancelled status",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 22:59:07",
+        "tags": [
+            [
+                "Order Issue",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41373329",
+        "description": "IRIS ACCT. MEMBER HAS BEEN CALLING WANTING TO PAY ACCT BALANCE SINCE 01/17/2025 AND WERE UNABLE TO ADD PAYMETN METHOD DUE TO ERROR POP UP .. ACCT 458843858",
+        "short_description": "Internal Error when trying to add a Credit Card in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 23:00:58",
+        "tags": [
+            [
+                "Payment",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41373384",
+        "description": "Service Now ticket to be assigned to IRIS-Pharmacy Central Non Prod. IRIS SOA team to identify how they are calling AE/UPM API endpoint https://aesystestproxy-vm.uhc.com:22443/upm3/optumrxmember/SelectPharmacyMembersV4ndpoint for",
+        "short_description": "TS01 RxClaim_BPEL calls to RxClaim-v4 service",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 23:03:46",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41373748",
+        "description": "IRIS ACCT. MEMBER HAS BEEN CALLING WANTING TO PAY ACCT BALANCE SINCE 01/17/2025 AND WERE UNABLE TO ADD PAYMETN METHOD DUE TO ERROR POP UP .. ACCT 458843858",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 23:27:59",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41373993",
+        "description": "Hi, please release  CANCEL REQUEST HOLD order 778893912 in cancelled status, thanks",
+        "short_description": "release hold order 778893912",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-03 23:48:53",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41374083",
+        "description": "Hi, please help to release order valid except hold closed line, Bios support team cannot release. thanks",
+        "short_description": "order 776886507 , order valid exception hold",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 00:04:50",
+        "tags": [
+            [
+                "Order Issue",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41374321",
+        "description": "Hi, please help  to release  CANCEL REQUEST HOLD order 779225537 in cancelled status",
+        "short_description": "release  CANCEL REQUEST HOLD order 779225537",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 00:18:50",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41374848",
+        "description": " application frozen",
+        "short_description": "FL950- IRIS- application frozen",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 01:43:02",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41375200",
+        "description": "please share the imaging payload for MEdcomm Ids 5298782887, 5298725006 and 5298725000.",
+        "short_description": "please share the imaging payload for MEdcomm Ids 5298782887, 5298725006 and 5298725000.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 03:00:27",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41375606",
+        "description": "Content Match failed for LTM CTC IRIS Contactinfo Domain: epmp-api ltm-ctc Origin: ORX-Zabbix-Prod Application: Enterprise Preference Management Platform (EPMP) - APIs Category: Application Source: ORX-ZABBIX Severity: Major Alertid: 0022441264",
+        "short_description": "Content Match failed for LTM CTC IRIS Contactinfo",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 04:18:13",
+        "tags": [
+            [
+                "Alert",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41375706",
+        "description": "Run fs_clone in production as a prep step for upcoming IRIS Release ",
+        "short_description": "Run fs_clone in production",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 04:43:28",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41375713",
+        "description": "Shutdown forms_server46 managed server to fix fs_clone validation issue in production ",
+        "short_description": "Shutdown forms_server46 managed server to fix fs_clone validation issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 04:45:15",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41376083",
+        "description": "Environment preparing for 10.5.6 Release load test in St01.",
+        "short_description": "10.5.6 Release load test ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 06:23:05",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41376908",
+        "description": "Updated Management node credentials for IRIS DV01, ST01, ST02 as a patching prerequisites",
+        "short_description": "Updated Management node credentials for IRIS DV01, ST01, ST02 as a patching prerequisites",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 09:24:14",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41376955",
+        "description": "Hi - We are not able to get the selectors for TS01 IRIS application with indicator option for UiPath(RPA). Please resolve the issue.\r\n\r\nTS01 - https://orxpcatst1ebs.uhc.com:4450/OA_HTML/AppsLocalLogin.jsp?langCode=US&_logoutRedirect=y\r\nServer - WN000066842\r\nNUID  - rpa_spt_mrd_t1\r\n",
+        "short_description": "Hi Team - In IRIS unable to get the selectors from UiPath",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 09:35:11",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41377164",
+        "description": "Request to update alert queries for Alert 305, 68, 69\r\nRun the Request Set : XXIRIS Gryphon Outbound\r\n\r\nUpdate the schedule of Alert 192  to every 15 mins at 4:30 PM IST.\r\n",
+        "short_description": "Request to update alert queries for Alert 305, 68, 69",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 10:13:38",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41377538",
+        "description": "Records sent by IRIS to ECDH is being dropped from ETL layer\r\n\r\nWe found many records missing from the Archive table to the foundation based on IRIS_PROCESS_DATE. The assumption is that the IRIS process date won't change even if it failed in the initial attempt and was reprocessed after the reconciliation job caught the missing records. ",
+        "short_description": "Records sent by IRIS to ECDH is being dropped from ETL layer",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 11:16:17",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41377585",
+        "description": "CH- Orders not closed in IRIS\n\nProduct entered by customer: IRIS",
+        "short_description": "CH -ORDERS NOT CLOSED IN IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 11:19:56",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41377897",
+        "description": "2+days aged order needs to be cleared in WMS and Iris. 778483577-1",
+        "short_description": "Aged order needs to be cleared in WMS and Iris. ",
+        "u_error_symptoms": "Aged order needs to be cleared in WMS and Iris. ",
+        "sys_created_on": "2025-02-04 12:05:26",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41378502",
+        "description": "IRIS order never shipped.  Stuck in APS in process\r\n772396439-1  --  order not found in PTMS. user wants it to be cancelled/recalled, but we can't cancel it while it's in a packed status.",
+        "short_description": "IRIS order never shipped.  Stuck in APS in process.  Please process",
+        "u_error_symptoms": "IRIS order never shipped.  Stuck in APS in process.  Please process",
+        "sys_created_on": "2025-02-04 12:56:18",
+        "tags": [
+            [
+                "Order Issue",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41379009",
+        "description": " I'm changing my password for Iris trying to get into Genesis and it doesn't matter which password I put in there, it will not accept it.",
+        "short_description": " IRIS (Integrated Rx Information System) - Password reset ",
+        "u_error_symptoms": " Password reset ",
+        "sys_created_on": "2025-02-04 13:18:47",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41379480",
+        "description": "my IRIS is not taking my MS ID and password",
+        "short_description": "FLW: IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Login Failed",
+        "sys_created_on": "2025-02-04 13:36:39",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41379650",
+        "description": "//windows pin required for advocate central use and also first call of the day had headset issues\r\n\r\nPlease assist user in getting a new device.",
+        "short_description": "New device request -MFA TEAM",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 13:43:42",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41379674",
+        "description": "changing db name of database  from ST02 to DV99 for XD02dbadm01.",
+        "short_description": "Repoint ST02 EBS DB from single to RAC node in ST02 SOA.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 13:48:21",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41380232",
+        "description": "IRIS database table M_CT_results_Hist_Daily is not matching with IEX for ct_id 4631 and 8747 for date 02/03/2025. calls received in IEX for ct_id 4631 is 4001 and in IRIS 1339 calls received. calls received in IEX for ct_id 8747is 3387and in IRIS 1062calls received. Please review.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-04 14:02:19",
+        "tags": [
+            [
+                "Errors",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41381046",
+        "description": "I am trying to login and ask me to change my password and keeps giving me an error message: Password must not contain repeating characters",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to change password",
+        "u_error_symptoms": "Unable to create new password",
+        "sys_created_on": "2025-02-04 14:24:26",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41381563",
+        "description": "I cannot reset my IRIS password",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to reset IRIS password",
+        "sys_created_on": "2025-02-04 14:38:26",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41381760",
+        "description": "I can't login to IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "log in issue failed",
+        "sys_created_on": "2025-02-04 14:42:55",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41382255",
+        "description": "PreRx users reporting on the prex form units per a day field with decimals is frequently populating with a comma \",\" instead of a period \".\"  Please route to SOS- Systems Operations Solutions (ORx)",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 14:56:35",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41382617",
+        "description": "Java Iris unable to enter commands.",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 15:05:42",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41383244",
+        "description": "iris username and password help",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to login",
+        "u_error_symptoms": "Unable to login",
+        "sys_created_on": "2025-02-04 15:21:18",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41383501",
+        "description": "iris freeze",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "iris freeze",
+        "sys_created_on": "2025-02-04 15:26:46",
+        "tags": [
+            [
+                "Launch Issues",
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41383705",
+        "description": "I'm trying to reset iris password",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to login",
+        "sys_created_on": "2025-02-04 15:32:28",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41383808",
+        "description": "I need to reset my IRIS password. It ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-04 15:34:21",
+        "tags": [
+            [
+                "Password",
+                "User Login",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41384010",
+        "description": "windows pin required for advocate central use and also first call of the day had headset issues",
+        "short_description": "Advocate Central and Audio issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 15:38:46",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41384133",
+        "description": "IRIS keeps opening to a blank black screen",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 15:41:51",
+        "tags": [
+            [
+                "Latency",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41384616",
+        "description": "I am unable to login to IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to login to IRIS",
+        "sys_created_on": "2025-02-04 15:52:35",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41384742",
+        "description": "I am trying to process a payment in IRIS and the card says that ther is an issue in our end",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Process Payment",
+        "u_error_symptoms": "Unable to Process Payment",
+        "sys_created_on": "2025-02-04 15:55:28",
         "tags": [
             [
                 "Payment"
@@ -52,10 +1803,48 @@ data = {
         ]
     },
     {
-        "in_id": "INC41356850",
-        "description": "IRIS - Unable to reset the password",
-        "action": "My iris password stating I need to update and it will not allow me to enter password",
-        "open_time": "2025-02-03T14:32:32.000Z",
+        "number": "INC41385485",
+        "description": "Order was processed in fulfillment and shipped without a tracking label. An exception label was shipped. Because no tracking was exported to IRIS, the order is still open. In order to get a new order set up, this order requires manual closure.\n\nProduct entered by customer: ",
+        "short_description": "Needing order closed manually in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 16:14:58",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41385661",
+        "description": "currently locked out of IRIS , then i tried to change my password , its not recognizing the old one . now i cant get in to IRIS . ",
+        "short_description": "IRIS (Integrated Rx Information System) - How to reset your IRIS password",
+        "u_error_symptoms": "unable to reset the password ",
+        "sys_created_on": "2025-02-04 16:18:45",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41386179",
+        "description": "An RPh Clinical Intake Review survey was not launched/recorded for account 473987237 in IRIS when a CMP Hold was removed from order 778889574.",
+        "short_description": "IRIS - RPh Clinical Intake Review survey was not launched/recorded ",
+        "u_error_symptoms": "An RPh Clinical Intake Review survey was not launched/recorded for account 473987237 in IRIS when a CMP Hold was removed from order 778889574.",
+        "sys_created_on": "2025-02-04 16:31:47",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41386436",
+        "description": "IRIS password reset assist",
+        "short_description": "CA950 - IRIS password reset assist",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 16:47:51",
         "tags": [
             [
                 "Password"
@@ -63,19 +1852,11 @@ data = {
         ]
     },
     {
-        "in_id": "INC41356597",
-        "description": "Need HASH value cleared for ERx attached to wrong patient",
-        "action": "Please clear the HASH value for INCORRECT account -  #427386574 \r\n\r\nCORRECT account #474730282",
-        "open_time": "2025-02-03T14:25:47.000Z",
-        "tags": [
-            "?"
-        ]
-    },
-    {
-        "in_id": "INC41360675",
-        "description": "IRIS (Integrated Rx Information System) - Unable to Login",
-        "action": "IRIS - unable to login",
-        "open_time": "2025-02-03T16:04:58.000Z",
+        "number": "INC41386895",
+        "description": "Yes, I am trying to sign into Oracle Iris and it's not accepting my password anymore.",
+        "short_description": "IRIS (Integrated Rx Information System) - Login failed. Please verify your login information or contact the system administrator.",
+        "u_error_symptoms": "Login failed. Please verify your login information or contact the system administrator.",
+        "sys_created_on": "2025-02-04 16:51:50",
         "tags": [
             [
                 "User Login"
@@ -83,10 +1864,1553 @@ data = {
         ]
     },
     {
-        "in_id": "INC41358998",
-        "description": "IRIS - . Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) \u2013 SPT\"",
-        "action": "\"Refill Smoothing 2/18/2025 to 2/21/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) \u2013 SPT\"",
-        "open_time": "2025-02-03T15:22:22.000Z",
+        "number": "INC41388142",
+        "description": "\r\nHere is the F5 that has been setup for NDURE in non-prod-\r\nhttps://stage-ndure-service.optum.com/api/rx/dur/check\r\nPlease note that NDURE is only setup on ELR datacenter.\r\n\r\n1. Work with DBA team or Change the XXIRIS_CONS table\r\n2. Verify that the URL is correct.\r\n3. Support the team during testing by trying to triage the problem if any issues Arise.\r\n",
+        "short_description": "NDURE go live testing",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 17:24:59",
+        "tags": [
+            [
+                "Alert",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41389659",
+        "description": "user facing issue with IRIS password.user unable to reset the password.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to access ORACLE application",
+        "u_error_symptoms": "user facing issue with IRIS password.user unable to reset the password.",
+        "sys_created_on": "2025-02-04 18:12:30",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41389761",
+        "description": "Since I've been login to my system today it kinda won't let me type of everything and then I restart it and everything was good and now Iris starting acting up so it's stuck in a loading process",
+        "short_description": "FLW - Windows - Laptop not responding on applications such as Iris which causes laptop to freeze",
+        "u_error_symptoms": "Laptop not responding on applications such as Iris which causes laptop to freeze",
+        "sys_created_on": "2025-02-04 18:15:56",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41390474",
+        "description": "see attached email",
+        "short_description": "CAG Term",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 18:39:24",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41390593",
+        "description": "Clear SMF FYE field in IRIS on 1/14\r\nXXSPLT Prescription SMF Flag Update Datafix\r\nClear FYE/SMF Reason - Yes\r\nEnter the From Date- 01-JAN-2024\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System)  - Clear SMF FYE field in IRIS on 1/14",
+        "u_error_symptoms": "Clear SMF FYE field in IRIS on 1/14\r\nXXSPLT Prescription SMF Flag Update Datafix\r\nClear FYE/SMF Reason - Yes\r\nEnter the From Date- 01-JAN-2024",
+        "sys_created_on": "2025-02-04 18:42:20",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41391156",
+        "description": "Iris sent message to sign in when I already was so said no which caused the system to froze and wouldnt let me get out of it so did reboot and seem to be ok and am on it now",
+        "short_description": "Selected Issue: IRIS self resolved",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 19:00:20",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41391309",
+        "description": "need rx 454093192 unlocked",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 19:05:13",
+        "tags": [
+            [
+                "RX locked"
+            ]
+        ]
+    },
+    {
+        "number": "INC41391485",
+        "description": "iris is not working",
+        "short_description": "IRIS telephony is not connecting",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 19:11:03",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41391834",
+        "description": "CareMount Medical (CMM)\nDoes this issue affect multiple users: No\nThe medical resident would need access to NGen and remote access as well. They will be precepting w/Dr. Van Hollebeke for 2 weeks.",
+        "short_description": "Please provide 3rd party access to NextGen for med resident, Sirish Pandy precepting w/Dr. Van Hollebeke",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 19:21:38",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41391889",
+        "description": "need hash clear for account 470447500 erx meant for account 474315359 was processed on wrong account route to MSA ORACLE EBS (RXS) - SPT",
+        "short_description": "need hash clear for account 470447500 erx meant for account 474315359 was processed on wrong account",
+        "u_error_symptoms": "need hash clear for account 470447500 erx meant for account 474315359 was processed on wrong account",
+        "sys_created_on": "2025-02-04 19:23:09",
+        "tags": [
+            [
+                "User Login",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41392642",
+        "description": "Iris  application is freezing and slow ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 19:47:59",
+        "tags": [
+            [
+                "Latency",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41392741",
+        "description": "IRIS account - 83980570\r\nImpacted RXs - 453573210, 456371947  Enrolled in SMF after patient had disenrolled\r\nRx 424755103 - Enrolled on 7/6/24\r\nRx 434850932 - Disenrolled 10/4/24\r\nThis disenrollment should have stopped any further RXs from being marked SMF = E\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - SMS patients previously enrolled in SMF that were disenrolled but new Rx received carrying over SMF flag",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 19:51:04",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41393000",
+        "description": "I am having issue with IRIS, it is not launching.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to View Image",
+        "u_error_symptoms": "I am having issue with IRIS, it is not launching.",
+        "sys_created_on": "2025-02-04 19:59:52",
+        "tags": [
+            [
+                "Launch Issues",
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41393245",
+        "description": "i have a programs in citrix called iris ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unabel to login \r\nno temporary password ",
+        "sys_created_on": "2025-02-04 20:06:30",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41393246",
+        "description": "I have an issue with my Iris ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-04 20:06:31",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41393298",
+        "description": "We need new IRIS TS02 user ids based off https://uhgazure.sharepoint.com/:x:/t/IRISTS06toTS02Migration/ERDcwf7Laf9MvA4bReyJO7UBKN5ZXcHvzgCTLOmgdWS8pA?e=pI7fbl",
+        "short_description": " IRIS TS02 Access",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 20:08:06",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41393396",
+        "description": "My applicatio IRIS it gives me an error message",
+        "short_description": "IRIS (Integrated Rx Information System) - FRM-92101: There was a Failure in the Forms Server During Startup",
+        "u_error_symptoms": "There was a Failure in the Forms Server During Startup",
+        "sys_created_on": "2025-02-04 20:11:39",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41393553",
+        "description": "unable to log in into iris",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "IS (Integrated Rx Information System) - Unable to Login",
+        "sys_created_on": "2025-02-04 20:17:02",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41393581",
+        "description": "Iris cannot connect and having an error",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "Unable to connecr IRIS ",
+        "sys_created_on": "2025-02-04 20:18:11",
+        "tags": [
+            [
+                "Launch Issues",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41393861",
+        "description": "interna lerror in adding cc",
+        "short_description": "IRIS (Integrated Rx Information System) - Internal error in adding cc",
+        "u_error_symptoms": "interna lerror in adding cc",
+        "sys_created_on": "2025-02-04 20:27:53",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41394329",
+        "description": "OP - IRIS order not closed\r\nIRIS order shipped, not closed. Order 779643563-1 manually shipped, tracking number 744213832295\r\n\r\nProduct entered by customer: ",
+        "short_description": "OP - IRIS order not closed",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 20:44:29",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41394661",
+        "description": "I'm having issue of getting into Iris it kept tell me to change my password and I do but still not working",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to login",
+        "sys_created_on": "2025-02-04 20:55:40",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41394662",
+        "description": "IRIS keeps freezing & giving errors. Not allowing me to create accnts\r\n\r\nSee attached screenshots that Leslie provided\r\nI closed softphone, latest java is installed along with java settings for IRIS, 421\r\nReset edge to default, cleared java cache, confirmed all java TLS settings are set\r\nEU states she already cleared her cache herself and the issue continues.\r\nI did see in Leslie's ticket history that previously a similar issue was occurring due to the pt having a common first or last name. I asked if the pt/account she was trying to create was a common first or last name, Leslie states it's not\r\nI sent her the IRIS triage questions to escalate this to the IRIS Team\r\n\r\nSummary of the issue:\r\nError(s): \r\nWhat is the business impact due to this issue?: I can't work efficiently. I have to close or force IRIS to restart while I have the member on the line. Sometimes the member doesn't' want to wait & I can't review all the alerts on their account because they are not populating & the member can't wait. Which causes my FCR/metrics to be lower.\r\n \r\nDetailed steps of the issue (Include screenshots, what you are doing in IRIS at the time of the issue, and what responsibility you are using.): IRIS freezes in simple tasks. For example, when I am switching tabs it freezes, if I'm putting the medications on auto refill it freezes. When I click the alerts tab to see dashboard no info is populated, I can't add a phone # the box stays grey, the screen turning black randomly & I have to force IRIS to shut down. Other times I can't create accounts & the names of the members are not common ones- it closes by itself & I have to start all over again.\r\n \r\nWhat is supposed to happen if it was working correctly?: Nothing is supposed to be freeze as often & screens are not supposed to turn black.\r\n \r\nWorkaround (include screenshots): I can provide them when IRIS contacts me\r\n \r\nApprox start time of issue: It's random\r\n \r\nAny other details you feel may be helpful in finding a resolution: Several techs have re-installed IRIS & Genesys but I don't see that has helped. I clear cache/ java when I have problems but I can have the same problem on the next account.",
+        "short_description": "IRIS - freezing and giving errors during account creation",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 20:55:45",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41394750",
+        "description": "I'm not able to access IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - I'm not able to access IRIS",
+        "u_error_symptoms": "Unable to search on Universal member",
+        "sys_created_on": "2025-02-04 20:59:13",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41394878",
+        "description": "My AI loaded notes was working. My computer updated and the AI is not working anymore ",
+        "short_description": "ptumRx Navigator Agent Desktop Tools - Unable to find issue for OptumRx Navigator Agent Desktop Tools",
+        "u_error_symptoms": "AI notes is no longer working after the update on the computer",
+        "sys_created_on": "2025-02-04 21:03:18",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41395188",
+        "description": "Hi,  Please help a docset merged\r\n\r\nImage  Doc ID 1275602484                   Image DocSet ID  7702825394\r\nImage  Doc ID  1275602479                  Image DocSet ID   7702825388\r\nImage  Doc ID    1275602477               Image DocSet ID   7702825387\r\nImage  Doc ID  1275602472                  Image DocSet ID    7702825384\r\nImage  Doc ID   1275602465               Image DocSet ID   7702825381\r\nImage  Doc ID    1275602464              Image DocSet ID  7702825379\r\nImage  Doc ID    1275602466                Image DocSet ID   7702825377\r\nImage  Doc ID    1275602452                Image DocSet ID   7702825376\r\nImage  Doc ID   1275602450                  Image DocSet ID    7702825374\r\n\r\nneed to be changed to  Header DocSetID   7702825393\r\n",
+        "short_description": "DocSet Merged  for Order  779831986",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 21:18:34",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41395339",
+        "description": "INC41394662\r\nIRIS keeps freezing & giving errors. Not allowing me to create accnts\r\n\r\nSee attached screenshots that Leslie provided\r\nI closed softphone, latest java is installed along with java settings for IRIS, 421\r\nReset edge to default, cleared java cache, confirmed all java TLS settings are set\r\nEU states she already cleared her cache herself and the issue continues.\r\nI did see in Leslie's ticket history that previously a similar issue was occurring due to the pt having a common first or last name. I asked if the pt/account she was trying to create was a common first or last name, Leslie states it's not\r\nI sent her the IRIS triage questions to escalate this to the IRIS Team",
+        "short_description": "IRIS - freezing and giving errors during account creation",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 21:21:14",
+        "tags": [
+            [
+                "Latency",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41396751",
+        "description": "Unable to access Deployment Web Console  \r\n    ",
+        "short_description": " Altiris Deployment Server - Error Loading ActiveX Control.",
+        "u_error_symptoms": "Error Loading ActiveX Control.",
+        "sys_created_on": "2025-02-04 22:14:36",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41396840",
+        "description": "i have promsons to IRIS but cant access the program",
+        "short_description": "IRIS - i have promsons to IRIS but cant access the program",
+        "u_error_symptoms": "IRIS - i have promsons to IRIS but cant access the program",
+        "sys_created_on": "2025-02-04 22:19:06",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41397021",
+        "description": "I changed my password logging into Genesys but right now I am logged out it says \"Please verify your login information or contact your administrator\"",
+        "short_description": "IRIS Application - Login Issue",
+        "u_error_symptoms": "Please verify your login information or contact your administrator",
+        "sys_created_on": "2025-02-04 22:27:20",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41397527",
+        "description": "get details on 15_POST_Orderv1_CancelOrders and see if that will work for INC41369572?",
+        "short_description": "15_POST_Orderv1_CancelOrders ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 22:56:56",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41397560",
+        "description": "Account#471572435 has nothing entered in FIRST and LAST name fields. Unable to update with any information and save eBC header. Please update the Party record.\r\n\r\nAccount#471572435 does not have a first and last name causing initial error \r\nmsg to pop up \"Person First or Last Name should not be Blank.\" However, when both fields are \r\nentered and phone number is added in order to save eBC, after selecting \"new\" under account tab in \r\neBC - get stuck in a loop with error message:",
+        "short_description": "EBC Form Issue on Account#471572435",
+        "u_error_symptoms": "account#471572435 has nothing entered in FIRST and LAST name fields. Unable to update with any information and save eBC header",
+        "sys_created_on": "2025-02-04 22:57:53",
+        "tags": [
+            [
+                "User Login",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41397510",
+        "description": "I need access to TS02 environment with following responsibility to create the data that needed for specialty patient portal.\r\n\r\nEmpID: 001342478\r\nMSID: pkodumur\r\nEmail: pradeep.kodumuri@optum.com\r\n\r\nRoles Needed:\r\nINV Super User \r\nAR Manager\r\nOM Super User\r\nSpecialty RCM Front-end",
+        "short_description": "TS02 Access Request.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-04 22:59:52",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41397712",
+        "description": "My IRIS is not working. I received an error message \"exception return to web server ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "Exception Returned by NDURE Web service while calling INTERACTIONS , Error text : 1-1-Parsing error-dispense.dosageInformation.daysSupply",
+        "sys_created_on": "2025-02-04 23:07:42",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41397950",
+        "description": "I need to reset my password for IRIS application",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "I need to reset my password for IRIS application",
+        "sys_created_on": "2025-02-04 23:25:27",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41397988",
+        "description": "Unable to close Iris and was stuck on an error loop",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to close Iris and was stuck on an error loop",
+        "u_error_symptoms": "stuck on an error loop",
+        "sys_created_on": "2025-02-04 23:28:20",
+        "tags": [
+            [
+                "Errors",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41398584",
+        "description": "Need assistance in updating IRIS favorites\r\n\r\nAs we have observed that the IRIS roles need to be mapped to DATA EXCEPTIONS TECHNICIAN on some NUIDs in R70 Automation.\r\nCurrently, its mapped to TECHNICIAN role\r\n\r\nNUIDs:\r\nrpa_hdp_r70_p29\r\nrpa_hdp_r70_p30\r\nrpa_hdp_r70_p31\r\n\r\nThanks!!",
+        "short_description": "Need assistance in updating IRIS favorites",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 00:27:18",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41399140",
+        "description": "my iris is not pulling up",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "my iris is not pulling up",
+        "sys_created_on": "2025-02-05 02:13:30",
+        "tags": [
+            [
+                "Launch Issues",
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41399357",
+        "description": "Unable to login IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "sys_created_on": "2025-02-05 03:06:48",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41399843",
+        "description": "request to provide access for \"OM Inquiry\" to work on incidents",
+        "short_description": "request to provide access for \"OM Inquiry\" to work on incidents",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 05:24:16",
+        "tags": [
+            [
+                "Errors",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41400728",
+        "description": "There's this application which we work on and which is known as Oracle and uh, we are not able to refund.",
+        "short_description": "IRIS (Integrated Rx Information System) - Credit Card On-screen Entry Not Available",
+        "u_error_symptoms": "Credit Card On-screen Entry Not Available",
+        "sys_created_on": "2025-02-05 07:48:43",
+        "tags": [
+            [
+                "Payment",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41400967",
+        "description": "Need to change cloud routing  for testing purposes \r\nTs02-  0%\r\nTS04- 100% ",
+        "short_description": "Change cloud routing ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 08:58:30",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41401309",
+        "description": "Management Node reboot on IRIS Dev PCA to resolve the Platinum patching precheck issue\r\n\r\n 3-39613564231 : mysql backup status showing failed - PCA prepatch step failure\r\n",
+        "short_description": "Management Node reboot on IRIS Dev PCA to resolve the Platinum patching precheck issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 09:45:22",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41401805",
+        "description": "reset the password for NUID for mentioned NUID\r\nrpa_orx_dex7_t2",
+        "short_description": "reset the password for NUID",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 11:02:54",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41402005",
+        "description": "i have issue with image viewer in IRIS\r\nunable to view ",
+        "short_description": "FLW RXS Imaging - Unable to load images or faxes in PAS/IRIS",
+        "u_error_symptoms": "FLW RXS Imaging - Unable to load images or faxes in PAS/IRIS",
+        "sys_created_on": "2025-02-05 11:21:04",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41402213",
+        "description": "2+ days aged orders not closed in wms/iris assing ticket to Orx_PCS_OV_SPT",
+        "short_description": "IRIS (Integrated Rx Information System) - order not closed",
+        "u_error_symptoms": "2+ days aged orders not closed in wms/iris assing ticket to Orx_PCS_OV_SPT",
+        "sys_created_on": "2025-02-05 11:50:22",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41402407",
+        "description": "IRIS LOCKED UP- While trying to add a reprocess pv hold on one line - it placed the hold on the incorrect line 3x - and when speaking w/ rph to remove - rph IRIS locked as well",
+        "short_description": "IRIS : Application got locked on a record",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 12:09:59",
+        "tags": [
+            [
+                "RX locked"
+            ]
+        ]
+    },
+    {
+        "number": "INC41402577",
+        "description": "no work is loaded into our MF system",
+        "short_description": "HDP Growth IBT Camunda Application - no work is loaded into our MF system",
+        "u_error_symptoms": "no work is loaded into our MF system",
+        "sys_created_on": "2025-02-05 12:26:17",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41402779",
+        "description": "SITE 32              \r\n779002098\t\tSA\t1\tTracking#9234690350467932258245\r\n779004202\t        SA\t1      Tracking# 9261290350467916070609\r\n779416652  \t        SA\t1\tTracking# 1ZC6R5140106323824\r\n\r\nProduct entered by customer: ",
+        "short_description": "SA - Orders open in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 12:43:45",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41403846",
+        "description": "Hi Team,\r\n\r\nAs part of DRx Digital BOTs QE Team, we need access to IRIS TS02 Environment in order to create Mail Orders, Account Balances, Prescriptions etc., to validate all our Rx IVR and AI BOTs. Hence, request IRIS Team to provide required access for TS02 as per below request for all our QE Team Members. Please do the needful. Thanks in Advance!\r\n\r\nResource 1\r\nEmployee #\t000681848\r\nMS ID\trmoham8\r\nFull Name\tRinwaz Mohammed\r\nEmail ID\trinwaz_mohammed@optum.com\r\nRoles\tPharmacist, AR Manager, AR Superuser, CAG Maintenance and OM Superuser\r\n\r\nS #\tResource 2\r\nEmployee #\t002047933\r\nMS ID\tgsai16\r\nFull Name\tSai Maruthi Gaddam\r\nEmail ID\tmaruthi_sai@uhc.com\r\nRoles\tPharmacist, AR Manager, AR Superuser, CAG Maintenance and OM Superuser\r\n\r\n\r\nS #\tResource 3\r\nEmployee #\t002266742\r\nMS ID\thkoyyada\r\nFull Name\tHasini Koyyada\r\nEmail ID\thasini_koyyada@optum.com\r\nRoles\tPharmacist, AR Manager, AR Superuser, CAG Maintenance and OM Superuser\r\n\r\nS #\tResource 4\r\nEmployee #\t002280931\r\nMS ID\tpkubendh\r\nFull Name\tKubendhiran P\r\nEmail ID\tp_kubendhiran@optum.com\r\nRoles\tPharmacist, AR Manager, AR Superuser, CAG Maintenance and OM Superuser\r\n\r\nS #\tResource 5\r\nEmployee #\t002263713\r\nMS ID\tdpinchin\r\nFull Name: Divya Pinchingula\r\nEmail ID\tdivya_pinchingula@optum.com\r\nRoles\tPharmacist, AR Manager, AR Superuser, CAG Maintenance and OM Superuser\r\n\r\nS #\tResource 6\r\nEmployee #\t001580515\r\nMS ID\tknair7\r\nFull Name\tKavya Nair\r\nEmail ID:   kavya_nair@optum.com\r\nRoles\tPharmacist, AR Manager, AR Superuser, CAG Maintenance and OM Superuser\n\nProduct entered by customer: IRIS TS02 Environment",
+        "short_description": "IRIS Access toTS02  Environment",
+        "u_error_symptoms": " we need access to IRIS TS02 Environment in order to create Mail Orders, Account Balances, Prescriptions etc",
+        "sys_created_on": "2025-02-05 13:33:47",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41404129",
+        "description": "Information request to find out msids of users in prerx who matched drug to rx 454887500 and rx 456527470. Same issue that Sunil figured out how to find who matched the drug in prerx as INC37254742. route to MSA ORACLE EBS (RXS) \u2013 SPT",
+        "short_description": "IRIS (Integrated Rx Information System)  : Information request to find out msids of users in prerx who matched drug to rx 454887500 and rx 456527470. Same issue that Sunil figured out how to find who matched the drug in prerx as INC37254742. route to",
+        "u_error_symptoms": "Information request to find out msids of users in prerx who matched drug to rx 454887500 and rx 456527470. Same issue that Sunil figured out how to find who matched the drug in prerx as INC37254742. route to MSA ORACLE EBS (RXS) \u2013 SPT",
+        "sys_created_on": "2025-02-05 13:45:21",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41404414",
+        "description": "Umm I am calling because umm Iris is asking me for a new password. I have entered like 10 different ones and all of them are saying error.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-05 13:56:58",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41404854",
+        "description": "having a hard time w/password will not allow to log in",
+        "short_description": "IRIS login issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 14:10:59",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41405256",
+        "description": "requesting to reset password on irish\r\n",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "need to reset password on iris",
+        "sys_created_on": "2025-02-05 14:21:52",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41405470",
+        "description": "I need help resetting my IRIS pw",
+        "short_description": "IRIS - password reset for  IRIS ",
+        "u_error_symptoms": " password reset for  IRIS ",
+        "sys_created_on": "2025-02-05 14:27:31",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41405472",
+        "description": "User is trying to request for Adobe InDesign since last January 27",
+        "short_description": "Symantec Management Agent - Appstore request - Stuck on the \"Installing Process\"",
+        "u_error_symptoms": "Appstore request - Stuck on the \"Installing Process\"",
+        "sys_created_on": "2025-02-05 14:27:36",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41405997",
+        "description": "IRIS password reset. ",
+        "short_description": "IRIS password reset. ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 14:52:49",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41406407",
+        "description": "Image viewer is not opening in TS02 Iris\n\nProduct entered by customer: NON-Prod Iris TS02 environment",
+        "short_description": "Image viewer is not opening in TS02 Iris",
+        "u_error_symptoms": "Image viewer is not opening in TS02 Iris",
+        "sys_created_on": "2025-02-05 14:56:24",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41407899",
+        "description": "Please close the below order as it has tracking movement.\r\n\r\nTracking Number: 1ZC6R5140306366436\r\nOrder Number: 778979886-1\n\nProduct entered by customer: ",
+        "short_description": "SA - Order Open in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 15:40:54",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41408355",
+        "description": "Assign the ticket to @ORx_Dispensing_IT_Support orders \r\n778824545-1 and  \r\n779232611-1 shipped with error-please close",
+        "short_description": "RG - Orders Open in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 15:52:43",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41408356",
+        "description": "Please assign to \"IRIS-Pharmacy Central Non Prod\" ServiceNow Group, in IRIS TS02 environment, unable to add CCG Card through EBC. I have attempted to add a CCG Card with Email, Text, and On-Screen options, but the credit card is not added onto the patient's Accounting OAF Page.\n\nProduct entered by customer: Please assign to \"IRIS-Pharmacy Central Non Prod\" ServiceNow Group",
+        "short_description": " IRIS TS02 environment, unable to add CCG Card through EBC",
+        "u_error_symptoms": " IRIS TS02 environment, unable to add CCG Card through EBC",
+        "sys_created_on": "2025-02-05 15:52:44",
+        "tags": [
+            [
+                "Payment"
+            ]
+        ]
+    },
+    {
+        "number": "INC41408717",
+        "description": "Need Pharmacy Central Access for provided users - Pharmacist and OM lookup maintenance on Non prod- DV05\n\nProduct entered by customer: ",
+        "short_description": "Need Pharmacy Central Access for provided users - Pharmacist and OM lookup maintenance on Non prod- DV05",
+        "u_error_symptoms": "Need Pharmacy Central Access for provided users - Pharmacist and OM lookup maintenance on Non prod- DV05",
+        "sys_created_on": "2025-02-05 16:01:53",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41408733",
+        "description": "System rebooted from a download of Infopath and had trouble getting IRIS and Genesys back up, want to make sure the update didnt affect anything",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 16:02:29",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41408894",
+        "description": "Not able to login to IRIS\r\nable to do a password reset\r\nuser mentioned that she had an access\r\nuser stated that she was using her ms id and password",
+        "short_description": "TX950 - cannot login to IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 16:08:28",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41410011",
+        "description": "IRIS issue REMS orders not falling in RPh queue",
+        "short_description": "IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "IRIS issue REMS orders not falling in RPh queue",
+        "sys_created_on": "2025-02-05 16:36:45",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41410013",
+        "description": "IRIS screen turned black, lost signal, dropped calls ",
+        "short_description": "IRIS screen turned black, lost signal, dropped calls",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 16:36:47",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41410359",
+        "description": "CH ORDERS NOT CLOSED IN IRIS\n\nProduct entered by customer: PCS, WMS, IRIS",
+        "short_description": "CH -ORDERS NOT CLOSED IN IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 16:46:09",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41410581",
+        "description": "CH ORDERS NOT CLOSED IN IRIS\n\nProduct entered by customer: IRIS, PCS, WMS",
+        "short_description": "CH -ORDERS NOT CLOSED IN IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 16:53:09",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41410625",
+        "description": "reset iris password",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-05 16:54:06",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41411254",
+        "description": "INC NUMBER ONLY. IRIS was not allowing me to create accounts after multiple attempts to restart the program. Restarted system and cleared cache.\n\nProduct entered by customer: ",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 17:12:21",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41411502",
+        "description": "Thanks. I need access to the IRIS stage and dev testing environments.",
+        "short_description": "IRIS  -  Need access ",
+        "u_error_symptoms": "Need access",
+        "sys_created_on": "2025-02-05 17:19:28",
+        "tags": [
+            [
+                "User Login",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41411875",
+        "description": "Please clear the HASH value for INCORRECT account -  #411174049\r\n\r\nCORRECT account #474887391",
+        "short_description": "Need HASH value cleared for ERx attached to wrong patient",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 17:31:45",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41412026",
+        "description": "Please clear the HASH value for INCORRECT account -  #473662522\r\n\r\nCORRECT account #474888135",
+        "short_description": "Need HASH value cleared for ERx attached to wrong patient",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 17:39:25",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41412363",
+        "description": "After an IT Specialist fixed my Genesys softphone I began to have an issue where the font of all my applications looks blurry. ",
+        "short_description": "Selected Issue: Other",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 17:47:28",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41412513",
+        "description": "Requesting for research to be done to see if there is a possible break. When an order is canceled the credit that was being applied to the order as \"Credit as Order Payment\" is not being released back once the order is cancelled. The credit is still showing as applied with a Receipt Write Off \"Credit as Order Payment\" and does not allow the member to use the credit for future orders.\r\nHere are a couple receipt numbers:\r\n \r\n211406274-4835\r\n219812721-79\r\n227935780-4614\r\n207192290-7129\r\n227559633-8402\r\n\r\nand here are the corresponding order #s\r\n  \r\n774101602\r\n776114947\r\n779018506\r\n779096161\r\n779170379\r\n",
+        "short_description": "Credit as Order Payment\" is not being released back once the order is cancelled",
+        "u_error_symptoms": "Requesting for research to be done to see if there is a possible break.",
+        "sys_created_on": "2025-02-05 17:53:00",
+        "tags": [
+            [
+                "Order Issue",
+                "Payment"
+            ]
+        ]
+    },
+    {
+        "number": "INC41412731",
+        "description": "When accessing Address/Phone tab - Update address Tab in EBC IRIS TS02, not able to make update/edit\n\nProduct entered by customer: update address",
+        "short_description": "IRIS (Integrated Rx Information System) - Update address Tab in EBC IRIS TS02, not able to make update/edit",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 17:59:45",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41413486",
+        "description": "need rx 448059836 unlocked",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "Need rx 448059836 unlocked",
+        "sys_created_on": "2025-02-05 18:24:05",
+        "tags": [
+            [
+                "RX locked"
+            ]
+        ]
+    },
+    {
+        "number": "INC41413771",
+        "description": "Iris kicked me out and/or freezes while on calls. Blue circle spinning for long periods of time",
+        "short_description": "IRIS Freezing",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 18:34:16",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41413899",
+        "description": "need hash clear for account 445857947 had info for previously non optum patient on account please route to msa oracle spt",
+        "short_description": "IRIS - Clear Hash on Account",
+        "u_error_symptoms": "need hash clear for account 445857947 had info for previously non optum patient on account please route to msa oracle spt",
+        "sys_created_on": "2025-02-05 18:38:26",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41414137",
+        "description": "i want Access for IRIS in TS02 Environment",
+        "short_description": "IRIS (Integrated Rx Information System) - Ri want Access for IRIS in TS02 Environment",
+        "u_error_symptoms": "Request or Update Access to IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-05 18:45:25",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41414652",
+        "description": "Please assign to \"IRIS-Pharmacy Central Non Prod\" ServiceNow Group-MSA ORACLE EBS (RXS) - SPT -  -- In PVSingle stage even after a successful rx unlock call(rxNumber 406809900) for of given procedure(procedureName:). rx still remains locked. while procedure response output is also empty. So, we have no idea what happened on the other side. and why rx is still locked. --",
+        "short_description": "Order Lock issues from Pharmacy Central ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 19:02:34",
+        "tags": [
+            [
+                "Latency",
+                "RX locked"
+            ]
+        ]
+    },
+    {
+        "number": "INC41414666",
+        "description": "iris freezing a lot take long to finish my calls\n",
+        "short_description": "IRIS - iris freezing a lot.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 19:03:00",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41414728",
+        "description": "Agent returned from LOA. Secure request was sent to add access to IRIS, however, he still can't log in.",
+        "short_description": "(OBO) - Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 19:04:54",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41414759",
+        "description": "shipped order with error",
+        "short_description": "IRIS (Integrated Rx Information System) - shipped order with error",
+        "u_error_symptoms": "shipped order with error",
+        "sys_created_on": "2025-02-05 19:06:07",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41414963",
+        "description": "I want to confirm the IRIS logic for rounding up pricing of medications. We essentially were wondering if IRIS does any rounding of copay prices for patients at all. An example of this live is like with the OTC medication, Vitamin B-12. If you open the pricing information of this medication it has the Unit Price in our system as $0.0608 and when you go to a patient with it, you can see the price for 30 tablets in a typical package is $1.83 where if you actually multiply $0.0608 by 30 you get $1.824.    There seems to be times where slight rounding occur so we wanted to confirm if IRIS does any rounding and if so, what are the circumstances for it.",
+        "short_description": "I want to confirm the IRIS logic for rounding up pricing of medications. ",
+        "u_error_symptoms": "There seems to be times where slight rounding occur so we wanted to confirm if IRIS does any rounding and if so, what are the circumstances for it.",
+        "sys_created_on": "2025-02-05 19:13:23",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41415140",
+        "description": "Blue wheel keeps spinning when trying to update acct. force closed app & restarted, still happening",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 19:18:48",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41415338",
+        "description": "none of my procedure document are working keep getting error message ",
+        "short_description": "Selected Issue: Advocate Central",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 19:25:02",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41415483",
+        "description": "cannot log in",
+        "short_description": "Selected Issue: IRIS - cannot log in",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 19:29:20",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41416470",
+        "description": "IRIS unable to login ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": " Unable to Login",
+        "sys_created_on": "2025-02-05 20:01:05",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41416630",
+        "description": "login error saying contact admin",
+        "short_description": "Selected Issue: IRIS: NO RESPONSE",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 20:06:12",
+        "tags": [
+            [
+                "Latency",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41416534",
+        "description": "Can you please grant role - 'INFOADM_ORA_ROLE_NONPROD' for User \"Infoadm_ora\" for IRIS RXETS03 tables. Attached list. Please make sure it is granted for all schemas mentioned in the list? \r\n\r\nFYI- User \"Infoadm_ora\" already has this role in other non-prod DBS like RXETS01\r\n\r\n\r\n .",
+        "short_description": "Grant role - 'INFOADM_ORA_ROLE_NONPROD' for User \"Infoadm_ora\" for IRIS RXETS03 tables.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 20:08:13",
+        "tags": [
+            [
+                "Errors",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41416778",
+        "description": "was told to call IT.  Having an issue with IRIS.  go patients account, not allowing to do manually but automatically, Charges the patients credit card automatically.  patient is not eligible for the program reason why the patient is being automatically.  ",
+        "short_description": "IRIS -  Prescription /order issue - Unable to disenroll rx from SMF",
+        "u_error_symptoms": "patient is not eligible. ",
+        "sys_created_on": "2025-02-05 20:10:55",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41417153",
+        "description": "I am experiencing issue with both Advocate Central and Iris ",
+        "short_description": "Selected Issue: both Advocate Central and Iris ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 20:23:23",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41417337",
+        "description": "I am unable to log in to IRIS. I am being prompted to change my password but every time I try it I get a system error. I am unable to change it or log in with my old one",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 20:29:20",
+        "tags": [
+            [
+                "Password",
+                "User Login",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41417542",
+        "description": "I am trying to the password reset for IRIS",
+        "short_description": "IRIS - pw reset ",
+        "u_error_symptoms": "pw reset ",
+        "sys_created_on": "2025-02-05 20:35:37",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41418048",
+        "description": "OP - IRIS orders not closed\r\nClose out orders in iris 776743945-2 Tracking: 1ZC6R4820301019551  775454840-1 Tracking: Create Tracking  776997357-1 Tracking: Create Tracking  777355589-1 Tracking: Create Tracking  776868283-2 Tracking: Create Tracking  776862679-2 Tracking: Create Tracking  775644210-1 Tracking: Create Tracking  777788484-1 Tracking: Create Tracking  778202948-1 Tracking: Create Tracking",
+        "short_description": "OP - IRIS orders not closed",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 20:52:31",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41418501",
+        "description": "need hash clears for iris accounts 93759480 and 455246370 per sup request route to msa oracle spt",
+        "short_description": "IRIS - Clear Hash on Account",
+        "u_error_symptoms": "need hash clears for iris accounts 93759480 and 455246370 per sup request route to msa oracle spt",
+        "sys_created_on": "2025-02-05 21:07:29",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41418611",
+        "description": "need rx 456886898 unlocked route to msa oracle spt",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 21:11:37",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41418620",
+        "description": "IRIS unable login ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-05 21:11:51",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41418875",
+        "description": "My MS ID I reset it however when I tried to login it would not let me login",
+        "short_description": "FLW ||  IRIS - unable to login",
+        "u_error_symptoms": "unable to login",
+        "sys_created_on": "2025-02-05 21:20:13",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41419278",
+        "description": "I am trying to login to my IRIS production and I forgot my password",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login to account",
+        "u_error_symptoms": "Unable to login to IRIS",
+        "sys_created_on": "2025-02-05 21:35:33",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41419326",
+        "description": "Hi, Please  release  CANCEL REQUEST HOLD order 779999494  in cancelled status",
+        "short_description": "release  CANCEL REQUEST HOLD order 779999494",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 21:39:53",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41419568",
+        "description": "When in IRIS TS02, having latency issue.\n\nProduct entered by customer: Latency in TS02",
+        "short_description": "IRIS (Integrated Rx Information System) - When in IRIS TS02, having latency issue.",
+        "u_error_symptoms": "When in IRIS TS02, having latency issue.",
+        "sys_created_on": "2025-02-05 21:47:45",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41419584",
+        "description": "I need to reset my IRIS TS02 access\r\n\r\nResponsibilities: AR Interface Processor, AR Manager, AR Supervisor, CAG Maintenance, INV Super User, OM Super User, ORx CS Navigator Rep, Pharmacist, Receivables Manager, Specialty RCV Front End\n\nProduct entered by customer: IRIS TS02",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 21:48:17",
+        "tags": [
+            [
+                "User Login",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41419726",
+        "description": "I want to reset my IRIS password.",
+        "short_description": "IRIS - Password reset",
+        "u_error_symptoms": "Unable to access",
+        "sys_created_on": "2025-02-05 21:54:53",
+        "tags": [
+            [
+                "Launch Issues",
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41419794",
+        "description": "unable to login to Iris",
+        "short_description": "IRIS-  Unable to Login",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 21:57:25",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41419964",
+        "description": "IRIS is not allowing me to use the Universal Search Memeber feature",
+        "short_description": "IRIS (Integrated Rx Information System) - unable to use Universal Search Member feature",
+        "u_error_symptoms": "unable to use Universal Search Member feature",
+        "sys_created_on": "2025-02-05 22:05:03",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41420158",
+        "description": "iris freezing up / restarting system, issue resolved just need ticket number to report. do not need to be contacted ",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 22:14:47",
+        "tags": [
+            [
+                "Latency",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41420217",
+        "description": "need to raise access for IRIS TS02",
+        "short_description": "IRIS - need to raise access for IRIS TS02",
+        "u_error_symptoms": "Information not provided at time of submission\r\n",
+        "sys_created_on": "2025-02-05 22:17:48",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41420275",
+        "description": "\uf0a7\t\u201cPlease assign to IRIS-Pharmacy Central Non Prod\u201d\r\nUnable to send a newRx request as an eRx request - error message - 900 - Transaction rejected - do not retry (  900 - )\n\nProduct entered by customer: \uf0a7\t\u201cPlease assign to IRIS-Pharmacy Central Non Prod\u201d\r\nNON-PROD Iris environment TS02 - SureScripts Testing environment",
+        "short_description": "IRIS - Unable to send a newRx request",
+        "u_error_symptoms": "Unable to send a newRx request",
+        "sys_created_on": "2025-02-05 22:20:08",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41420387",
+        "description": "Could someone please assign this tracking for this OSP order? 776560900-2 SHIPPING VIA UPS NDA WITH TRACKING 1ZC6J2660100358802",
+        "short_description": "IRIS   - Tracking Issues  ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-05 22:25:27",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41420762",
+        "description": "Assign ticket to ORX PCS IT - SP\r\nplease close in IRIS\r\n\r\n774497057-1\r\n776437063-1\r\n776684282-1\r\n776834066-1\r\n777226350-2\n\nProduct entered by customer: ",
+        "short_description": "ORX PCS - close in IRIS",
+        "u_error_symptoms": " close in IRIS",
+        "sys_created_on": "2025-02-05 22:43:36",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41422616",
+        "description": "Incident has been created as below files are not moved from respective paths for mentioned hours from Azure. FileName : CEP2_DNC_20250205.txt.camelLock, FilePath : /mnt/cep2azure/CEP_AZURE_SOURCE_DATA/PRD/WIP/CEP2_FL_IRIS_DONT_CALL_AND_EMAIL_AZ_0.1/CEP2_DNC_20250205.txt.camelLock, Hours : 6.  FileName : CEP2_DNE_20250205.txt, FilePath : /mnt/cep2azure/CEP_AZURE_SOURCE_DATA/PRD/WIP/CEP2_FL_IRIS_DONT_CALL_AND_EMAIL_AZ_0.1/CEP2_DNE_20250205.txt, Hours : 6.  Kindly check the file activity",
+        "short_description": "File Not moving in Azure :: WIP/CEP2_FL_IRIS_DONT_CALL_AND_EMAIL_AZ_0.1",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 02:00:04",
+        "tags": [
+            [
+                "User Request",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41424330",
+        "description": "Need aceess for IRIS TS02",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 08:44:48",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41425264",
+        "description": "Need an access of IRIS TS02 environment",
+        "short_description": "IRIS (Integrated Rx Information System) - Need an access of IRIS TS02 environment",
+        "u_error_symptoms": "Need an access of IRIS TS02 environment",
+        "sys_created_on": "2025-02-06 11:21:37",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41425716",
+        "description": "Erx records are stuck in phase 7 - ts09 ",
+        "short_description": "Erx records are stuck in phase 7 - ts09 ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 12:27:01",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41426313",
+        "description": "2+ days aged orders need to be cleared in WMS and Iris send orders to ORx_Dispensing_IT_Support <OptumRx_Dispensing_IT_Support_DL@ds.uhc.com>778145209 774064185 774064185 778737152 778932178 779383071",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "2+ days aged orders need to be cleared in WMS and Iris send orders to ORx_Dispensing_IT_Support ",
+        "sys_created_on": "2025-02-06 13:09:23",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41426331",
+        "description": "Iris wont open up ",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 13:10:21",
+        "tags": [
+            [
+                "Launch Issues",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41426369",
+        "description": "CH Orders Not Closed In IRIS\n\nProduct entered by customer: IRIS",
+        "short_description": "CH -  Orders Not Closed In IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 13:12:09",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41426505",
+        "description": "login error",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 13:18:29",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41426897",
+        "description": "My IRIS is froze - I can't do anything with it",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Not responding",
+        "u_error_symptoms": "Not responding",
+        "sys_created_on": "2025-02-06 13:34:28",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41427520",
+        "description": "In OPEx-Specialty a work item was submitted two times. The user received a successful message both times but it remained on the 'Current Tasks' tab and did not save to the 'Program History' tab. This ticket should be routed to Assignment Group: Optum Therapy Management Platform APP",
+        "short_description": "IRIS (Integrated Rx Information System) -In OPEx-Specialty a work item was submitted two times. ",
+        "u_error_symptoms": "In OPEx-Specialty a work item was submitted two times. The user received a successful message both times but it remained on the 'Current Tasks' tab and did not save to the 'Program History' tab. This ticket should be routed to Assignment Group: Optum Therapy Management Platform APP",
+        "sys_created_on": "2025-02-06 13:54:14",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41427971",
+        "description": "Iris Password reset",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 14:07:47",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41428114",
+        "description": "IRIS skill set table is allowing already pved/ineligible orders to pair to queues in PC and IRIS. See attachments.  Note per PC and workbench team, this is an issue with the iris skill set table and not air specifically so please do not route to air team. Please route to SOS- Systems Operations Solutions (ORx)",
+        "short_description": "IRIS skill set table is allowing already pved/ineligible orders to pair to queues in PC and IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 14:11:36",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41428687",
+        "description": "please run attached file through capital rx concurrent program ",
+        "short_description": "Capital RX concurrent run ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 14:34:16",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41429001",
+        "description": "Need a new role created that mirrors role OM Inquiry but it needs to be a read only role.  this has been approved my Christine ",
+        "short_description": "IRIS Front-End Read-Only access for onshore team ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 14:38:41",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41429323",
+        "description": "please run the capital rx suffix data fix ",
+        "short_description": "Capital  rx suffix Data fix ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 14:49:16",
         "tags": [
             [
                 "Data Fix"
@@ -94,42 +3418,4384 @@ data = {
         ]
     },
     {
-        "in_id": "INC41363703",
-        "description": "IRIS not responding, crashing",
-        "action": "My supervisor told me to call because my iris is being weird. I guess like reboot it every other 3 calls as far as like spinning or it loads for like the longest time and then there's an error message and I have to close out with task manager to get it to come back up and do that a couple of times this week so don't need to call.",
-        "open_time": "2025-02-03T17:24:55.000Z",
+        "number": "INC41429519",
+        "description": "ORX PCS SA -SPT\r\n\r\nProduct entered by customer: \r\nOrder number: 779002098-1\r\nTracking number: 9234690350467932258245",
+        "short_description": "SA - Orders Open in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 14:53:26",
         "tags": [
             [
-                "General Error"
+                "Order Issue"
             ]
         ]
     },
     {
-        "in_id": "INC41351833",
+        "number": "INC41429686",
+        "description": "I am not able to pull up the formulary in the Pharmacy Portal. I get an error saying \"something is wrong\".Note: As per Sup. a ticket needs to be assigned to the workgroup ORX Pharmacy Help Desk \u2013 SPTORX PHARMACY HELP DESK - SPT",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 14:59:15",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41430156",
+        "description": "Yes, I can't get into my Citrix and also I can't get into my Iris, but they've activated it.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-06 15:11:46",
+        "tags": [
+            [
+                "User Login",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41430448",
+        "description": "i cant log in to my iris",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Validate your credentials\r\n",
+        "sys_created_on": "2025-02-06 15:20:03",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41431230",
+        "description": "Please update the member name in IRIS . As per Rxclaim and MDM the member name does not have teh Jr as suffix \r\n\r\nmember id : 001068182\r\nPatient id:  130175871 \r\nFirst name: DAVID\r\nLast name : ESPINOSA\r\n\r\nAlso please review teh member details and make sure no duplicate patient id nor there is any coverage issues for this member \r\n",
+        "short_description": "Update IRIS record ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 15:48:04",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41431685",
+        "description": " Advocate Central issue with duplicating accounts. Cathy states this keeps happening to her. It looks to duplicate members info whenever she switches over to IRIS and back in adv central and will swipe off all her notes",
+        "short_description": "PCS: Advocate Central issue with duplicating accounts. Cathy states this keeps happening to her. It looks to duplicate members info whenever she switches over to IRIS and back in adv central and will swipe off all her notes",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 15:56:40",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41431773",
+        "description": "I was calling because I'm having issues with my Iris for some reason umm, it's been going on a couple of days now. It's either when I log in, it either gives me like weird like screen that pops up or like sometimes it pauses and freezes or it just doesn't. You can't like copy and paste or anything like that. It gives you like all these weird messages about the connection and everything like that. So I'm not sure what's going on with it. My supervisor told me to reach out to IT to see if I can assist.",
+        "short_description": "IRIS (Integrated Rx Information System) - slowness/not responding",
+        "u_error_symptoms": "slowness/not responding",
+        "sys_created_on": "2025-02-06 15:59:16",
+        "tags": [
+            [
+                "Latency",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41432449",
+        "description": "Advocate Central issue with duplicating accounts. Cathy states this keeps happening to her. It looks to duplicate members info whenever she switches over to IRIS and back in adv central and will swipe off all her notes",
+        "short_description": "(OBO) - Selected Issue: Other - Advocate Central issue with duplicating accounts. Cathy states this keeps happening to her. It looks to duplicate members info whenever she switches over to IRIS and back in adv central and will swipe off all her notes",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 16:17:53",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41433629",
+        "description": "launch issues",
+        "short_description": "IRIS (Integrated Rx Information System) - launch issues",
+        "u_error_symptoms": "launch issues",
+        "sys_created_on": "2025-02-06 16:51:56",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41433880",
+        "description": "I need order #778876752-1 closed out in IRIS.  This order shipped. Please assign to @ORx_Dispensing_IT_Support.\r\n776014908-1",
+        "short_description": "RG - Orders Open in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 16:59:07",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41434208",
+        "description": "Need to verify the status of the API from IRIS to SFMC for alert 26 and alert 27 emails.. SFMC is stating they have no record of receiving the payloads",
+        "short_description": "Need to verify the status of the API from IRIS to SFMC for alert 26 and alert 27 email",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 17:09:15",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41434233",
+        "description": "Having a diff issue with each acct but tabs im clicking have been delayed,Freezes when in Sp info tab & last account accessed i was unable to create a delset note.Issues are resolved in the acct after i force close in task manager & relaunch.Then another issue & delays occur shortly after",
+        "short_description": "IRIS/VPN dropped",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 17:09:55",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41434190",
+        "description": "computer did an update. \r\ncannot login to the advocate central and asking for PIN\r\n\r\n",
+        "short_description": "TX950 - advocate central: Cannot login and asking for pin",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 17:11:36",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41434754",
+        "description": "Assign the ticket to @ORx_Dispensing_IT_Support: order 778572104-1 shipped but did not close-please close in system",
+        "short_description": "RG - Orders Open in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 17:25:23",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41435446",
+        "description": "CA950-Unable to login to iris",
+        "short_description": "CA950-Unable to login to iris",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 17:48:37",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41435628",
+        "description": "msid hhoang is still getting kicked out of iris image viewer multiple times a day. See previous tickets INC40720871 INC36864225, INC33510057 route to TS DS IMG (RXS) - SPT and assign to BULAGAKULA SRIHARI who had worked on the previous ticket on this issue for user.",
+        "short_description": "Windows - Frequent locked out",
+        "u_error_symptoms": "msid hhoang is still getting kicked out of iris image viewer multiple times a day. See previous tickets INC40720871 INC36864225, INC33510057 route to TS DS IMG (RXS) - SPT and assign to BULAGAKULA SRIHARI who had worked on the previous ticket on this issue for user.",
+        "sys_created_on": "2025-02-06 17:54:22",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41435639",
+        "description": "Personal Communications 15.0.2.0 Install (REBOOT) *WARN*   -- An existing connection was forcibly closed by the remote host. ",
+        "short_description": "Personal Communications 15.0.2.0 Install (REBOOT) *WARN*   -- An existing connection was forcibly closed by the remote host. ",
+        "u_error_symptoms": "An existing connection was forcibly closed by the remote host. ",
+        "sys_created_on": "2025-02-06 18:01:49",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41436087",
+        "description": "I need to reset the password for my iris account.",
+        "short_description": "IRIS (Integrated Rx Information System) - needs to reset the password for IRIS account",
+        "u_error_symptoms": "needs to reset the password for IRIS account",
+        "sys_created_on": "2025-02-06 18:10:17",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41436140",
+        "description": "We're returning back on using the IRIS app, and we set to get the reset, but we did not hear anything for the password or the reset. They already process the access request, but I did not get any email or information about it.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to login IRIS",
+        "sys_created_on": "2025-02-06 18:12:13",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41436382",
+        "description": "doc id 1274005861 doc set id 6595983930 doc id 1274005744 doc set id 6581127860 doc id 1274005924 doc set id 6509839410 doc id 1274004100 doc set id 6569149840 doc id 1274004228 doc set id 6520470060 merge to doc set id 6518574860",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 18:21:08",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41436854",
+        "description": "Gen and Iris being slow and loosing connection Iris keeps freezing on me and gen keeps having issues",
+        "short_description": "Genesys Workspace (WWE) - Gen and Iris being slow and loosing connection Iris keeps freezing on me and gen keeps having issues",
+        "u_error_symptoms": "Gen and Iris being slow and loosing connection Iris keeps freezing on me and gen keeps having issues",
+        "sys_created_on": "2025-02-06 18:37:39",
+        "tags": [
+            [
+                "Latency",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41437109",
+        "description": "unlock rx 457207037 and order 780176144",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 18:48:12",
+        "tags": [
+            [
+                "RX locked"
+            ]
+        ]
+    },
+    {
+        "number": "INC41437131",
+        "description": "Iris is non responsive",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 18:48:54",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41437282",
+        "description": "IRIS SYSTEM NOT STARTING UP...SPINNING.",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "Launch Issues",
+        "sys_created_on": "2025-02-06 18:54:30",
+        "tags": [
+            [
+                "Launch Issues",
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41437675",
+        "description": "OP - iIRIS order not closed. Order number 779853811-2 and tracking # 744215761718\r\n\r\nProduct entered by customer: ",
+        "short_description": "OP - IRIS order not closed",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 19:08:21",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41437908",
+        "description": "IRIS asking to change password, and not letting change my password ",
+        "short_description": "FLW IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to login",
+        "sys_created_on": "2025-02-06 19:16:20",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41438082",
+        "description": "cannot log in to the IRIS App",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "log in failed contact administrator",
+        "sys_created_on": "2025-02-06 19:22:03",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41438617",
+        "description": "I can't login to my IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "user already reset the password but it didn't work",
+        "sys_created_on": "2025-02-06 19:41:48",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41438951",
+        "description": "need username and new password to access iris",
+        "short_description": "IRIS (Integrated Rx Information System) - unable to login",
+        "u_error_symptoms": "unable to login",
+        "sys_created_on": "2025-02-06 19:56:05",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41439788",
+        "description": "IRIS System Administrators please kill all sessions for rx# 456786919 or# 778901136\r\n\r\nAssign to Rebecca Lever MSA ORACLE EBS (RXS) \u2013 SPT\n\nProduct entered by customer: ",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 20:26:30",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41439998",
+        "description": "Hi, Please  help a docset merged\r\nImage  Doc ID    1277154722                 Image DocSet ID   7703388467\r\nImage  Doc ID    1277154724            Image DocSet ID    7703388466\r\nImage  Doc ID    1277154730                 Image DocSet ID     7703388463\r\nImage  Doc ID  1277154716           Image DocSet ID    7703388464\r\nImage  Doc ID    1277154719              Image DocSet ID   7703388465\r\nImage  Doc ID  1277154718                  Image DocSet ID    7703388461\r\nImage  Doc ID  1277154732                   Image DocSet ID    7703388462\r\nneed to be changed to  Header DocSetID    7703388468",
+        "short_description": "DocSet Merged  for Order   780542832",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 20:38:34",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41440114",
+        "description": "there is a few orders stuck in camunda. please assign it to group-HDP-GROWTH-IBT-CAMUNDA-SPT",
+        "short_description": "there is a few orders stuck in camunda. please assign it to group-HDP-GROWTH-IBT-CAMUNDA-SPT",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 20:39:46",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41440461",
+        "description": "I'm trying to login to my Iris, when I typed it in it's not doing anything",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to login",
+        "u_error_symptoms": "Unable to login to Iris",
+        "sys_created_on": "2025-02-06 20:52:08",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41440806",
+        "description": "Opening this ticket as requested on the IRIS bridge. I am looking to have way to see when any IRIS billing / adjudication returns the Approved Message Code of '056' and to have insight into whether a 'LikelytoBenefit' document type was sent down in the DOMs payload. \r\n\r\nThis will allow for us to monitor and check out a production defect after the 02/06 IRIS release.\r\n\r\n",
+        "short_description": "Needing a report for when adjudication brings back Approved Message Code 056 and there is a LikelytoBenefit PicktoLight document type",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 21:09:03",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41441445",
+        "description": "locked",
+        "short_description": "Rx is locked",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 21:31:37",
+        "tags": [
+            [
+                "RX locked"
+            ]
+        ]
+    },
+    {
+        "number": "INC41441643",
+        "description": "why are the tables xxiris_doms_new_order and xxiris_doms_msg_documents not being populated in IRIS Production",
+        "short_description": "DOMS Staging tables are not being populated in IRIS Production",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 21:39:13",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41442445",
+        "description": "IRISADMIN possibly booked eRx for incorrect patient?",
+        "short_description": "IRIS (Integrated Rx Information System) - IRISADMIN possibly booked eRx for incorrect patient",
+        "u_error_symptoms": "IRISADMIN possibly booked eRx for incorrect patient?",
+        "sys_created_on": "2025-02-06 22:14:16",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41442574",
+        "description": "unlock rx 454634689",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 22:21:42",
+        "tags": [
+            [
+                "RX locked"
+            ]
+        ]
+    },
+    {
+        "number": "INC41442792",
+        "description": "A report of for the 455 RX numbers showing the Date Discontinued and Date Last Filled fields in IRIS.\r\nAlso Indicate if the last filled date was after the DC Date.\r\n",
+        "short_description": "Need a Report for the Attached List of Rx Numbers",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 22:33:11",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41443493",
+        "description": "See attached document of users",
+        "short_description": " IRIS TS02 Access",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 23:18:33",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41443559",
+        "description": "The following orders wont pick release\r\n\r\n773351410 - Closed\r\n775188555\r\n\r\nAssign to Rebecca Lever\r\n\r\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "The following orders wont pick release\r\n\r\n773351410\r\n775188555",
+        "sys_created_on": "2025-02-06 23:25:12",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41443673",
+        "description": "Cayman_Application_Critical_Alert_Prod\r\nEvery in the cayman alert, we are receiving the below failures for pv-rx-hitory-v1.0 .\r\nTriaging whether they really fall under 500 category or other category. \r\n\r\n\t\tRequest processing failed: java.lang.NullPointerException: Cannot invoke \"orx.iris.util.event.Event.setData(java.util.Map)\" because \"event\" is null\r\n\t\tRequest processing failed: java.lang.NullPointerException",
+        "short_description": "Prod Cayman : pv-rx-history-v1.0  : 500 failures",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-06 23:38:09",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41444312",
+        "description": "Member is trying to access online account thru the website and in the app but is not able to, I recommended to send a ticket so this can b e resolved.\n\nProduct entered by customer: ",
+        "short_description": "Optum Rx BAT Audit Automation - General Information and Troubleshooting",
+        "u_error_symptoms": "Member is trying to access online account thru the website and in the app but is not able to, I recommended to send a ticket so this can b e resolved.\r\n\r\nProduct entered by customer: ",
+        "sys_created_on": "2025-02-07 00:46:05",
+        "tags": [
+            [
+                "User Login",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41444324",
+        "description": "Please assign to the Lower Environment Issue Escalation team. I am requesting access to TS01 and TS04 for testing purposes of Rx automations. See attached file for user info.",
+        "short_description": "TS01 and TS04 Access request",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 00:47:49",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41445094",
+        "description": "Saxena, Sushil\r\n12:52 PM\r\n\r\nHi Team\r\n \r\nI need splunk for iris-member-communication-alerts-outbound-v1.0 for pip consent\r\n\r\nhttps://phi-splunk.optum.com/en-US/app/search/search?earliest=1736402400&latest=1736575200&q=search%20pollysnookie191%40yahoo.com&display.page.search.mode=smart&dispatch.sample_ratio=1&sid=1738946915.823327_24A40D22-CF4F-4523-BA98-F0E184EFA417 \r\n\r\n",
+        "short_description": "splunk for iris-member-communication-alerts-outbound-v1.0 for pip consent",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 03:19:15",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41445547",
+        "description": "IRIS outage: INTEGRATED Rx INFORMATION SYSTEM - Outage Notification - Friday 2/7/2025 01:00am CT - Friday 2/7/2025 5:00am CT\r\nWhen it is happening:\r\nIRIS is scheduled to have outage as per below details (for your reference  CHG2600983)\r\nBegin Date 2/7/2025\r\n\t\r\nBegin Time 01:00 AM CT\r\n\t\r\nEnd Date 2/7/2025\r\n\t\r\nEnd Time 5:00 AM CT\r\n\t\r\nDuration 4hours\r\n\r\nWhat is the impact: During these 4 hours application will not be available for the bots to process the inventory.\r\n\r\nAction taken by Support team:\r\nSupport Ops team will pause the above automations prior to 1:00 AM CT on 2/7/2025.\r\nSupport Ops team will resume the above automations after 5:00 AM CT on 2/7/2025.\r\n \r\nList of automations: (Would be paused during the IRIS downtime)\r\n\r\nORX COGNITIVE MRD HOLD RELEASE AUTOMATION\r\nORX DEX 7X\r\nORX HDP COGNITIVE ANALYTICS AIT AUTOMATION\r\nORX HDP COGNITIVE FINAL FAX AUTOMATION\r\nORX HDP COGNITIVE FORMULARY SELECTION\r\nORX HDP COGNITIVE RESENDS AUTOMATION\r\nORX HDP COGNITIVE STATE REGULATION AUTOMATION\r\nORX HDP ELIGIBILITY CHECK AND PLAN TERMINATION\r\nORX HDP ELIGIBILITY CHECK AUTOMATION\r\nORX HDP FAX FAIL\r\nORX HDP FIRST FILL HOLD\r\nORX HDP INBOUND RX TRANSFER\r\nORX HDP OOS Proactive Outreach\r\nORX HDP ORDER VALIDATION\r\nORX HDP ORPHAN PSC CANCELLATION\r\nORX HDP PA REJECT 75\r\nORX HDP PATIENT ID_2024\r\nORX HDP Prescriber ID\r\nORX HDP REALTIME PA UPDATES\r\nORX HDP REJECT CODE 70\r\nORX HDP REJECT CODE 76\r\nORX HDP REPROCESS PV HOLD\r\nORX HDP RETURN ASSIST\r\nORX HDP SPH M3P PLAN AUTOMATION\r\nORX HDP SUCCESS FILE PROCESSING\r\nORX HDP TRANSFER ASSIST\r\nORX HPC FINAL FAX\r\nORX SPH COGNITIVE MRD HOLD RELEASE\r\nORX SPH ELIGIBILITY CHECK SPECIALTY RX\r\nORX SPH LCA AUTOMATION\r\nORX SPH PRICE CHECK FAILURE AUTOMATION\r\nORX SPH PRIOR AUTHORIZATION\r\nORX SPH SPECIALTY CMP DIALER\r\nORX SPH SPECIALTY DATA CHECK VALIDATION\r\nORX SPH SPECIALTY DATE OF SERVICE\r\nORX SPH SPECIALTY HUB REFERRAL\r\nORX SPH SPECIALTY MBI (NEW ORDER)\r\nORX SPH SPECIALTY MBI (REORDER)\r\nORX SPH SPECIALTY PA DISPOSITION\r\nORX SPH SPECIALTY REAL TIME CMM AND PA\r\nORX SPH SPECIALTY REFILL TOO SOON AND DUR88 REJECT\r\nORX SPH SPECIALTY REJECT 76\r\nORX SPH SPECIALTY SALES PA HOLD\r\nORX SPH SPECIALTY SALES SELECT PA AUTOMATION\r\nORX SPH SPECIALTY WEB REFILL ORDER SETUP\r\nORX SPH FAX RESEND SPECIALTY\r\nEAA-ORX-HDP-CarrierReturns\r\nEAA-ORX-SPH-PSSC-Dialer-Documentation\r\nEAA-ORX-SPH-Duration Consent Notes\r\n",
+        "short_description": "IRIS outage: INTEGRATED Rx INFORMATION SYSTEM - Outage Notification - Friday 2/7/2025 01:00am CT - Friday 2/7/2025 5:00am CT",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 05:15:08",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41446003",
+        "description": "msid: kshashid\r\nemployeeid: 001474694\r\n\r\nPlease provide access to IRIS TS02 with following responsibilities:\r\n\r\nPharmacist\r\nOM Super User\r\nSpecialty Pharmacist\r\nORx CS Navigator Rep",
+        "short_description": "Need IRIS TS02 access",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 07:19:31",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41446097",
+        "description": "We are having issue with  IRIS. ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Launch IRIS - Hmmmmm.....Can't reach this page.",
+        "u_error_symptoms": "Launch Issues",
+        "sys_created_on": "2025-02-07 07:25:46",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41446136",
+        "description": "TS01 Concurrent Jobs are completing in Error , Unable to close Orders , getting Adj failed Holds\n\nProduct entered by customer: ",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 07:34:05",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41446089",
+        "description": "Need access to TS02 instance. Please refer the attached document for details.",
+        "short_description": "Need access to TS02 (msid-  asrivai, msatyan7)",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 07:34:16",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41447021",
+        "description": "While searching members in IRIS TS02, unable to fetch member details using Member ID",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "Unable to find issue for IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-07 10:44:21",
+        "tags": [
+            [
+                "Errors",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41447548",
+        "description": "I have a new for some reason IRIS is not working.",
+        "short_description": "IRIS (Integrated Rx Information System) - Fatal: Initialization Error: Could nout initialize applet. For more information click \"more information button\"",
+        "u_error_symptoms": "IRIS not launching",
+        "sys_created_on": "2025-02-07 12:15:52",
+        "tags": [
+            [
+                "Launch Issues",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41447577",
+        "description": "Issues entering ppt credit card. ",
+        "short_description": "IRIS: One member is unable to add cc on his profile",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 12:19:49",
+        "tags": [
+            [
+                "Payment"
+            ]
+        ]
+    },
+    {
+        "number": "INC41448281",
+        "description": "shipped orders not closed in wms and iris  assign to orx_pcs_ov_spt",
+        "short_description": "ORx Pharmacy Control System (Orlando) - shipped orders not closed in wms and iris  assign to orx_pcs_ov_spt",
+        "u_error_symptoms": "shipped orders not closed in wms and iris  assign to orx_pcs_ov_spt",
+        "sys_created_on": "2025-02-07 13:16:10",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41448057",
+        "description": "For one line  reversal line created but its not processed,one more issue is we got response from BPEL and everything is successfull but reversal line not created\r\n \r\n\"could you help me on this if this issue is related to SOA\"",
+        "short_description": "Adjudication reversal issue .",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 13:19:06",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41448365",
+        "description": "I have my credentials back, and I click I forgot password on Iris and was advise by my supervisor to contact service desk",
+        "short_description": "IRIS (Integrated Rx Information System) -Password reset  Iris",
+        "u_error_symptoms": "Too many pending requests already exist in the system. Please check your email or contact the System Administrator for further assistance",
+        "sys_created_on": "2025-02-07 13:19:42",
+        "tags": [
+            [
+                "Password",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41448476",
+        "description": "SOA support during IRIS release 10.5.6.",
+        "short_description": "IRIS release 10.5.6 support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 13:29:45",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41448741",
+        "description": "ppt is having issues entering cc into system. When we or ppt try to enter info we keep getting error message.  This all started on 1/31/25. PPT cc expiration date needed to be updated. It was updated but cc was not going thru. PPT called back and bank adv everyting was resolved and cc should go thru. But when ppt called back cc was not going thru. that caused rep to remove cc. after removing cc we have not been able to add it back. ppt is having same issue.\n\nProduct entered by customer: iris",
+        "short_description": "Iris  - The card was declined for unknown reason",
+        "u_error_symptoms": "The card was declined for unknown reason",
+        "sys_created_on": "2025-02-07 13:37:01",
+        "tags": [
+            [
+                "Payment"
+            ]
+        ]
+    },
+    {
+        "number": "INC41448766",
+        "description": "unable to open iris ",
+        "short_description": "unable to open iris ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 13:37:50",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41448823",
+        "description": "CH-Orders Not Closed in IRIS\n\nProduct entered by customer: iris",
+        "short_description": "CH-Orders Not Closed in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 13:40:11",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41448924",
+        "description": "change password not taking new password",
+        "short_description": " IRIS Login Issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 13:45:38",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41449059",
+        "description": "I am unable to log in to IRIS ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to log in to IRIS ",
+        "sys_created_on": "2025-02-07 13:51:49",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41449132",
+        "description": "im unable to get the Billing AR documents",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to get the Billing Manger Doc",
+        "u_error_symptoms": "im unable to get the Billing AR documents",
+        "sys_created_on": "2025-02-07 13:58:34",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41449630",
+        "description": "I just changed my password  and it still wont let me on with the new password ",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 14:12:29",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41449812",
+        "description": "We currently get the data for the table \"APPLSYS.FND_CONCURRENT_PROGRAMS\" from IRIS into Kafka topic through CDC. We were earlier getting one of the fields as \"IPROG_ID\", which is now available in the table as \"IPROG_ID#1\". CDC is now not able to pull this field and write it to kafka since the field contains special characters. CDC is currently sending all other fields except this one.\r\n\r\n\u2022\tEarlier versions schema: http://kaas-prod-schema-registry-a.optum.com/subjects/claas.ATTPROD.RXS.APPLSYS.FND_CONCURRENT_PROGRAMS-value/versions/1\r\n\u2022\tCurrent version schema: http://kaas-prod-schema-registry-a.optum.com/subjects/claas.ATTPROD.RXS.APPLSYS.FND_CONCURRENT_PROGRAMS-value/versions/3\r\n\r\nWe are reaching out to you to understand if you know when this change happened and why is there a special character in the field name.\r\n\r\n\r\nIf you could provide us any information around this or guide us to someone who can provide any input please, that would be of great help.\r\n\r\n\r\nRegards,\r\nTapas\r\n",
+        "short_description": "IRIS FND_CONCURRENT_PROGRAMS field  with speical characters",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 14:19:16",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41450475",
+        "description": "These are the servers we believe we see this on, and we need to investigate if that might be happening on other Altiris servers too:\r\napvep37462\r\napvep35956\r\ndsmep0647\r\napvep37507\r\napvep55903\r\ndsmep0662\r\napvep80045\r\napvep57041\r\napvep57039\r\napvep57038",
+        "short_description": "We believe Trend Micros is scan storming the E: on several Altiris servers, and need to confirm that and stop it if so",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 14:41:35",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41450647",
+        "description": "I am trying to login to IRIS\r\nit is not showing any of my favorites\r\nit won't let me add favorites\r\nalso it shows I have 0 responsibilities so I don't know what's going on",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to add favorites",
+        "u_error_symptoms": "it won't let me add favorites\r\nalso it shows I have 0 responsibilities ",
+        "sys_created_on": "2025-02-07 14:43:45",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41450661",
+        "description": "How to request access Super User in IRIS TS02",
+        "short_description": "IRIS (Integrated Rx Information System)  - Request to Access AR SuperUser",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 14:44:05",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41450658",
+        "description": "I am trying to login to IRIS\r\nit is not showing any of my favorites\r\nit won't let me add favorites\r\nalso it shows I have 0 responsibilities so I don't know what's going on",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "unable to launched the iris application",
+        "sys_created_on": "2025-02-07 14:44:05",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41450168",
+        "description": "Maintenance activity to resuming data load pipelines and refreshed data in all IRIS tables in DMA ",
+        "short_description": "IRIS - Maintenance activity ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 14:56:27",
+        "tags": [
+            [
+                "Data Fix",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41451186",
+        "description": "I am trying to log into IRIS",
+        "short_description": "IRIS (Integrated Rx Information System)-not responding",
+        "u_error_symptoms": "not responding",
+        "sys_created_on": "2025-02-07 15:01:07",
+        "tags": [
+            [
+                "Latency",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41451181",
+        "description": "Request Access to TS02 - Please refer to document for details",
+        "short_description": "Request Access to TS02",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 15:03:44",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41451410",
+        "description": "Hi SOA Team,\r\n\r\nPlease share the payload for the below Med commid .\r\n\r\n5302538574\r\n",
+        "short_description": "Please share the payload ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 15:08:59",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41452478",
+        "description": "Yeah, I have trouble with my Iris. For some reason it's just loading and it's not going anywhere. It's kind of like stuck.",
+        "short_description": "RXS Imaging - Any Slowness in Loading Images or fFxes for PAS /IRIS",
+        "u_error_symptoms": " Any Slowness in Loading Images or fFxes for PAS /IRIS",
+        "sys_created_on": "2025-02-07 15:43:43",
+        "tags": [
+            [
+                "Errors",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41454612",
+        "description": "Iris closed out. Attempted to log back in and it is not opening",
+        "short_description": "T-Mobile - IRIS - closed out and will not opening.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 16:54:00",
+        "tags": [
+            [
+                "User Login",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41454770",
+        "description": "I am not able to see the queue in IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "Missing queue in homepage",
+        "sys_created_on": "2025-02-07 16:59:47",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41454996",
+        "description": "Patient being opted in to text in IRIS, receives a text telling them they were opted in but when IRIS is refreshed the text opt in checkbox is no longer checked. Need to understand if this is a known issue already.",
+        "short_description": "IRIS - Patient being opted in to text in IRIS",
+        "u_error_symptoms": "Patient being opted in to text in IRIS",
+        "sys_created_on": "2025-02-07 17:07:43",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41455528",
+        "description": "IRIS is moving super slow,  its takes forever to load ended task and clear cache but still same issue occurring .",
+        "short_description": "IRIS latency issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 17:27:37",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41455871",
+        "description": "I'm trying to log on to my iris and umm it's giving me to change the password and I attempted several times and it's not letting me.",
+        "short_description": "IRIS (Integrated Rx Information System), unable to reset password",
+        "u_error_symptoms": " unable to reset password",
+        "sys_created_on": "2025-02-07 17:42:00",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41456091",
+        "description": ">>this issue regarding my IRIS and unable to proceed with payment\r\n",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": ">>this issue regarding my IRIS and unable to proceed with payment\r\n",
+        "sys_created_on": "2025-02-07 17:50:04",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41456386",
+        "description": "I'm just calling today because I was trying I was doing something Iris and then it just kept on like saying program error. Please inform your System Administrator support representative regarding like a report like a error. Umm. So I'm trying to see what I can do here.",
+        "short_description": "iris - app jtf error",
+        "u_error_symptoms": "app jtf error",
+        "sys_created_on": "2025-02-07 18:02:13",
+        "tags": [
+            [
+                "Errors",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41456497",
+        "description": "I just got back this week and I was out because of leave and the only issue that I have right now is Iris, but I tried to reset the password, but I was not able to receive the notification from my email.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "login failed",
+        "sys_created_on": "2025-02-07 18:06:18",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41456535",
+        "description": "Iris closed out. Attempted to log back in and it is not opening",
+        "short_description": "IRIS - closed out and will not opening.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 18:11:00",
+        "tags": [
+            [
+                "User Login",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41456809",
+        "description": "I try to change a password in Genesys but it wont let me login",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to login",
+        "sys_created_on": "2025-02-07 18:17:08",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41457108",
+        "description": "WV - IRIS order not closed\r\nor# 778400433-1, there is an special character in Lot Number.\r\n\r\nProduct entered by customer: ",
+        "short_description": "WV - IRIS order not closed",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 18:28:33",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41457909",
+        "description": "From the release, add the following concurrent requests to be available to System Administrator Responsibility:\r\n1. XXIRIS Hold Release on Cancelled or Closed Orders \r\n2. XXIRIS Prescription Unlock program \r\n3. XXIRIS Clear Med Comm Patient Hashes ",
+        "short_description": "Add the following concurrent programs to System Administrator Responsibility",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 18:56:41",
+        "tags": [
+            [
+                "Order Issue",
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41458247",
+        "description": "INC NUMBRE ONLY. line was crackling on multiple calls, restarted. Iris wasn't allowing me to log in with credentials, cleared cache and restarted system again.\n\nProduct entered by customer: ",
+        "short_description": "Informational - INC NUMBRE ONLY. line was crackling on multiple calls, restarted. Iris wasn't allowing me to log in with credentials, cleared cache and restarted system again.",
+        "u_error_symptoms": "INC NUMBRE ONLY. line was crackling on multiple calls, restarted. Iris wasn't allowing me to log in with credentials, cleared cache and restarted system again.\r\n",
+        "sys_created_on": "2025-02-07 19:08:58",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41458781",
+        "description": "i need to reset my IRIS password",
+        "short_description": "IRIS (Integrated Rx Information System) - Reset Password",
+        "u_error_symptoms": "Reset Password",
+        "sys_created_on": "2025-02-07 19:30:09",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41459029",
+        "description": "I'm having some issues with my Irish this morning but today I keep getting error issues and I'm having to log out of Iris multiple times.\r\nNot able to complete my notation.",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - unable to complete notation",
+        "u_error_symptoms": "unable to complete notation",
+        "sys_created_on": "2025-02-07 19:39:34",
+        "tags": [
+            [
+                "User Login",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41459657",
+        "description": "Need analysis on why some orders for controlled substances are not getting eligibility check holds applied and allowed to run through cash pay against company policy, users presently cannot change to cash but appears IRIS is bypassing same code",
+        "short_description": "Need analysis on why some orders for controlled substances are not getting eligibility check holds applied and allowed to run through cash pay against company policy, users presently cannot change to cash but appears IRIS is bypassing same code",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 20:06:11",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41461278",
+        "description": "My internet keeps dropping and it is causing my EXCEL to close and delete the information I am working",
+        "short_description": "Selected Issue: Connectivity (Internet Drops, Disconnects, etc.)",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 21:13:47",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41461454",
+        "description": "\"Refill Smoothing 2/25/2025 to 2/28/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) \u2013 SPT\"",
+        "short_description": "Refill Smoothing 2/25/2025 to 2/28/2025 ",
+        "u_error_symptoms": "\"Refill Smoothing 2/25/2025 to 2/28/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) \u2013 SPT\"",
+        "sys_created_on": "2025-02-07 21:21:11",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41461585",
+        "description": "We are facing MRD hold for following TS02 order, Please help to look into it.\r\n\r\nTS02 Order#: 775065292",
+        "short_description": "TS02 Order Struck at MRD hold.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-07 21:28:36",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41461929",
+        "description": "I'm having issues with Iris. I keep getting these error messages like I'll be working in it and then it'll just give me an error message and Oracle will completely just close out by itself. And I just got a new laptop on Tuesday so I don't know if like some fixes or whatever needs to be done with the Java but it just keeps closing out on me and giving me different errors.",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Any Java error",
+        "u_error_symptoms": "Any Java error",
+        "sys_created_on": "2025-02-07 21:42:34",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41463001",
+        "description": "Need to install Microsoft OLE DB Driver for SQL Server 19.3.3  for window upgrade preparation.\r\n\r\nMachine Name LHTU05CG146DCLF\r\nOS  Windows 10 Enterprise 22H2 SAR\r\nModel HP EliteBook 840 G8",
+        "short_description": "Altiris Deployment Server - Install application",
+        "u_error_symptoms": " Install application",
+        "sys_created_on": "2025-02-07 22:40:10",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41464720",
+        "description": "user is having an issue modifying patient addresses in IRIS ",
+        "short_description": "IRIS - Update Address Modification Issue ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-08 02:55:57",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41465491",
+        "description": "\nThe kafka client certificate orx-pharmacdeedc360ea3a7378 (rg-pharmacy-central-kafka-prod-60fa261/hcc-dataplatform-certificate-v1/orx-pharmacdeedc360ea3a7378) has been automatically renewed as it is less than 60 days from the expiration.\nYour new certificate will expire on Sun, 08 Feb 2026 08:40:14 UTC.\nThe new certificate download information has been sent to: prashant.mangidkar@optum.com, satya.chundru@optum.com, somasekhar_munupally@optum.com, sowmya_surisetti@optum.com.\nA renewal email and INC will be sent around Tue, 09 Dec 2025 12:40:14 UTC.\nPlease update all uses of this certificate immediately with the newly sent certificate to avoid any expiration resulting in downtime for your application(s).\n\t",
+        "short_description": "Kafka Certificate Renewal",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-08 08:41:15",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41465627",
+        "description": "IRIS login issue for RPA ORX HDP CARRIER RETURNS AUTOMATION PAD",
+        "short_description": "IRIS login issue for RPA ORX HDP CARRIER RETURNS AUTOMATION PAD",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-08 09:56:47",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41466180",
+        "description": "IRIS Password reset + mobilty@work request",
+        "short_description": "IRIS Password reset",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-08 13:10:50",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41466431",
+        "description": "Accounts 427407871 show internal errors when attempting to add cc or process payment. It will not allow via web portal or IRIS.",
+        "short_description": "IRIS Image Viewer -  Accounts 427407871 show internal errors when attempting to add cc or process payment. It will not allow via web portal or IRIS.",
+        "u_error_symptoms": "Accounts 427407871 show internal errors when attempting to add cc or process payment. It will not allow via web portal or IRIS.",
+        "sys_created_on": "2025-02-08 14:27:51",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41466595",
+        "description": "Im having issue with IRIS reset password",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Password Reset",
+        "sys_created_on": "2025-02-08 15:30:40",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41466616",
+        "description": "I am not able to login to  IRIS application",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-08 15:38:04",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41466829",
+        "description": "IRIS issue - Address verify (showing as someone is already working on it)",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-08 16:55:57",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41467075",
+        "description": "IRIS issue and other applications keeps disconnecting | Cox | Wired | Personal",
+        "short_description": "IRIS issue ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-08 18:17:17",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41467216",
+        "description": "I been out for a while, and having error with IRIS, not opening up ",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "uanble to access Basic Telephony, not doing anything after clicking on it",
+        "sys_created_on": "2025-02-08 19:12:22",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41467402",
+        "description": "Every time I see the genesys and outbound call and transfer call new screen pop up.",
+        "short_description": "Genesys Workspace (WWE) - (Blue) Screen Pop-up on outbound call and Transfer call",
+        "u_error_symptoms": "Screen Pop-up on outbound call and Transfer call",
+        "sys_created_on": "2025-02-08 20:33:30",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41467431",
+        "description": "unable to login to IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to login to IRIS",
+        "sys_created_on": "2025-02-08 20:52:20",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41467463",
+        "description": "Member is a twin and have the same info and phone number - 1 of the twin can opt to deliver using a link sent via text, but the other twin will be advise call. They want both twins to have the ability to opt for delivery using a link via text. ",
+        "short_description": "NJ950 - IRIS - Unable to received link via text message to deliver",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-08 21:28:04",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41467598",
+        "description": "We received today an alert that was showing that we received a very low count of orders created from TEXT communications (TEXTE)",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-08 22:22:39",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41467721",
+        "description": "Recurring issue and EU reported it 4x that some options will not populate when clicked.\r\n\r\nLHTU05CG3400KDN\r\nUptime: 7:09:34",
+        "short_description": "WI950 - IRIS - Some functions does not work",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-08 23:43:22",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41467720",
+        "description": "CA950 - IRIS Password reset",
+        "short_description": "CA950 - IRIS Password reset",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-08 23:51:22",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41468050",
+        "description": "OWI_PRD_WT_IRIS_LOAD_MEM_RX_PRD ErrorCode=40 JobTime=2025020820310000 Action=ABEND Server=WP000039174 JS=WP000039174#OWI_PRD_LDLKINC Environment=PRD EI=WP000039174#OWI_PRD_LDLKINC(2025020800300000) JobCPU=WP000039174 Full Msg Text=eventtype= 101 ;origschedname= 0AAAAAAAAAA2Y62U ;schedcpu= WP000039174 ;schedid= 0AAAAAAAAAA2Y62U ;schedname= OWI_PRD_LDLKINC ;jobcpu= WP000039174 ;jobnumber= 2914760 ;jobstatus_enum= 5 ;jobname= OWI_PRD_WT_IRIS_LOAD_MEM_RX_PRD ;jobuser= MS\rx_eraid ;everyrate= 0030 ;jobrecoveryaction_enum= 10 ;jobeventtimestamp= 2025020820310000 ;jobmessagetxt= ;jobkeyflag= 0 ;jobeffst= 1739046613 ;jobestst= 1739046600 ;jobestdur= 28 ;jobdeadlineep= 0 ;jobretcode= 40 ;schedtime= 2025020800300000 ;mdm= rp000090672.uhc.com Domain: wp000039174 Origin: rp000090672.uhc.com Application: TIVOLI WORKLOAD SCHEDULER - DISTRIBUTED (MS2) Category: Job Source: TWSd Severity: Warning Alertid: 0023232496",
+        "short_description": "WP000039174 Job OWI_PRD_WT_IRIS_LOAD_MEM_RX_PRD generated an ABEND alarm at 2025020820310000",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-09 02:39:40",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41468839",
+        "description": "Unable to view imgaes in IRIS. Yeah, it's coming up with an error message every time",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to View Image",
+        "u_error_symptoms": "Unable to View Image",
+        "sys_created_on": "2025-02-09 08:45:09",
+        "tags": [
+            [
+                "Errors",
+                "Image Viewer",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41469398",
+        "description": "Unable to log in to IRIS",
+        "short_description": "Unable to log in to IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-09 13:43:41",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41469563",
+        "description": "Order not closed in IRIS and no tracking in PCS\n\nProduct entered by customer: ",
+        "short_description": "Order not closed in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-09 14:32:42",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41469579",
+        "description": "unable to login to IRIS application.\r\n",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to login to IRIS application.\r\n",
+        "sys_created_on": "2025-02-09 14:41:17",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41469709",
+        "description": "My IRIS is freezing every time I take a call. Its been happening periodically since yesterday.\r\n\r\n",
+        "short_description": "IRIS - Integrated Rx Information System SOA - General Information and Troubleshooting",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-09 15:44:59",
+        "tags": [
+            [
+                "Latency",
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41469850",
+        "description": "Unable to login to IRIS - Inactive Access",
+        "short_description": "Unable to login to IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-09 17:07:57",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41469920",
+        "description": "User is back to work and need access to IRIS",
+        "short_description": "IL950 -  Unable to login to IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-09 17:44:32",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41470085",
+        "description": "\nThe kafka client certificate orx-pharmac71fbe5ea4abf8a72 (rg-pharmacy-central-kafka-prod-60fa261/hcc-dataplatform-certificate-v1/orx-pharmac71fbe5ea4abf8a72) has been automatically renewed as it is less than 60 days from the expiration.\nYour new certificate will expire on Mon, 09 Feb 2026 19:02:54 UTC.\nThe new certificate download information has been sent to: aditya_puri@optum.com, deepak_varshney1@optum.com, gaurav_sahu@optum.com, gourav_gujral@optum.com, govindarao_g@optum.com, muthu_thirumeniramanathan@optum.com, prashant.mangidkar@optum.com, sabyasachi.sarma@optum.com, sandeep.aragu@optum.com, satya.chundru@optum.com, sowmya_surisetti@optum.com.\nA renewal email and INC will be sent around Wed, 10 Dec 2025 23:02:54 UTC.\nPlease update all uses of this certificate immediately with the newly sent certificate to avoid any expiration resulting in downtime for your application(s).\n\t",
+        "short_description": "Kafka Certificate Renewal",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-09 19:03:55",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41470088",
+        "description": "\nThe kafka client certificate orx-pharmacfb158af1b14587d7 (rg-pharmacy-central-kafka-prod-60fa261/hcc-dataplatform-certificate-v1/orx-pharmacfb158af1b14587d7) has been automatically renewed as it is less than 60 days from the expiration.\nYour new certificate will expire on Mon, 09 Feb 2026 19:03:24 UTC.\nThe new certificate download information has been sent to: gaurav_sahu@optum.com, hieu.le@optum.com, kevin.kinder@optum.com, prashant.mangidkar@optum.com, roshan_chirayil@optum.com, sabyasachi.sarma@optum.com, sandeep.aragu@optum.com, satya.chundru@optum.com, sowmya_surisetti@optum.com.\nA renewal email and INC will be sent around Wed, 10 Dec 2025 23:03:24 UTC.\nPlease update all uses of this certificate immediately with the newly sent certificate to avoid any expiration resulting in downtime for your application(s).\n\t",
+        "short_description": "Kafka Certificate Renewal",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-09 19:04:26",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41470099",
+        "description": "\nThe kafka client certificate orx-pharmac0f8d3d85a248185c (rg-pharmacy-central-kafka-np-d738692/hcc-dataplatform-certificate-v1/orx-pharmac0f8d3d85a248185c) has been automatically renewed as it is less than 60 days from the expiration.\nYour new certificate will expire on Mon, 09 Feb 2026 19:08:48 UTC.\nThe new certificate download information has been sent to: aditya_puri@optum.com, deepak_varshney1@optum.com, gaurav_sahu@optum.com, gourav_gujral@optum.com, govindarao_g@optum.com, muthu_thirumeniramanathan@optum.com, prashant.mangidkar@optum.com, sabyasachi.sarma@optum.com, sandeep.aragu@optum.com, satya.chundru@optum.com, sowmya_surisetti@optum.com.\nA renewal email and INC will be sent around Wed, 10 Dec 2025 23:08:48 UTC.\nPlease update all uses of this certificate immediately with the newly sent certificate to avoid any expiration resulting in downtime for your application(s).\n\t",
+        "short_description": "Kafka Certificate Renewal",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-09 19:09:20",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41470191",
+        "description": "EU's password expired but the password she's creating will get accepted. ",
+        "short_description": "TX950 - IRIS unable to reset password",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-09 19:58:12",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41470868",
+        "description": "OWI_PRD_WT_XXIRIS_ORDLK_ST_RAW_PRD ErrorCode=0 JobTime=2025020920130000 Action=ABEND Server=WP000039174 JS=WP000039174#OWI_PRD_ORDLK Environment=PRD EI=WP000039174#OWI_PRD_ORDLK(2025020917300000) JobCPU=WP000039174 Full Msg Text=eventtype= 101 ;origschedname= 0AAAAAAAAAA2Y65A ;schedcpu= WP000039174 ;schedid= 0AAAAAAAAAA2Y65A ;schedname= OWI_PRD_ORDLK ;jobcpu= WP000039174 ;jobnumber= 2917199 ;jobstatus_enum= 5 ;jobname= OWI_PRD_WT_XXIRIS_ORDLK_ST_RAW_PRD ;jobuser= MS\rx_eraid ;everyrate= 0 ;jobrecoveryaction_enum= 1 ;jobeventtimestamp= 2025020920130000 ;jobmessagetxt= ;jobkeyflag= 0 ;jobeffst= 1739122205 ;jobestst= 0 ;jobestdur= 11466 ;jobdeadlineep= 0 ;jobretcode= 0 ;schedtime= 2025020917300000 ;mdm= rp000090672.uhc.com Domain: wp000039174 Origin: rp000090672.uhc.com Application: TIVOLI WORKLOAD SCHEDULER - DISTRIBUTED (MS2) Category: Job Source: TWSd Severity: Warning Alertid: 0023477028",
+        "short_description": "WP000039174 Job OWI_PRD_WT_XXIRIS_ORDLK_ST_RAW_PRD generated an ABEND alarm at 2025020920130000",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 02:13:28",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41471527",
+        "description": "my iris software is not working properly getting pop up of system log after closing one account and while opening second account",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "System log pop up",
+        "sys_created_on": "2025-02-10 05:44:58",
+        "tags": [
+            [
+                "Launch Issues",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41471950",
+        "description": "Some error is coming on opening IRIS app.",
+        "short_description": "IRIS Application not working",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 06:55:44",
+        "tags": [
+            [
+                "Launch Issues",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41472199",
+        "description": "Access to IRIS Stage and Dev\r\nThe INC needs to be assigned to the BGT Testing group  and i need access to IRIS Stage and dev testing environment   ",
+        "short_description": "IRIS (Integrated Rx Information System) - Access to IRIS Stage and Dev",
+        "u_error_symptoms": "Access to IRIS Stage and Dev",
+        "sys_created_on": "2025-02-10 07:34:25",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41472292",
+        "description": "Program Name: XXIRIS Dialer Main Response Program\r\nParameter:   Gryphon Reassigned\r\n\r\nSwitch ON - Profile : XXIRIS_US7824696_GRYPHON_GP_PF\r\n\r\nProgram Name: XXIRIS Dialer Main Response Program\r\nParameter:   Gryphon Known Litigators",
+        "short_description": "Request to Run the program in IRIS PROD",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 08:21:54",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41472573",
+        "description": "While trying to launch TS02 facing an error like AST_NO_ACCESS\r\nattached the screenshot",
+        "short_description": "Unable to launch the TS02(msid: nvijayk1)",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 08:46:26",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41473489",
+        "description": "Need to kill solix session",
+        "short_description": "Need to kill solix session",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 11:15:53",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41473664",
+        "description": "CH Orders Not Closed in IRIS\n\nProduct entered by customer: IRIS",
+        "short_description": "CH Orders Not Closed in IRIS",
+        "u_error_symptoms": "CH Orders Not Closed in IRIS",
+        "sys_created_on": "2025-02-10 11:40:04",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41473667",
+        "description": "Need access to IRIS TS02 Environment with Pharmacist, OM Super user role.\r\n\r\n\u2022\tEmployee Number(s): 000783098\r\n\r\n\u2022\tEnvironment (DV01, DV02, DV03, DV04, DV05, DV06, ST01, ST03, TS01, TS02, TS03, TS04, TS09): TS02\r\n\r\n\u2022\tResponsibility / Top Hat:\r\n\r\n\u2022\tJob Code (Pharmacist, Clerk, Technician, Advocate, Specialty Clerk, Specialty Global Clerk, Accountant):  Pharmacist, OM Super user\r\n",
+        "short_description": "Need access to IRIS TS02 Environment with Pharmacist role.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 11:40:26",
+        "tags": [
+            [
+                "Data Fix",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41473725",
+        "description": "2+ days aged orders need to be cleared in Iris and WMS 779887135 in transit 780160029 IN transit 778737152 delivered submit a ticket send to OptumRx_Dispensing_IT_Support_DL@ds.uhc.com",
+        "short_description": "IRIS (Integrated Rx Information System) - 2+ days aged orders need to be cleared in",
+        "u_error_symptoms": "2+ days aged orders need to be cleared in Iris and WMS 779887135 in transit 780160029 IN transit 778737152 delivered submit a ticket send to OptumRx_Dispensing_IT_Support_DL@ds.uhc.com",
+        "sys_created_on": "2025-02-10 11:51:02",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41474369",
+        "description": "Iris- need to change the password",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-10 12:49:58",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41474734",
+        "description": "iris is asking a new password and cannot taking it",
+        "short_description": "CA950 - Iris need a new password",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 13:11:55",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41475285",
+        "description": "Loading insurance into IRIS using <Protected Information was moved to secure confidential data field in the incident record> from Advocate Central usually populates correct Insurance. However, an incorrect plan loads and auto inactivates. Searched to add manually and could Not find correct ACCT<Protected Information was moved to secure confidential data field in the incident record> loaded into IRIS. The plan appears correctly loaded into Advocate Central and RxClaims and trial claims pay in these systems.  Can you please be sure the correct plan is loaded and available to select in IRIS as soon as possible? Please let me know.",
+        "short_description": "IRIS -  An incorrect plan loads and auto inactivates",
+        "u_error_symptoms": "An incorrect plan loads and auto inactivates",
+        "sys_created_on": "2025-02-10 13:32:21",
+        "tags": [
+            [
+                "User Login",
+                "Data Fix",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41475438",
+        "description": "AppStore - Oracle Java Runtime Environment 32-Bit & 64-Bit 1.8.0.431 - AITM3304725 installation request failed.",
+        "short_description": "AppStore - Oracle Java Runtime Environment 32-Bit & 64-Bit 1.8.0.431 - AITM3304725 installation request failed.",
+        "u_error_symptoms": "AppStore - Oracle Java Runtime Environment 32-Bit & 64-Bit 1.8.0.431 - AITM3304725 installation request failed.",
+        "sys_created_on": "2025-02-10 13:37:52",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41475520",
+        "description": "I can't login in my IRIS Application.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-10 13:40:53",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41475792",
+        "description": "I login to IRIS and its not letting me in, I already restarted my computer and its not logging me in.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "NA",
+        "sys_created_on": "2025-02-10 13:49:22",
+        "tags": [
+            [
+                "User Login",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41476147",
+        "description": "I've got a new computer, it's not opening up the thing that i used, IRIS is not opening up",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "Launch Issues",
+        "sys_created_on": "2025-02-10 14:01:35",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41476326",
+        "description": "java installation, IRIS is not working",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 14:05:59",
+        "tags": [
+            [
+                "Launch Issues",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41477642",
+        "description": "Im trying to login to Iris telling me to change my password ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "- Unable to Login",
+        "sys_created_on": "2025-02-10 14:42:54",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41478063",
+        "description": "Need data fix on Ord#778240071 to be booked on a shipped order so that order does not keep recycling in OC queue.\n\nProduct entered by customer: IRIS\r\nPlease assign ticket to: MSA ORACLE EBS (RXS) \u2013 SPT",
+        "short_description": "IRIS - Please assign ticket to: MSA ORACLE EBS (RXS) \u2013 SPT",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 14:53:57",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41478231",
+        "description": "When I login to the IRIS, it prompted me to sign in and change my password. I was able to change it, then it loads and signed me out, now it said that my password is incorrect.",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-10 14:58:09",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41478780",
+        "description": "i forgot my iris password",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "Unable to find issue for IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-10 15:12:15",
+        "tags": [
+            [
+                "Password",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41478851",
+        "description": "IRIS keeps freezing , keep getting error messages. screenshots available. ",
+        "short_description": "Selected Issue: IRIS - IRIS keeps freezing , keep getting error messages. screenshots available. ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 15:13:49",
+        "tags": [
+            [
+                "Latency",
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41478948",
+        "description": "need hash clear for iris account 454630186 route to msa oracle spt",
+        "short_description": "IRIS (Integrated Rx Information System - need to clear hash on an account",
+        "u_error_symptoms": "need hash clear for iris account 454630186 route to msa oracle spt",
+        "sys_created_on": "2025-02-10 15:16:16",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41479216",
+        "description": "My account is locked in IRIS",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Account locked in IRIS",
+        "sys_created_on": "2025-02-10 15:23:20",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41479359",
+        "description": "Please review the logic behind the attached order samples to get an understanding why these errors are happening that is preventing the profiled scripts from closing. ",
+        "short_description": "Need to understand why there is an error on these profiled scripts. ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 15:41:12",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41480259",
+        "description": "I am calling because I change my IRIS password this morning I had to restart my computer because I am having issues with IRIS thinking I change it to and it kept telling me it is going to send me an email",
+        "short_description": "FLW -  IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "login failed",
+        "sys_created_on": "2025-02-10 15:50:05",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41480695",
+        "description": "System asked me to update password but will not allow me to do so",
+        "short_description": "IRIS password reset",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 16:01:35",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41481428",
+        "description": "need XXIRIS Refresh Skill Set DF - INC24258668 updated to include both paired and non paired orders for pv org. Please route to Sunil Sadige on msa oracle spt",
+        "short_description": "need XXIRIS Refresh Skill Set DF - INC24258668 updated to include both paired and non paired orders for pv org. Please route to Sunil Sadige on msa oracle spt",
+        "u_error_symptoms": "need XXIRIS Refresh Skill Set DF - INC24258668 updated to include both paired and non paired orders for pv org. Please route to Sunil Sadige on msa oracle spt",
+        "sys_created_on": "2025-02-10 16:19:28",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41481840",
+        "description": "IRIS TS02 Account not exist need to add ujethwa in TS02",
+        "short_description": "IRIS (Integrated Rx Information System) - Login, Access And Troubleshooting",
+        "u_error_symptoms": "IRIS TS02 Account not exist need to add ujethwa in TS02",
+        "sys_created_on": "2025-02-10 16:29:54",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41482353",
+        "description": "Iris lags. It brings up an account after I have been on the call and had manually pulled up the members information",
+        "short_description": "Selected Issue: IRIS - Iris lags. It brings up an account after I have been on the call and had manually pulled up the members information",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 16:42:11",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41482341",
+        "description": "IRIS Application issue ",
+        "short_description": "FL950 - IRIS Application issue ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 16:42:47",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41482727",
+        "description": "when user opens a dsm server they get : the altiris web console is only supported on internet explorer 6.0",
+        "short_description": "ALTIRIS - User cannot go into dsm server: Console is only supported on INTERNET EXPLORER 6.0",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 16:54:51",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41483359",
+        "description": "IRIS freezes and continues to load. I have to use task manager to close IRIS and restart it after almost every call. ",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 17:07:26",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41483446",
+        "description": "User called in because she needs assistance on getting to IRIS.",
+        "short_description": "IRIS | Unable to Access",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 17:09:44",
+        "tags": [
+            [
+                "User Login",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41483531",
+        "description": "Resend RPh is getting pop up that item_description is truncated due to value being too long.",
+        "short_description": "Resend RPh is getting pop up that item_description is truncated due to value being too long.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 17:13:41",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41483875",
+        "description": "Having issue while trying to Import Member into (IRIS - TS02) environment . Getting error message (ORA-00054).",
+        "short_description": "IRIS (Integrated Rx Information System) - Having issue while trying to Import Member into (IRIS - TS02) environment . Getting error message (ORA-00054).",
+        "u_error_symptoms": "Having issue while trying to Import Member into (IRIS - TS02) environment . Getting error message (ORA-00054).",
+        "sys_created_on": "2025-02-10 17:20:12",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41483829",
+        "description": "User called in stating that her IRIS were not working ",
+        "short_description": "IRIS - not working",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 17:22:21",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41483892",
+        "description": "attached error user getting in ts02",
+        "short_description": "User getting state reg pop up in ts02",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 17:22:48",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41484593",
+        "description": "Genesys, iris not picking up",
+        "short_description": "Selected Issue: Connectivity (Genesys, iris not picking up)",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 17:39:34",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41484205",
+        "description": "Member ID: 30700409002\r\nMember name: ABIGAIL SHARP\r\nD.O.B:08/09/2003\r\nZIP code:54301",
+        "short_description": "can you please check why mso is y for this member and iris patient found for name search",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 17:40:53",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41484746",
+        "description": "I am having issue with IRIS\r\nwhen I pull up IRIS I am seeing just a blank screen",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "when I pull up IRIS I am seeing just a blank screen",
+        "sys_created_on": "2025-02-10 17:44:09",
+        "tags": [
+            [
+                "Launch Issues",
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41485296",
+        "description": "I need 2 user IDs created in IRIS TS02 environment. Please assign the ticket to IRIS-Pharmacy Central Non Prod",
+        "short_description": "I need 2 user IDs created in IRIS TS02 environment. Please assign the ticket to IRIS-Pharmacy Central Non Prod",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 18:00:30",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41485587",
+        "description": "IRIS application freezes  and slow ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": " Unable to find issue for IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-10 18:09:53",
+        "tags": [
+            [
+                "Latency",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41485660",
+        "description": "IDK is it just me or if its a global issue. Ive been having issues with the payment system in Iris today. Cards are not showing up and it wont let me add new cards plus cards are declining not able to be processed. Error I get is Internal error",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 18:12:33",
+        "tags": [
+            [
+                "Payment",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41486072",
+        "description": "Please submit ticket to IRIS Pharmacy Central Non Prod. I am requesting access on behalf of users jbeck107, dsanche2 and hpatel81 into IRIS TS02 as refresh is now complete. Request details can be located in IRIS TS02 Yearly Refresh Share Point Link: https://uhgazure.sharepoint.com/teams/IRISTS06toTS02Migration. Thank you!",
+        "short_description": "TS02 access request (several users)",
+        "u_error_symptoms": "Please submit ticket to IRIS Pharmacy Central Non Prod. I am requesting access on behalf of users jbeck107, dsanche2 and hpatel81 into IRIS TS02 as refresh is now complete. Request details can be located in IRIS TS02 Yearly Refresh Share Point Link: https://uhgazure.sharepoint.com/teams/IRISTS06toTS02Migration. Thank you!",
+        "sys_created_on": "2025-02-10 18:27:32",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41486317",
+        "description": "IRIS keeps freezing up and then dropping calls and the Genesys system boots me out and automatically puts me in LOGOFF.  I restart IRIS and the same issue keeps happening.",
+        "short_description": "ATT Wireless - Latency, genesys calls dropping, IRIS freezing",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 18:36:10",
+        "tags": [
+            [
+                "Latency",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41486616",
+        "description": "I ma having trouble logging in to IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - unbale to login",
+        "u_error_symptoms": "unbale to login",
+        "sys_created_on": "2025-02-10 18:47:14",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41486689",
         "description": "Please assign to IRIS-Pharmacy Central Non Prod",
-        "action": "Please assign to IRIS-Pharmacy Central Non Prod\r\nFor TS04 env, while raising 3310 eRx Refill request, status is coming as with status as \"Comm Fail-Retry Pending\"\r\n\r\n\r\nProduct entered by customer:",
-        "open_time": "2025-02-03T07:05:57.000Z",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 18:49:20",
         "tags": [
-            "?"
+            [
+                "?"
+            ]
         ]
     },
     {
-        "in_id": "INC41354714",
-        "description": "IRIS (Integrated Rx Information System) - . the iris is asking for a new password",
-        "action": "I am trying to log in to everything and .. the iris is asking for a new password",
-        "open_time": "2025-02-03T13:26:57.000Z",
+        "number": "INC41486803",
+        "description": "Unlock RX 439153344",
+        "short_description": "Unlock RX 439153344",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 18:55:58",
         "tags": [
             [
+                "RX locked"
+            ]
+        ]
+    },
+    {
+        "number": "INC41487420",
+        "description": "\r\nMember ID: 30700409002\r\nMember name: ABIGAIL SHARP\r\nD.O.B:08/09/2003\r\nZIP code:54301",
+        "short_description": "MSO Member not able to sign into portal ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 19:19:50",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41487750",
+        "description": "We are unable to create data we need to do some tests. IRIS UI is throwing a timeout error when submitted a new prescription.",
+        "short_description": "Unable to create data in TS02",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 19:33:26",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41488129",
+        "description": "Credit card details is not showing on SP Apply payment in IRIS. It's also not showing saved on CCG.",
+        "short_description": "Credit cards are not visible on Member Account",
+        "u_error_symptoms": "No result found",
+        "sys_created_on": "2025-02-10 19:41:10",
+        "tags": [
+            [
+                "Payment",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41488173",
+        "description": "TS02 access is needed for specialty provider portal development and testing. Please grant access to Rohith with following responsibility to create the data needed:\r\n\r\nEmpID: 001953767\r\nMSID: rl4\r\nEmail: rohith_l@optum.com\r\n\r\nRoles Needed:\r\nINV Super User \r\nAR Manager\r\nOM Super User\r\nSpecialty RCM Front-end",
+        "short_description": "TS02 Access Request For Rohith",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 19:46:42",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41488496",
+        "description": "IRIS keeps freezing up and then dropping calls and the Genesys system boots me out and automatically puts me in LOGOFF.  I restart IRIS and the same issue keeps happening.\r\nINC41486317 PAMELA MAAG\r\nReviewed ticket history, EU has several previoius tickets for both of these issues. Reached out via Teams msg\r\nprevious tickets for these issues\r\nINC41362196\r\nINC41469709\r\nINC40910112\r\nINC40909824\r\nINC40902956\r\nremoted in\r\n-Cisco Secure - no drops since connection 2 hours ago. Pc uptime matches. Connected to Cellular Gateway\r\n-ipconfig /all |clip - IP address looks good\r\n-Wired connection being used, wifi disabled\r\n-Ran speed test, ping is high, all other values are good\r\nPing117 ms\r\nJitter8.30 ms\r\nDownload42.9Mbps\r\nUpload10.9Mbps\r\n10.129.1.178\r\nTest Completed ... Results Saved\r\n-Ping test shows latency:\r\nPing statistics for 10.28.77.70:\r\nPackets: Sent = 20, Received = 20, Lost = 0 (0% loss),\r\nApproximate round trip times in milli-seconds:\r\nMinimum = 104ms, Maximum = 123ms, Average = 110ms\r\n-Company ISP is ATT Wireless\r\n-Asked EU to close all apps except Teams/bomgar\r\n-Ran fix my network via systrack, VPN auto connected to Auto VPN but ping is still high\r\n-Tried to switch back to cellular vpn but it gives an error that the connection is being used elsewhere. Ended the CISCO ISE posture task but there is no other Cisco process listed in task mgr.\r\n-In elevated cmd, ran: sfc /scannow, /dism.exe /online /cleanup-image /restorehealth\r\n-rebooted pc\r\n-VPN automatically connected back to cellular gateway successfully\r\n-Ran speed test again, ping is still high, all other values good\r\n-her ticket with help desk yesterday for this issue she states she unplug the power cables to modem and dock but did not hold dock power button down, turned off and on her surge protector, laptop was also rebooted\r\n-Instructed EU to unplug power from dock and hold dock power down for 60 seconds, and also sent steps to perform an enhanced reset\r\n-Provided my direct line so she can call me if she has any issues during these steps\r\n-Ran speed test again, ping is even higher now\r\n-in elevated cmd, ran: gpupdate /force, ipconfig /flushdns, netsh int ipv4 reset, netsh winsock reset, netsh int ip reset\r\n-rebooted pc\r\n-ping is still high\r\n-escalated INC41486317 to Fixed Wireless Access (FWA) Telecommuter Internet Services Support Team",
+        "short_description": "ATT Wireless - Latency, genesys calls dropping, IRIS freezing",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 19:56:01",
+        "tags": [
+            [
+                "Latency",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41488875",
+        "description": "IRIS KEEPS FREEZING RESTRTED SYSTEM AND CLEARED CACHE",
+        "short_description": "IRIS - IRIS KEEPS FREEZING RESTRTED SYSTEM AND CLEARED CACHE",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 20:07:13",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41489501",
+        "description": "IRIS Switch",
+        "short_description": "Change Profile XXIRIS Digital APPS CCG Credit card creation US7978247",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 20:27:57",
+        "tags": [
+            [
+                "Payment"
+            ]
+        ]
+    },
+    {
+        "number": "INC41487779",
+        "description": "It seems that the PtDisDispFullPV1_36 field is not being populated correctly in the ADT_IRIS_Enriched table. The raw ADTs for the provided tracking IDs contain PV1-36 with the value 29, but the PtDisDispFullPV1_36 field is not being populated with either ^ or NULL in the ADT_IRIS_Enriched table. Here are the tracking IDs  as examples\r\n90561324581492293087232\r\n90561278159183026565120\r\n80081312585319379988480\r\n80081335094880735186944",
+        "short_description": "PtDisDispFullPV1_36 filed not populated correctly in ADT_IRIS_Enriched table",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 20:43:06",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41489977",
+        "description": "mouse focus",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 20:45:35",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41490159",
+        "description": "having issues with iris loading constantly, especially any time i try to create a a new acct, i struggle with loading the address, i will have to reboot iris multiple times. in general i get stuck so much in iris i have to reload it at least 4 times a day",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 20:52:01",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41490617",
+        "description": "Order was force-shipped and did not close in IRIS\n\nProduct entered by customer: ",
+        "short_description": "Force shipped order- Need to close in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 21:09:43",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41491205",
+        "description": "Please bounce the PODS as we needed to make changes to the CCG Billing Profile  \r\n1. addresses-v1-0\r\n2. payments-v1-0",
+        "short_description": "Please bounce the PODS as we needed to make changes to the CCG Billing Profile ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 21:33:14",
+        "tags": [
+            [
+                "Payment"
+            ]
+        ]
+    },
+    {
+        "number": "INC41491294",
+        "description": "I submitted a ticket earlier today INC41482353.. did all of that, Iris is still bringing up accounts slow. It is also bringing up the account multiple times on the call, like if I place them on hold to call another dept, the acct pops up again, even though I already have it open. ",
+        "short_description": "IRIS - ongoing issue, accounts come up slowly, come up multiple times after already opened",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 21:35:21",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41491363",
+        "description": "Unable to use Yuyama canister .\r\n\r\n\r\nProduct entered by customer: Semi-Automated Offline Replenishment and Inventory Admin",
+        "short_description": "IRIS (Integrated Rx Information System), Unable to use Yuyama canister .",
+        "u_error_symptoms": "Unable to use Yuyama canister .",
+        "sys_created_on": "2025-02-10 21:38:31",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41491581",
+        "description": "OPTUMRX MEMBER PORTAL - Partially impacted",
+        "short_description": "OPTUMRX MEMBER PORTAL - Partially impacted",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 21:48:31",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41491877",
+        "description": "dex hold that states to reach out to IT",
+        "short_description": "Selected Issue: Other",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 22:02:02",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41491995",
+        "description": "Can someone please assist with closing orders <Protected Information was moved to secure confidential data field in the incident record>?",
+        "short_description": "IRIS (Integrated Rx Information System) - Can someone please assist with closing orders",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System) - Can someone please assist with closing orders",
+        "sys_created_on": "2025-02-10 22:07:46",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41492642",
+        "description": "IRIS (Integrated Rx Information System) - Please query all orders that had \"GLP-1 Hold\" released on 02/10/2025 by user MWONG9. Please include the following in an Excel file: 1) order #, 2) date and time hold was released and 3) MSID of user who released the hold. Thank you.",
+        "short_description": "Please query all orders that had \"GLP-1 Hold\" released on 02/10/2025 by user MWONG9",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 22:37:46",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41492314",
+        "description": "Request access to IRIS TS02 for the following roles.\r\n1. INV Super User \r\n2. Pharmacist \r\n3. OM Super User\r\n4. ORx CS Navigator Rep\r\n\r\nI have also updated the details here \r\nhttps://uhgazure.sharepoint.com/:x:/t/IRISTS06toTS02Migration/ERDcwf7Laf9MvA4bReyJO7UBKN5ZXcHvzgCTLOmgdWS8pA?e=pI7fbl&ovuser=db05faca-c82a-4b9d-b9c5-0f64b6755421%2Cmichael_diener%40optum.com\r\n",
+        "short_description": "IRIS (Integrated Rx Information System) - Request to get access to IRIS TS02",
+        "u_error_symptoms": "Request access to IRIS TS02 for the following roles.",
+        "sys_created_on": "2025-02-10 22:38:04",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41492639",
+        "description": "This ticket is created for tracking efforts. A mail thread is initiated with Relay health.\r\n\r\n\r\nHi Relay Heath Team,\r\n\r\nWe are seeing frequent timeouts while connecting to your server mentioned below. So far last 24 hrs, we have seen 207 timeouts out 1301 requests.\r\n\r\nError message:\r\n{\"errors\":[{\"code\":\"IRIS-0000\",\"title\":\"orx.iris.spring.generated.exception.MessageTransportException\",\"detail\":\"4521f54d-204f-4a02-8fb0-7a1a75a1bf08 failed to connect to /206.227.236.213:7174.  Operation timed out\"}]}\r\n\r\nI have also attached few payloads for the reference for which we got timeout.\r\n\r\ntransport.ndcnet.0.host=206.227.246.213\r\ntransport.ndcnet.0.port=7174\r\ntransport.ndcnet.1.host=206.227.236.213\r\ntransport.ndcnet.1.port=7174\r\n",
+        "short_description": "Relay Health Time outs: Cayman High Error Rate",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 22:39:36",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41492838",
+        "description": "dex hold that states to reach out to IT",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 22:49:18",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41492980",
+        "description": "I am locked out with IRIS account",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "locked out",
+        "sys_created_on": "2025-02-10 22:56:51",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41493493",
+        "description": "Discontinued medications (Rx#\u2019s 451560772 & 451560998) were un-DC\u2019d or made active resulting in QRE (Quality Related Event).  Need to understand which user or system process un-DC\u2019d Rxs.\n\nProduct entered by customer: IRIS\r\nAssign to: MSA ORACLE EBS (RXS) \u2013 SPT",
+        "short_description": "IRIS (Integrated Rx Information System) - Discontinued medications (Rx#'s 451560772 & 451560998) were un-DC'd or made active resulting in QRE (Quality Related Event).  Need to understand which user or system process un-DC'd Rxs.",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System) - Discontinued medications (Rx#'s 451560772 & 451560998) were un-DC'd or made active resulting in QRE (Quality Related Event).  Need to understand which user or system process un-DC'd Rxs.",
+        "sys_created_on": "2025-02-10 23:32:36",
+        "tags": [
+            [
+                "Data Fix",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41493441",
+        "description": "EU said that issue persists after the repair.",
+        "short_description": "FL950 - IRIS mouse focus",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 23:34:21",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41493582",
+        "description": "\r\n\r\nDB Alert Log\r\nErrors in file /u01/app/oracle/diag/rdbms/rxecprr_c/RXECPRR1/trace/RXECPRR1_ora_355172.trc  (incident=9681501) (PDBNAME=RXEPRR):~ORA-00600: internal error code, arguments: [kkxlsb csid mismatch], [871], [65161], [1], [1], [], [], [], [], [], [], []~ORA-06502: PL/SQL: numeric or value error: character string buffer too small~ORA-06512: at \"APPS.XXSPLT_TAILORMED_UTILITY_K\", line 4380\r\n ",
+        "short_description": "DBAs are seeing this error on their DB Alert Log",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 23:39:44",
+        "tags": [
+            [
+                "User Request",
+                "Errors",
+                "Data Fix",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41493696",
+        "description": "Ticket for IRIS freeze",
+        "short_description": "Ticket for IRIS freeze",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-10 23:49:35",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41494348",
+        "description": "I am calling because I change my IRIS password this morning I had to restart my computer because I am having issues with IRIS thinking I change it to and it kept telling me it is going to send me an email",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 01:02:38",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41494521",
+        "description": "IRIS WON'T ALLOW ME TO CREATE AN ACCOUNT FOR MEMBER",
+        "short_description": "IRIS (Integrated Rx Information System) - IRIS WON'T ALLOW ME TO CREATE AN ACCOUNT FOR MEMBER",
+        "u_error_symptoms": "IRIS WON'T ALLOW ME TO CREATE AN ACCOUNT FOR MEMBER",
+        "sys_created_on": "2025-02-11 01:34:19",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41495173",
+        "description": "HI Team, \r\n\r\nWe would like to know what causing the gateway timeout for this service. \r\n/api/clin/rxapi/patients/v1/136512596/coverages\r\n\r\nHere's the error details on our portal, \r\n\r\nWe are seeing an increase in failures for MemberOnboardingController\r\naddPatientCoverage failures is experiencing 504 errors for the error/exception below;\r\n\r\norg.springframework.web.client.HttpServerErrorException$GatewayTimeout\r\n\r\n504 Gateway Time-out: \"{<EOL> \"message\":\"The upstream server is timing out\",<EOL> \"request_id\":\"*****\"<EOL>}\"\r\n\r\nRelative url: /api/specialty/newpatient/v1.0/coverages\r\n\r\nTrace example: https://dtsaas.uhc.com/e/956e9318-977f-41b9-8214-a38c2ce748a2/#trace;gtf=2025-01-24T01:00:00-06:00%20to%202025-02-06T23:55:28-06:00;gf=-3314591177611069762;traceId=efe37ff14bb64bc492c0a47bc63fecef;timeframe=custom1738870782182to1738870911345\r\n\r\nSplunk logs.\r\n\r\nhttps://phi-splunk.optum.com/en-US/app/search/search?earliest=-7d%40h&latest=now&q=search%20136512596&display.page.search.mode=smart&dispatch.sample_ratio=1&sid=1739247466.1489707_24A40D22-CF4F-4523-BA98-F0E184EFA417\r\n\r\nKindly check.\r\n\r\n",
+        "short_description": "Gateway Timeout Exception",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 04:30:27",
+        "tags": [
+            [
+                "Latency",
+                "Errors",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41495696",
+        "description": "I need access to the IRIS stage, dev, and testing environment. My MSID is nmohan4, email is neelam_mohanty@optum.com, and Emp ID is 000710591. The ticket needs to be assigned to BTG Testing group",
+        "short_description": "IRIS (Integrated Rx Information System) - Any Access Issue or Request with IRIS Training Environment",
+        "u_error_symptoms": "Need access to IRIS",
+        "sys_created_on": "2025-02-11 06:46:18",
+        "tags": [
+            [
+                "User Login",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41495714",
+        "description": "Http monitor local outage for HTTP monitor HEMI Pharmacy-RealtimeShippigTrackerMs_IRIS_usps,https://dtsaas.uhc.com/e/956e9318-977f-41b9-8214-a38c2ce748a2/#probl",
+        "short_description": "OPTUMRX HEMI PHARMACY - Http monitor local outage for HTTP monitor HEMI Pharmacy-RealtimeShippigTrackerMs_IRIS_usps,https://dtsaas.uhc.com/e/956e9318-977f-41b9-8214-a38c2ce748a2/#probl",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 06:48:29",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41495803",
+        "description": "Need  help to login  to IRIS TS02  Environment with Pharmacist role.\r\n\r\n    I am getting below error message when I logged in to IRIS TS02\r\n\"Login failed. Please verify your login information or contact the system administrator.\"\r\n\r\nKindly fix this issue ASAP for project work.\r\n\r\n",
+        "short_description": "Not able to login into the  IRIS application TS02 environment ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 07:09:30",
+        "tags": [
+            [
+                "User Login",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41495819",
+        "description": "Reset TS02 Password",
+        "short_description": "IRIS (Integrated Rx Information System) - IRIS Survey Not Working",
+        "u_error_symptoms": "Reset TS02 Password",
+        "sys_created_on": "2025-02-11 07:13:44",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41495923",
+        "description": "reset password for TS02 iris environment",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "reset password for TS02 iris environment",
+        "sys_created_on": "2025-02-11 07:38:46",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41496014",
+        "description": "The synthetic alert HEMI Pharmacy-RealtimeShippigTrackerMs_IRIS_usps should be changed to once in 30 mins or so. ",
+        "short_description": "Synthetic alert : HEMI Pharmacy-RealtimeShippigTrackerMs_IRIS_usps",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 08:01:13",
+        "tags": [
+            [
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41496357",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod Need access to iris TS02 with below mentioned roles OM super user, Specialty pharmacist, INV Super USer, Drug File Maintenance MSID: rkayala",
+        "short_description": "IRIS (Integrated Rx Information System) - Need access to iris TS02",
+        "u_error_symptoms": "Need access to IRIS",
+        "sys_created_on": "2025-02-11 09:19:21",
+        "tags": [
+            [
+                "User Login",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41496633",
+        "description": "\r\n A REMS order appears to have been altered via the provider portal. Need to investigate if the drugs are part of the exclusion list of drugs.\r\npatients are seeing the medication,  A REMS order appears to have been altered via the provider portal. I know we have an established NDC exclusion list for the patient portal. Was a similar exclusion list established for the provider portal?  \r\n\r\nPlease find the attached the docuemtns for reference.\r\nprovided the prescription and order payload.\r\n\r\n",
+        "short_description": "Portal allowing to create orders for REM meds",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 10:19:36",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41496677",
+        "description": "OM Super User and SP RPH. SMS or SP is Speciality\r\nEmail: ioan_miklosik@optum.com ; MSID: imiklosi ; EmployeeID: ",
+        "short_description": "IRIS (Integrated Rx Information System) -TS01, TS04, TS09",
+        "u_error_symptoms": "I need access to IRIS application STAGE and DEV (Assign to IRIS-Pharmacy Central Non Prod). The INC needs to be assigned to the BTG testing group",
+        "sys_created_on": "2025-02-11 10:20:16",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41496682",
+        "description": "US8031291   -  Profile to Switch ON -- US8031291_SMS_TEXT_OPT_ATTRIBUTE1_SWITCH\r\nUS7602380 - VAL_KL_RND_DIALER  -  Reassigned Number/Known Litigator   -  Dialer exclusion - Switch ON\r\nUS7824696  - Switch ON - Profile : XXIRIS_US7824696_GRYPHON_GP_PF",
+        "short_description": "Request to switch on Profiles and Exclusion in Prod",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 10:24:35",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41497064",
+        "description": "CH- Orders not closed in IRIS\n\nProduct entered by customer: IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) -  CH- Orders not closed in IRIS",
+        "u_error_symptoms": "CH- Orders not closed in IRIS",
+        "sys_created_on": "2025-02-11 11:21:00",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41497404",
+        "description": "changing password and not letting me change my password",
+        "short_description": "IRIS : Unable to change password",
+        "u_error_symptoms": "Password was not changed",
+        "sys_created_on": "2025-02-11 12:09:14",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41497416",
+        "description": "reset the password for NUID for mentioned NUID\r\nrpa_orx_dex7_t1, rpa_orx_dex7_t2",
+        "short_description": "reset the password for NUID",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 12:11:06",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41497665",
+        "description": "2 orders needing update in wms\r\nCan we please have the following orders updated and closed in WMS\r\n\r\nTracking information can be found below next to each order number \r\n\r\n780016015-1 ------- USPS Advantage Tracking \u2013 9200 1903 5046 7333 3511 30 / Delivered Feb 10, 2025\r\n\r\n780034368-2 -------- USPS Priority mail express tracking \u2013 9272 4903 5046 7300 4450 44 / Delivered Feb 8, 2025\r\n",
+        "short_description": "OP - IRIS orders not closed",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 12:33:54",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41497739",
+        "description": "SYSTEM LOAD FREEZING ON START UP VPN DISCONNECTING",
+        "short_description": "Connectivity (Internet Drops, Disconnects, etc.)",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 12:42:06",
+        "tags": [
+            [
+                "Crash",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41498182",
+        "description": "according to dev team when mso is true the call used to go to iris to get product price .From az logs the oldest records are from 7 feb and not before that so looks like recently the validation was put. Please confirm if its a valid failure or not and if the call for msg is still going to iris or not\r\n\r\n\r\nresponse :\r\n{\r\n  \"correlationId\": \"de3db271-f6fe-5cd1-1615-962243f3fa85\",\r\n  \"messages\": [\r\n    \"Error Calling XAPI Mail Price API\",\r\n    \"Unsuccessful response from Http Call to 'https://member-cloud-api.optumrx.com/drug-pricing/v3.0/medication/pricing'. Response: 400 - Bad Request\"\r\n  ],\r\n  \"responseType\": \"Error\",\r\n  \"data\": {\r\n    \"correlationId\": \"67ab4b964b8386452380638493e0518c\",\r\n    \"errors\": [\r\n      {\r\n        \"key\": \"MEDICATIONS[0]_DAYSSUPPLY_FIELD_MISSING\",\r\n        \"message\": \"medications[0].daysSupply is required\"\r\n      }\r\n    ],\r\n    \"timeStamp\": \"2025-02-11 13:07:34.008\",\r\n    \"errorType\": \"VALIDATION_ERRORS\",\r\n    \"status\": \"400 BAD_REQUEST\",\r\n    \"exception\": \"com.optum.micro.commons.exception.InputValidationException\"\r\n  }\r\n}\r\n\r\n\r\nrequest:\r\n\r\n{\"mailServiceOnlyFlag\":\"true\",\"medications\":[{\"rxType\":\"HOMEDELIVERY\",\"name\":\"MOUNJARO PEN 7.5MG/0.5ML\",\"daysSupply\":null,\"ndc\":\"00002148480\",\"quantity\":{\"value\":\"3\",\"unitOfMeasurement\":\"ML\"},\"rxNumber\":\"457692740\",\"gpi\":\"2717308000D220\"}]}\r\n\r\n\r\n\r\n\r\n\r\n",
+        "short_description": "seeing failure for httpmail price call with new validation error",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 13:21:46",
+        "tags": [
+            [
+                "Latency",
+                "Alert",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41498344",
+        "description": "Apllication : IRIS   Please assign to IRIS-Pharmacy Central Non Prod\u201d service group",
+        "short_description": " IRIS (Integrated Rx Information System)-Please assign to \"IRIS-Pharmacy Central Non Prod\" ServiceNow Group",
+        "u_error_symptoms": "Apllication : IRIS   Please assign to IRIS-Pharmacy Central Non Prod\" service group",
+        "sys_created_on": "2025-02-11 13:22:08",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41498641",
+        "description": "I try to login to iris account",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to login",
+        "sys_created_on": "2025-02-11 13:35:30",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41498748",
+        "description": "No, once I go here on my applications, it's actually pulling up the my apps. So open Iris app and then it it pulls up this application. What we did earlier, we did remove this favorites and then we added it. It's the same thing.",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "sys_created_on": "2025-02-11 13:40:07",
+        "tags": [
+            [
+                "Launch Issues",
+                "User Login",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41498809",
+        "description": "Need to add roles for IRIS  for below mentioned NUID in TS01 (Lower environment)\r\n\r\nNUID: \r\nrpa_orx_prpa_t1\r\n\r\nRoles:\r\nTechnician\r\nSpecialty Technician\r\nSpecialty Pharmacy Clerk",
+        "short_description": "Need to add roles for IRIS  TS01 for below mentioned NUID",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 13:43:03",
+        "tags": [
+            [
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41498824",
+        "description": "I am having issues with my image viewer. Instead of one window continuously open while using IRIS, I am getting multiple pop up windows for every time i close and open a prescription",
+        "short_description": "IRIS (Integrated Rx Information System) - having issues with image viewer",
+        "u_error_symptoms": "Multiple Image Viewer Windows Opening",
+        "sys_created_on": "2025-02-11 13:43:56",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41499071",
+        "description": "I need to pull an audit from IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - need to pull an audit from IRIS",
+        "u_error_symptoms": "need to pull an audit from IRIS",
+        "sys_created_on": "2025-02-11 13:53:14",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41499187",
+        "description": "user facing issue with log in with IRIS application.",
+        "short_description": "IRIS (Integrated Rx Information System) - Login, Access And Troubleshooting",
+        "u_error_symptoms": "user facing issue with log in with IRIS application.",
+        "sys_created_on": "2025-02-11 13:57:49",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41499364",
+        "description": "I just need help on resetting the password for IRIS",
+        "short_description": "IRIS password reset",
+        "u_error_symptoms": "IRIS password reset",
+        "sys_created_on": "2025-02-11 14:04:36",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41500613",
+        "description": "I need access to Iris environment for TS02 https://orxpcatst2ebs.uhc.com:4450/OA_HTML/AppsLogin.",
+        "short_description": "IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-11 14:43:53",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41501410",
+        "description": "It keeps asking me to submit a new password and I enter new different ones and not accepting them",
+        "short_description": "IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 15:08:41",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41501988",
+        "description": "I am trying to login to IRIS asking to change the password",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Change the password ",
+        "sys_created_on": "2025-02-11 15:26:37",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41502017",
+        "description": "I am having an issue with IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "Launch Issues",
+        "sys_created_on": "2025-02-11 15:27:48",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41502044",
+        "description": "I am trying to login to IRIS, whenever i click on Universal queue, getting error",
+        "short_description": "IRIS (Integrated Rx Information System) -  Fatal: Initialization Error",
+        "u_error_symptoms": "Fatal:Initialization Error",
+        "sys_created_on": "2025-02-11 15:28:26",
+        "tags": [
+            [
+                "User Login",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41502498",
+        "description": "I am trying to change my Iris password and I am not getting in, I';ve changed it many times but getting errors",
+        "short_description": "IRIS ISSUE",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 15:41:49",
+        "tags": [
+            [
+                "Password",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41502757",
+        "description": "need help resetting optrumrx password",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-11 15:48:51",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41503073",
+        "description": "Iris froze /blue circle spinning",
+        "short_description": "IRIS - froze/blue circle spinning when trying to remove rx from HFF one at a time",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 15:58:32",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41503270",
+        "description": "please assign to ORX IRIS ERP DBA -OSW\r\n\r\nPlease sql IDs jobs   8muryy6645qgv & 5u0rbh1wbuatx \r\n\r\nOS user kbodapat.  He asked me to request cancelellation, they are using high parallels and running a long time.\r\n\r\n",
+        "short_description": "Kill running IRIS jobs",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 16:08:33",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41503457",
+        "description": "on a call w/nancy freeman dob12/13/50.. iris froze...documentation only",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "on a call w/nancy freeman dob12/13/50.. iris froze...documentation only",
+        "sys_created_on": "2025-02-11 16:09:50",
+        "tags": [
+            [
+                "Launch Issues",
+                "Latency",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41503468",
+        "description": "i just we reset my password every day and no i cant sign to my iris ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "cant sign to my iris ",
+        "sys_created_on": "2025-02-11 16:10:16",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41503650",
+        "description": "stating the website HTTPS certificate cannot be veriied",
+        "short_description": "IRIS (Integrated Rx Information System) - Login, Access And Troubleshooting",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 16:16:00",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41503833",
+        "description": "IRIS not loading up after software installed for my new job that starts later in the month.",
+        "short_description": "IRIS issue after software install",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 16:21:44",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41503979",
+        "description": "manually shipped orders need closed in iris  assign to ORX_PCS_OV_SPT",
+        "short_description": "manually shipped orders need closed in iris",
+        "u_error_symptoms": "manually shipped orders need closed in iris",
+        "sys_created_on": "2025-02-11 16:26:27",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41504409",
+        "description": "Request to switch on Below Profiles in Production for Unicorn team changes as part of Feb 25 release.\r\n\r\nUS8034420  : XXIRIS_US8034420_COMMIT_FLAG_SWITCH\r\n US7758774 \r\n&US7758775 : XXIRIS_US7758774_LAST_FILL_SWITCH\r\nDE897437   : DE838725_IMAGE_MARRYUP_DEBUG_SWITCH\r\nDE962786   : XXIRIS_DE962786_ERROR_MI_SWITCH\r\nDE962786   : XXSPLT_DE962786_ERROR_MI_SWITCH\r\nUS7859955  : XXIRIS_ORTF_DAW_CODE_SWITCH",
+        "short_description": "Request to switch on Profiles in Production for Team Unicorn",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 16:38:01",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41504646",
+        "description": " Users getting an error : fatal initialization error pop up while trying to access Universal search member ",
+        "short_description": "IRIS (Integrated Rx Information System) - Users getting an error : fatal initialization error pop up while trying to access Universal search member ",
+        "u_error_symptoms": " Users getting an error : fatal initialization error pop up while trying to access Universal search member ",
+        "sys_created_on": "2025-02-11 16:44:09",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41504752",
+        "description": "I need help to reset my IRIS password. I can't get it to work\r\n",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "IRIS password incorrect",
+        "sys_created_on": "2025-02-11 16:47:08",
+        "tags": [
+            [
+                "Password",
+                "User Login",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41504785",
+        "description": "Iris is still bringing up accounts slow. As of right now, the call I just had, I manually brought up the members account, then a minute later Iris brought it up. And then when I ended my call, the same account popped up again! I filed 2 tickets yesterday and different things were done. I left my Iris the way it is, so whoever assists me, can see it. ",
+        "short_description": "IRIS - ongoing issue, accounts come up slowly, come up multiple times after already opened",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 16:47:48",
+        "tags": [
+            [
+                "User Request",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41504989",
+        "description": "I am experiencing very slow performance on my Orbit Power BI portal production workspace. The workspace name:  Pharmacy Trade Relations. The performance issues started around 3pm Irish Time we are still experiencing performance issues at 4:52pm Irish time. Please kindly assist as this impacts demos that are being done for external clients.",
+        "short_description": "Optum Foresight (Orbit Power BI) - I am experiencing very slow performance on my Orbit Power BI portal production workspace. The workspace name:  Pharmacy Trade Relations. The performance issues started around 3pm Irish Time we are still experiencing",
+        "u_error_symptoms": "I am experiencing very slow performance on my Orbit Power BI portal production workspace. The workspace name:  Pharmacy Trade Relations. The performance issues started around 3pm Irish Time we are still experiencing performance issues at 4:52pm Irish time. Please kindly assist as this impacts demos that are being done for external clients.",
+        "sys_created_on": "2025-02-11 16:53:21",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41505526",
+        "description": "Rhel 9 node IPs need to be added to user groups:\r\nhccksusr001-workers-ctc\r\nhcck8susr001-workers-elr",
+        "short_description": "Cayman ECC connection to relay health",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 17:09:08",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41505525",
+        "description": "CDSM_REPORTS.IRIS_DETAILDROPREPORT table is having load issues for the interface type = FFTOACC since late Oct 24.  Please verify load process to table.  You can use campaign id = 1189 (St. Lukes).  They have multiple flat that should've generated Missing Date of Service drops but no drop data is available.  This is also causing the Reporting team to report 0 drops for Flat File submitters which is causing confusion on why data isn't closing gaps since they don't see any issue on the Submitter Scorecard!",
+        "short_description": "CDSM_REPORTS.IRIS_DETAILDROPREPORT table is having load issues for the interface type = FFTOACC.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 17:10:52",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41505849",
+        "description": "Application : iris  , Issue need iris ts02 access",
+        "short_description": "IRIS - need iris ts02 access",
+        "u_error_symptoms": "need iris ts02 access",
+        "sys_created_on": "2025-02-11 17:17:08",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41505911",
+        "description": " Users getting an error : fatal initialization error pop up while trying to access Universal search member ",
+        "short_description": "IRIS (Integrated Rx Information System) - Users getting an error : fatal initialization error pop up while trying to access Universal search member ",
+        "u_error_symptoms": " Users getting an error : fatal initialization error pop up while trying to access Universal search member ",
+        "sys_created_on": "2025-02-11 17:19:38",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41506127",
+        "description": "1. update Primary to assign Ship to  2. Update Open Orders with Primary as Ship to  \r\n3. Change Address from PO BOX CCG Billing Only to CCG Billing Only \t\r\n3.1 Remove Ship to or Inactivate Address Pupose\r\n\r\n",
+        "short_description": "Data Fix to Correct CCG Addresses",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 17:27:08",
+        "tags": [
+            [
+                "Order Issue",
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41506342",
+        "description": "need hash clear for iris account 473991779 rxs got mixed up with account 474209686 please route to msa oracle spt",
+        "short_description": "IRIS (Integrated Rx Information System)-need hash clear for iris account 473991779 rxs got mixed up with account 474209686 please route to msa oracle spt",
+        "u_error_symptoms": "need hash clear for iris account 473991779 rxs got mixed up with account 474209686 please route to msa oracle spt",
+        "sys_created_on": "2025-02-11 17:33:25",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41506287",
+        "description": "1. XXIRIS_US8060666_EXTRACT_056_057_058_B1_RESP_PF\r\n2. XXIRIS_US8060657_HOLD_SWITCH_1_PF\r\n3. XXIRIS_US8060657_HOLD_SWITCH_2_PF",
+        "short_description": "Feb IRIS Release Profiles - Creme DeSprint",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 17:35:02",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41506899",
+        "description": "unable to access links on my metrics to acknowledge, and iris keeps timing out after minutes of being open, having to constantly log back in",
+        "short_description": "My Metrics and IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 17:51:38",
+        "tags": [
+            [
+                "Latency",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41506896",
+        "description": "\u2022\tIRIS Skill Set: SPFE Select Holds\r\no\tUpdate Description: Used for EMR Team\r\no\tCheck: Include Offshore Box and Offshore Allowed\r\no\tUpdate Line of business: SMS\r\no\tRemove: Select Intervention Hold\r\no\tRemove: Retry Hold\r\no\tAdd: Holds: Proactive EMR Required All\r\n\uf0a7\tCheck Display Flag\r\n",
+        "short_description": "Activate Skill Set Run Tuesday 2-11 @ 10 pm CST Purge N",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 17:53:01",
+        "tags": [
+            [
+                "User Request",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41507000",
+        "description": "I'm calling because IRIS it's just spinning",
+        "short_description": "IRIS - Stuck/Not responding",
+        "u_error_symptoms": "No responding",
+        "sys_created_on": "2025-02-11 17:56:03",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41507026",
+        "description": "My image viewer will not stay up. I reboot and then get it back up. It'll come for one order and then disappear.",
+        "short_description": "IRIS Image Viewer - Image viewer wont stay up.",
+        "u_error_symptoms": "Image viewer wont stay up.",
+        "sys_created_on": "2025-02-11 17:57:11",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41507774",
+        "description": "XXIRIS_US7992346_IBT_PF  XXIRIS_US7850026_PHARM_HOLD_PF: Apply hold on PSC  XXIRIS_US7972532_PORTAL_PATIENT_NAME_PF XXIRIS_US7972532_AR_PATIENT_NAME_PF XXIRIS_US7972532_ORTF_PATIENT_NAME_PF XXIRIS_US7972532_LITE_PATIENT_NAME_PF XXIRIS Default Member Name  Caps",
+        "short_description": "Release Profile Changes - BlueSprint",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 18:24:08",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41508278",
+        "description": "Trying to log in and keep getting error Cannot login the user on channel voice. Pls cont your administrator. IRIS also keeps freezing, will not allow me to enter new mbr accts. ",
+        "short_description": "Selected Issue: OMNI Genesys (WWE) - Trying to log in and keep getting error Cannot login the user on channel voice. Pls cont your administrator. IRIS also keeps freezing, will not allow me to enter new mbr accts. ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 18:41:50",
+        "tags": [
+            [
+                "Latency",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41508657",
+        "description": "I am having issue with IRIS it just keeps spinning",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "Launch Issues",
+        "sys_created_on": "2025-02-11 18:54:56",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41508697",
+        "description": "Iris blue wheel keeps spinning. force closed and restarted and happens each time. Mainly happens when I am setting up new accts",
+        "short_description": "IRIS - Iris blue wheel keeps spinning. Mainly happens when I am setting up new accts",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 18:55:59",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41508725",
+        "description": "Cannot log in",
+        "short_description": " IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 18:57:00",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41509038",
+        "description": "Assign to Rebecca Lever IRIS Team. Can I get a list of all staff at all sites that have DFM access?",
+        "short_description": "IRIS (Integrated Rx Information System) - Assign to Rebecca Lever IRIS Team. Can I get a list of all staff at all sites that have DFM access?",
+        "u_error_symptoms": "Assign to Rebecca Lever IRIS Team. Can I get a list of all staff at all sites that have DFM access?",
+        "sys_created_on": "2025-02-11 19:07:21",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41509095",
+        "description": "ORx Pharmacy Control System - shipped orders with errors assign to ORX_PCS_OV_SPT",
+        "short_description": "Order not closed in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 19:09:28",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41509230",
+        "description": "Need macro express version 6.3.311\r\n\r\n\r\nMachine Name LHTU05CG146DCLF\r\nOS  Windows 10 Enterprise 22H2 SAR\r\nModel HP EliteBook 840 G8",
+        "short_description": "Macro Express - Need macro express version 6.3.311",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 19:15:02",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41509240",
+        "description": "Please have the \"Copy\" Function added to the Resend Operator Role in IRIS for myself and my team. I have attached a list of employees and their MSID.\n\nProduct entered by customer: IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Please have the \"Copy\" Function added to the Resend Operator Role in IRIS for myself and my team. I have attached a list of employees and their MSID.",
+        "u_error_symptoms": "Please have the \"Copy\" Function added to the Resend Operator Role in IRIS for myself and my team. I have attached a list of employees and their MSID.",
+        "sys_created_on": "2025-02-11 19:15:29",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41509304",
+        "description": "shipped orders with error and assign to @ ORx_Dispensing_IT_Support",
+        "short_description": "Order not closed in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 19:17:24",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41509616",
+        "description": "unable to load iris",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 19:28:22",
+        "tags": [
+            [
+                "Launch Issues",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41509655",
+        "description": "IRIS for NDC 84612048102 sends manufacturer to DOMS as OPTUM HEAL but DFM shows it is NUVAILA",
+        "short_description": "IRIS for NDC 84612048102 sends manufacturer to DOMS as OPTUM HEAL but DFM shows it is NUVAILA",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 19:31:01",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41509854",
+        "description": "Need an assistance with IRIS, it is deleting an order every time it tries to be booked.",
+        "short_description": "IRIS (Integrated Rx Information System) - IRIS is deleting an order every time it tries to be booked",
+        "u_error_symptoms": "IRIS is deleting an order every time it tries to be booked",
+        "sys_created_on": "2025-02-11 19:36:44",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41509938",
+        "description": "I'M NOT ABLE TO SEE THE DASHBOARD. THE INFO IS NOT POPULATING",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 19:39:36",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41510122",
+        "description": "While working queue in IRIS, it is placing me inside of orders that someone is already in and will not allow me to move past without adding a retry hold. I should not be placed in an order with someone currently inside since I am working dispense on those orders",
+        "short_description": "IRIS (Integrated Rx Information System) - Issue in working queue",
+        "u_error_symptoms": "Issue in working queue",
+        "sys_created_on": "2025-02-11 19:45:41",
+        "tags": [
+            [
+                "Order Issue",
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41510208",
+        "description": "GoodMorning i have an issues with my genesys shows error the website https certificate cannot be verified cant be able to login",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 19:48:59",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41510227",
+        "description": "user facing issue with log in with IRIS application.",
+        "short_description": "IRIS (Integrated Rx Information System) - Login, Access And Troubleshooting",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 19:50:01",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41510796",
+        "description": "IRIS DV99 - Please add config for CC creation in Cayman",
+        "short_description": "IRIS DV99 - Please add config for CC creation in Cayman",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 20:08:20",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41511303",
+        "description": "IRIS is taking long time to load.",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "Launch Issues",
+        "sys_created_on": "2025-02-11 20:25:23",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41511359",
+        "description": "When merging a member a account a new account creates systematically. With each account merged a new account was created.",
+        "short_description": "IRIS (Integrated Rx Information System) - When merging a member a account a new account creates systematically",
+        "u_error_symptoms": "When merging a member a account a new account creates systematically. With each account merged a new account was created.",
+        "sys_created_on": "2025-02-11 20:27:07",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41511332",
+        "description": "ST01 Load Test support\r\n\r\nXXIRIS Outbound Image Interface Batch\r\nXXIRIS_OM_RX_IMAGE_K.rx_image_batch\r\n\r\nUPDATE xxiris_om_image_stg\r\nSET STATUS='ERROR'\r\nWHERE KEY_ID=408080620\r\nAND TRANSACTION_TYPE='DOE'\r\n\r\nSELECT key_id, transaction_type, TO_NUMBER (attribute1),\r\n                TO_NUMBER (attribute2) , attribute3,status,last_update_date\r\n           FROM xxiris_om_image_stg\r\n          WHERE (   status IN ('SENT', 'CREATED')\r\n                 OR status LIKE '%Failed%'\r\n                 OR status LIKE '%Timeout%'    -- Added by MK for HPSD#6100610\r\n                 OR status LIKE '%ERROR%'\r\n                )       \r\n            AND KEY_ID=408080620                         \r\n            AND last_update_date < (SYSDATE - :p_time_interval / 1440);\r\n",
+        "short_description": "ST01 Load Test support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 20:28:01",
+        "tags": [
+            [
+                "Latency",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41511422",
+        "description": "need has clear for iris account 456803251 rxs got mixed up with account 473876544. please route to msa oracle spt",
+        "short_description": "IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 20:29:26",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41511542",
+        "description": "I had to restart and now my IRIS won't launch.  Giving me an error\n",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 20:33:43",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41511594",
+        "description": "Fatal: Initialization Error: Could not initialize applet",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 20:35:46",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41512354",
+        "description": "iris will still pop up an account late, and also multiple times on a call. submitted prior tickets and troubleshooting done. they adv to have me mention that the globe icon on my computer, may be part of the problem?? it doesn't turn into a monitor like it should (has been that way for months) but after all of the other troubleshooting that was done, in prior tickets. this still continues to happen",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 21:04:51",
+        "tags": [
+            [
+                "Latency",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41512678",
+        "description": "when trying to update in smf/pip tab it's giving a pop up of stating, member has task please review and than when i try and hit save this pops up Name Change restriction - customer must contact insurance carrier. in acct 474934901 this is the second acct this has happened in for two different pcc's and myself",
+        "short_description": "IRIS - errors when trying to update in smf/pip tab:  (member has task please review, name change restriction)",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 21:15:44",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41512922",
+        "description": "IRIS keeps messing up and freezing and I'm losing connection in middle of calls. ",
+        "short_description": "Selected Issue: Connectivity (Internet Drops, Disconnects, etc.)",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 21:26:26",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41513186",
+        "description": "ICED TEA on IRIS APP",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 21:37:53",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41513225",
+        "description": "ICED TEA ON IRIS APP",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 21:40:04",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41513339",
+        "description": " Users getting an error : fatal initialization error pop up while trying to access Universal search member ",
+        "short_description": "IRIS (Integrated Rx Information System) - Users getting an error : fatal initial",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 21:44:46",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41513484",
+        "description": "still having iris issues after all of the troubleshooting on prior tickets. started taking calls again at 1:37pm pst. the last call I was on, i had to manually bring up, then the account came up a 2nd time towards the end of my call. my globe icon is also not there, it is the normal monitor icon. so that rules out that theory ",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 21:50:18",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41513627",
+        "description": "i am getting an error message when saving a notes in iris",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS",
+        "u_error_symptoms": "name change restriction",
+        "sys_created_on": "2025-02-11 21:56:42",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41513749",
+        "description": "\"Refill Smoothing R2 2/18/2025 to 2/19/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) \u2013 SPT\"",
+        "short_description": "IRIS (Integrated Rx Information System) - \"Refill Smoothing R2 2/18/2025 to 2/19/202",
+        "u_error_symptoms": "\"Refill Smoothing R2 2/18/2025 to 2/19/202",
+        "sys_created_on": "2025-02-11 22:02:00",
+        "tags": [
+            [
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41514197",
+        "description": "JV- IRIS orders not closed\r\norders packed in PCS without tracking\r\n\r\nORX_PCS JV\r\nPlease send ticket to ORx_Dispensing_IT_Support\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System), JV- IRIS orders not closed",
+        "u_error_symptoms": "JV- IRIS orders not closed",
+        "sys_created_on": "2025-02-11 22:24:22",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41514229",
+        "description": "Can someone please assist with closing the following orders in Iris?",
+        "short_description": "IRIS (Integrated Rx Information System) - Can someone please assist with closing the following orders in Iris?",
+        "u_error_symptoms": "Can someone please assist with closing the following orders in Iris?",
+        "sys_created_on": "2025-02-11 22:26:27",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41514282",
+        "description": "Iris issues log in",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "sys_created_on": "2025-02-11 22:29:53",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41514526",
+        "description": "I work in D-Rex team for UHC Pharmacy&Prescriptions page. \r\nNeed TS02 access for creating Refill/Renews/ OrderCancel/RequestCancel+Denied statuses for Project deliverables.\r\n\r\nPlease assign to \"IRIS-Pharmacy Central Non Prod\" ServiceNow Group\r\n\r\n\u2022\tMSID(s): spraka37\r\n\r\n\u2022\tEmployee Number(s): 001704386\r\n\r\n\u2022\tEnvironment : TS02\r\n\r\n\u2022\tResponsibility / Top Hat: \r\nUniversal Search Member (Orders: Patient and Prescriber) + \r\nOrder Management responsibility + \r\nPharmacist responsibility\r\n\r\nProduct entered by customer: Please assign to \"IRIS-Pharmacy Central Non Prod\" ServiceNow Group\r\n\r\nProduct entered by customer: IRIS-Pharmacy Central Non Prod",
+        "short_description": "IRIS (Integrated Rx Information System)-Please assign to \"IRIS-Pharmacy Central Non Prod\" ServiceNow Group TS02 access",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 22:45:06",
+        "tags": [
+            [
+                "Order Issue",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41514561",
+        "description": "Per Email chain, program was uploaded but not run yet, see email chain for details ",
+        "short_description": "Need to run XXIRIS Geocode Conversion Program ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 22:46:51",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41514653",
+        "description": "Iris froze/could not close page",
+        "short_description": " IRIS -  froze/could not close page",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 22:50:59",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41514662",
+        "description": "for iris issues / iris spinning over 3 minutes, lap top greyed out in start up square\n unable to clear cache / teams cache ",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 22:51:52",
+        "tags": [
+            [
+                "Latency",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41515069",
+        "description": "Iris froze while trying to update a profile   self resolved",
+        "short_description": "Iris froze while trying to update a profile   self resolved",
+        "u_error_symptoms": "Iris froze while trying to update a profile   self resolved",
+        "sys_created_on": "2025-02-11 23:22:27",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41515381",
+        "description": "IL950 - IRIS: Need to do a password reset: error message \" Login failed\" \r\nPassword not valid as the user trying to reset the password\r\nerror was repeating characters",
+        "short_description": "IRIS: Password reset: error message \" Login failed\" ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-11 23:49:48",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41515494",
+        "description": "IRIS - issue ",
+        "short_description": "IRIS - issue ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 00:02:44",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41515523",
+        "description": "Need to know the logic for both \"XXIRIS Drop Date Update DF and \"XXIRIS Refill Smoothing Drop Date Update\"",
+        "short_description": "Need to know the logic for both \"XXIRIS Drop Date Update DF and \"XXIRIS Refill Smoothing Drop Date Update\" ",
+        "u_error_symptoms": "Hello requesting logic details for XXIRIS_DROP_DATE_UPDATE_DF.sql program. Please assign to MSA ORACLE EBS (RXS) \u2013 SPT",
+        "sys_created_on": "2025-02-12 00:03:39",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41515872",
+        "description": "my IRIS is not working",
+        "short_description": " IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "my IRIS is not working",
+        "sys_created_on": "2025-02-12 00:43:04",
+        "tags": [
+            [
+                "Launch Issues",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41517992",
+        "description": "Need to add roles for IRIS  for below mentioned NUID in TS04 (Lower environment)\r\n\r\nNUID: \r\nrpa_orx_prpa_t1\r\n\r\nRoles:\r\nTechnician\r\nSpecialty Technician\r\nSpecialty Pharmacy Clerk",
+        "short_description": "Need to add roles for IRIS  TS04 for below mentioned NUID",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 07:47:25",
+        "tags": [
+            [
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41518315",
+        "description": "Unable to access IRIS application from VDI.  seeing below error while launching the application.\n\nExitException: JNLP Jar download failure.\n",
+        "short_description": "IRIS (Integrated Rx Information System) - ExitException: JNLP Jar download failure.",
+        "u_error_symptoms": "ExitException: JNLP Jar download failure.\r\n",
+        "sys_created_on": "2025-02-12 08:42:28",
+        "tags": [
+            [
+                "Launch Issues",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41518432",
+        "description": "We need to raise a request for IRIS to get additional roles for TS02 environment. I have mentioned the roles below which are required\r\nRoles\r\n1. AR Billing User\r\n2. AR Interface Processor\r\n3. AR Manager\r\n4. AR Superuser\r\n5. AR Supervisor\r\n6. Application Diagnostics\r\n7. Data Exception Technician\r\n8. Drug File Maintenance\r\n9. INV Super User\r\n10. Inventory Manager\r\n11. OM Super User\r\n12. PO Super User\r\n13. Pharmacist\r\n14. Purchasing Super User\r\n15. Specialty Pharmacist\r\n16. Specialty RCM Back-end\r\n17. Specialty RCM Front-end\r\n \r\nPlease assign this ticket to IRIS support system.\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "need to raise a request for IRIS to get additional roles for TS02 environment.",
+        "sys_created_on": "2025-02-12 09:07:29",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41518434",
+        "description": "We need to raise a request for IRIS to get additional roles for TS02 environment. I have mentioned the roles below which are required\r\nRoles\r\n1. AR Billing User\r\n2. AR Interface Processor\r\n3. AR Manager\r\n4. AR Superuser\r\n5. AR Supervisor\r\n6. Application Diagnostics\r\n7. Data Exception Technician\r\n8. Drug File Maintenance\r\n9. INV Super User\r\n10. Inventory Manager\r\n11. OM Super User\r\n12. PO Super User\r\n13. Pharmacist\r\n14. Purchasing Super User\r\n15. Specialty Pharmacist\r\n16. Specialty RCM Back-end\r\n17. Specialty RCM Front-end\r\n\r\nPlease assign this ticket to IRIS support system.\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "need to raise a request for IRIS to get additional roles for TS02 environment.",
+        "sys_created_on": "2025-02-12 09:07:38",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41518478",
+        "description": "Need zoom form access",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "Need zoom form access",
+        "sys_created_on": "2025-02-12 09:16:44",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41518588",
+        "description": "To rest password for IRIS TS02 environment\n\nProduct entered by customer: ",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 09:41:31",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41518879",
+        "description": "We need to raise a request for IRIS to get additional roles for TS02 environment. I have mentioned the roles below which are required\r\nRoles\r\n1. AR Billing User\r\n2. AR Interface Processor\r\n3. AR Manager\r\n4. AR Superuser\r\n5. AR Supervisor\r\n6. Application Diagnostics\r\n7. Data Exception Technician\r\n8. Drug File Maintenance\r\n9. INV Super User\r\n10. Inventory Manager\r\n11. OM Super User\r\n12. PO Super User\r\n13. Pharmacist\r\n14. Purchasing Super User\r\n15. Specialty Pharmacist\r\n16. Specialty RCM Back-end\r\n17. Specialty RCM Front-end\r\n \r\nPlease assign this ticket to IRIS support system.\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-12 10:27:20",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41518891",
+        "description": "We need to raise a request for IRIS to get additional roles for TS02 environment. I have mentioned the roles below which are required\r\nRoles\r\n1. AR Billing User\r\n2. AR Interface Processor\r\n3. AR Manager\r\n4. AR Superuser\r\n5. AR Supervisor\r\n6. Application Diagnostics\r\n7. Data Exception Technician\r\n8. Drug File Maintenance\r\n9. INV Super User\r\n10. Inventory Manager\r\n11. OM Super User\r\n12. PO Super User\r\n13. Pharmacist\r\n14. Purchasing Super User\r\n15. Specialty Pharmacist\r\n16. Specialty RCM Back-end\r\n17. Specialty RCM Front-end\r\n \r\nPlease assign this ticket to IRIS support system.\n\nProduct entered by customer: IRIS",
+        "short_description": "IRIS (Integrated Rx Information System)  - Need to raise a request for IRIS to get additional roles for TS02 environment",
+        "u_error_symptoms": "Need to raise a request for IRIS to get additional roles for TS02 environment",
+        "sys_created_on": "2025-02-12 10:29:03",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41519075",
+        "description": "Gryphon Outbound Phase 3  - Update Attached Alert query to Alert - 305\r\nRun Request Set:  XXIRIS Gryphon Outbound Request Set\r\n\r\nUS7985460  -   Enable Text and Email channel in Alert Hierarchy Form - for Alert - 206 - Allergy Clarification\r\nEnable Exclusion :  VAL_JTF_LOOKBACK_TEXT  ,   VAL_JTF_LOOKBACK_DIALER  , VAL_JTF_LOOKBACK_EMAIL\r\n\r\nUS7824696  - Profile ON - XXIRIS_US7824696_GRYPHON_GP_PF\r\n\r\nUS8020906 - Profile ON - XXIRIS_US8020906_SYNC_PROG_BUGFIX\r\n\r\nAlert 11 - Carrier Returns  - Enable Text and Email channel\r\n\r\n",
+        "short_description": "Feb Rel 10.5.6 - Go Live - Switch ON",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 11:01:44",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41519207",
+        "description": "need access for IRIS Zoom form Refund ",
+        "short_description": "IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "need access for IRIS Zoom form Refund ",
+        "sys_created_on": "2025-02-12 11:05:54",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41519296",
+        "description": "We need to raise a request for IRIS to get additional roles for TS02 environment. I have mentioned the roles below which are required\r\nRoles\r\n1. AR Billing User\r\n2. AR Interface Processor\r\n3. AR Manager\r\n4. AR Superuser\r\n5. AR Supervisor\r\n6. Application Diagnostics\r\n7. Data Exception Technician\r\n8. Drug File Maintenance\r\n9. INV Super User\r\n10. Inventory Manager\r\n11. OM Super User\r\n12. PO Super User\r\n13. Pharmacist\r\n14. Purchasing Super User\r\n15. Specialty Pharmacist\r\n16. Specialty RCM Back-end\r\n17. Specialty RCM Front-end\r\n \r\nPlease assign this ticket to IRIS support system.\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System)  -  Need to raise a request for IRIS to get additional roles for TS02 environment",
+        "u_error_symptoms": "Need to raise a request for IRIS to get additional roles for TS02 environment",
+        "sys_created_on": "2025-02-12 11:24:11",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41519324",
+        "description": "We need to raise a request for IRIS to get additional roles for TS02 environment. I have mentioned the roles below which are required\r\n\r\nRoles\r\n\r\n1. AR Billing User\r\n\r\n2. AR Interface Processor\r\n\r\n3. AR Manager\r\n\r\n4. AR Superuser\r\n\r\n5. AR Supervisor\r\n\r\n6. Application Diagnostics\r\n\r\n7. Data Exception Technician\r\n\r\n8. Drug File Maintenance\r\n\r\n9. INV Super User\r\n\r\n10. Inventory Manager\r\n\r\n11. OM Super User\r\n\r\n12. PO Super User\r\n\r\n13. Pharmacist\r\n\r\n14. Purchasing Super User\r\n\r\n15. Specialty Pharmacist\r\n\r\n16. Specialty RCM Back-end\r\n\r\n17. Specialty RCM Front-end\r\n \r\nPlease assign this ticket to IRIS support system.\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "We need to raise a request for IRIS to get additional roles for TS02 environment. I have mentioned the roles below which are required",
+        "sys_created_on": "2025-02-12 11:29:17",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41519440",
+        "description": "CH- Orders not closed in IRIS\n\nProduct entered by customer: IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Orders not closed in IRIS",
+        "u_error_symptoms": "CH- Orders not closed in IRIS\r\n\r\nProduct entered by customer: IRIS",
+        "sys_created_on": "2025-02-12 11:48:51",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41519647",
+        "description": " Users getting an error : fatal initialization error pop up while trying to access Universal search member ",
+        "short_description": "IRIS (Integrated Rx Information System) - Users getting an error : fatal initialization error pop up while trying to access Universal search member ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 12:15:50",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41520233",
+        "description": "NC950 - IRIS Login issue",
+        "short_description": "NC950 - IRIS Login issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 13:09:31",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41521659",
+        "description": "I recently changed my password and I'm unable to login, can you please reset my password.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "password reset",
+        "sys_created_on": "2025-02-12 14:03:36",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41521846",
+        "description": "i am unable to pull up the details in iris",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to open ( rxeprrapp.uhc.com)issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "Unable to open ( rxeprrapp.uhc.com)issue for IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-12 14:09:45",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41522051",
+        "description": "Resetting my password in Iris\r\npassword is not valid\r\n",
+        "short_description": "IRIS (Integrated Rx Information System) - unable to log in",
+        "u_error_symptoms": "the password your entered did not passed the validation \r\n",
+        "sys_created_on": "2025-02-12 14:15:51",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41522212",
+        "description": "iris tool unable to reset password",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to reset IRIS password",
+        "sys_created_on": "2025-02-12 14:20:53",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41522409",
+        "description": "I have issue with IRIS login issue its asking to change the password ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "I have issue with IRIS login issue its asking to change the password ",
+        "sys_created_on": "2025-02-12 14:27:11",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41522297",
+        "description": "Hi,\r\n\r\nUser \"INFOADM_ORA\" don't has Write  privileges for IRIS RXETS02 tables,\r\n\r\nPlease grant role  \"INFOADM_ORA_ROLE_NONPROD\" to all tables in list attached on RXETS02 tables.  \r\n\r\n------\r\n\r\nSeverity\tTimestamp\tNode\tThread\tMessage Code\tMessage\r\nINFO\t2/12/2025 12:23:15 AM\tnode01_APSRT4277\tWRITER_1_*_1\tWRT_8147\tWriter: Target is Database [RXETS02], Type [Oracle], User [INFOADM_ORA], Bulk Mode [OFF]\r\nINFO\t2/12/2025 12:23:15 AM\tnode01_APSRT4277\tWRITER_1_*_1\tWRT_8221\tTarget database connection [IRIS_RXETS02] code page: [UTF-8 encoding of Unicode]\r\n\r\n\r\nSeverity\tTimestamp\tNode\tThread\tMessage Code\tMessage\r\nERROR\t2/12/2025 12:29:55 AM\tnode01_APSRT4277\tWRITER_1_*_1\tWRT_8229\tDatabase errors occurred: \r\nORA-01031: insufficient privileges\r\n\r\nDatabase driver error...\r\nFunction Name : Execute\r\nSQL Stmt : INSERT INTO APPS.HZ_PARTIES(PARTY_ID,PARTY_NUMBER,PARTY_NAME,PARTY_TYPE,VALIDATED_FLAG,LAST_UPDATED_BY,CREATION_DATE,LAST_UPDATE_LOGIN,REQUEST_ID,PROGRAM_APPLICATION_ID,CREATED_BY,LAST_UPDATE_DATE,PROGRAM_ID,PROGRAM_UPDATE_DATE,WH_UPDATE_DATE,ATTRIBUTE_CATEGORY,ATTRIBUTE1,ATTRIBUTE2,ATTRIBUTE3,ATTRIBUTE4,ATTRIBUTE5,ATTRIBUTE6,ATTRIBUTE7,ATTRIBUTE8,ATTRIBUTE9,ATTRIBUTE10,ATTRIBUTE11,ATTRIBUTE12,ATTRIBUTE13,ATTRIBUTE14,ATTRIBUTE15,ATTRIBUTE16,ATTRIBUTE17,ATTRIBUTE18,ATTRIBUTE19,ATTRIBUTE20,ATTRIBUTE21,ATTRIBUTE22,ATTRIBUTE23,ATTRIBUTE24,GLOBAL_ATTRIBUTE_CATEGORY,GLOBAL_ATTRIBUTE1,GLOBAL_ATTRIBUTE2,GLOBAL_ATTRIBUTE4,GLOBAL_ATTRIBUTE3,GLOBAL_ATTRIBUTE5,GLOBAL_ATTRIBUTE6,GLOBAL_ATTRIBUTE7,GLOBAL_ATTRIBUTE8,GLOBAL_ATTRIBUTE9,GLOBAL_ATTRIBUTE10,GLOBAL_ATTRIBUTE11,GLOBAL_ATTRIBUTE12,GLOBAL_ATTRIBUTE13,GLOBAL_ATTRIBUTE14,GLOBAL_ATTRIBUTE15,GLOBAL_ATTRIBUTE16,GLOBAL_ATTRIBUTE17,GLOBAL_ATTRIBUTE18,GLOBAL_ATTRIBUTE19,GLOBAL_ATTRIBUTE20,ORIG_SYSTEM_REFERENCE,SIC_CODE,HQ_BRANCH_IND,CUSTOMER_KEY,TAX_REFERENCE,JGZZ_FISCAL_CODE,DUNS_NUMBER,TAX_NAME,PERSON_PRE_NAME_ADJUNCT,PERSON_FIRST_NAME,PERSON_MIDDLE_NAME,PERSON_LAST_NAME,PERSON_NAME_SUFFIX,PERSON_TITLE,PERSON_ACADEMIC_TITLE,PERSON_PREVIOUS_LAST_NAME,KNOWN_AS,PERSON_IDEN_TYPE,PERSON_IDENTIFIER,GROUP_TYPE,COUNTRY,ADDRESS1,ADDRESS2,ADDRESS3,ADDRESS4,CITY,POSTAL_CODE,STATE,PROVINCE,STATUS,COUNTY,SIC_CODE_TYPE,TOTAL_NUM_OF_ORDERS,TOTAL_ORDERED_AMOUNT,LAST_ORDERED_DATE,URL,EMAIL_ADDRESS,DO_NOT_MAIL_FLAG,ANALYSIS_FY,FISCAL_YEAREND_MONTH,EMPLOYEES_TOTAL,CURR_FY_POTENTIAL_REVENUE,NEXT_FY_POTENTIAL_REVENUE,YEAR_ESTABLISHED,GSA_INDICATOR_FLAG,MISSION_STATEMENT,ORGANIZATION_NAME_PHONETIC,PERSON_FIRST_NAME_PHONETIC,PERSON_LAST_NAME_PHONETIC,LANGUAGE_NAME,CATEGORY_CODE,REFERENCE_USE_FLAG,THIRD_PARTY_FLAG,COMPETITOR_FLAG,SALUTATION,KNOWN_AS2,KNOWN_AS3,KNOWN_AS4,KNOWN_AS5,DUNS_NUMBER_C,OBJECT_VERSION_NUMBER,CREATED_BY_MODULE,APPLICATION_ID,PRIMARY_PHONE_CONTACT_PT_ID,PRIMARY_PHONE_PURPOSE,PRIMARY_PHONE_LINE_TYPE,PRIMARY_PHONE_COUNTRY_CODE,PRIMARY_PHONE_AREA_CODE,PRIMARY_PHONE_NUMBER,PRIMARY_PHONE_EXTENSION,CERTIFICATION_LEVEL,CERT_REASON_CODE,PREFERRED_CONTACT_METHOD,HOME_COUNTRY,PERSON_BO_VERSION,ORG_BO_VERSION,PERSON_CUST_BO_VERSION,ORG_CUST_BO_VERSION)  VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) \r\nOracle Fatal Error\r\nDatabase driver error...\r\nFunction Name : Execute Multiple\r\nSQL Stmt : INSERT INTO APPS.HZ_PARTIES(PARTY_ID,PARTY_NUMBER,PARTY_NAME,PARTY_TYPE,VALIDATED_FLAG,LAST_UPDATED_BY,CREATION_DATE,LAST_UPDATE_LOGIN,REQUEST_ID,PROGRAM_APPLICATION_ID,CREATED_BY,LAST_UPDATE_DATE,PROGRAM_ID,PROGRAM_UPDATE_DATE,WH_UPDATE_DATE,ATTRIBUTE_CATEGORY,ATTRIBUTE1,ATTRIBUTE2,ATTRIBUTE3,ATTRIBUTE4,ATTRIBUTE5,ATTRIBUTE6,ATTRIBUTE7,ATTRIBUTE8,ATTRIBUTE9,ATTRIBUTE10,ATTRIBUTE11,ATTRIBUTE12,ATTRIBUTE13,ATTRIBUTE14,ATTRIBUTE15,ATTRIBUTE16,ATTRIBUTE17,ATTRI",
+        "short_description": "Grant role  \"INFOADM_ORA_ROLE_NONPROD\" to all tables in list attached on RXETS02 tables.  ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 14:29:02",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41522576",
+        "description": "Please unlock rx unable to release selected rx as it is currently opened by another user\n\nProduct entered by customer: MSA Oracle",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 14:32:51",
+        "tags": [
+            [
+                "RX locked"
+            ]
+        ]
+    },
+    {
+        "number": "INC41522597",
+        "description": "IRIS Login",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 14:33:24",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41522647",
+        "description": "freezing ",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 14:35:13",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41522611",
+        "description": "Cloned from INC41467721\r\nIntermittently throughout the day IRIS will not open correctly. It will pull up a blank black screen or just freeze and not open at all. ",
+        "short_description": "WI950 - IRIS - Some functions does not work",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 14:36:17",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41522745",
+        "description": "-im trying to reset my IRIS password\r\n and im not successfull\r\n",
+        "short_description": "IRIS (Integrated Rx Information System) - password reset",
+        "u_error_symptoms": "password reset",
+        "sys_created_on": "2025-02-12 14:38:34",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41522808",
+        "description": "APPLICATION : IRIS  \u201cPlease assign to IRIS-Pharmacy Central Non Prod\u201d",
+        "short_description": "IRIS (Integrated Rx Information System) - \"Please assign to IRIS-Pharmacy Central Non Prod\"",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 14:40:49",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41523400",
+        "description": "closing out an old order that still show awaiting shipping",
+        "short_description": "IRIS (Integrated Rx Information System) - closing out an old order that still show awaiting shipping",
+        "u_error_symptoms": "closing out an old order that still show awaiting shipping",
+        "sys_created_on": "2025-02-12 15:01:07",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41523412",
+        "description": "iris locking up and freezing during use",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 15:01:38",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41523524",
+        "description": "I need to reset my IRIS pw ",
+        "short_description": "IRIS (Integrated Rx Information System) - password reset ",
+        "u_error_symptoms": "password reset ",
+        "sys_created_on": "2025-02-12 15:05:26",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41523709",
+        "description": "i am coming back from an extended leave of absents and can not remember the password to my iris login i tried the reset my password option from the link ",
+        "short_description": "IRIS Login Issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 15:11:13",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41523806",
+        "description": "We need to raise a request for IRIS to get additional roles for TS02 environment. I have mentioned the roles below which are required\r\nRoles\r\n1. AR Billing User\r\n2. AR Interface Processor\r\n3. AR Manager\r\n4. AR Superuser\r\n5. AR Supervisor\r\n6. Application Diagnostics\r\n7. Data Exception Technician\r\n8. Drug File Maintenance\r\n9. INV Super User\r\n10. Inventory Manager\r\n11. OM Super User\r\n12. PO Super User\r\n13. Pharmacist\r\n14. Purchasing Super User\r\n15. Specialty Pharmacist\r\n16. Specialty RCM Back-end\r\n17. Specialty RCM Front-end\r\n \r\nPlease assign this ticket to IRIS support system.\n\nProduct entered by customer: IRIS",
+        "short_description": "IRIS (Integrated Rx Information System)  - Need to raise a request for IRIS to get additional roles for TS02 environment",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 15:14:13",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41523871",
+        "description": "Umm yes, I was not able to log in with my Iris app.",
+        "short_description": "IRIS (Integrated Rx Information System) - Users getting an error : fatal initialization error pop up while trying to access Universal search member ",
+        "u_error_symptoms": "Users getting an error : fatal initialization error pop up while trying to access Universal search member ",
+        "sys_created_on": "2025-02-12 15:16:09",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41524198",
+        "description": "Requesting access in IRIS TS02 non-prod for AR SuperUser",
+        "short_description": "Requesting access in IRIS TS02 non-prod for AR SuperUser",
+        "u_error_symptoms": "Request or Update Access to IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-12 15:25:40",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41524225",
+        "description": "When I tried to open up my IRIS program, it's not loading right I guess. It won't let me actually open it.\r\n",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "unable to launch IRIS",
+        "sys_created_on": "2025-02-12 15:26:20",
+        "tags": [
+            [
+                "Launch Issues",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41524373",
+        "description": "Team \r\n\r\nWe are seeing the below members dont have a patient id created at IRIS end . Could you please create a patient id at IRIS end as this is causing errors at member portal end as there is no Patient id\r\n\r\nMember 1 \r\nMember ID: 95781068000\r\nMember Name:  John Graham \r\nMember Date of Birth: 12/16/1957\r\nMember Email:  SUBPARBOY@MSN.COM\r\nMember Contact Number: 8182354573\r\nMember's Username: subparboy\r\n\r\n\r\nmember 2 \r\n\r\nName : Joe Rea\r\nmember id: 00317321100\r\nDOB: 01-Sep-1958\r\n UUID: aa9a7674-bae6-421b-a447-dee446aed769\r\n\r\n",
+        "short_description": "Patient ID not created at IRIS end ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 15:34:45",
+        "tags": [
+            [
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41524603",
+        "description": "We want to know in production how many members have primary active coverage (rank =1) that has the same memberID as the other members, in another word whether we have duplicated memberID scenario in production and how many of such cases?",
+        "short_description": "Need to find out about duplicated memberID scenerio in production.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 15:45:39",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41525040",
+        "description": " Users getting an error : fatal initialization error pop up while trying to access Universal search member ",
+        "short_description": "IRIS (Integrated Rx Information System) -  Users getting an error : fatal initialization error pop up while trying to access Universal search member ",
+        "u_error_symptoms": " Users getting an error : fatal initialization error pop up while trying to access Universal search member ",
+        "sys_created_on": "2025-02-12 15:49:47",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41525184",
+        "description": "Unable to view Rx images in the IRIS application even though I have access to it",
+        "short_description": "RXS Imaging - Unable to view Rx images in the IRIS application even though I have access to it",
+        "u_error_symptoms": "Unable to view Rx images in the IRIS application even though I have access to it",
+        "sys_created_on": "2025-02-12 15:54:10",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41525353",
+        "description": "An error pop-up 'Name Change Restriction - Customer must contact insurance carrier' is appearing when agents are trying to make changes to a patient account.\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - An error pop-up 'Name Change Restriction - Customer must contact insurance carrier' is appearing",
+        "u_error_symptoms": "An error pop-up 'Name Change Restriction - Customer must contact insurance carrier' is appearing",
+        "sys_created_on": "2025-02-12 16:00:10",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41525725",
+        "description": "IRIS-Pharmacy Central Non Prod -- Service Group\r\nTS02 - https://orxpcatst2ebs.uhc.com:4450/OA_HTML/AppsLocalLogin.jsp?_logoutRedirect=y\r\nDV02 - https://orxpcadv02ebs.uhc.com:4449/OA_HTML/AppsLocalLogin.jsp\r\nusername : kkhot\n\nProduct entered by customer: TS02 - https://orxpcatst2ebs.uhc.com:4450/OA_HTML/AppsLocalLogin.jsp?_logoutRedirect=y\r\nDV02 - https://orxpcadv02ebs.uhc.com:4449/OA_HTML/AppsLocalLogin.jsp",
+        "short_description": "IRIS-Pharmacy Central Non Prod -- Service Group",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 16:12:39",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41526132",
+        "description": "find out the impact of Kafka Topics Environment Decommissioning  on IRIS and send to Sushil.  See the attached Email\r\n",
+        "short_description": "Kafka Topics Environment Decommissioning and Migration Plan",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 16:24:21",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41526154",
+        "description": "Unable populate member s acct",
+        "short_description": "Unable populate member s acct",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 16:26:07",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41526409",
+        "description": "not able to sign in it signs me out immediately",
+        "short_description": "Altiris Deployment Manager - machine is listed 4 times",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 16:33:11",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41526680",
+        "description": "OK so I am having a situation with Iris.\r\nI was working on the accounts and suddenly I started seeing.\r\nLike comas instead of periods in all uh, money amounts and then on the SOS field, I, I was not able to see the links for in the credit cards and payment information. Umm, I tried resetting and I uh, getting a reject. It was saying specifically like.\r\nA Communication line 43. Oracle 6512.\r\nAnd then it continued rejecting my orders.\r\nAlso it's showing let me get that specific rejection is showing like post reformating error ingredient cost submitted.",
+        "short_description": "IRIS (Integrated Rx Information System) - Any Java error",
+        "u_error_symptoms": "continued rejecting my orders.\r\npecific rejection is showing like post reformating error ingredient cost submitted.",
+        "sys_created_on": "2025-02-12 16:41:27",
+        "tags": [
+            [
+                "User Request",
+                "Payment",
+                "Order Issue",
                 "nonsense",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41527626",
+        "description": "THE DASHBOARD IS NOT SHOWING",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 17:10:51",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41527784",
+        "description": "We were interested in knowing the API end point that is being called by specialty portal to pass the email address update to IRIS.\r\nCan you please provide us with the API end point name please along with the request and response?\r\n\r\nWe call https://stghemi2-cloud.optum.com/v1.0/patient/updatecontacts/intake, which is a Hemi api, Hemi then calls Cayman's /api/clin/rxapi/patients/v1/XXXXX/contacts api to make the update into IRIS",
+        "short_description": "request API end point",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 17:16:05",
+        "tags": [
+            [
+                "Latency",
+                "Alert",
+                "User Request",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41528151",
+        "description": "having auto system update however its failed ",
+        "short_description": "Symantec Management Platform (Altiris) - Deployment failed ",
+        "u_error_symptoms": "deployment failed ",
+        "sys_created_on": "2025-02-12 17:29:48",
+        "tags": [
+            [
+                "Errors",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41528232",
+        "description": "My IRIS keeps freezing and locking up have cleared Cache and restarted but it is still having issues and my monitor on the Rt side keeps going black for a few seconds ",
+        "short_description": "Selected Issue: IRIS - My IRIS keeps freezing and locking up have cleared Cache and restarted but it is still having issues and my monitor on the Rt side keeps going black for a few seconds ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 17:32:39",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41528503",
+        "description": "I got locked out of IRIS I need to reset my password ",
+        "short_description": "IRIS (Integrated Rx Information System) - Password Incorrect ",
+        "u_error_symptoms": "Password Incorrect ",
+        "sys_created_on": "2025-02-12 17:41:44",
+        "tags": [
+            [
                 "Password"
             ]
         ]
     },
     {
-        "in_id": "INC41353524",
-        "description": "ORx Pharmacy Control System (Orlando) - Shipped orders not closed in wms iris",
-        "action": "shipped orders not closed in wms iris assign to ORx_pcs_OV_SPT",
-        "open_time": "2025-02-03T12:12:06.000Z",
+        "number": "INC41528994",
+        "description": "Application (IRIS), \"Please assign to IRIS-Pharmacy Central Non Prod\" as well as please add CS Rep too. ",
+        "short_description": "Grant Access to IRIS lower Environments",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 17:58:03",
+        "tags": [
+            [
+                "User Request",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41529632",
+        "description": "Please assign to Lower IRIS Systems Admin team\r\nin TS01,  member id's  7745647366, 5619461575, and 4552195938 , universal search member, paste id, seearch eligibility,  request id displays- but the member ebc does not display. TS04 and TS02 is working.\n\nProduct entered by customer: Please assign to Lower IRIS Systems Admin team\r\nin TS01,  member id's  7745647366, 5619461575, and 4552195938 , universal search member, paste id, seearch eligibility,  request id displays- but the member ebc does not display. TS04 and TS02 is working.",
+        "short_description": "TS01 search eligibility is not importing members into IRIS",
+        "u_error_symptoms": "Please assign to Lower IRIS Systems Admin team\r\nin TS01,  member id's  7745647366, 5619461575, and 4552195938 , universal search member, paste id, seearch eligibility,  request id displays- but the member ebc does not display. TS04 and TS02 is working.",
+        "sys_created_on": "2025-02-12 18:20:17",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41529650",
+        "description": "IRIS WAS NOT LOADING/ RESTARTED AND WAS ABLE TO RELOAD// NEED TICKET # FOR REPORTING PURPOSES. ISSUE RESOLVED.  ISSUE WAS FROM 11AM TO 11.30AM",
+        "short_description": "Selected Issue: IRIS: NO LONGER AVAILABLE",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 18:20:58",
+        "tags": [
+            [
+                "Launch Issues",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41530645",
+        "description": "IRIS production switch enablement\r\nXXIRIS CCG:Invalid Json US7742040 Switch\r\nXXIRIS CCG:Exclude CCG Trans US7851558 Switch\r\nXXIRIS CCG:Invalid Payment Json US7907091 Switch\r\nXXIRIS CCG:Payment Method Id NULL US7945161 Switch\r\nXXIRIS CCG: US7946251 Copay Hold when ship and bill eligible\r\nXXIRIS CCG Web : US7978649 Bad Debt cases Fix\r\nXXIRIS CCG:Postauth Enhance US7962958 Switch\r\nXXIRIS CCG : DE995966 unknown Error Fix Switch\r\nXXIRIS:Sales Order Addr Override FRM Error US8040933 Switch\n\nProduct entered by customer: IRIS Production",
+        "short_description": "IRIS (Integrated Rx Information System) - IRIS production switch enablement",
+        "u_error_symptoms": "IRIS production switch enablement",
+        "sys_created_on": "2025-02-12 18:57:30",
+        "tags": [
+            [
+                "Payment"
+            ]
+        ]
+    },
+    {
+        "number": "INC41531885",
+        "description": "need rx 456781534 and order 781906359 unlocked route to msa oracle spt",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 19:40:30",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41531897",
+        "description": "my iris will not allow me to price check, and all of the numerical values are showing 0,00 instead of 0.00 like normal. also not able to book an order it kept giving me an error message",
+        "short_description": "Selected Issue: IRIS - my iris will not allow me to price check, and all of the numerical values are showing 0,00 instead of 0.00 like normal. also not able to book an order it kept giving me an error message",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 19:40:51",
         "tags": [
             [
                 "Order Issue"
@@ -137,10 +7803,147 @@ data = {
         ]
     },
     {
-        "in_id": "INC41356279",
-        "description": "IRIS (Integrated Rx Information System) - unable to login",
-        "action": "I'm not able to login to IRIS",
-        "open_time": "2025-02-03T14:18:07.000Z",
+        "number": "INC41532008",
+        "description": "Change the frequency of the Proposed ORTF Load Count report to once daily from hourly, per attached email from the business",
+        "short_description": "Change the frequency of the Proposed ORTF Load Count report to once daily",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 19:44:44",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41532710",
+        "description": "XXIRIS Drop Date Data Fix Program  Moving 2/22/25 to 2/18/25 and  2/23/25 to 2/19/25 Please see attached docs Rx #'s to be moved Please assign to. MSA ORACLE EBS (RXS) \u2013 SPT",
+        "short_description": "IRIS (Integrated Rx Information System) - XXIRIS Drop Date Data Fix Program  Moving 2/22/25 to 2/18/25 and  2/23/25 to 2/19/25",
+        "u_error_symptoms": "XXIRIS Drop Date Data Fix Program  Moving 2/22/25 to 2/18/25 and  2/23/25 to 2/19/25",
+        "sys_created_on": "2025-02-12 20:10:39",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41533273",
+        "description": "ORDER#782171006\n02/12/2025 14:24:23 SYSADMIN\n99 - Communication Error - Please release the HOLD, If issue persist please contact IT BPEL Fault Error : BPEL Instance Id : () Adjudication Id :  Claim Id :  Please Copy this message and send it to IT for triage  Fault Details -> </faultstring><faultactor></faultactor><detail><exception/></detail></env:Fault></env:Body></env:Envelope>",
+        "short_description": "IRIS Issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 20:30:36",
+        "tags": [
+            [
+                "Errors",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41533416",
+        "description": "IRIS production add",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 20:35:32",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41533461",
+        "description": "I'm trying to reset my password for IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Login failed. Please verify your login information or contact the system administrator.",
+        "sys_created_on": "2025-02-12 20:37:24",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41533626",
+        "description": "ORDER#782171006\r\n02/12/2025 14:24:23 SYSADMIN\r\n99 - Communication Error - Please release the HOLD, If issue persist please contact IT BPEL Fault Error : BPEL Instance Id : () Adjudication Id :  Claim Id :  Please Copy this message and send it to IT for triage  Fault Details -> </faultstring><faultactor></faultactor><detail><exception/></detail></env:Fault></env:Body></env:Envelope> - Clone of INC41533273",
+        "short_description": "IRIS Issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 20:43:56",
+        "tags": [
+            [
+                "Errors",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41533791",
+        "description": "Submit a ticket to for getting IRIS TS02 User ID setup",
+        "short_description": "IRIS - Submit a ticket to for getting IRIS TS02 User ID setup",
+        "u_error_symptoms": "Submit a ticket to for getting IRIS TS02 User ID setup",
+        "sys_created_on": "2025-02-12 20:48:04",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41533964",
+        "description": "When I'm about to do my notes in IRIS the option SP DEL SET is missing and I'm the only one who don't have this option, and I need it to do my job properly",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS",
+        "u_error_symptoms": "missing SP DEL SET option under Type",
+        "sys_created_on": "2025-02-12 20:54:15",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41533896",
+        "description": "The team is addressing an issue where the email address of a patient (HSID) might be incorrectly updated in the Iris system through the specialty portal, potentially overwriting the patient's preferred email address from EPMP.\r\n\r\nIf the patient's preferred email address in EPMP is different from the HSID's email address, the system might incorrectly update the patient's email address in Iris.\r\nThe team needs to assess the impact by identifying how many patients' email addresses in Iris were updated through the specialty portal and how many of those do not match the email address from EPMP.",
+        "short_description": "IRIS Prod - Specialty Portal address issue - The team needs to assess the impact by identifying how many patients' email addresses in Iris were updated through the specialty portal and how many of those do not match the email address from EPMP.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 20:56:58",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41534297",
+        "description": "I can not get IRIS to remove an invalid phone number from an account and opt the member into texts with the valid number. It keeps resetting to the bad number repeatedly no matter what I do.\r\n\r\n\r\nShe's removing an incorrect number, then opting text in, and she saves between each step. When she goes out of the account and back in, it's like she never made the changes and it's reverted to previous info\r\nUpdated java 401 to 421, cleared java cache, edge cache",
+        "short_description": "IRIS - I can not get IRIS to remove an invalid phone number from an account & opt the member into texts with the valid number. It keeps resetting to the bad number repeatedly no matter what I do.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 21:05:50",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41534813",
+        "description": "PQH Cancellation program is not working consistently and is removing holds or cancelling orders after 2 pt contact attempts.  Possibly related to INC40472549. In addition, the dialer did not trigger and send alerts to patient.",
+        "short_description": "PQH Cancellation program is not working consistently and is removing holds or cancelling orders after 2 pt contact attempts.  Possibly related to INC40472549. In addition, the dialer did not trigger and send alerts to patient.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 21:27:00",
+        "tags": [
+            [
+                "Order Issue",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41535381",
+        "description": "Iris is not allowing me to paste in certain areas i normally would be, wont let me hit enter while i search for an account or let me right click on some drop downs. ",
+        "short_description": "Selected Issue: IRIS - Iris is not allowing me to paste in certain areas i normally would be, wont let me hit enter while i search for an account or let me right click on some drop downs. ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 21:46:04",
         "tags": [
             [
                 "User Login"
@@ -148,182 +7951,61 @@ data = {
         ]
     },
     {
-        "in_id": "INC41354468",
-        "description": "KY950 - IRIS Application login issue",
-        "action": "IRIS Application login issue",
-        "open_time": "2025-02-03T13:17:38.000Z",
+        "number": "INC41535458",
+        "description": "I can not get IRIS to remove an invalid phone number from an account and opt the member into texts with the valid number. It keeps resetting to the bad number repeatedly no matter what I do.\r\nINC41534297\r\nRemoted in\r\nEU showed me the issue, the changes she made reverted back. She confirms that she saves after every step yet it continues to revert when she goes back into the account.\r\nHad her close IRIS and edge windows\r\nNetwork icon is the globe. Had her unplug dock then plug it back in after 10 seconds and that resolved the network icon issue\r\nJava 401 is installed along with java settings for IRIS and java exception sites\r\nInstalled from altiris: Java Exception Sites Cleanup Utility 2022.03.29 Install, Java Settings for IRIS 2021.03.26 Install (REBOOT) *WARN*\r\nCleared edge cache, java cache, all extensions are enabled in edge, all TLS settings are enabled in java\r\nSarah tested IRIS and the changes are still reverting\r\nEscalated INC41534297 to MSA ORACLE EBS (RXS) - SPT on high priority per EU request",
+        "short_description": "IRIS - I can not get IRIS to remove an invalid phone number from an account & opt the member into texts with the valid number. It keeps resetting to the bad number repeatedly no matter what I do.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 21:50:04",
         "tags": [
             [
-                "User Login"
+                "?"
             ]
         ]
     },
     {
-        "in_id": "INC41359419",
-        "description": "iris launch mac",
-        "action": "My current access to IRIS system is no longer working. Seeking asssstance to get access to perform work responsibilities",
-        "open_time": "2025-02-03T15:32:05.000Z",
+        "number": "INC41535700",
+        "description": "Since Monday 2/10/25, there has been multiple assistance with my Iris lagging, not populating the members account until after I had manually brought it up. It seemed to be working fine, today, until about half way through my day. Then it started happening again. There are prior tickets INC41482353 INC41491294 INC41504785 INC41512354 INC41513484 ",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 21:59:11",
         "tags": [
             [
-                "Launch Issues"
+                "Latency",
+                "Alert"
             ]
         ]
     },
     {
-        "in_id": "INC41356578",
-        "description": "IRIS (Integrated Rx Information System) - Unable to Login",
-        "action": "training sup, contract with optumrx. have the ms id and pw and works fine. need to reset pw",
-        "open_time": "2025-02-03T14:25:05.000Z",
+        "number": "INC41535689",
+        "description": "hash clear, see triage for 3 accounts needing hash clear",
+        "short_description": "hash clear",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 22:03:12",
         "tags": [
             [
-                "User Login",
-                "Password"
+                "?"
             ]
         ]
     },
     {
-        "in_id": "INC41356750",
-        "description": "IRIS (Integrated Rx Information System) - Unable to Login",
-        "action": "IRIS login issue",
-        "open_time": "2025-02-03T14:30:16.000Z",
+        "number": "INC41535912",
+        "description": "i keep getting pop ups , hostess not connecting, cant open order, and assist members ",
+        "short_description": "Selected Issue: IRIS - i keep getting pop ups , hostess not connecting, cant open order, and assist members ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 22:07:56",
         "tags": [
             [
-                "User Login"
+                "Order Issue",
+                "User Request"
             ]
         ]
     },
     {
-        "in_id": "INC41358345",
-        "description": "Login to Java",
-        "action": "Login to Java",
-        "open_time": "2025-02-03T15:08:20.000Z",
-        "tags": [
-            [
-                "User Login"
-            ]
-        ]
-    },
-    {
-        "in_id": "INC41360973",
-        "description": "IRIS (Integrated Rx Information System) - Shortcuts are missing from IRIS dashboard",
-        "action": "IRIS - Shortcuts are missing from IRIS dashboard",
-        "open_time": "2025-02-03T16:12:07.000Z",
-        "tags": [
-            "?"
-        ]
-    },
-    {
-        "in_id": "INC41356106",
-        "description": "Selected Issue: IRIS",
-        "action": "IRIS will not allow me to reset my password",
-        "open_time": "2025-02-03T14:13:23.000Z",
-        "tags": [
-            [
-                "Password"
-            ]
-        ]
-    },
-    {
-        "in_id": "INC41359434",
-        "description": "IRIS - Unable to launch this application",
-        "action": "I am not able to access IRIS .couldnt put in notes and unable to open",
-        "open_time": "2025-02-03T15:32:22.000Z",
-        "tags": [
-            [
-                "Launch Issues"
-            ]
-        ]
-    },
-    {
-        "in_id": "INC41355414",
-        "description": "IRIS - cannot sign in for a week",
-        "action": "I HAVE BEEN TRYING TO SIGN INTO IRIS FOR A WEEK NOW MY SUP SAYS I SHOULD STILL HAVE ACCESS BUT SYSTEM PROMPT ME TO CHANGE MY PASSWORD IT WORKED ONCE BUT I CANT SIGN IN",
-        "open_time": "2025-02-03T13:51:40.000Z",
-        "tags": [
-            [
-                "User Login"
-            ]
-        ]
-    },
-    {
-        "in_id": "INC41357252",
-        "description": "Kafka Certificate Renewal",
-        "action": "The kafka client certificate orx-pharmacf785fa9fd4b33b55 (rg-pharmacy-central-kafka-prod-60fa261/hcc-dataplatform-certificate-v1/orx-pharmacf785fa9fd4b33b55) has been automatically renewed as it is less than 60 days from the expiration.\nYour new certificate will expire on Tue, 03 Feb 2026 14:41:15 UTC.\nThe new certificate download information has been sent to: hieu.le@optum.com, kevin.kinder@optum.com, prashant.mangidkar@optum.com, roshan_chirayil@optum.com, satya.chundru@optum.com, somasekhar_munupally@optum.com, sowmya_surietti@optum.com.\nA renewal email and INC will be sent around Thu, 04 Dec 2025 18:41:15 UTC.\nPlease update all uses of this certificate immediately with the newly sent certificate to avoid any expiration resulting in downtime for your application(s).",
-        "open_time": "2025-02-03T14:42:17.000Z",
-        "tags": [
-            "?"
-        ]
-    },
-    {
-        "in_id": "INC41353986",
-        "description": "IRIS (Integrated Rx Information System) - Unable to receive email to receive password.",
-        "action": "Iris password need to be updated.",
-        "open_time": "2025-02-03T12:51:23.000Z",
-        "tags": [
-            [
-                "Password"
-            ]
-        ]
-    },
-    {
-        "in_id": "INC41358786",
-        "description": "IRIS (Integrated Rx Information System) - unable to login",
-        "action": "I am unable to login to IRIS",
-        "open_time": "2025-02-03T15:17:42.000Z",
-        "tags": [
-            [
-                "User Login"
-            ]
-        ]
-    },
-    {
-        "in_id": "INC41356181",
-        "description": "When trying to log into IRIS this morning it asked me to change my password.  I've tried changing it multiple times but it keeps giving me the error message: Pa",
-        "action": "When trying to log into IRIS this morning it asked me to change my password.  I've tried changing it multiple times but it keeps giving me the error message: Password must not contain repeating characters, but I am NOT repeating characters.",
-        "open_time": "2025-02-03T14:15:12.000Z",
-        "tags": [
-            [
-                "Password"
-            ]
-        ]
-    },
-    {
-        "in_id": "INC41359389",
-        "description": "Selected Issue: IRIS: NO RESPONSE",
-        "action": "IRIS FREEZE WHEN DOING HFF",
-        "open_time": "2025-02-03T15:31:24.000Z",
-        "tags": [
-            [
-                "General Error"
-            ]
-        ]
-    },
-    {
-        "in_id": "INC41360292",
-        "description": "IRIS (Integrated Rx Information System) - Unable to Login",
-        "action": "I need my IRIS reset the password",
-        "open_time": "2025-02-03T15:54:08.000Z",
-        "tags": [
-            [
-                "User Login",
-                "Password"
-            ]
-        ]
-    },
-    {
-        "in_id": "INC41360852",
-        "description": "Selected Issue: IRIS",
-        "action": "i am experiencing delays in both iris and a/c. keeps getting forzen",
-        "open_time": "2025-02-03T16:09:37.000Z",
-        "tags": [
-            "?"
-        ]
-    },
-    {
-        "in_id": "INC41358801",
-        "description": "PB - Orders Open in IRIS",
-        "action": "HELLO- Please assist on all following orders to close in IRIS \r\nOrder# 778545783-4  Tracking# 1ZC6R5104404464326 (Delivered)  --  done\r\nOrder# 776518590-1  Tracking# 1ZC6R5101304464741 (Delivered)  --  done\r\nOrder# 777424090-3  Tracking# 9270190350467716830862 (In Transit)  --  done\r\nOrder# 777442362-3  Tracking# 9234690350467731825488 (Delivered)  --  done\r\nOrder# 777151641-2  Tracking# 1ZC6R5104404467494 (Delivered)  --  done\r\nOrder# 777857910-1  Tracking# 1ZC6R5124400915440 (Delivered)  --  done\r\nOrder# 778808458-1  Tracking# 9261290350467717088704 (Processed)  --  done\r\nOrder# 778826785-1  Tracking# 1ZC6R5100104490815 (Processed)  --  done\r\nOrder# 779166050-1  Tracking# 1ZC6R5100104495543 (Processed)  --  done",
-        "open_time": "2025-02-03T15:17:52.000Z",
+        "number": "INC41536609",
+        "description": "Orders stuck in Pick Release.\r\nAssign to Rebecca Lever MSA ORACLE EBS (RXS) \u2013 SPT\r\n\r\n779077617-3\r\n779077617-4\r\n779279627-1\r\n779768934-1 - Closed\r\n779789711-1\r\n780154309-1\r\n780707520-1 - Closed\r\n780753643-1 - Closed\r\n781057674-1 - Closed\r\n781418136-2 - Closed\r\n\r\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - Orders stuck in Pick Release.",
+        "u_error_symptoms": "Orders stuck in Pick Release.",
+        "sys_created_on": "2025-02-12 22:44:40",
         "tags": [
             [
                 "Order Issue"
@@ -331,10 +8013,7269 @@ data = {
         ]
     },
     {
-        "in_id": "INC41363513",
+        "number": "INC41536591",
+        "description": "We are facing the QMSI EXPORT HOLD for the order# 775114713 in TS02, the hold comments says as below. I am able to remove the hold but after running the RxSpecialty Threshold Check  I seeing the hold back again.\r\n\r\nErr_ID: 2250474197\r\nCode: -6533\r\nMsg: ORA-06533: Subscript beyond count\r\nBack Trace: ORA-06512: at \"APPS.XXIRIS_DOMS_SPECIALTY_UTIL_K\", line 743\r\nORA-06512: at \"APPS.XXIRIS_DOMS_SPECIALTY_UTIL_K\", line 743\r\n",
+        "short_description": "IRIS TS02_ Orders set to QMSI EXPORT HOLD",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 22:46:03",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41536742",
+        "description": "IRIS password reset",
+        "short_description": "IRIS (Integrated Rx Information System) - unable to login",
+        "u_error_symptoms": "unable to login",
+        "sys_created_on": "2025-02-12 22:53:29",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41537167",
+        "description": "Unable to add credit card on CCG/ IRIS. Message: Internal Error",
+        "short_description": "IRIS- Unable to add credit card",
+        "u_error_symptoms": " Unable to add credit card",
+        "sys_created_on": "2025-02-12 23:22:08",
+        "tags": [
+            [
+                "Payment",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41537439",
+        "description": "user state she cannot access her iris application",
+        "short_description": "IRIS - i cant access my iris",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-12 23:45:47",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41537618",
+        "description": "my image viewer stops working",
+        "short_description": "IRIS Image Viewer - Unable to find issue for IRIS Image Viewer",
+        "u_error_symptoms": "its not openning",
+        "sys_created_on": "2025-02-13 00:05:37",
+        "tags": [
+            [
+                "Launch Issues",
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41538103",
+        "description": "Hi, I'd like to request access to IRIS env TS02 to create test data and run tests for my user stories. Thank you",
+        "short_description": "Access request to IRIS environment TS02",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 01:23:21",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41538231",
+        "description": "IRIS - keep freezing - and some option is not working",
+        "short_description": "IRIS - keeps on freezing",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 01:43:31",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41538291",
+        "description": "Incident has been created as below files are not moved from respective paths for mentioned hours from Azure. FileName : CEP2_DNE_20250212.txt, FilePath : /mnt/cep2azure/CEP_AZURE_SOURCE_DATA/PRD/WIP/CEP2_FL_IRIS_DONT_CALL_AND_EMAIL_AZ_0.1/CEP2_DNE_20250212.txt, Hours : 6.  Kindly check the file activity",
+        "short_description": "File Not moving in Azure :: WIP/CEP2_FL_IRIS_DONT_CALL_AND_EMAIL_AZ_0.1",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 02:00:02",
+        "tags": [
+            [
+                "User Request",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41539653",
+        "description": "DSM - PH511  not responding http://dsmep0310/DSWeb/default.aspx",
+        "short_description": "DSM - PH511  not responding http://dsmep0310/DSWeb/default.aspx",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 07:57:14",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41539984",
+        "description": "Require access to IRIS Stage and DEV",
+        "short_description": "IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 08:43:38",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41541285",
+        "description": "closing order with 2+ days aging\r\n\r\nProduct entered by customer: ORX PCS OV - SPT",
+        "short_description": "IRIS (Integrated Rx Information System) - closing order with 2+ days aging",
+        "u_error_symptoms": "closing order with 2+ days aging",
+        "sys_created_on": "2025-02-13 12:25:38",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41541452",
+        "description": "I'm calling because I'm trying to log in to Iris. However it's not recognizing the the password. Recently I had to reset the password and place a new one and when I enter the new one it says login failed. Please verify your login information or contact the System Administrator.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-13 12:40:59",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41541824",
+        "description": "i would like to close these following orders \r\n772212834-1 [9270190350467713863597]\r\n771948086-1 [9270190350467713863511]\r\n772038028-1 [9270190350467713863948]\r\n770790307-1 [9270190350467713864396]\r\n771640073-1 [9270190350467713866208]\r\n772033243-1 [9270190350467713866727]\r\n771690514-1 [9270190350467713880396]\r\n774807083-1 [9270190350467714897409]\r\n773251500-2 [9270190350467714897799]\r\n774151028-1 [9270190350467714898048]\r\n774845597-1 [9270190350467714898246]\r\n774757242-1 [9270190350467714898673]\r\n773537440-1 [9270190350467714898871]\r\n774155174-1 [9270190350467714899359]\r\n774485253-1 [9270190350467714899724]\r\n774128536-2 [9270190350467714900949]\r\n774790718-1 [9270190350467714901281]\r\n774555539-1 [9270190350467714901649]\r\n775717782-1 [9270190350467715563129]\r\n780536286-1 [9270190350467718130373]",
+        "short_description": "PB- Oder open in IRIS ",
+        "u_error_symptoms": "i would like to close these following orders 772212834-1 [9270190350467713863597] 771948086-1 [9270190350467713863511] 772038028-1 [9270190350467713863948] ",
+        "sys_created_on": "2025-02-13 13:10:52",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41541969",
+        "description": "Please assign ticket to IRIS Pharmacy Central Non Prod ServiceNow Group. Requesting additional profiles be added for users attached to ticket in IRIS TS02 Lower Environment.",
+        "short_description": "IRIS (Integrated Rx Information System - Requesting additional profiles be added for users",
+        "u_error_symptoms": "Requesting additional profiles be added for users",
+        "sys_created_on": "2025-02-13 13:17:31",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41542427",
+        "description": "IRIS - unable to login ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to login ",
+        "sys_created_on": "2025-02-13 13:36:50",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41542499",
+        "description": "Need access to IRIS TSO2 application with the following roles(Pharmacist and Specialty pharmacists responsibilities) for the below list of associates \r\n\r\nS.No\tFirst Name\tLast Name\tMS ID\tEmp ID\temail ID\r\n1\tSrikanth\tChoutapally\tSchoutap\t002181619\tsrikanth_choutapally@optum.com\r\n2\tAnantharaaman\tS\tas183\t002293638\tanantharaaman_s@optum.com\r\n3\tChandra Shekar\tGadipelli\tcgadipe1\t000914451\tchandrashekar_gadipelli@optum.com\r\n4\tSridhar\tVoleti\tsvoleti3\t002268076\tsridhar_voleti@optum.com\r\n5\tGajenther\tPalaniappan\tgpalan20\t002268072\tgajenther_palanippan@optum.com\r\n6\tRagave\tManokaran\trmanoka7\t002277489\tragave_manokaran@optum.com\r\n7\tPushkaraj\tPurud\tppurud\t002282082\tpushkaraj_purud@optum.com\r\n8\tKarthik\tVijaykumar\tkvijayk6\t002275463\tkarthik_vijayakumar3@optum.com\r\n9\tShashank\tSaxena\tssaxe113\t002293499\tshashank_saxena2@optum.com\r\n10\tAysath\tAdila P A\taadilap\t002296421\taysath_adilapa@optum.com\r\n11\tBhanu Prakash\tUppala\tbuppala\t002241446\tbhanuprakash_uppala@optum.com\r\n12\tSachin Dhrum\tSingh\tssin1307\t\tsachindhrum_singh@optum.com\n\nProduct entered by customer: IRIS TSO2",
+        "short_description": "IRIS (Integrated Rx Information System) - Any Access Issue or Request with IRIS Training Environment",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-13 13:40:07",
+        "tags": [
+            [
+                "User Login",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41542979",
+        "description": "I am unable to login to iris, it says, \"Login failed\". When I try to reset password, I enter my MSID in 'forgot password' and it is supposed to send me an email to reset, but I have not received an email.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unabl to login",
+        "sys_created_on": "2025-02-13 14:01:20",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41543972",
+        "description": "GetDrugDetails - WS errors on xxiris_common_error_log",
+        "short_description": "GetDrugDetails - WS errors on xxiris_common_error_log",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 14:34:37",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41544161",
+        "description": "I cannot log into iris ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 14:39:38",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41544876",
+        "description": "Assign ticket to ORX PCS IT - SP\r\nplease close in IRIS\r\n\r\n781049767-1\r\n779911543-2\r\n781049767-1\r\n781034996-1\n\nProduct entered by customer: ",
+        "short_description": "Order not closed in IRIS.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 14:57:47",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41544756",
+        "description": "When trying to run a create in Ops utility we are getting an error that copy is failing on server APVES79073.  After investigation I found that the E: drive is full on APVES79073.  This is stopping us from running any new creates in Altiris. ",
+        "short_description": "APVES79073 E: drive appears to be out of space - unable to process Altiris creates",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 14:58:28",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41545425",
+        "description": "I had a BIOS update on my computer last Tuesday and it is pop up again yesterday and it is pop up again today and I need",
+        "short_description": "Symantec Management Platform (Altiris) - Unable to find issue for Symantec Management Platform (Altiris)",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 15:13:54",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41545683",
+        "description": "IRIS LAGGING",
+        "short_description": "IRIS LAGGING",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 15:21:24",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41545992",
+        "description": "I cannot login to IRIS",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 15:31:20",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41546034",
+        "description": "Other Issue",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to login",
+        "u_error_symptoms": "Unable to login",
+        "sys_created_on": "2025-02-13 15:32:41",
+        "tags": [
+            [
+                "User Login",
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41546287",
+        "description": "I can not get IRIS to open ",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 15:40:28",
+        "tags": [
+            [
+                "Launch Issues",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41546371",
+        "description": "I have updated my RXEPRR password in secure but Toad is saying that my name and password are not valid after updating. Can someone please assist me in correcting whatever the issue is to get back into Toad.",
+        "short_description": "Toad password reset",
+        "u_error_symptoms": "Toad password reset",
+        "sys_created_on": "2025-02-13 15:43:35",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41547089",
+        "description": "Issue: I'm actually having problems resetting my iris password, I actually tried utilizing the login assistance so I can reset it through the link that would. Be sent to my e-mail. However, I did not receive any e-mail at all.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Need to reset IRIS password",
+        "sys_created_on": "2025-02-13 16:05:45",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41547177",
+        "description": "RPA ORX HDP REJECT CODE 70 : Iris Password Expired Machine on which job failed are :MS\\RPA_CSA_ODC_132 Domain:  Origin: https://phi-splunk.optum.com/app/optum_rpa_cc/@go?sid=scheduler__gmuthura_b3B0dW1fcnBhX2Nj__RMD52253d006d4cf8cd6_at_1739462400_68695_ACB5780F-8F60-4C8D-989D-F7366FEAE6A7 Application: RPA ORX HDP REJECT CODE 70 Category: Automation Source: SPLUNK Severity: warning Alertid: 0023983461",
+        "short_description": "RPA ORX HDP REJECT CODE 70 : Iris Password Expired",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 16:08:48",
+        "tags": [
+            [
+                "Password",
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41547358",
+        "description": "Altiris training and ActiveX control ",
+        "short_description": "Altiris training",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 16:16:23",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41547822",
+        "description": "Not able to make changes in IRIS white background screen when end task reopen still same issue.",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 16:28:47",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41548073",
+        "description": "Needed  SOA d0 Adjudication web service for writing d0 application in Cayman",
+        "short_description": "Needed  SOA d0 Adjudication web service info for writing d0 application in Cayman",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 16:45:25",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41548452",
+        "description": "Please enable the below profiles from FEB release for Hakuna Matata Scrum team:  XXIRIS DE702807 Enable Excluding SMS Orders OB, XXIRIS Enable US7786857 Rx Audit Changes, XXIRIS Enable Cancelrx PI Complete Changes, XXIRIS Enable ROR Remove Slash Profile, XXIRIS Enable NBD Not valid Month Changes",
+        "short_description": "enable profiles from FEB release for Hakuna Matata Scrum team",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 16:47:22",
+        "tags": [
+            [
+                "RX locked"
+            ]
+        ]
+    },
+    {
+        "number": "INC41548435",
+        "description": "Hi Rahul,\r\n \r\nCould you please redirect Surescript back to TS09 so we can continue our sprint testing. \r\n",
+        "short_description": "Surescript repointing to TS09 for sprint testing",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 16:50:24",
+        "tags": [
+            [
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41548727",
+        "description": "releas lock on 782162120",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 16:55:44",
+        "tags": [
+            [
+                "RX locked"
+            ]
+        ]
+    },
+    {
+        "number": "INC41548783",
+        "description": "Unable to login into IRIS TS02, need a password reset",
+        "short_description": "IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "Unable to login into IRIS TS02, need a password reset",
+        "sys_created_on": "2025-02-13 16:57:28",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41548778",
+        "description": "Received alerts stating 30k+ Adjudication failures.",
+        "short_description": "RE: Alert - Adjudication Failures (92, 99, 96) in the last 1 hour are greater than 2000",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 16:59:08",
+        "tags": [
+            [
+                "User Request",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41548836",
+        "description": "I've been having problems with my IRIS. I can't work efficiently. I have to close or force IRIS to restart while I have the member on the line. Sometimes the member doesn't' want to wait & I can't review all the alerts on their account because they are not populating & the member can't wait. Which causes my FCR/metrics to be lower. IRIS freezes in simple tasks. For example, when I am switching tabs it freezes, if I'm putting the medications on auto refill it freezes. When I click the alerts tab to see dashboard the info is not populated, I can't add a phone # the box stays grey, the screen turning black randomly & I have to force IRIS to shut down. Other times I can't create accounts & the names of the members are not common ones- it closes by itself & I have to start all over again.\n\nProduct entered by customer: iris",
+        "short_description": "IRIS (Integrated Rx Information System) - I've been having problems with my IRIS. I can't work efficiently",
+        "u_error_symptoms": "I've been having problems with my IRIS. I can't work efficiently. I have to close or force IRIS to restart while I have the member on the line. Sometimes the member doesn't' want to wait & I can't review all the alerts on their account because they are not populating & the member can't wait. Which causes my FCR/metrics to be lower. IRIS freezes in simple tasks. For example, when I am switching tabs it freezes, if I'm putting the medications on auto refill it freezes. When I click the alerts tab to see dashboard the info is not populated, I can't add a phone # the box stays grey, the screen turning black randomly & I have to force IRIS to shut down. Other times I can't create accounts & the names of the members are not common ones- it closes by itself & I have to start all over again.",
+        "sys_created_on": "2025-02-13 16:59:34",
+        "tags": [
+            [
+                "Latency",
+                "Errors",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41549318",
+        "description": "need data fix to discontinue rx 241571656357. When user tries to manually discontinue it is just crashing their iris session. please route to msa oracle spt",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 17:15:22",
+        "tags": [
+            [
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41549507",
+        "description": "iris frozen while on a call, documentation only",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 17:21:41",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41549112",
+        "description": "IRIS (Integrated Rx Information System) - unable to use Universal Search Member feature",
+        "short_description": "IRIS (Integrated Rx Information System) - unable to use Universal Search Member feature",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System) - unable to use Universal Search Member feature",
+        "sys_created_on": "2025-02-13 17:23:59",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41549906",
+        "description": "deployment 1.1 appears\r\nI need to deploy the installation",
+        "short_description": "FLW - Symantec Management Platform (Altiris) - Unable to deploy installation for BIOS Deployment 1.1",
+        "u_error_symptoms": "deployment 1.1 appears\r\nI need to deploy the installation",
+        "sys_created_on": "2025-02-13 17:35:09",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41550736",
+        "description": "I fill out info to submit to PCS Support Chat 2, but it never appears?\nAlso, unable to set up new account with member ID in Iris",
+        "short_description": "PSC chat and IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 18:04:40",
+        "tags": [
+            [
+                "User Login",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41551551",
+        "description": "i cannot log into IRIS, i clicked reset password and did not receive an email with steps",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 18:33:39",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41551681",
+        "description": "Please forward to EPMP Team PT not receiving a notification via text message for the order status of his medications",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "Please forward to EPMP Team PT not receiving a notification via text message for the order status of his medications",
+        "sys_created_on": "2025-02-13 18:37:52",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41552456",
+        "description": "iris is still not allowing log in after several restarts and a complete shut down\n\nProduct entered by customer: ",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 19:05:20",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41552865",
+        "description": "Hi Emmanuel,\r\nAs you are done with this data fix, please provided RCA on below\r\n\r\nINC40999574\r\nINC40964160\r\n\r\nINC40997638\r\n",
+        "short_description": "RCA required for ORTF Fallout records - ORTF tab missing. ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 19:21:35",
+        "tags": [
+            [
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41553053",
+        "description": "Optum Specialty Pharmacy (ONCOLOGY) \"e-prescriptions\" are NOT loading into IRIS or Salesforce for teams to work.",
+        "short_description": "Optum Specialty Pharmacy (ONCOLOGY) \"e-prescriptions\" are NOT loading into IRIS or Salesforce for teams to work.",
+        "u_error_symptoms": "Optum Specialty Pharmacy (ONCOLOGY) \"e-prescriptions\" are NOT loading into IRIS or Salesforce for teams to work.",
+        "sys_created_on": "2025-02-13 19:26:35",
+        "tags": [
+            [
+                "Launch Issues",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41553112",
+        "description": "Data Fix to update the account name to upper case.",
+        "short_description": "Data Fix to update the account name to upper case.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 19:29:07",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41553771",
+        "description": "I'm trying to login to IRSI, leave. My MS ID is already reset. something wrong",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login due to missing access for IRIS",
+        "u_error_symptoms": "Inactive access",
+        "sys_created_on": "2025-02-13 19:52:41",
+        "tags": [
+            [
+                "User Login",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41553948",
+        "description": "ORDER NOT PROCESSING CAN NOT RECALL ORDER ERROR MESSAGE COMING UP",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 19:59:57",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41554263",
+        "description": "keep getting mouse focus w/iris ",
+        "short_description": "IRIS - Mouse focus",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 20:12:23",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41554314",
+        "description": "Need to Data fix to correct the wrong Rx Number - this is causing reporting to fail. ",
+        "short_description": "Need to Data fix to correct the wrong Rx Number",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 20:19:46",
+        "tags": [
+            [
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41554825",
+        "description": "My image viewer is not working, ",
+        "short_description": "IRIS Image Viewer - unable to load image viewer",
+        "u_error_symptoms": "unable to load image viewer ",
+        "sys_created_on": "2025-02-13 20:33:56",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41555302",
+        "description": "MY IRIS IS NOT WORKING. ALSO MY COMPUTER IS TRYING TO UPDATE WINDOWS BUT THE INSTALLATION IS FAILING",
+        "short_description": "IRIS (Integrated Rx Information System) - MY IRIS IS NOT WORKING. ALSO MY COMPUTER IS TRYING TO UPDATE WINDOWS BUT THE INSTALLATION IS FAILING",
+        "u_error_symptoms": "MY IRIS IS NOT WORKING. ALSO MY COMPUTER IS TRYING TO UPDATE WINDOWS BUT THE INSTALLATION IS FAILING",
+        "sys_created_on": "2025-02-13 20:53:56",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41556433",
+        "description": "Rx 458271314 is locked for editing past the standard 30 minute session timeout, please unlock.",
+        "short_description": "Rx locked for editing in IRIS.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 21:43:10",
+        "tags": [
+            [
+                "RX locked"
+            ]
+        ]
+    },
+    {
+        "number": "INC41556298",
+        "description": "after IRIS password reset, user is unable to sign in",
+        "short_description": "after IRIS password reset, user is unable to sign in",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 22:06:21",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41557017",
+        "description": "DBA - In need of assistance running update Queries for data and testing in TS01 for Pooled PV.",
+        "short_description": "DBA - In need of assistance running update Queries for data and testing in TS01 for Pooled PV.",
+        "u_error_symptoms": "Information not provided at time of submission",
+        "sys_created_on": "2025-02-13 22:09:02",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41557133",
+        "description": "I am calling in about issue with IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Users are unable to pull the member details in IRIS. Error: There is no member with matching criteria.",
+        "u_error_symptoms": "Unable to pull users details in IRIS",
+        "sys_created_on": "2025-02-13 22:14:44",
+        "tags": [
+            [
+                "User Login",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41557404",
+        "description": "To be worked on by :  @ORx_Dispensing_IT_Support<ErrorMessage> TrackingNumberBarCode 1ZC6J2590305288960 assigned for order # 782182294-2.</ErrorMessage>\n\nProduct entered by customer: ",
+        "short_description": "ORx Tri-Pe B (Mesa) - Order failed to export to WMS/IRIS: 782182294-2",
+        "u_error_symptoms": "rrorMessage> TrackingNumberBarCode 1ZC6J2590305288960 assigned for order # 782182294-2.</ErrorMessage>\r\n",
+        "sys_created_on": "2025-02-13 22:29:46",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41557584",
+        "description": "I am calling in about issue with IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Users are unable to pull the member details in IRIS. Error: There is no member with matching criteria.",
+        "u_error_symptoms": "Unable to pull users details in IRIS",
+        "sys_created_on": "2025-02-13 22:40:53",
+        "tags": [
+            [
+                "User Login",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41558012",
+        "description": "RPA ORX HDP REJECT CODE 70 : Iris Password Expired Machine on which job failed are :MS\\RPA_CSA_ODC_133 Domain:  Origin: https://phi-splunk.optum.com/app/optum_rpa_cc/@go?sid=scheduler__gmuthura_b3B0dW1fcnBhX2Nj__RMD52253d006d4cf8cd6_at_1739487600_1608_25F3BFEB-A4BB-4779-82CB-8A2528B376E2 Application: RPA ORX HDP REJECT CODE 70 Category: Automation Source: SPLUNK Severity: warning Alertid: 0024015135",
+        "short_description": "RPA ORX HDP REJECT CODE 70 : Iris Password Expired",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-13 23:08:43",
+        "tags": [
+            [
+                "Password",
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41558898",
+        "description": "need datafix to book order  782543578",
+        "short_description": "need datafix to book order ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 00:49:31",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41559307",
+        "description": "application freezing",
+        "short_description": "GA950- IRIS-application freezing",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 02:19:32",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41559531",
+        "description": "IRIS - unable to order ",
+        "short_description": "IRIS - unable to order ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 03:09:36",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41559671",
+        "description": "IRIS BLACKED OUT AND WOULD NOT ALLOW ME TO EXIT.\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - IRIS blacked out and unable to exit.",
+        "u_error_symptoms": " IRIS blacked out and unable to exit.",
+        "sys_created_on": "2025-02-14 04:00:43",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41560473",
+        "description": "dsmep0418.ms.ds.uhc.com is down from Availability Monitoring ",
+        "short_description": "dsmep0418.ms.ds.uhc.com is down from Availability Monitoring",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 07:08:35",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41560495",
+        "description": "Unable to access DSM.\r\n\r\nhttp://dsmep0594/dsweb/default.aspx\r\nhttp://dsmep0401/dsweb/default.aspx",
+        "short_description": "GGN Site-II554 & II547 DSM not working,http://dsmep0594/dsweb/default.aspx,  http://dsmep0401/dsweb/default.aspx, ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 07:12:34",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41560513",
+        "description": "So there's an application called Iris Task Manager tool. It is not working for me. Error \"attempted to reconnect to sever\"",
+        "short_description": "IRIS Task Manager Tool - Error \"attempted to reconnect to sever\"",
+        "u_error_symptoms": "attempting to Appav",
+        "sys_created_on": "2025-02-14 07:16:06",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41560517",
+        "description": "Please to update the IRIS password rpa_csa_odc_133 in cyber ark",
+        "short_description": "Need to update the iRIS password in cyber ark",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 07:41:39",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41561349",
+        "description": "One of the process name called specialty and I raised a secure request for Iris application and I got access for that for that application. But when I want to use that application I need the password reset. So if I click the password reset I'm not getting any e-mail to reset the password.\r\n",
+        "short_description": "IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "How to reset your IRIS password",
+        "sys_created_on": "2025-02-14 10:32:57",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41561639",
+        "description": "2 +days aged orders need to be cleared in WMS and Iris send to ORx_Dispensing_IT_Support <OptumRx_Dispensing_IT_Support_DL@ds.uhc.com> 781030830 780133737  780133737 \r\n780133737 \r\n780133737\r\n 780133737 \r\n780133737 \r\n781256508 \r\n781783773\r\n 781811319 orders in transit",
+        "short_description": "IRIS (Integrated Rx Information System) - 2 +days aged orders need to be cleared in WMS and Iris ",
+        "u_error_symptoms": "2 +days aged orders need to be cleared in WMS and Iris send to ORx_Dispensing_IT_Support <OptumRx_Dispensing_IT_Support_DL@ds.uhc.com> 781030830 780133737 780133737 780133737 780133737 780133737 780133737 781256508 781783773 781811319 orders in transit",
+        "sys_created_on": "2025-02-14 11:28:54",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41561744",
+        "description": "EPMP queue populate and F5 stats monitoring",
+        "short_description": "EPMP enabled for ST01, queue populate and F5 stats monitoring",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 11:51:02",
+        "tags": [
+            [
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41562576",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod\n\nProduct entered by customer: Please assign to IRIS-Pharmacy Central Non Prod",
+        "short_description": "TS02 Access",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-14 13:14:38",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41562251",
+        "description": "Not able to see hold actions  for copay hold, credit card pre auth failure hold  in  IRIS TS02 lower env \r\nI am using OM super user\r\nResponsibility i have: AR manager, OM Super User, ORx CS Navigator Rep, Pharmacist, Specialty Pharmacist, Drug File Maintenance\r\nplease find the screen shot attachment of TS02",
+        "short_description": "Not able to see hold actions  for copay hold, credit card pre auth failure hold  in  IRIS TS02 lower env ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 13:26:38",
+        "tags": [
+            [
+                "Payment",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41562880",
+        "description": "IRIS on black screen",
+        "short_description": "IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "NA",
+        "sys_created_on": "2025-02-14 13:31:14",
+        "tags": [
+            [
+                "Latency",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41563193",
+        "description": "Please reference INC41487030.  This ticket was open with Sys Mgmt Ops EUTS\r\n\r\nIt was suggested to open a ticket with your group to investigate this issue. We are finding devices disappearing from all the folders on DSMEP0602 and repopulating to the Desktop folder. DSM Ops group was unable to find anything on the server end that would move devices and there are no logs to go back to check or an audit trail that can link them to the issue. Would you know of any tools that would grab all devices in one folder and move them or delete them?  This issue occurred on Monday afternoon and today around 9:00am CT.",
+        "short_description": "All devices were removed/deleted from DSMEP0602 and repopulated in the desktop folder",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 13:53:59",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41563826",
+        "description": "Needing to turn profiles on from the FEB IRIS Release. (11:30AM CT Timeslot)\r\n1. XXIRIS_US7902861_SWITCH_PF (OOS Holds will clear the delivery date range - monitor through a query)\r\n2. XXIRIS_US8030696_EPE_EXCEPTION_SERVICE_PF (Switching from EPE to Fill Experience, however old EPE API is still active and will provide a response as it does today)\r\n3. XXIRIS_US7667890_M3P_PROMPT_STORE_SWITCH_PF (Stores a value in global_attribute12 on  oe_order_headers_all)",
+        "short_description": "Profiles from Feb IRIS release - Creme DeSprint",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 14:15:49",
+        "tags": [
+            [
+                "Alert",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41564086",
+        "description": "Orders not closed in IRIS \r\n\r\nO#781431766-1\r\n\r\nO#781392798-1\n\nProduct entered by customer: IRIS/WMS/.PCS",
+        "short_description": "Orders not closed in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 14:22:07",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41564214",
+        "description": "Need a query pulled to identify members that were disenrolled from HFF due to CAG deactivation. See attached impact report  - Please include the following fields.  see example query under INC41008062 that was used for CALPERS\r\n\r\nACCOUNT_NUMBER\t\r\nPATIENT_ACCOUNT_ID\t\r\nRX_NUMBER\t\r\nRX_VERSION_NUMBER\t\r\nTRANSFER_PHAR_CODE\t\r\nINVENTORY_ITEM_ID\t\r\nHFF_REASON\t\r\nDROP_DATE\t\r\nDATE_FOR_NEXT_FILL\t\r\nNEED_BY_DATE\t\r\nHDP_SMS\t\r\nCAG_NAME\t\r\nCAG_ACCOUNT_NUMBER\t\r\nCAG_PARTY\t\r\nCAG\t\r\nCAG_CARRIER\t\r\nCAG_ACCOUNT\t\r\nCAG_GROUP\t\r\nCAG_REGISTRY_ID\r\n",
+        "short_description": "Need a query pulled to identify members that were disenrolled from HFF due to CAG deactivation. See ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 14:45:10",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41564666",
+        "description": "IRIS order stuck in APS In Process, need order to be closed.",
+        "short_description": "IRIS - Order stuck in APS In Process",
+        "u_error_symptoms": " Order stuck in APS In Process",
+        "sys_created_on": "2025-02-14 14:45:17",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41564758",
+        "description": "Cannot cancel IRIS order",
+        "short_description": "IRIS (Integrated Rx Information System) -Cannot cancel IRIS order",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 14:48:51",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41564736",
+        "description": "please run attach file through the Cap rx conversion concurrent program ",
+        "short_description": "Cap rx conversion concurrent program run ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 14:49:10",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41564786",
+        "description": "this is the request for the Data Fix once the query is available from INC41564214",
+        "short_description": "Need a data fix to re-enroll members into HFF that were disenrolled from HFF - second part to INC41564214 ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 14:50:42",
+        "tags": [
+            [
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41565593",
+        "description": "I'm having problem with the web page",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to login to IRIS",
+        "sys_created_on": "2025-02-14 15:17:35",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41565619",
+        "description": "Hi good morning. So I'm not sure if I'm calling the right place like I'm I'm having issues with Iris.  I can't get it to open completely.",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": " - Launch Issues",
+        "sys_created_on": "2025-02-14 15:18:41",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41565719",
+        "description": "order is placed user didn't place order, auto refill is off. can you please check and let us know how this order is placed. user is upset because of this.\r\n\r\n95424111200 Mid, f1fb4856-4734-4ecd-9158-5b6878b98da4 - uuid, patientid - 80897667, 1:46 am order is placed 782624747-1\r\n ",
+        "short_description": "order is placed user didn't place order, auto refill is off. can you please check and let us know how this order is placed",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 15:26:21",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41566680",
+        "description": "IRIS order duplication",
+        "short_description": "IRIS (Integrated Rx Information System) - Order duplication issue",
+        "u_error_symptoms": "IRIS order duplication",
+        "sys_created_on": "2025-02-14 15:59:08",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41566998",
+        "description": "Issues with IRIS + multiple reboots",
+        "short_description": "Issues with IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 16:11:23",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41568009",
+        "description": "I cannot login to my IRIS account",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Can't login in IRIS",
+        "sys_created_on": "2025-02-14 16:46:53",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41568179",
+        "description": "iris app wont open ",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 16:52:36",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41567990",
+        "description": "As part of IRIS scheduled maintenance to update the TDMP banner on users notification.",
+        "short_description": "This is to update the TDCP database through PDUT as part of IRIS scheduled maintenance on 02/14 - 02/17.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 16:53:06",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41568493",
+        "description": "Need access to IRIS stage & dev env. ( TS01,TS09,TS04). Need OM super user and SP RPH the INC needs to be assigned to BTG testing group. <Protected Information was moved to secure confidential data field in the incident record>",
+        "short_description": "Need access to IRIS stage & dev env. ( TS01,TS09,TS04). ",
+        "u_error_symptoms": "Need access to IRIS stage & dev env. ( TS01,TS09,TS04). ",
+        "sys_created_on": "2025-02-14 17:03:03",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41568578",
+        "description": "In the Iris lower environments TS04 and TS01 the Iris home page is being updated which is causing Iris automation to fail.",
+        "short_description": "IRIS Home Page Keeps Changing in TS01/TS04 causing automation to fail",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 17:06:20",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41568694",
+        "description": "Iris is not loading keeps freezing or logging me out",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "Iris is not loading keeps freezing or logging me out",
+        "sys_created_on": "2025-02-14 17:11:23",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41569051",
+        "description": "UNABLE TO CREATE NEW ACCT. KEEPS FREEZING",
+        "short_description": "IRIS issue creating new accounts",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 17:25:28",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41569234",
+        "description": "Im unable to login to iris",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Password incorrect",
+        "sys_created_on": "2025-02-14 17:32:38",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41569570",
+        "description": "\nThe kafka client certificate orx-pharmac21aea6026804573a (rg-pharmacy-central-kafka-np-d738692/hcc-dataplatform-certificate-v1/orx-pharmac21aea6026804573a) has been automatically renewed as it is less than 60 days from the expiration.\nYour new certificate will expire on Sat, 14 Feb 2026 17:45:01 UTC.\nThe new certificate download information has been sent to: gourav_gujral@optum.com, prashant.mangidkar@optum.com, satya.chundru@optum.com, somasekhar_munupally@optum.com, somwmya_surisetti@optum.com.\nA renewal email and INC will be sent around Mon, 15 Dec 2025 21:45:01 UTC.\nPlease update all uses of this certificate immediately with the newly sent certificate to avoid any expiration resulting in downtime for your application(s).\n\t",
+        "short_description": "Kafka Certificate Renewal",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 17:45:32",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41570404",
+        "description": "Order Validation Exception Holds are applying inappropriately for weight and height with following verbiage: \u201cException Returned by NDURE Web service while calling INTERACTIONS , Error text : 1-1-Parsing error-clinicalMeasurements.weight\u201d or \u201cException Returned by NDURE Web service while calling INTERACTIONS , Error text : 1-1-Parsing error-clinicalMeasurements.height\u201d.  This issue is occurring even though there is a valid weight and height values in the Patient Vitals Form.  This is impacting both Specialty and Home Delivery.\n\nProduct entered by customer: IRIS\r\nAssign to: MSA ORACLE EBS (RXS) \u2013 SPT",
+        "short_description": "Order Validation Exception Holds are applying inappropriately by NDURE Web service ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 18:13:31",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41570414",
+        "description": "Iris  would not pop\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System)-Iris  would not pop",
+        "u_error_symptoms": "Iris  would not pop\r\n",
+        "sys_created_on": "2025-02-14 18:13:49",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41570855",
+        "description": "ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired\n\n--------------------------------------------------------------\nFRM-40501: ORACLE error: unable to reserve record for update or delete.",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 18:29:33",
+        "tags": [
+            [
+                "Latency",
+                "User Request",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41571090",
+        "description": "Please Run Activate Skill Set Monday Evening @10pm cst Purge N\r\n\r\nCR#6897 - \r\n1. Skill Set: PA BOT - Refresh = Y\r\nExclude: CAG HOLD \r\nExclude: OPEN MARKET DEX HOLD \r\n\r\n2. Skill Set: SPFE SELECT PA BOT - Refresh = Y\r\nExclude: CAG HOLD \r\nExclude: OPEN MARKET DEX HOLD \r\n\r\nCR#7293 -\r\n1. SPFE Quality Check\r\nRemove/Delete: PG Hold\r\n\r\n2. Faxback BRX\r\nRemove/Delete: PG Hold",
+        "short_description": "Run Activate Skill Set Monday 02/17 Evening @10pm cst Purge N",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 18:52:43",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41571783",
+        "description": "Text: pdq-api-ml-iris-fax-scoring,,https://bmr50330.live.dynatrace.com/#problems/problemdetails;gtf=-2h;gf=all;pid=-341494503372021800_1739559780000V2\nSeverity: Warning\nDomain: pdq-api-ml-iris-fax-scoring\nCategory: Application\nSubcategory: PROVIDER ELASTIC SEARCH\nApplication: PROVIDER ELASTIC SEARCH\nObject: Dynatrace Cloud NonProd\nPolicy: null\nURL: https://bmr50330.live.dynatrace.com/#problems/problemdetails;gtf=-2h;gf=all;pid=-341494503372021800_1739559780000V2\nOM Event ID: 0024131881\nMonitoring Event Link: https://interlink.optum.com/nn/dashboard/show/13?tz=UTC&integrationID-eq=0024131881&name=QuickQueryResults&nextAction=show",
+        "short_description": "pdq-api-ml-iris-fax-scoring,,https://bmr50330.live.dynatrace.com/#problems/problemdetails;gtf=-2h;gf=all;pid=-341494503372021800_1739559780000V2",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 19:06:40",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41572131",
+        "description": "I am trying to get my IRIS pw",
+        "short_description": "IRIS - pw reset",
+        "u_error_symptoms": "pw reset",
+        "sys_created_on": "2025-02-14 19:20:02",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41572737",
+        "description": "I just need my IRIS password reset",
+        "short_description": "IRIS (Integrated Rx Information System) - Password Reset",
+        "u_error_symptoms": "iris",
+        "sys_created_on": "2025-02-14 19:45:14",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41573485",
+        "description": "Need access in ts02 for pharmacist profile and security admin role",
+        "short_description": "IRIS (Integrated Rx Information System) - Need access in ts02 for pharmacist profile and security admin role",
+        "u_error_symptoms": "Need access in ts02 for pharmacist profile and security admin role",
+        "sys_created_on": "2025-02-14 20:16:17",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41573538",
+        "description": "OP -IRIS order not closed. Order number 781775355-1 and tracking # 744214438370\r\n\r\nProduct entered by customer: ",
+        "short_description": "OP -IRIS order not closed",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 20:19:14",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41573703",
+        "description": "User is returning from leave. The request to install IRIS is pending . Request #476353417",
+        "short_description": "(OBO) IRIS Access",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 20:26:13",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41573869",
+        "description": "Please update the Propagation program from 5 day look back to 15 day look back ",
+        "short_description": "Please update the Propagation program from 5 day look back to 15 day look back ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 20:37:12",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41574205",
+        "description": "CMS Consent is not recorded appropriately when CSAs are setting up Rx on TST with the drop date (potential defect of US5647128)",
+        "short_description": "TST PIP Consent capture issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 20:49:27",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41573862",
+        "description": "Please Run Activate Skill Set Tuesday Night 02/18 @10pm cst Purge- N\r\n\r\nCR#7398 Turn off logic from Request ID: 6850\r\n\u2022\tDelete: Proactive Financial Assistance \u2013 W/Hold comments:\r\no\tPATIENT ASSISTANCE BRX\r\no\tSPFE OA Misc\r\n\r\nCR#7031 Update requests for Prior Auth in preparation for Cardio-Pulmonary COE launch\r\nSkill Set: SS_SELECT_PA_BOT\r\nOrder Cell Number: PT 502 \u2013 Required ANY\r\nOrder Cell Number: SP 605 \u2013 Required ANY\r\n\r\nCR#7365 Biosim Sub/Formulary Trans Holds \u2013 Run Refresh\r\nSkill Sets: \r\n\u2022\tADVOCATE BRX\r\n\u2022\tPRIOR AUTH BRX\r\n\u2022\tSPFE SELECT CCH BOT\r\n\u2022\tSPFE UNIQUE PAYOR\r\nEXCLUDE Holds: \r\n\u2022\tBIOSIMILAR SUBSTITUTION\r\n\u2022\tFORMULARY TRANSITIONS MANAGEMENT\r\n",
+        "short_description": "Run Activate Skill Set Tuesday Night 02/18 @10pm cst Purge- N",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 21:00:49",
+        "tags": [
+            [
+                "Order Issue",
+                "Alert",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41574492",
+        "description": "Need additional info to see how 2 prescriptions were presented to users in PVSE",
+        "short_description": "Need additional info to see how 2 prescriptions were presented to users in PVSE",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 21:01:08",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41574661",
+        "description": "Text: pdq-api-ml-iris-fax-scoring,,https://bmr50330.live.dynatrace.com/#problems/problemdetails;gtf=-2h;gf=all;pid=7855611844458204102_1739566980000V2\nSeverity: Warning\nDomain: pdq-api-ml-iris-fax-scoring\nCategory: Application\nSubcategory: PROVIDER ELASTIC SEARCH\nApplication: PROVIDER ELASTIC SEARCH\nObject: Dynatrace Cloud NonProd\nPolicy: null\nURL: https://bmr50330.live.dynatrace.com/#problems/problemdetails;gtf=-2h;gf=all;pid=7855611844458204102_1739566980000V2\nOM Event ID: 0024140821\nMonitoring Event Link: https://interlink.optum.com/nn/dashboard/show/13?tz=UTC&integrationID-eq=0024140821&name=QuickQueryResults&nextAction=show",
+        "short_description": "pdq-api-ml-iris-fax-scoring,,https://bmr50330.live.dynatrace.com/#problems/problemdetails;gtf=-2h;gf=all;pid=7855611844458204102_1739566980000V2",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 21:06:40",
+        "tags": [
+            [
+                "Alert",
+                "Errors",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41574754",
+        "description": "Please Run Activate Skill Set Wednesday night 02/19 @10pm cst Purge - N\r\n\r\nCR#6881 Route Reject 76 Orders to the DEX BOT to be Worked by Automation\r\n1.\tSkill Set: SPFE DEX BOT\r\n\u2022\tHolds \u2013 w/Hold comments:  76 - PLAN LIMITATIONS EXCEEDED\r\n\u2022\tDEX HOLD \u2013 Required ANY\r\n\u2022\tREFILL DEX HOLD \u2013 Required ANY\r\n\u2022\tCLAIM REJECT HOLD \u2013 Required ANY\r\n2.\tSkill Set: DEX BRX \u2013 Run Refresh\r\n\u2022\tEXCLUDE Holds \u2013 w/Hold comments:  76 - PLAN LIMITATIONS EXCEEDED\r\n\u2022\tDEX HOLD \u2013 Required ANY\r\n\u2022\tREFILL DEX HOLD \u2013 Required ANY\r\n\u2022\tCLAIM REJECT HOLD \u2013 Required ANY\r\n\r\n\r\n",
+        "short_description": "Run Activate Skill Set Wednesday night 02/19 @10pm cst Purge - N",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 21:25:03",
+        "tags": [
+            [
+                "Alert",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41575907",
+        "description": "IRIS populating with error messages and boots me out something about application error, this started today after an unexpected random update. Can provide screen shots. In addition im clicking and not getting a response as well as (not important or urgent)-- snipping tool will not allow me to copy things that I have used the highlighter one",
+        "short_description": "IRIS - populating with error messages and boots me out something about application error,",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-14 22:12:11",
+        "tags": [
+            [
+                "Errors",
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41576200",
+        "description": "I was calling I need my password for iris, account is disabled for accident ",
+        "short_description": "IRIS (Integrated Rx Information System) - Account was disabled accidentally and needed a temporary password to regain access",
+        "u_error_symptoms": "Account was disabled accidentally and needed a temporary password to regain access",
+        "sys_created_on": "2025-02-14 22:31:58",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41576937",
+        "description": "Unable to open IRIS app, saying password is incorrect",
+        "short_description": "Unable to open IRIS app, saying password is incorrect",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-15 00:04:41",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41577925",
+        "description": "\r\nClark, Karen M Hi - we are testing in TS01 for Imaging......can you check to see if SOA is running\r\nGuan, Yue Do you need to restart the batches if we are using the old batches?\r\nGuan, Yue We do have already some batches but data is not flowing to IRIS when indexed\r\n Batches Used # 35027051 35027052\r\n Can you please restart these, we already indexed and need that data into IRIS\r\n \r\nClark, Karen M added Her, Chiatcha to the chat.\r\nBilagunda Lakkanna, Prema Yesterday 1:05 PM\r\nCan you please work on these 2 batches\r\n35021224\r\n35021118\r\n \r\nNalaballa, Lavanya\r\nBatches Used # 35027051 35027052\r\n\r\nBilagunda Lakkanna, Prema Yesterday 1:05 PM\r\n\r\nthese 2 are very old batches,we are unable to retrigger it\r\nWe have placed new batches and can be worked on these as well 35037052 and 35037051\r\n\r\n33037380 and 33037382\r\n\r\nHey Prema, I have retested using the NEW Batch#35037051, but I am still unable to see the transactions on the Payment OCD Table (Total of 5 transactions were made for Account#'s 437736139, 462430744,and 474690408)\r\n \r\nI could see the record in OCD_Table. but the Retrieval flag is 'A'\r\n\r\n\r\n",
+        "short_description": "TS01 Transactions not showing up in OCD table",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-15 04:44:36",
+        "tags": [
+            [
+                "User Request",
+                "Data Fix",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41577958",
+        "description": "LA950 - IRIS login issue",
+        "short_description": "LA950 - IRIS login issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-15 04:48:27",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41578969",
+        "description": "EACH DAY AT SIGN ON MY WWE AND IRIS TAKES LONGER AND LONGER TO APPEAR AND MAKES ME LATE TO GET STARTED",
+        "short_description": "General Troubleshooting -  EACH DAY AT SIGN ON MY WWE AND IRIS TAKES LONGER AND LONGER TO APPEAR AND MAKES ME LATE TO GET STARTED",
+        "u_error_symptoms": "EACH DAY AT SIGN ON MY WWE AND IRIS TAKES LONGER AND LONGER TO APPEAR AND MAKES ME LATE TO GET STARTED",
+        "sys_created_on": "2025-02-15 12:56:03",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41579188",
+        "description": "IN950-Unable to login iris",
+        "short_description": "IN950-Unable to login iris",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-15 14:27:24",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41579308",
+        "description": "Issue description: Member wants to check the drug pricing of her medication at the pharmacy on her area which is TUPELO, MS, 38801 using the United HealthCare app, but it is showing the wrong zip code and every time she changes into the correct location and search again for another drug price it comes back on the wrong address which is Water Valley, MS 38965.\r\nPriority 1\r\nPlan Member Enrolled: AARP Medicare Advantage Giveback from UHC MS-4 (PPO)\r\nDevice Type: mobile phone (android)\r\nBrowser Type and Version: UHC mobile app\r\nDate and Time of Issue: 02/15/2025\r\nInteraction ID from Maestro (I- 999999999): I-470124594\r\nPermission granted to leave a detailed voicemail if needed: Yes\r\nAssignment notes: (Select one of the following)\r\nWebsite issues: Please assign to work group: \r\nMobile App Issues: Please assign to work group: unitedhealthcare mobile \u2013 spt.\n\nProduct entered by customer: medicare.uhc.com",
+        "short_description": "UnitedHealthcare Mobile -  showing the wrong zip code and every time she changes into the correct location and search again for another drug price",
+        "u_error_symptoms": "  showing the wrong zip code and every time she changes into the correct location and search again for another drug price",
+        "sys_created_on": "2025-02-15 15:05:16",
+        "tags": [
+            [
+                "Alert",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41579422",
+        "description": "IRIS PSC issue : Member Rx are not being received through PSC request. The request are auto cancelled. Order #",
+        "short_description": "IRIS (Integrated Rx Information System) - IRIS PSC issue : Member Rx are not being received through PSC request. The request are auto cancelled. Order #",
+        "u_error_symptoms": "IRIS PSC issue : Member Rx are not being received through PSC request. The request are auto cancelled. Order #",
+        "sys_created_on": "2025-02-15 15:45:40",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41579661",
+        "description": "User can't access IRIS\r\nWhen user is try to sign in the page will just blink.",
+        "short_description": "Log in issue - IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-15 18:03:31",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41579812",
+        "description": "ok im having issue edge application central ",
+        "short_description": "PBM&PCS Advocate Central -  the drop down list  goes to other monitor for call wrap up ",
+        "u_error_symptoms": "the drop list   goes to other monitor",
+        "sys_created_on": "2025-02-15 18:13:32",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41579921",
+        "description": "I can't access IRIS hold web application",
+        "short_description": "Unable to open web application IRIS",
+        "u_error_symptoms": "Unable to open web application IRIS",
+        "sys_created_on": "2025-02-15 18:59:07",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41581054",
+        "description": "UNITEDHEALTHCARE IRIS FOR HEALTH - Service unavailable",
+        "short_description": "UNITEDHEALTHCARE IRIS FOR HEALTH - Service unavailable",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-16 07:03:23",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41581997",
+        "description": "I can't launch IRIS on my new laptop",
+        "short_description": "IRIS (Integrated Rx Information System) / Unable to launch on new laptop",
+        "u_error_symptoms": "Unable to launch on new laptop",
+        "sys_created_on": "2025-02-16 15:08:09",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41582011",
+        "description": "IRIS continuously crashing  but issue was resolved after reboot- just need ticket ",
+        "short_description": "TX950 - IRIS continuously crashing ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-16 15:15:51",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41583002",
+        "description": "EU mentioned multiple functions of IRIS are not working and freezing.",
+        "short_description": "IRIS  -  Multiple functions does not work and freezing during calls",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-16 21:39:24",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41583585",
+        "description": "i am unable to change my password for iris. i keep getting an error message.",
+        "short_description": "Iris - unable to login",
+        "u_error_symptoms": "unable to login",
+        "sys_created_on": "2025-02-17 02:33:57",
+        "tags": [
+            [
+                "Password",
+                "User Login",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41583832",
+        "description": "RPA ORX HDP PRESCRIBER ID : IRIS Password Incorrect Domain:  Origin: https://phi-splunk.optum.com/app/optum_rpa_cc/@go?sid=scheduler__snanda4_b3B0dW1fcnBhX2Nj__RMD5115030bc6cd0ef3a_at_1739764800_80561_7DBD82DF-F8FD-4712-A893-182E4588B839 Application: RPA ORX HDP PRESCRIBER ID Category: RPA ORX HDP PRESCRIBER ID Source: SPLUNK Severity: major Alertid: 0024423231",
+        "short_description": "RPA ORX HDP PRESCRIBER ID :IRIS Password issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 04:02:27",
+        "tags": [
+            [
+                "Password",
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41584190",
+        "description": "Orders are being stuck In progress and not able to process the inventories for RPA ORX SPH COGNITIVE MRD HOLD RELEASE when bot is applying the manual hold and connecting with hive started, getting stuck and not able to process the order for a longer period of time which in turn is impacting the AHT of the automation.\r\n\r\nWe have opened the warrroom as the data is not processed since Saturday(2/15/25).",
+        "short_description": "RPA ORX SPH COGNITIVE MRD HOLD RELEASE - IRIS Screens are stucked due to which orders are not picked up by bots",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 06:01:13",
+        "tags": [
+            [
+                "Order Issue",
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41584317",
+        "description": "DSM Server isnot accessible on EDGE\r\nunable to process device replacement and application installation, please check\r\nSite: II519\r\nhttp://dsmep0410/",
+        "short_description": "DSM are not accessible",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 06:21:56",
+        "tags": [
+            [
+                "Launch Issues",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41584725",
+        "description": "orxpcatst1ebs.uhc.com:4450/OA_HTML/AppsLogin This test environment is not working. My team needs it up for the work to resume.",
+        "short_description": "orxpcatst1ebs.uhc.com:4450/OA_HTML/AppsLogin This test environment is not working. My team needs it up for the work to resume.",
+        "u_error_symptoms": "rxpcatst1ebs.uhc.com:4450/OA_HTML/AppsLogin This test environment is not working",
+        "sys_created_on": "2025-02-17 07:23:51",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41584948",
+        "description": "RXEPRR: Invalids recompilation",
+        "short_description": "RXEPRR: Invalids recompilation",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 08:13:45",
+        "tags": [
+            [
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41585285",
+        "description": "Need to reset password for IRIS TS02 environment\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - How to reset your IRIS password",
+        "u_error_symptoms": "Reset password",
+        "sys_created_on": "2025-02-17 09:21:46",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41586512",
+        "description": "PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator Domain: ppv Origin: GCP-PPV Application: EERA Category: Application Source: ENT ELG RA Severity: Minor Alertid: 0024481882",
+        "short_description": "PROD-SCHEDULED PPV SelfService Job Failed - feedName:ORXTRANSITIONGRP feed_userId:ashiris9 roleId:Analyst Component:Raw File Generator",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 11:26:56",
+        "tags": [
+            [
+                "Alert",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41587602",
+        "description": "CH Orders Not Closed in IRIS\n\nProduct entered by customer: IRIS",
+        "short_description": "Orders not closed in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 12:08:51",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41587644",
+        "description": "CH Order Not Closed in IRIS\n\nProduct entered by customer: IRIS",
+        "short_description": "Orders not closed in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 12:12:33",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41587954",
+        "description": "Im trying to login to my iset last week I able to login...",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to login to my IRIS",
+        "sys_created_on": "2025-02-17 12:39:21",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41589177",
+        "description": "I'm trying to log into like a application so I can start work. I was told by my manager to umm like request you know for reset password. I did that instead of just send me an e-mail and it has not sent me an e-mail so I'm just calling to see if there's anything that I see could possibly help me with.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Not able to login to IRIS",
+        "sys_created_on": "2025-02-17 13:39:30",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41589688",
+        "description": "unable to login",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to login",
+        "sys_created_on": "2025-02-17 13:56:13",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41589911",
+        "description": "I have requested UNET Sign-On 1.0, IBM Personal Communications 15.0.2.0 and Macro Express 6.3.3.1 - No Editor Standard on 02-13-2025. These are needed on my replacement lap top - LHTU05CG4511W2V -",
+        "short_description": "AppStore - Application installation request. ",
+        "u_error_symptoms": "I have requested UNET Sign-On 1.0, IBM Personal Communications 15.0.2.0 and Macro Express 6.3.3.1 - No Editor Standard on 02-13-2025. These are needed on my replacement lap top - LHTU05CG4511W2V -",
+        "sys_created_on": "2025-02-17 14:03:35",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41590139",
+        "description": "Order 780607884 is stuck in a DEX HOLD loop hitting the max attempt in RxClaim for retry",
+        "short_description": "Order 780607884 is stuck in a DEX HOLD loop hitting the max attempt in RxClaim for retry",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 14:13:36",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41590334",
+        "description": "i have the robo attached to my app",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Unable to login",
+        "u_error_symptoms": "password reset for iris",
+        "sys_created_on": "2025-02-17 14:15:13",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41590497",
+        "description": "I am having a hard time accessing my IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Fatal Initialization error",
+        "u_error_symptoms": "Fatal Initialization error",
+        "sys_created_on": "2025-02-17 14:19:49",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41590521",
+        "description": "trouble logging in to my IRIS account\r\nasking update my password\r\nits reject 14 character is needed\r\nusing 14 characters but still rejecting",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-17 14:20:24",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41590331",
+        "description": "My browser favorites are not on my replacement computer",
+        "short_description": "Microsoft Edge -  missing IRIS link and request to have a shortcut from desktop as well",
+        "u_error_symptoms": "Microsoft Edge -  missing IRIS and request to have a shortcut from desktop as well",
+        "sys_created_on": "2025-02-17 14:24:05",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41591005",
+        "description": "iris password reset",
+        "short_description": "IRIS (Integrated Rx Information System) - iris password",
+        "u_error_symptoms": "password reset",
+        "sys_created_on": "2025-02-17 14:32:22",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41591025",
+        "description": "provide access to IRIS application",
+        "short_description": "IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "need access ",
+        "sys_created_on": "2025-02-17 14:33:11",
+        "tags": [
+            [
+                "User Login",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41591206",
+        "description": "Is it possible to pull the account information from an inactive account that was merged\r\n\r\nTrying to get the details for account #434446476 ",
+        "short_description": "Is it possible to pull the account information from an inactive account that was merged",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 14:40:33",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41591741",
+        "description": "Unable to change password.",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 14:51:10",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41591922",
+        "description": "AHT not matching between IRIS and IEX for ct_id 4612 for Jan month. Please review.",
+        "short_description": "AHT not matching between IRIS and IEX for ct_id 4612 for Jan month",
+        "u_error_symptoms": "AHT not matching between IRIS and IEX for ct_id 4612 for Jan month. Please review.",
+        "sys_created_on": "2025-02-17 14:56:54",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41592461",
+        "description": "need assistance resetting iris password",
+        "short_description": "IRIS password reset",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 15:11:18",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41593045",
+        "description": "I am coming back from and LOA and i needed iris access i was told the access was restored but i have tried all passwords i can remember and still can not get in ",
+        "short_description": "IRIS - Password Reset",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 15:27:59",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41593773",
+        "description": "Unable to access IRIS TS02, requesting access to the application",
+        "short_description": "IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "Request or Update Access to IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-17 15:48:13",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41593815",
+        "description": "When I am on a call, and I have to open IRIS. It will load for 1-3 minutes then freeze my monitor screen entirely. I'm unable to close out, I'm unable to ctrl+alt+dlt to exit out. The only thing I'm able to do is restart the system entirely.",
+        "short_description": "When I am on a call, and I have to open IRIS. It will load for 1-3 minutes then freeze my monitor screen entirely. I'm unable to close out, I'm unable to ctrl+alt+dlt to exit out. The only thing I'm able to do is restart the system entirely.",
+        "u_error_symptoms": "When I am on a call, and I have to open IRIS. It will load for 1-3 minutes then freeze my monitor screen entirely. I'm unable to close out, I'm unable to ctrl+alt+dlt to exit out. The only thing I'm able to do is restart the system entirely.",
+        "sys_created_on": "2025-02-17 15:49:28",
+        "tags": [
+            [
+                "Latency",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41593954",
+        "description": "IRIS isn't downloading properly",
+        "short_description": "IRIS issue and replacement laptop setup.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 15:53:31",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41594394",
+        "description": "Please assign to group: MSA ORACLE EBS (RXS) \u2013 SPT\r\nWe need to run the attached script first, and then turn ON this profile: XXIRIS_US7790001_FULLMED_SPECIALTY_PF in IRIS production to go live with Specialty Full Med Name logic from the February release.\n\nProduct entered by customer: ",
+        "short_description": "IRIS - Please assign to group: MSA ORACLE EBS (RXS) \u2013 SPT",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 16:05:51",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41594407",
+        "description": "It stated that I needed to set up a new pw but when I did, it would not allow me to log in with it",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 16:06:11",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41594800",
+        "description": "I have an Iris application that reset, it needs to be reset",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-17 16:16:48",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41594865",
+        "description": "Every time I have to use IRIS, it loads for about 1-3 (or more) mins then freezes my entire monitor. I'm unable to exit out. I'm unable to Task Manager to close out. The only thing I am able to do is restart my cpu.",
+        "short_description": "IRIS freezing issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 16:18:13",
+        "tags": [
+            [
+                "Launch Issues",
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41594924",
+        "description": "need datafix for last fill date for rx 449753845 fixed. On rx organizer and rx history is is showing 2/2/25. However that order/fill was cancelled and never shipped but rx history did not correctly update. Actually last fill date was 1/13/25 (shipped 1/14/25)\n\nProduct entered by customer: IRIS",
+        "short_description": "need datafix for last fill date for rx 449753845 ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 16:19:55",
+        "tags": [
+            [
+                "Order Issue",
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41595495",
+        "description": "Need datafix on rx#426495655 to update Last fill date field to align with the most recent shipment for o#767343401",
+        "short_description": "Need datafix on rx#426495655 to update Last fill date field to align with the most recent shipment for o#767343401",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 16:34:48",
+        "tags": [
+            [
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41595692",
+        "description": "Check in profiles and lookups and xxiris_con table, is there is any reference to %ping%\r\nalso query table for forms personalization for %ping%.  See attached email\r\n",
+        "short_description": "Confirm if IRIS Is using Ping Federate",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 16:39:31",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41595636",
+        "description": "HI IRIS team,\r\n\r\nWe are seeing many Incidents raised on doc missing issues even though it was returned successfully from Imaging eRx service. Can you please rectify the issue from IRIS .\r\n\r\nThanks\r\nSrihari Bulagakula",
+        "short_description": "Doc missing even we have the response from filenet to IRIS ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 16:42:58",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41596067",
+        "description": "It stated that I needed to set up a new pw but when I did, it would not allow me to log in with it",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 16:50:29",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41596435",
+        "description": "I keep getting same issue with my IRIS issue, I'm trying to reset it it's not working. ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Login failed. Please verify your login information or contact the system administrator.",
+        "sys_created_on": "2025-02-17 17:00:33",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41596478",
+        "description": "EVERY SINGLE TIME A REP CALLS IN (CAPITAL PREFERRABLY) I GET A CERTAIN ACCT NAME THAT POPS UP. IM NOT SURE WHY THATS WHY I AM CONTACTING YOU GUYS. I RESTARTED AND ITS STILL POPS UP, BEEN HAPPENING OVER A WEEK",
+        "short_description": "IRIS - EVERY SINGLE TIME A REP CALLS IN (CAPITAL PREFERRABLY) I GET A CERTAIN ACCT NAME THAT POPS UP. IM NOT SURE WHY THATS WHY I AM CONTACTING YOU GUYS. I RESTARTED AND ITS STILL POPS UP, BEEN HAPPENING OVER A WEEK",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 17:02:00",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41593905",
+        "description": "User has issues with IRIS. ",
+        "short_description": "User has issues with IRIS. ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 17:13:20",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41597158",
+        "description": "IRIS configuration please\r\nAssign to the sysadmins\r\nPlease move/allow access for the lookup table XXIRIS_30DS_OPIOID_GPI_DRUGS \r\nin the OM Lookup Maintenance responsibility\n\nProduct entered by customer: ",
+        "short_description": "Please move/allow access for the lookup table XXIRIS_30DS_OPIOID_GPI_DRUGS ",
+        "u_error_symptoms": "Please move/allow access for the lookup table XXIRIS_30DS_OPIOID_GPI_DRUGS \r\nin the OM Lookup Maintenance responsibility",
+        "sys_created_on": "2025-02-17 17:23:30",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41597432",
+        "description": "IRIS KEEPS FREEZING & NOT LETTING CLICK ON ANYTHING",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 17:31:34",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41597483",
+        "description": "Hello, to perform JAVA testing with the IRIS system I need the following:\r\n\r\n\r\nI do not have access to edit the exception.sites file that is stored in the C:\\Windows\\Sun\\Java\\Deployment\\Security path.  \r\n\r\nI need to add and save the following entries to the exception.sites file that is stored in below C drive. \r\n\r\nBelow are the 2 entries I need added into the exception.sites file:  \r\n\r\nhttps://orxpcatst2ebs.uhc.com:4450/ \r\n\r\nhttps://orxpcatst2ebs.uhc.com/ \r\n\r\nC Drive path on my computer: \r\n\r\nC:\\Windows\\Sun\\Java\\Deployment\\Security \r\n\r\nEntered by Matthew Tinder: My location- Product entered by customer: C:\\Windows\\Sun\\Java\\Deployment\\Security\n\nProduct entered by customer: Windows Security",
+        "short_description": "Java testing",
+        "u_error_symptoms": "Java testing",
+        "sys_created_on": "2025-02-17 17:33:16",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41598705",
+        "description": "Some IRIS users are getting the \u201cORA-06502: PL/SQL; numberic or value error: character to number conversion error\u201d preventing users form making changes to Rx Form, do price check, etc\u201d.  Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.\n\nProduct entered by customer: IRIS\r\nAssign ticket to: MSA ORACLE EBS (RXS) \u2013 SPT",
+        "short_description": "IRIS - Fields that should populate with period (eg. UPD and Order Total) are populating with a comma.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 18:12:38",
+        "tags": [
+            [
+                "User Request",
+                "Data Fix",
+                "Order Issue",
+                "nonsense",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41599940",
+        "description": "i need a password reset for iris",
+        "short_description": "IRIS (Integrated Rx Information System)-IRIS password reset",
+        "u_error_symptoms": "IRIS password reset",
+        "sys_created_on": "2025-02-17 18:55:40",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41600241",
+        "description": "In response to the prior ticket INC41596478, Cora is still having issues in IRIS\r\n\r\nAccount always populates when taking calls from a CapitalRx member",
+        "short_description": "In response to the prior ticket INC41596478, Cora is still having issues in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 19:08:53",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41600629",
+        "description": "cannot change the password via Iris",
+        "short_description": "NC950 -  Iris: Cannot create a new password",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 19:23:25",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41601077",
+        "description": "I received a coaching that I had no orders, so I need this fix to see the priors order ",
+        "short_description": "IRIS (Integrated Rx Information System) - unable to search the order in application ",
+        "u_error_symptoms": "cannot search the order in IRIS",
+        "sys_created_on": "2025-02-17 19:40:34",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41601195",
+        "description": "iris and AC not working properly ",
+        "short_description": "iris and AC not working properly ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 19:44:50",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41601294",
+        "description": "my headset is not showing for me to be connecting and my IRIS account I'm trying to reset my password but it's not taking it",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to login to IRIS",
+        "sys_created_on": "2025-02-17 19:49:21",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41601347",
+        "description": "Iris issue with specific member.  Unable to add CC over several weeks,  please redirect to iris team to update account #409229899",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 19:51:19",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41601798",
+        "description": "Iris issue with specific member.  Unable to add CC over several weeks,  please redirect to iris team to update account #409229899",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 20:06:40",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41602124",
+        "description": "IRIS NOT LOADING ",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 20:20:00",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41602437",
+        "description": "Please assign this service now ticket to AV 340B-SPT work group. Can we confirm that Iris Dome logic is turned on for Celgene BMS NDCs for LESTER E COX MEDICAL CENTERS DSH260040?",
+        "short_description": "340B - confirm Iris Dome logic is on ",
+        "u_error_symptoms": "confirm Iris Dome logic is on ",
+        "sys_created_on": "2025-02-17 20:32:06",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41602636",
+        "description": "Unable to log into IRIS application",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "Launch Issues",
+        "sys_created_on": "2025-02-17 20:39:44",
+        "tags": [
+            [
+                "Launch Issues",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41603505",
+        "description": "issues login in password updated today but cant sign in \r\n",
+        "short_description": "IRIS - issues login in password updated today but cant sign in ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 21:13:24",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41603682",
+        "description": "Assignment Group to be added to ticket Orbit - Tableau External Assign to Shirish Pathak or KEERTHI KUMAR K, Santosh Kumar <santosh_keerthi@optum.com>; Nandigama, Praveen <praveen_nandigama@optum.com>",
+        "short_description": "Orbit Tableau (Internal), Assignment Group to be added to ticket Orbit - Tableau External Assign to Shirish Pathak or KEERTHI KUMAR K, Santosh Kumar <santosh_keerthi@optum.com>; Nandigama, Praveen <praveen_nandigama@optum.com>",
+        "u_error_symptoms": "Assignment Group to be added to ticket Orbit - Tableau External Assign to Shirish Pathak or KEERTHI KUMAR K, Santosh Kumar <santosh_keerthi@optum.com>; Nandigama, Praveen <praveen_nandigama@optum.com>",
+        "sys_created_on": "2025-02-17 21:20:35",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41603801",
+        "description": "Please close group order . everything is packed but group order still says processing\r\n\r\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System), Please close group order",
+        "u_error_symptoms": "Please close group order",
+        "sys_created_on": "2025-02-17 21:26:03",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41603846",
+        "description": "please close group order . nothing is in this group order but still says processing\r\n\r\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System), please close group order ",
+        "u_error_symptoms": "please close group order ",
+        "sys_created_on": "2025-02-17 21:27:09",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41604158",
+        "description": "IRIS not recognizing my log in information",
+        "short_description": "IRIS Login Issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 21:41:20",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41604940",
+        "description": "I need to change my IRIS password ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": " Unable to Login",
+        "sys_created_on": "2025-02-17 22:15:10",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41605751",
+        "description": "\"\"\"XXIRIS New Refill Smoothing Drop Date Update DF\"\" Refill Smoothing 3/4/2025 to 3/7/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) \u2013 SPT\"",
+        "short_description": "Refill Smoothing ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 23:03:38",
+        "tags": [
+            [
+                "Data Fix",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41605854",
+        "description": "Not able to do search eligiblity on bk1uat members in Ts02 \r\n\r\nsample members are attached in attachments",
+        "short_description": "Search elig is not wokring for member from non prod BOOK1UAT rxclaim - TS02 import using search eligibility",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-17 23:13:20",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41606363",
+        "description": "FL950: IRIS: Record is currently being worked on by another user please try to update it later\r\nIris is not allowing to save anything and it will close out. Error \r\n\r\n",
+        "short_description": "IRIS: Record is currently being worked on by another user please try to update it later",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 00:05:31",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41607532",
+        "description": " SOA webservice volume is approx. 40% lower than prior load test\r\n\r\n$TB/al_today.sh output and Loadrunner stats have higher number",
+        "short_description": " SOA webservice volume is approx. 40% lower than prior load test",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 05:19:14",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41607706",
+        "description": "DE-Merge updated but HSID needs to be updated with correct name as below, current name now reflecting as DEBBIE PESTO\r\nMember Id - M00201922\r\nDEBBIE  TESTO\r\nDOB 1959-10-16",
+        "short_description": "Duplicate account in iris under 474036181, 474035612 -DE-Merge updated but HSID needs to be updated",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 05:52:47",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41608323",
+        "description": "Didn't find survey code 2775 in survey master list\n\nProduct entered by customer: IRIS",
+        "short_description": "IRIS (Integrated Rx Information System)  -  Didn't find survey code 2775 in survey master list",
+        "u_error_symptoms": "Didn't find survey code 2775 in survey master list\r\n",
+        "sys_created_on": "2025-02-18 07:53:14",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41608414",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod\r\n \r\nNeed IRIS Access for TS02 environment\r\n \r\n**Based on user's description in ticket, user do not require follow-up from the IT Service Desk.**\r\n \r\nResponsibilities:\r\nOM Super User\r\nCAG Maintenance\r\nPharmacist\r\nSpecialty pharmacists \r\nDrug File Maintenance\r\nPO Super User\r\n\r\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) -  Need IRIS Access for TS02 environment",
+        "u_error_symptoms": "Need IRIS Access for TS02 environment",
+        "sys_created_on": "2025-02-18 08:06:34",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41608422",
+        "description": "Not getting Pending MD shipping hold in hold list for edit order\n\nProduct entered by customer: IRIS",
+        "short_description": "Not getting Pending MD shipping hold in hold list for edit order",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 08:08:33",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41608442",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod\r\n\r\nNeed IRIS Access for TS02 environment\r\n ",
+        "short_description": "Need IRIS Access for TS02 environment",
+        "u_error_symptoms": "Need IRIS Access for TS02 environment\r\n",
+        "sys_created_on": "2025-02-18 08:13:16",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41608458",
+        "description": "Hi Team,\r\n\r\n\r\nI wanted to update you on the progress of implementing the changes in our IRIS script as per David suggestions (Ref : INC41285217 ) . We have successfully incorporated all the necessary modifications, except for point number 4.( What is the purpose of these joins? i.e. remove tables  apps.hz_cust_accounts  hca1,   apps.XXIRIS_AR_PLAN_ASSIGNMENT      xapa)\r\n\r\nDuring implementation of point number 4, our script did not provide any output. We are currently facing difficulties in this area, due to our limited knowledge of IRIS DB script.\r\n\r\nWe are seeking your help to improve the script performance if your team can spend some time on the same. \r\n\r\nFor your reference, I have attached the updated IRIS script and  previous INC#  INC41285217. \r\n\r\nPlease let me know if you require any additional information or have any questions. I look forward to your response.\r\n\r\n\r\nSERVICE_NAME=RXEPRR_RO.uhc.com\r\nUser : MOVE_READ\r\n\r\nSome issue in the production query, earlier it is working fine but now it is taking much time to execute In one of the automation RPA ORX HPC FINAL FAX , \r\nPlease find the attached query.\r\nConnection string:   Oracle Connection String:Data Source=(DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=RXEPRR_RO.uhc.com)(SID=))(ADDRESS=(PROTOCOL=TCP)(HOST=irisdbro.uhc.com)(PORT=1521)));User ID= ;Password=\r\n\r\n",
+        "short_description": "IRIS script performance issue Query taking too much time to execute in RXEPRR_RO",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 08:19:36",
+        "tags": [
+            [
+                "User Request",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41609617",
+        "description": "2 + days aged orders need to be cleared in Iris and WMS send orders to ORx_Dispensing_IT_Support <OptumRx_Dispensing_IT_Support_DL@ds.uhc.com \r\n780788727 \r\n777482700 \r\n781136435 \r\n782090832\r\n 780133737 delivered, \r\n781770404 not showing order left the building>",
+        "short_description": "IRIS (Integrated Rx Information System) - 2 + days aged orders need to be cleared in Iris",
+        "u_error_symptoms": "2 + days aged orders need to be cleared in Iris and WMS send orders to ORx_Dispensing_IT_Support <OptumRx_Dispensing_IT_Support_DL@ds.uhc.com 780788727 777482700 781136435 782090832 780133737 delivered, 781770404 not showing order left the building>",
+        "sys_created_on": "2025-02-18 11:58:31",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41609729",
+        "description": "Getting New Pop up while Launching IRIS in Lower Env\r\nPlease refer attached screenshot",
+        "short_description": "Getting New Pop up while Launching IRIS in Lower Env",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 12:13:44",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41609841",
+        "description": " Request to turn ON this profile: XXIRIS_US7790001_FULLMED_SPECIALTY_PF in IRIS production to go live with Specialty Full Med Name logic from the February release.",
+        "short_description": " Turn ON this profile: XXIRIS_US7790001_FULLMED_SPECIALTY_PF in IRIS production to go live with Specialty Full Med Name logic from the February release.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 12:25:51",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41609938",
+        "description": "Surescript not working in Dv05",
+        "short_description": "Surescript not working in Dv05",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 12:35:54",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41610053",
+        "description": "I  need access to TS02 env",
+        "short_description": "IRIS (Integrated Rx Information System) - need access to IRIS TS02 non prod env",
+        "u_error_symptoms": "need access to TS02 env",
+        "sys_created_on": "2025-02-18 12:44:25",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41610074",
+        "description": "Need access IRIS Db TS0 ACcess",
+        "short_description": "Need access IRIS Db TS0 ACcess",
+        "u_error_symptoms": "Need access IRIS Db TS0 ACcess",
+        "sys_created_on": "2025-02-18 12:46:09",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41610096",
+        "description": "NEW ticket for IRIS Application",
+        "short_description": "TS02 Access",
+        "u_error_symptoms": "NEW ticket for IRIS Application",
+        "sys_created_on": "2025-02-18 12:47:39",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41610100",
+        "description": "need access for IRIS TS02 application",
+        "short_description": "IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "need access for IRIS TS02 application",
+        "sys_created_on": "2025-02-18 12:48:04",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41610111",
+        "description": "I want access for IRIS TS02",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "I want access for IRIS TS02",
+        "sys_created_on": "2025-02-18 12:48:29",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41610283",
+        "description": "Iris status \"APS In Process\" and PCS status packed with no tracking with number.\n\nProduct entered by customer: IRIS",
+        "short_description": " Iris status \"APS In Process\" and PCS status packed",
+        "u_error_symptoms": "Iris status \"APS In Process\" and PCS status packed with no tracking with number.\r\n\r\nProduct entered by customer: IRIS",
+        "sys_created_on": "2025-02-18 13:01:38",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41610495",
+        "description": "LOAD test Active-passive support for ST01 17th Feb",
+        "short_description": "LOAD test Active-passive support for ST01 17th Feb",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 13:12:49",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41610990",
+        "description": "This morning when I try to login. It gave me an option to reset my IRIS password. When I try to reset it now I can't login",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login to account",
+        "u_error_symptoms": "Unable to login",
+        "sys_created_on": "2025-02-18 13:36:31",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41611136",
+        "description": "Need the sql behind the \"IRIS XXIRIS Detailed Aging\" Report.  Please assign to the IRIS Admin team.\n\nProduct entered by customer: IRIS",
+        "short_description": "IRIS - Need the sql behind the \"IRIS XXIRIS Detailed Aging ",
+        "u_error_symptoms": " Need the sql behind the \"IRIS XXIRIS Detailed Aging ",
+        "sys_created_on": "2025-02-18 13:42:24",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41611153",
+        "description": "Iris Freezing",
+        "short_description": "(OBO) - Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 13:43:11",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41611188",
+        "description": "I need help with setting up password, I set up this morning and somehow, it's not working. ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Password must contain 14 characters or more",
+        "sys_created_on": "2025-02-18 13:45:01",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41611587",
+        "description": "Cannot login to Iris",
+        "short_description": "IRIS (Integrated Rx Information System) - Cannot login to Iris",
+        "u_error_symptoms": "Cannot login to Iris",
+        "sys_created_on": "2025-02-18 14:00:07",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41611660",
+        "description": "my iris is asking to reset my password but everytime I try to  reset it it's not it's  like a big issue with the whole team",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "cannot change the password",
+        "sys_created_on": "2025-02-18 14:02:29",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41613321",
+        "description": "while on a call iris froze, had to restart",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 14:52:34",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41613339",
+        "description": "My IRIS password is not working",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - login failed",
+        "u_error_symptoms": "login failed",
+        "sys_created_on": "2025-02-18 14:52:59",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41613407",
+        "description": "Raguasi - Aguas II, Rae Emmanuel V\r\nrcalero3 - Ray Calero\r\nklaksh47 - Lakshmi, Kusumanchi S\r\nasriva95 - Srivastava, Aditya\r\n",
+        "short_description": "TS04 - Admin Access",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 14:55:21",
+        "tags": [
+            [
+                "User Login",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41613428",
+        "description": "IRIS IS FORCE CLOSING AND LITTLE TASK BARS APPEAR AT THE BOTTOM OF THE SCREEN AND WHEN I GET INTO A ORDER IT SAYS THAT I AM ALREADY IN IT AS IF IT IS ANOTHER PERSON",
+        "short_description": "IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 14:55:21",
+        "tags": [
+            [
+                "Order Issue",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41613948",
+        "description": "Launching iris getting error FRM",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "Launching iris getting error FRM",
+        "sys_created_on": "2025-02-18 15:11:48",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41614445",
+        "description": "IRIS JUST SPINNNIG",
+        "short_description": "IRIS - IRIS JUST SPINNNIG",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 15:26:06",
+        "tags": [
+            [
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41615243",
+        "description": "iris is still having little task bars pop up and show as if im already in an order when opening it.force closing after a few min",
+        "short_description": " IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 15:50:05",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41615248",
+        "description": "Umm, I forgot my password on Iris. Umm, I just kept the password updated yesterday but I forgot the I forgot what I put in.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to login",
+        "u_error_symptoms": "forgot my password on Iris",
+        "sys_created_on": "2025-02-18 15:50:14",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41615644",
+        "description": "I need to override my patient",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "I need to override a patient",
+        "sys_created_on": "2025-02-18 16:02:54",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41615987",
+        "description": "Resolve this vulnerability on xp08dbadm01/02 and xp07dbadm01/02 servers\r\n\r\nFlagged file - /gridagent/app/OracleHomes/agent13c/agent_13.5.0.0.0/.patch_storage/36335374_May_8_2024_02_22_37/files/oracle.sysman.top.agent/13.5.0.0.0/oracle.sysman.agent.symbol/jlib/commons-text-1.8.jar\r\n",
+        "short_description": "Remediate vulnerabilities on xp08dbadm01/02 and xp07dbadm01/02 servers",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 16:14:05",
+        "tags": [
+            [
+                "Errors",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41616496",
+        "description": "keeps freezing and losing concetivity",
+        "short_description": "IRIS - keeps freezing and losing concetivity.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 16:27:27",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41617052",
+        "description": "I'm calling because I'm having issues with my iris.\n- it was working fine earlier today. She can login to iris. ",
+        "short_description": "IRIS - Functionality issues unable to send refills and to open up an order. ",
+        "u_error_symptoms": "unable to send refills and to open up an order, opening up an orders gets error message (screenshot attached) ",
+        "sys_created_on": "2025-02-18 16:45:06",
+        "tags": [
+            [
+                "Order Issue",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41617405",
+        "description": "IRIS IS FORCE CLOSING AND FREEZING WITH LITTLE ICONS POPPING UP AT THE BOTTOM",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 16:55:37",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41619404",
+        "description": " issue with IRIS tool \r\nerror: Security Warning",
+        "short_description": "IRIS (Integrated Rx Information System) - Security Warning: ",
+        "u_error_symptoms": " issue with IRIS tool \r\nerror: Security Warning",
+        "sys_created_on": "2025-02-18 18:05:04",
+        "tags": [
+            [
+                "Alert",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41619407",
+        "description": "IRIS freezing",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 18:05:10",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41619608",
+        "description": "I can't book orders on IRIS",
+        "short_description": "UnitedHealthcare IRIS for Health - General Information and Troubleshooting",
+        "u_error_symptoms": "Error in AIT Split Immage button OR-06502",
+        "sys_created_on": "2025-02-18 18:12:06",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41619722",
+        "description": "I am locked out of IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - unable to login",
+        "u_error_symptoms": "unable to login",
+        "sys_created_on": "2025-02-18 18:15:37",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41619772",
+        "description": "Need datafix on rx#456330334 to update Last fill date field to align with the most recent shipment for o#778238175 of 1/29/2025.",
+        "short_description": "Need datafix on rx#456330334 to update Last fill date field to align with the most recent shipment for o#778238175 of 1/29/2025.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 18:19:08",
+        "tags": [
+            [
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41620071",
+        "description": "Need analysis on why last fill dates are not updating appropriately\u2026both below examples have already been datafixed.",
+        "short_description": "Need analysis on why last fill dates are not updating appropriately\u2026both below examples have already been datafixed.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 18:28:16",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41620199",
+        "description": "iris keeps giving errors and not allowing me to make changes or process orders.",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 18:31:35",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41620555",
+        "description": "Please assign to group: MSA ORACLE EBS (RXS) \u2013 SPT\r\nPlease use the attached config document for go-live of one of our February config changes for Specialty Full Med Name, specifically to start storing med name in the audit table for alerts 185 and 186.\n\nProduct entered by customer: ",
+        "short_description": "February Release  Configuration Changes",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 18:44:05",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41621199",
+        "description": "pt trying to enroll SMF  ERROE MESSAGE patient's text enrollment requires additional intervention. Connect with team lead or supervisor for correction and advise patient we will follow up when complete.\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - pt trying to enroll SMF  ERROE MESSAGE patient's text enrollment requires additional intervention. Connect with team lead or supervisor for correction and advise patient we will follow up when complete.",
+        "u_error_symptoms": "pt trying to enroll SMF  ERROE MESSAGE patient's text enrollment requires additional intervention. Connect with team lead or supervisor for correction and advise patient we will follow up when complete.\r\n",
+        "sys_created_on": "2025-02-18 19:07:05",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41621411",
+        "description": "It will not accept the password that I created for IRIS",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-18 19:13:32",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41621629",
+        "description": "Yeah, we're trying to reset my Citrix password for Iris because I can't get into Iris and they told me to reach out to you guys. They actually gave me a website, but it says you can't access this right now. And so that's why they told me to call you guys.",
+        "short_description": "IRIS (Integrated Rx Information System) -  Unable to login",
+        "u_error_symptoms": "Unable to login",
+        "sys_created_on": "2025-02-18 19:20:54",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41621630",
+        "description": "MY TEXT ENROLLMENTS ARE DISAPPEARING",
+        "short_description": "Selected Issue: IRIS - MY TEXT ENROLLMENTS ARE DISAPPEARING",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 19:20:56",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41621840",
+        "description": "iris was froze and when I try to bring it up, it's not coming up.",
+        "short_description": "IRIS Issue - No support needed",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 19:29:05",
+        "tags": [
+            [
+                "Latency",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41622925",
+        "description": "In attempting to run a PSC for acct 473379756\n (casey Taylor) the \"current address\" is blank and, therefore, the address part of the PSC is not populating and preventing a PSC from being sent.  Tried to enter it but it would not take it.",
+        "short_description": "IRIS issue completing PSC",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 20:07:28",
+        "tags": [
+            [
+                "User Login",
+                "Alert",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41623198",
+        "description": "i trying to log in into training iris getting error application blocked by java security ",
+        "short_description": "IRIS - Unable to Log in ",
+        "u_error_symptoms": "blocked by java security ",
+        "sys_created_on": "2025-02-18 20:17:46",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41623463",
+        "description": "Unable to login Iris reboot and changed password \nAssistance needed - No",
+        "short_description": "unable to login Iris",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 20:27:35",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41623639",
+        "description": "release lock on rx#458539801\n\nProduct entered by customer: IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - release lock on rx#458539801",
+        "u_error_symptoms": "release lock on rx#458539801\r\n",
+        "sys_created_on": "2025-02-18 20:33:52",
+        "tags": [
+            [
+                "RX locked"
+            ]
+        ]
+    },
+    {
+        "number": "INC41623648",
+        "description": "Please copy the SQL file to the Location in PROD\r\n\r\nappl/xxiris/12.0.0/sql",
+        "short_description": "Please copy the SQL file to the Location in PROD",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 20:34:04",
+        "tags": [
+            [
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41624101",
+        "description": "iris spinning restart just ticket#",
+        "short_description": "IRIS Issue - Self Resolved",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 20:49:58",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41624455",
+        "description": "error in addng cc in iris showing internal error",
+        "short_description": "IRIS (Integrated Rx Information System) - error in addng cc in iris showing internal error",
+        "u_error_symptoms": "error in addng cc in iris showing internal error",
+        "sys_created_on": "2025-02-18 21:03:20",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41624721",
+        "description": "OP - IRIS order not closed\r\nManually shipped order 783489934-4, tracking number 744213839944\n\nProduct entered by customer: ",
+        "short_description": "OP - IRIS order not closed",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 21:11:55",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41624918",
+        "description": "Iris freezing will not let me login even after password reset",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "Iris freezing will not let me login even after password reset",
+        "sys_created_on": "2025-02-18 21:19:21",
+        "tags": [
+            [
+                "Launch Issues",
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41625181",
+        "description": "WF_ITEM_ACTIVITY_STATUSES, XXIRIS_PMP_HOLD_AUDIT, XXIRIS_PMATCH_CORRELATIONS, WF_ITEM_ATTRIBUTE_VALUES.  \r\n\r\nIf so need the following:(Manu please confirm the information below as if the tables are being purged then I don't see how this applies)\r\n\r\nNeed forllowing information \r\nTable owner\t\r\nLast archive date\t\r\nNumber of years of data\r\nFrequency for archiving\r\n \r\n ",
+        "short_description": "Can you please let me know if we have purge program for following or not",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 21:29:23",
+        "tags": [
+            [
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41625382",
+        "description": "IRIS  froze had to restart",
+        "short_description": "IRIS  froze had to restart",
+        "u_error_symptoms": "IRIS  froze had to restart",
+        "sys_created_on": "2025-02-18 21:37:14",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41626286",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod\r\n \r\nNeed IRIS Access for TS02 environment\r\n \r\nEMP ID -002268072\r\nMSID - gpalan20\r\nEmail ID -gajenther_palanippan@optum.com\r\n \r\nResponsibilities:\r\nOM Super User\r\nCAG Maintenance\r\nPharmacist\r\nSpecialty pharmacists \r\nDrug File Maintenance\r\nPO Super User\r\n\r\nProduct entered by customer: ",
+        "short_description": "Need IRIS Access for TS02 environment Non Prod",
+        "u_error_symptoms": "Need IRIS Access for TS02 environment Non Prod",
+        "sys_created_on": "2025-02-18 22:13:16",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41626843",
+        "description": "iris doesn't let me update rx count or close md comm line after processing or updating an order",
+        "short_description": "IRIS (Integrated Rx Information System)  unable to update rx count or close md comm line after processing or updating an order",
+        "u_error_symptoms": "unable to update rx count or close md comm line after processing or updating an order",
+        "sys_created_on": "2025-02-18 22:41:45",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41627696",
+        "description": "Do we have a query built that identifies which members were re-enrolled in HFF from the look back program \"XXIRIS Re-Enrollment RX Propagation Prog\" that we set the parameters to 5 from 15 last week on 14th Feb.  ",
+        "short_description": "HFF Re-enrolled list by program \"XXIRIS Re-Enrollment RX Propagation Prog\"",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 23:44:22",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41627772",
+        "description": "Load the sales force text opt out files from 02/01/2025  to 02/17/2025 and run the report for Specialty texts sent for files from Feb 1st to 17th \u2013 after the SalesForce Opt out date. ",
+        "short_description": "Need Specialty texts sent for files from Feb 1st to 17th \u2013 after the SalesForce Opt out date. ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-18 23:53:36",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41628479",
+        "description": "kindly provide XXIRIS_OEXOETEL.fmb/ XXSPLT_OEXOETEL.fmb from production",
+        "short_description": "kindly provide XXIRIS_OEXOETEL.fmb/ XXSPLT_OEXOETEL.fmb from production",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 01:43:55",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41628676",
+        "description": "OWI_PRD_WT_IRIS_PE_DEV_PRD ErrorCode=40 JobTime=2025021820370000 Action=ABEND Server=WP000039174 JS=WP000039174#OWI_PRD_IRISPEDV Environment=PRD EI=WP000039174#OWI_PRD_IRISPEDV(2025021820300000) JobCPU=WP000039174 Full Msg Text=eventtype= 101 ;origschedname= 0AAAAAAAAAA3D2OI ;schedcpu= WP000039174 ;schedid= 0AAAAAAAAAA3D2OI ;schedname= OWI_PRD_IRISPEDV ;jobcpu= WP000039174 ;jobnumber= 2943358 ;jobstatus_enum= 5 ;jobname= OWI_PRD_WT_IRIS_PE_DEV_PRD ;jobuser= MS\rx_eraid ;everyrate= 0 ;jobrecoveryaction_enum= 1 ;jobeventtimestamp= 2025021820370000 ;jobmessagetxt= ;jobkeyflag= 0 ;jobeffst= 1739910601 ;jobestst= 0 ;jobestdur= 286 ;jobdeadlineep= 0 ;jobretcode= 40 ;schedtime= 2025021820300000 ;mdm= rp000090672.uhc.com Domain: wp000039174 Origin: rp000090672.uhc.com Application: TIVOLI WORKLOAD SCHEDULER - DISTRIBUTED (MS2) Category: Job Source: TWSd Severity: Warning Alertid: 0024699869",
+        "short_description": "WP000039174 Job OWI_PRD_WT_IRIS_PE_DEV_PRD generated an ABEND alarm at 2025021820370000",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 02:37:52",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41628712",
+        "description": "Could someone please assist with assigning these tracking numbers to these orders to close them in Iris?",
+        "short_description": "Could someone please assist with assigning these tracking numbers to these orders to close them in Iris?",
+        "u_error_symptoms": "Could someone please assist with assigning these tracking numbers to these orders to close them in Iris?",
+        "sys_created_on": "2025-02-19 02:47:04",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41630011",
+        "description": "Request to run the program : XXIRIS Merge Patient Comm Preferences\r\nParameter : 2 ",
+        "short_description": "Request to run the program : XXIRIS Merge Patient Comm Preferences",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 08:34:54",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41630283",
+        "description": "Content Match failed for LTM CTC IRIS Contactinfo Domain: epmp-api ltm-ctc Origin: ORX-Zabbix-Prod Application: Enterprise Preference Management Platform (EPMP) - APIs Category: Application Source: ORX-ZABBIX Severity: Major Alertid: 0024758916",
+        "short_description": "Content Match failed for LTM CTC IRIS Contactinfo",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 09:10:13",
+        "tags": [
+            [
+                "Alert",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41630568",
+        "description": "I used to have Creat DOE and New Rx buttons enabled before TS02 refresh but now those are disabled. Could you please re add the same functionalities.\r\n\r\n\u2022\tMSID(s): msatyan7\r\n\u2022\tEmployee Number(s): 001742879\r\n\u2022\tMail Id : muddala_satyanarayana@optum.com\r\n\u2022\tEnvironment : TS02\r\n\u2022\tResponsibility / Top Hat: AR manager, OM Super User, ORx CS Navigator Rep, Pharmacist, Specialty Pharmacist, Drug File Maintenance\r\n",
+        "short_description": "Need create DOE, New Rx functionality access in TS02",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 10:06:24",
+        "tags": [
+            [
+                "Data Fix",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41631291",
+        "description": "IRIS won't open",
+        "short_description": "IRIS : Not loading",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 12:04:30",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41631528",
+        "description": "Required IRIS TS02 Access\r\nMSID-nm71\r\nEmail ID-nelsonajitsingh.m@optum.com\n\nProduct entered by customer: ",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 12:24:50",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41631581",
+        "description": "i cant login to iris , tried  to forgot password i cant  receive email ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to login ",
+        "sys_created_on": "2025-02-19 12:28:14",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41631760",
+        "description": "I need access to Iris environment for TS02 https://orxpcatst2ebs.uhc.com:4450/OA_HTML/AppsLogin.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "I need access to Iris environment.",
+        "sys_created_on": "2025-02-19 12:41:52",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41632087",
+        "description": "unable to log in to IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 13:00:20",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41632185",
+        "description": " Trigger Name:TRIG_CDW_RX_IRIS_DLY_4AM\nPipeline Name:DISF_ADF_MAIN\n Data Factory Name: dandi-adf-rx-prd\n Time: 2025-02-19T07:04:17.26\n Link: https://adf.azure.com/monitoring/pipelineruns/2f8e2430-ae3c-4cb9-add4-27530d372a96?factory=%2Fsubscriptions%2Fcbfd2115-3a52-490a-92fc-abbf03d1632e%2FresourceGroups%2Fera-dandi-prd%2Fproviders%2FMicrosoft.DataFactory%2Ffactories%2Fdandi-adf-rx-prd\n Pls. review ADF logs for more information.",
+        "short_description": "TRIG_CDW_RX_IRIS_DLY_4AM-DISF_ADF_MAIN pipeline has failed.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 13:05:14",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41632757",
+        "description": "INC41622925\r\nVALERIE SANSCHAGRIN",
+        "short_description": "IRIS issue completing PSC",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 13:28:03",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41634798",
+        "description": " Trigger Name:TRIG_CDW_RX_IRIS_DLY\nPipeline Name:DISF_ADF_MAIN\n Data Factory Name: dandi-adf-rx-prd\n Time: 2025-02-19T08:34:00.933\n Link: https://adf.azure.com/monitoring/pipelineruns/aa40ebe1-6dc0-4db5-b915-1338b90cce1c?factory=%2Fsubscriptions%2Fcbfd2115-3a52-490a-92fc-abbf03d1632e%2FresourceGroups%2Fera-dandi-prd%2Fproviders%2FMicrosoft.DataFactory%2Ffactories%2Fdandi-adf-rx-prd\n Pls. review ADF logs for more information.",
+        "short_description": "TRIG_CDW_RX_IRIS_DLY-DISF_ADF_MAIN pipeline has failed.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 14:34:46",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41635283",
+        "description": "IRIS- agents are not getting the  delivery date .",
+        "short_description": "IRIS- agents are not getting the  delivery date .",
+        "u_error_symptoms": "agents are not getting the  delivery date .",
+        "sys_created_on": "2025-02-19 14:50:01",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41635316",
+        "description": "MULTIPLE IMAGE VIEWER TABS ARE OPENING. I ATTEMPTED THE FIX WITH THE EXTENSION, BUT RECEIVE AN ERROR THAT \"THE ORGANIZATION IS BLOCKING THE EXTENSION\"",
+        "short_description": "IRIS Image Viewer, Opening multiple tabs ",
+        "u_error_symptoms": "Opening multiple tabs ",
+        "sys_created_on": "2025-02-19 14:51:28",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41635570",
+        "description": "IRIS LATENCY",
+        "short_description": "IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-19 14:59:32",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41636179",
+        "description": "I need access to Iris environment for TS02 https://orxpcatst2ebs.uhc.com:4450/OA_HTML/AppsLogin",
+        "short_description": "IRIS (Integrated Rx Information System) - Need access of IRIS TS02  ",
+        "u_error_symptoms": "Need access of IRIS TS02 for stage and prod environment ",
+        "sys_created_on": "2025-02-19 15:17:10",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41636234",
+        "description": "I need help on logging in to iris ",
+        "short_description": " IRIS (Integrated Rx Information System) - Java setting for Iris is missing ",
+        "u_error_symptoms": "Java setting for Iris is missing ",
+        "sys_created_on": "2025-02-19 15:18:46",
+        "tags": [
+            [
+                "User Login",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41636260",
+        "description": "I need hell with getting into IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 15:19:34",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41636388",
+        "description": "IRIS- agents are not getting the  delivery date .",
+        "short_description": "IRIS (Integrated Rx Information System) - Users are not able to see the delivery date for some of the order numbers on IRIS.",
+        "u_error_symptoms": "agents are not getting the  delivery date .",
+        "sys_created_on": "2025-02-19 15:23:44",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41637155",
+        "description": "whenever i have to  log in it has me change pw but then it says its wrong and sends me link to reset when i hit forgot pw and when i try to change it says password already used or cant use same pw and then i try to log in again and it allows me did it like 3x today ",
+        "short_description": "IRIS - Ongoing IRIS PW/login issues",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 15:45:16",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41637289",
+        "description": "steps to create testdata.: Please create one order then add prescription and then make (rxnumber) it discontinued .after that cancel the orderLine with RX-TSTF  reason .but user need to have IRIS ADmin/SYS Admin while creating it.\n\nProduct entered by customer: please create in TS02 env",
+        "short_description": "User requesting SYSADMIN in TS02",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 15:49:49",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41637688",
+        "description": "iris not allowing to process order, keep giving error msg for different mbrs\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - Issue with processing orders for MBR's. ",
+        "u_error_symptoms": "iris not allowing to process order, keep giving error msg for different mbrs\r\n\r\nProduct entered by customer: ",
+        "sys_created_on": "2025-02-19 16:01:45",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41638263",
+        "description": "having issues with my Iris Pharmacy Software",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to launch applications/favorites",
+        "u_error_symptoms": "having issues with my Iris Pharmacy Software",
+        "sys_created_on": "2025-02-19 16:19:37",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41638526",
+        "description": " I was calling because I'm trying to use Iris and the Java is not working I guess, I'm new to this job so.\r\nI haven't been able to actually log into Iris yet because of the Java. I had somebody just install it in the App Store, and then I got the install that popped up on my computer. So I restarted and installed it and then, But now it won't work when I try to log in to Iris.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to launch",
+        "u_error_symptoms": "Unable to launch",
+        "sys_created_on": "2025-02-19 16:27:06",
+        "tags": [
+            [
+                "Launch Issues",
+                "User Login",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41638322",
+        "description": "Iris - Credentials - unable to log in - password is incorrect ",
+        "short_description": "Iris - Credentials - unable to log in - password is incorrect ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 16:27:23",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41638791",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod\r\n\r\nTS01 is taking a long time to book orders, not sure if its even able to as it s been a long time already waiting on this order\n\nProduct entered by customer: Please assign to IRIS-Pharmacy Central Non Prod\r\n\r\nTS01",
+        "short_description": "TS01 slow performance",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 16:34:47",
+        "tags": [
+            [
+                "Order Issue",
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41639013",
+        "description": "Need datafix on rx#414788256 to update Rx D/c On field to 1/22/2025 and to also remove TST check so that rx notes are viewable.",
+        "short_description": "Need datafix on rx#414788256 to update Rx D/c On field to 1/22/2025 and to also remove TST check so that rx notes are viewable.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 16:41:43",
+        "tags": [
+            [
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41639243",
+        "description": "Need access to TS02",
+        "short_description": "Need access to TS02",
+        "u_error_symptoms": "User Need Access",
+        "sys_created_on": "2025-02-19 16:48:00",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41639391",
+        "description": "we are sending NULL as PON in refill request communication payload, it looks like functionality issue or code issue. April please log a defect on the IRIS side to have this issue resolved",
+        "short_description": "ESCALATE: Severity 3 SureScipts Case#: (02001347)",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 16:57:08",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41640036",
+        "description": "manually shipped orders to VI need to be closed in wms and iris assign to ORX_PCS_OV_SPT",
+        "short_description": "ORx Pharmacy Control System (Orlando) - manually shipped orders to VI need to be closed in wms and iris",
+        "u_error_symptoms": "manually shipped orders to VI need to be closed in wms and iris",
+        "sys_created_on": "2025-02-19 17:10:37",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41640410",
+        "description": "unable to login",
+        "short_description": "Genesys Login Issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 17:22:05",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41640882",
+        "description": "user facing issue with processing the work in IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "user facing issue with processing the work in IRIS- unable to process the prescription, send or cancel it.",
+        "sys_created_on": "2025-02-19 17:37:45",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41640906",
+        "description": "I need assistance with password reset for IRIS ",
+        "short_description": "IRIS (Integrated Rx Information System) - I need assistance with password reset for IRIS ",
+        "u_error_symptoms": "I need assistance with password reset for IRIS ",
+        "sys_created_on": "2025-02-19 17:38:38",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41642159",
+        "description": "it won't allow me to reset my iris password",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "cannot reset",
+        "sys_created_on": "2025-02-19 18:24:18",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41642320",
+        "description": "run the index creation script in TS01 and TS04 to get the timings and then drop the index.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "run the index creation script in TS01 and TS04 to get the timings and then drop the index.",
+        "sys_created_on": "2025-02-19 18:30:48",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41642420",
+        "description": "Please assign to \"IRIS-Pharmacy Central Non Prod\" ServiceNow Group \r\nIn IRIS TS01 using both simulators for CAG I'm getting a rej 99.\r\nWhen using simulator1 I get:\r\ncommunication failure;\r\nrejection code(s): 99 communication failure\r\nBPEL Instance ID (this is for I.T. use only) : 81698987\r\n\r\nWhen using SIMRXCLAIMNEW  I get:\r\n99-Communication Error - Please release the HOLD, if issue persist please contact IT p_adj_id: 2839294688https://orxpcatst1soa.uhc.com:8443/soa-infra/services/default/Adj_Adjudication_Process_BPEL/client UTL_HTTP.http_server_error:-29269ORA-29269:Http server error 500 - internal server error\n\nProduct entered by customer: Please assign to \"IRIS-Pharmacy Central Non Prod\" ServiceNow Group",
+        "short_description": "IRIS (Integrated Rx Information System) - In IRIS TS01 using both simulators for CAG I'm getting a rej 99.",
+        "u_error_symptoms": "In IRIS TS01 using both simulators for CAG I'm getting a rej 99.",
+        "sys_created_on": "2025-02-19 18:34:35",
+        "tags": [
+            [
+                "Latency",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41642535",
+        "description": "im having some issues, between IRIS, not logging properly.",
+        "short_description": "https://hdp-sp-invfinapp.appservice.elr01.optum.com - inventory sync issue",
+        "u_error_symptoms": "inventory sync issue",
+        "sys_created_on": "2025-02-19 18:38:15",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41642555",
+        "description": "Multiple time a day I need to end the task the IRIS.\r\nAnd I was told by my supervisor to call you guys to see if there's something that you can do so that'll stop\r\n",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "Unable to find issue for IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-19 18:38:50",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41642575",
+        "description": "IRIS setting a drop date prior to NextFillDate (This should never happen): example rx#447552618 version 0",
+        "short_description": "IRIS setting a drop date prior to NextFillDate (This should never happen):",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 18:40:32",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41642767",
+        "description": "REquest to Switch ON Profile : XXIRIS_US7954286_CLOSE_EXP_TOKEN_PF \r\n",
+        "short_description": "REquest to Switch ON Profile : XXIRIS_US7954286_CLOSE_EXP_TOKEN_PF",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 18:46:28",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41643060",
+        "description": "My IRIS keeps getting frozen and I have to reboot. It has happened 3 days in a row. Can you please look into it. Thank you",
+        "short_description": "RXS Imaging - Any Slowness in Loading Images or fFxes for PAS /IRIS",
+        "u_error_symptoms": "Application freezing",
+        "sys_created_on": "2025-02-19 18:55:44",
+        "tags": [
+            [
+                "Latency",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41643614",
+        "description": "errors trying to update insurance, wouldn't let me update. attempted several times, i have screen shots of errors. ",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 19:13:12",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41643599",
+        "description": "when trying to inactivate coverage we receive ORA-00054 NOWAIT error popup. field will not save",
+        "short_description": "Unable to inactivate coverage in member ebc for account#460793197",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 19:15:21",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41643934",
+        "description": "Hello- we would like to close all order in IRIS, all orders shipped and open in IRIS, Order# 779251466-2  Tracking# 9270190350467719135797 Order# 780262702-1  Tracking# 1ZC6R5100105149291 Order# 782826896-1  Tracking# 1ZC6R5100105124389",
+        "short_description": "PB - close order in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 19:25:14",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41644025",
+        "description": "When attempting to add CC in IRIS, the add CC button takes me to an internal error page instead of to CCG to add the card\n\nProduct entered by customer: IRIS, CCG",
+        "short_description": "Undefined profuct - IRIS (Integrated Rx Information System) - Unable to add the CC in IRIS",
+        "u_error_symptoms": "Internal error ",
+        "sys_created_on": "2025-02-19 19:28:00",
+        "tags": [
+            [
+                "Payment",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41644070",
+        "description": "Need assistance updating patient account#413874067/ patient information not populating",
+        "short_description": "Need assistance updating patient account#413874067/ patient information not populating",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 19:35:54",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41644384",
+        "description": "SITE 32\r\n\r\n783239962-1    SA    TRACKING# 744223377195\r\n782362005-1    SA     TRACKING# 1ZC6R5151300550913\r\n783775515-1    SA     TRACKING#744222876781\r\n784102266-1     SA     TRACKING#1ZC6R5151300555525\n\nProduct entered by customer: ",
+        "short_description": "SA - Orders Open in IRIS",
+        "u_error_symptoms": "SITE 32\r\n\r\n783239962-1    SA    TRACKING# 744223377195\r\n782362005-1    SA     TRACKING# 1ZC6R5151300550913\r\n783775515-1    SA     TRACKING#744222876781\r\n784102266-1     SA     TRACKING#1ZC6R5151300555525",
+        "sys_created_on": "2025-02-19 19:40:07",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41645101",
+        "description": "Sure. So for the past 30-40 minutes I've been facing Iris issues. It's a really rare, umm, I don't know, adjudication failure message that I constantly receive when I'm working in orders. So I don't know what to do to be honest with you.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to pull up the data",
+        "u_error_symptoms": "Launch issues with IRIS",
+        "sys_created_on": "2025-02-19 20:05:24",
+        "tags": [
+            [
+                "Launch Issues",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41644550",
+        "description": "Altiris Reports are not reflecting accurate information on the installs for NICE Totalview 8.0.3\r\n\r\nWe have had the application deployed to thousands of machines, but it's not showing that in Altiris. Providing screen shot.",
+        "short_description": "Altiris Reports are not reflecting accurate information on the installs for NICE Totalview 8.0.3",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 20:15:27",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41645457",
+        "description": "IRIS production - Turn on the following switches",
+        "short_description": "IRIS production - Turn on the following switches",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 20:19:49",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41645515",
+        "description": "Iris froze",
+        "short_description": "Iris - Iris froze",
+        "u_error_symptoms": "Iris froze",
+        "sys_created_on": "2025-02-19 20:21:54",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41645580",
+        "description": "Assign ticket to ORX PCS IT - SP\r\nplease close in IRIS\r\n\r\n779910556-2\n\nProduct entered by customer: ",
+        "short_description": "ORx PCS SA - Assign ticket to ORX PCS IT - SP please close in IRIS",
+        "u_error_symptoms": "Assign ticket to ORX PCS IT - SP\r\nplease close in IRIS\r\n\r\n779910556-2\r\n\r\nProduct entered by customer: ",
+        "sys_created_on": "2025-02-19 20:23:33",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41645984",
+        "description": "Need to verify why weight under Patient Vitals forms is displaying in Cm and should be Kg",
+        "short_description": "Need to verify why weight under Patient Vitals forms is displaying in Cm and should be Kg",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 20:52:00",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41646606",
+        "description": "Turn on the CCG flag in IMGIRIS database for Captiva PCI processing ",
+        "short_description": "Turn on the CCG flag in IMGIRIS database for Captiva PCI processing ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-19 21:03:38",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41648107",
+        "description": "INC NUMBER ONLY. WORKSPACE WAS ACTING STRANGE WITH CALL AUDIO AND IRIS WASN'T ALLOWING ME TO DO CERTAIN PROMPTS. RESTARTED SYSTEM.\n\nProduct entered by customer: ",
+        "short_description": "INC NUMBER ONLY. WORKSPACE WAS ACTING STRANGE WITH CALL AUDIO AND IRIS WASN'T ALLOWING ME TO DO CERTAIN PROMPTS. RESTARTED SYSTEM.",
+        "u_error_symptoms": "audio and iris issue",
+        "sys_created_on": "2025-02-19 21:59:13",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41648487",
+        "description": "I'm having some trouble with changing my password. I was just helping the patient on the phone and then all of a sudden like my iris grows completely. So I had to go to umm uh task manager and then add end task for iris and then when I was trying to log back in it took me to the new page asking to change password.",
+        "short_description": "IRIS (Integrated Rx Information System) - Password reset",
+        "u_error_symptoms": "Password reset",
+        "sys_created_on": "2025-02-19 22:16:50",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41649007",
+        "description": "reset IRIS password",
+        "short_description": "reset IRIS password",
+        "u_error_symptoms": "reset IRIS password",
+        "sys_created_on": "2025-02-19 22:42:23",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41650181",
+        "description": "OP - IRIS orders not closed -Need to close the following orders in iris 781713857-3 Tracking: 9200190350467334929727  782166788-1 Tracking: 1ZC6R4821301456604  781110300-2 Tracking: 1ZC6R5040100581058",
+        "short_description": "OP - IRIS orders not closed",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 00:18:17",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41650671",
+        "description": "Incident has been created as below files are not moved from respective paths for mentioned hours from Azure. FileName : CEP2_DNC_20250219.txt.camelLock, FilePath : /mnt/cep2azure/CEP_AZURE_SOURCE_DATA/PRD/WIP/CEP2_FL_IRIS_DONT_CALL_AND_EMAIL_AZ_0.1/CEP2_DNC_20250219.txt.camelLock, Hours : 6.  FileName : CEP2_DNE_20250219.txt, FilePath : /mnt/cep2azure/CEP_AZURE_SOURCE_DATA/PRD/WIP/CEP2_FL_IRIS_DONT_CALL_AND_EMAIL_AZ_0.1/CEP2_DNE_20250219.txt, Hours : 6.  Kindly check the file activity",
+        "short_description": "File Not moving in Azure :: WIP/CEP2_FL_IRIS_DONT_CALL_AND_EMAIL_AZ_0.1",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 02:00:03",
+        "tags": [
+            [
+                "User Request",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41650886",
+        "description": "my iris keeps on hanging and unable to close on the app",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "sys_created_on": "2025-02-20 03:01:30",
+        "tags": [
+            [
+                "Launch Issues",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41652177",
+        "description": "Request to run the program : XXIRIS Merge Patient Comm Preferences\r\nParameter : 185",
+        "short_description": "Request to run the program : XXIRIS Merge Patient Comm Preferences",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 08:15:48",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41652359",
+        "description": "Please execute attach script in PRR in 2/22 Infra release CHG2621074.\r\n\r\nAlso, find the following steps to perform this activity.\r\n\r\nStep 1:-Please share existing URL which configured in RXEPRR for NDURESERVICE context in XXIRIS_CON table for backup.\r\n\r\nStep 2:-Please update the NDURESERVICE URL running the attached script in RXEPRR env and share the updated URL.\r\n",
+        "short_description": "RXEPRR: Please execute attach script in PRR in 2/22 Infra release CHG2621074.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 08:44:07",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41652414",
+        "description": "agent bounce in xp08dbadm01/02 servers",
+        "short_description": "agents bounce in xp08dbadm01/02 servers",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 08:56:30",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41653347",
+        "description": "Good morning- Please need assist on order to close in IRIS, order was shipped Order# 783408418-1 Tracking# 1ZC6R5101305229780 thank you.",
+        "short_description": " Close Order in IRIS - Order in APS In Process",
+        "u_error_symptoms": "Close Order in IRIS",
+        "sys_created_on": "2025-02-20 11:39:45",
+        "tags": [
+            [
+                "Order Issue",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41653474",
+        "description": "Iris status \"Awaiting Shipping\" and PCS status shipped\n\nProduct entered by customer: IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Iris status \"Awaiting Shipping\" and PCS status shipped",
+        "u_error_symptoms": "Iris status \"Awaiting Shipping\" and PCS status shipped",
+        "sys_created_on": "2025-02-20 11:55:53",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41654422",
+        "description": "Replication of HOST REFORMATTING ERROR  from prod in DV04",
+        "short_description": "Replication of HOST REFORMATTING ERROR  from prod in DV04",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 13:12:09",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41654761",
+        "description": "my dsm server is not working",
+        "short_description": "Symantec Management Platform (Altiris)- Login prompt keeps appearing on Altiris DSM Web Console when attempting to login to the Altiris DSM Web Console",
+        "u_error_symptoms": "Symantec Management Platform (Altiris)- Login prompt keeps appearing on Altiris DSM Web Console when attempting to login to the Altiris DSM Web Console",
+        "sys_created_on": "2025-02-20 13:25:49",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41655156",
+        "description": "I need assistance with my iris password as it it not taking my password after resetting it",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 13:44:06",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41656062",
+        "description": "Please run the attached file through the Cap RX concurrent program ",
+        "short_description": "Cap Rx concurrent run ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 14:15:36",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41656341",
+        "description": "IRIS Not closing Order # 782916526-1 and  tracking # 744214441300\n\nProduct entered by customer: ",
+        "short_description": " IRIS Not closing Order # 782916526-1 and  tracking # 744214441300 - Order in APS IN Process",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System) - IRIS Not closing Order # 782916526-1 and  tracking # 744214441300",
+        "sys_created_on": "2025-02-20 14:21:51",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41656458",
+        "description": "IRIS froze / User self resolved / Tracking ticket\r\nIRIS freezing when user tried to save notes",
+        "short_description": "MS950 - IRIS froze / User self resolved / Tracking ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 14:29:44",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41657526",
+        "description": "Was advised password needs to be changed, finally found a password that was meeting the requirements and now it wont allow me to log in at all",
+        "short_description": "IRIS password issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 14:57:43",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41657574",
+        "description": "PH509 DSM - not loading\r\nhttp://dsmep0307/DSWeb/default.aspx",
+        "short_description": "PH509 DSM - not loading",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 15:00:42",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41658131",
+        "description": "pop-ups appearing when Im making calls to mbrs.  I have to close four blank \"windows\" before I can get to \nthe actual patient screen.  happens every time",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 15:14:11",
+        "tags": [
+            [
+                "Latency",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41659276",
+        "description": "unable to price check and place order in iris it keep rejecting for me ",
+        "short_description": "IRIS - unable to price check and place order.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 15:43:53",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41659288",
+        "description": "I'm trying to get into my Iris, I think I'm having a general slowness of my Internet connection because everything is lagging and loading very slowly and when I try to log into my iris like when I take calls for it to auto populate the client's information I get an error and it says could not log into media type basic telephony and it also says connection to server lost.",
+        "short_description": "IRIS (Integrated Rx Information System) - Slow to no Response",
+        "u_error_symptoms": "No Internet",
+        "sys_created_on": "2025-02-20 15:44:19",
+        "tags": [
+            [
+                "Launch Issues",
+                "Latency",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41659327",
+        "description": "Allergen Classes are being retired and need to have their conversions updated. Hard deadline of 2/28",
+        "short_description": "Allergen Classes are being retired and need to have their conversions updated. ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 15:47:36",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41659443",
+        "description": "Iris has been giving errors this am, it's been freezing & I can't see the dashboard",
+        "short_description": "IRIS errors and freezing",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 15:48:43",
+        "tags": [
+            [
+                "Latency",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41660240",
+        "description": "IRIS IS NOT PERFORMING PRICE CHECKS I KEEP GETTING ERRORS WHEN I LOG IN AND ALL MY ORDERS ARE BEING PUT ON A HOLD EVERY SINGLE ONE IVE PLACED TODAY",
+        "short_description": "IRIS IS NOT PERFORMING PRICE CHECKS I KEEP GETTING ERRORS WHEN I LOG IN AND ALL MY ORDERS ARE BEING PUT ON A HOLD EVERY SINGLE ONE IVE PLACED TODAY",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 16:12:19",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41660311",
+        "description": "Please automate the Order Validation hold report to run daily @ 7:30 am CT \r\nPlease send to the SOS distribution list - \r\n\r\nOnly include the ERROR details for \r\nNDURE WEB SERVICES, \r\nERROR: ORA HTTP ",
+        "short_description": "Please automate the Order Validation hold report to run daily @ 7:30 am CT  & The ARF holds ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 16:17:45",
+        "tags": [
+            [
+                "Alert",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41661561",
+        "description": "When cancel  prescription in PC from RX HISTORY and pop up is receive d/c and cancel , green pop up appears stating prescription is d/c but in fact it doesn\u2019t cancel order in IRIS. The issue was previously reported INC39937583 for the same issue but with the prescription in focus. This is a new issue that happens from the RX HISTORY. Seems a phantom line 2.1 is created in IRIS which prevents order from cancelling",
+        "short_description": "When cancel  prescription in PC from RX HISTORY and pop up is receive d/c and cancel , green pop up appears stating prescription is d/c but in fact it doesn't cancel order in IRIS",
+        "u_error_symptoms": "When cancel  prescription in PC from RX HISTORY and pop up is receive d/c and cancel , green pop up appears stating prescription is d/c but in fact it doesn't cancel order in IRIS",
+        "sys_created_on": "2025-02-20 16:49:28",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41661624",
+        "description": " I tried logging in on IRS. However umm it says your contact administrator. Even if after I input the correct username and password, it won't still let me log in.",
+        "short_description": "IRIS (Integrated Rx Information System) -  A login failed. Please verify your login information or contact the System Administrator. ",
+        "u_error_symptoms": "A login failed. Please verify your login information or contact the System Administrator. \r\n",
+        "sys_created_on": "2025-02-20 16:51:36",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41661699",
+        "description": "user facing issue with - IRIS application- its loading ",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "user facing issue with - IRIS application- its loading ",
+        "sys_created_on": "2025-02-20 16:54:00",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41661848",
+        "description": "I am not able to login in IRIS application.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-20 16:58:53",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41661873",
+        "description": "Data Fix to add NOTE in eBC for impacted accounts related to the AARP Discount Card issue\r\n\r\nSample file attached for prep of the incoming request once SRT completes their activity.\r\n\r\nFile with impacted accounts will be provided once SRT completes reprocessing in RxClaims.\r\n\r\nFile to include specific:\r\nIRIS Accounts = to be included in file\r\nNote Type = Billing Issue - Please Read\r\nNote Date = SYSDATE\r\nNote Text =  to be included in file",
+        "short_description": "Data Fix to add NOTE in eBC for impacted accounts related to the AARP Discount Card issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 17:04:55",
+        "tags": [
+            [
+                "User Login",
+                "Payment"
+            ]
+        ]
+    },
+    {
+        "number": "INC41662101",
+        "description": "I do not have access to edit the exception.sites file that is stored in the C:\\Windows\\Sun\\Java\\Deployment\\Security path. \r\n\r\nI need to add and save the following entries to the exception.sites file that is stored in below C drive.\r\n\r\nBelow are the 2 entries I need added into the exception.sites file: \r\nhttps://orxpcatst2ebs.uhc.com:4450/\r\nhttps://orxpcatst2ebs.uhc.com/\r\n\r\nC Drive path on my computer:\r\nC:\\Windows\\Sun\\Java\\Deployment\\Security\r\n\r\nProduct entered by customer: C:\\Windows\\Sun\\Java\\Deployment\\Security\n\nProduct entered by customer: ",
+        "short_description": "IRIS - Java exception request",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 17:07:18",
+        "tags": [
+            [
+                "Errors",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41662141",
+        "description": "IRIS keeps freezing on almost each call causing me to have to constantly relaunch the application",
+        "short_description": "IRIS Freezing",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 17:08:47",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41662188",
+        "description": "Need to reset IRIS password TS01\r\n\r\nrpa_mbi_dimp_1",
+        "short_description": "Need to reset IRIS password TS01",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 17:11:30",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41662585",
+        "description": "Per SOS team need new ticket opened to have spike story opened for the following refresh issue: After user works order in a skillset order does not show up as eligible anymore for further pairing. Example: user gets rx in a pv queue they decide they need to clarify directions and apply a dr/rx hold. After applying the hold instead of showing up in the appropriate dur skillset order no longer shows up in anyskill set until a user or job manually accesses the order to refresh it. Previous user stories for this issue from 4 years ago that remain unworked: US2456273/US2700865.  Please route to SOS- Systems Operations Solutions (ORx)",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 17:24:19",
+        "tags": [
+            [
+                "User Request",
+                "RX locked"
+            ]
+        ]
+    },
+    {
+        "number": "INC41662655",
+        "description": "I cannot log into IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login KB0089404 ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 17:27:27",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41662902",
+        "description": "Multiple offices across multiple RAMs/RSDs reporting that they have sent e-rx (sometimes up to 3 times) without it being received by IRIS or unnecessary delays. On their side, e-rx confirms it was successful. Leading to daily escalations due to missing Rxs. Confirmed with Katie Thompson/Marlina Poole there are no known issues or delays and suggested I submit here for further review as there does seem to be an issue but they cannot identify root cause. These offices have used us many times, and are not sending to the wrong place or inexperienced in how to send an rx to us.\n\nProduct entered by customer: IRIS, E-Rx",
+        "short_description": "Multiple offices across multiple RAMs/RSDs reporting that they have sent e-rx (sometimes up to 3 times) without it being received by IRIS. On their side, e-rx confirms it was successful. Leading to daily escalations due to missing Rxs. ",
+        "u_error_symptoms": "Provider receives successful confirmation and IRIS does not show the Rx until much later or in some cases not at all",
+        "sys_created_on": "2025-02-20 17:36:50",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41663273",
+        "description": "im having issue with my VPN in my iris. My vpn is not wanting to have not connecting yet",
+        "short_description": "IRIS - running slow",
+        "u_error_symptoms": "iris is running slow",
+        "sys_created_on": "2025-02-20 17:49:01",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41650719",
+        "description": " application freezing",
+        "short_description": "GA950- IRIS- application freezing",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 18:12:56",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41664046",
+        "description": "trying to get into IRIS and its not letting me change my password",
+        "short_description": "IRIS (Integrated Rx Information System) - IRIS password requirements",
+        "u_error_symptoms": "IRIS password requirements",
+        "sys_created_on": "2025-02-20 18:15:57",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41664092",
+        "description": "IRIS production - User - kclar24 , whenever I open the account page or cag form I have to log into the system even though my IRIS session is still active",
+        "short_description": "whenever I open the account page or cag form",
+        "u_error_symptoms": "IRIS production - User - kclar24 , whenever I open the account page or cag form I have to log into the system even though my IRIS session is still active",
+        "sys_created_on": "2025-02-20 18:17:28",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41664571",
+        "description": "IRIS- Op not closed. Order # 782637883-1 and Tracking # 9281790350467300511021.\n\nProduct entered by customer: ",
+        "short_description": "OP - IRIS- Op not closed",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 18:34:47",
+        "tags": [
+            [
+                "Order Issue",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41665383",
+        "description": "iris is not connecting properly",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 19:05:32",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41665264",
+        "description": "Have not received new boot time data from Altiris since 2024-02-09 for approx. 5K+ OptumCare devices ",
+        "short_description": "Have not received new boot time data from Altiris since 2024-02-09 for approx. 5K+ OptumCare devices ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 19:10:38",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41665669",
+        "description": "Orders stuck in Pick Release.\r\nAssign to Rebecca Lever MSA ORACLE EBS (RXS) \u2013 SPT\r\n\r\n779909626-1\r\n779915223-1\r\n781112639-1\r\n781770404-1\r\n782531753-1\r\n782531753-2\r\n782634090-1\r\n782764376-1\r\n783694734-1 - Closed\r\n783694734-2 - Closed\r\n783811265-1\r\n784045798-1\r\n784122326-1\r\n\r\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - Orders stuck in Pick Release. Assign to Rebecca Lever MSA ORACLE EBS (RXS) \u2013 SPT",
+        "u_error_symptoms": "Orders stuck in Pick Release.\r\nAssign to Rebecca Lever MSA ORACLE EBS (RXS) \u2013 SPT",
+        "sys_created_on": "2025-02-20 19:15:33",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41665891",
+        "description": "on account 454600849, every time you push the \"add cc\" button it gives the error \"internal error\", it has been happening since 2/14/25",
+        "short_description": "IRIS issue  every time you push the \"add cc\" button it gives the error \"internal error\" on account 454600849",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 19:24:05",
+        "tags": [
+            [
+                "Payment",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41665996",
+        "description": "AUTO orders with refill line and CUSTOMER CONSENT HOLD doesn\u2019t get canceled and stays open and active after a BXP order is created for the same medication and prescription number and shipped.",
+        "short_description": "IRIS (Integrated Rx Information System)-AUTO orders with refill line and CUSTOMER CONSENT HOLD doesn't get canceled and stays open and active after a BXP order is created for the same medication and prescription number and shipped.",
+        "u_error_symptoms": "AUTO orders with refill line and CUSTOMER CONSENT HOLD doesn't get canceled and stays open and active after a BXP order is created for the same medication and prescription number and shipped.",
+        "sys_created_on": "2025-02-20 19:27:34",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41666135",
+        "description": "INC41665891\r\nMICHELLE ATKINSON",
+        "short_description": "IRIS issue  every time you push the \"add cc\" button it gives the error \"internal error\" on account 454600849",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 19:35:08",
+        "tags": [
+            [
+                "Payment",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41666401",
+        "description": "My orders keep on jumping from time to time",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "orders keeps on jumping from other screen",
+        "sys_created_on": "2025-02-20 19:43:09",
+        "tags": [
+            [
+                "Launch Issues",
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41666578",
+        "description": "IRIS IS FREEZING & GIVING ME AN ERROR",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 19:49:43",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41666896",
+        "description": "order   784102221-1    TRacking:  1ZC6R5151300558415    is not closing in IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - order   784102221-1    TRacking:  1ZC6R5151300558415    is not closing in IRIS",
+        "u_error_symptoms": "order   784102221-1    TRacking:  1ZC6R5151300558415    is not closing in IRIS",
+        "sys_created_on": "2025-02-20 20:02:43",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41667504",
+        "description": "INC41616642 lists 1,289 failures happening for OptumRx member Portal due to \"M/I Prescription <rx_number>RX does not belong to the same patient\". \r\nThese users have 1 memberId and 2 patientIds.\r\n\r\nAsk is to create an automated report which can be mailed to the Merge team as these issues occur and they can work them real-time.  Let's meet to discuss how this might be possible and what information is available in the payload.  The Oracle Database Query is below but it needs to have the impacted members passed as parameters",
+        "short_description": "Create an Automated report for INC41616642",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 20:25:41",
+        "tags": [
+            [
+                "User Request",
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41667816",
+        "description": "INTERNAL ERROR WHEN ATTEMPTING TO ADD CC TO MEMBER PROFILE. MEMBER UNABLE TO MAKE PAYMENT ONLINE.",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 20:37:41",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41668432",
+        "description": "INTERNAL ERROR WHEN ATTEMPTING TO ADD CC TO MEMBER PROFILE. MEMBER UNABLE TO MAKE PAYMENT ONLINE. - Clone of INC41667816",
+        "short_description": "IRIS CC Issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 21:02:26",
+        "tags": [
+            [
+                "Payment",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41668777",
+        "description": "Iris keeps freezing and has to force close. When trying to log back in it gives multiple error messages and wont log advocate back in. ",
+        "short_description": "(OBO) - Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 21:13:52",
+        "tags": [
+            [
+                "Latency",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41668815",
+        "description": "IRIS Inventory Sync Issue Transaction(s) populating without countering Inventory Receipt Transactions. When researching, no WMS/PCS transactions seem to account and/or align with these IRIS syncs.\n\nProduct entered by customer: ",
+        "short_description": "IRIS Inventory Sync Issue Transaction(s) populating without countering Inventory Receipt Transactions. When researching, no WMS/PCS transactions seem to account and/or align with these IRIS syncs.  Product entered by customer: ",
+        "u_error_symptoms": "IRIS Inventory Sync Issue Transaction(s) populating without countering Inventory Receipt Transactions. When researching, no WMS/PCS transactions seem to account and/or align with these IRIS syncs.\r\n\r\nProduct entered by customer: ",
+        "sys_created_on": "2025-02-20 21:15:15",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41669484",
+        "description": "FREEZING UP WILL LET ME LOOK MEMBER UP BUT THEN IT FREEZES UP HAPPENEND WITH 2 MEMBER HAD TO TRANSFER CALL ",
+        "short_description": "Selected Issue: IRIS - FREEZING UP WILL LET ME LOOK MEMBER UP BUT THEN IT FREEZES UP HAPPENEND WITH 2 MEMBER HAD TO TRANSFER CALL ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 21:41:46",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41669517",
+        "description": "while working order creation and creating a new patient profile, IRIS keeps freezing for this specific patient (it's done it to several other employees as well) and we end up having to end the java task and e",
+        "short_description": "IRIS (Integrated Rx Information System) - ORDER CREATION FOR PATIENT",
+        "u_error_symptoms": "IRIS keeps freezing for this specific patient (it's done it to several other employees as well) ",
+        "sys_created_on": "2025-02-20 21:43:31",
+        "tags": [
+            [
+                "Order Issue",
+                "Latency",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41669715",
+        "description": "keep getting the error \"Function not available to this responsibility. Change the respopnsibilities or contact your System Administrator\"",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 21:52:03",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41669741",
+        "description": "Can we please automate the QMSI report - when the report is extracted can we please ensure the formatting is correct for the order number field. See attached word document. \r\n\r\nPlease pull the query daily at 10:00 am CT and send to the following: \r\n\r\nCasteneda, Dina A <dina.casteneda@optum.com>; \r\nCarlos, Monet <monet.carlos@optum.com>\r\nHuynh, Timmy <timmy.huynh@optum.com>; \r\nMoore, Sarah <sarah.moore265@optum.com>; \r\nOPTUMRX_HDP_STAR_Coordinators <OPTUMRX_HDP_HPSM_Coordinators_DL@ds.uhc.com>; \r\nChristenson, Mitchell E <mitch.christenson@optum.com>; \r\nGray, Abigail J <abigailj.cox@optum.com>; \r\n.OptumRx System and Operations Support Team SOS <SystemandOperationsSupportTeamSOS_DL@ds.uhc.com>\r\n\r\n",
+        "short_description": "Can we please automate the attached report and send to a distribution list for the QMSI ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 22:01:46",
+        "tags": [
+            [
+                "Latency",
+                "User Request",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41670219",
+        "description": "keep getting the error \"Function not available to this responsibility. Change the respopnsibilities or contact your System Administrator\" - Clone of INC41669715",
+        "short_description": "IRIS Issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 22:15:30",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41670625",
+        "description": "shipped orders with error and assign to @ORx_Dispensing_IT_Support",
+        "short_description": "IRIS (Integrated Rx Information System) - Shipped orders with error ",
+        "u_error_symptoms": "Shipped orders with error ",
+        "sys_created_on": "2025-02-20 22:32:22",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41670699",
+        "description": "Assign ticket to ORX PCS IT - SP\r\nplease close in IRIS\r\n\r\n776806063-1\r\n781499715-1\r\n781744299-1\r\n782441032-1\n\nProduct entered by customer: ",
+        "short_description": "ORX Pharmacy Control System (Regionals) - Close in IRIS",
+        "u_error_symptoms": "Close in IRIS",
+        "sys_created_on": "2025-02-20 22:36:39",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41670908",
+        "description": "IRIS is marking medications dup erx in the md comm tab when the auth dates are different and should not be considered a duplicate.",
+        "short_description": "IRIS is marking medications dup erx in the md comm tab when the auth dates are different and should not be considered a duplicate.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-20 22:53:29",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41671274",
+        "description": "Hi i needed an order to be updated in IRIS O# 781266466-2 with tracking number 1ZC6R5151300557596",
+        "short_description": "IRIS (Integrated Rx Information System)-needed an order to be updated in IRIS O# 781266466-2 with tracking number 1ZC6R5151300557596",
+        "u_error_symptoms": "needed an order to be updated in IRIS O# 781266466-2 with tracking number 1ZC6R5151300557596",
+        "sys_created_on": "2025-02-20 23:10:30",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41671322",
+        "description": "IRIS issue with account and order summary empty",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "unable to see account and order summary empty inside IRIS",
+        "sys_created_on": "2025-02-20 23:13:34",
+        "tags": [
+            [
+                "Order Issue",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41673070",
+        "description": "Member address coming at pharmacy locator is different so please change the member address from 31 Plain St, Millis, MA 02054 to 125 Raintree Lane, Hilton, NY 14468\r\nMember ID:980535761\r\nMember Name: John E Jansky\r\nMember Date of Birth: 01/03/1954\r\nMember Email:JONJANLIV@GMAIL.COM\r\nMember Contact Number:5083089162\r\nMember's Username:JONJANLIV@GMAIL.COM",
+        "short_description": "Address change ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 02:37:42",
+        "tags": [
+            [
+                "User Request",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41675169",
+        "description": "Data Exceptions Technician\r\nJob Code: Tech\r\nTask Groups: Customer Service, DEX, Order Managment\r\n\r\nTS01 and TS04\r\nrpa_orx_stpa_d1 - 999000000\r\nrpa_orx_stpa_d2 - 999000001\r\nrpa_orx_stpa_t1 - 999000002\r\nrpa_orx_stpa_t2 - 999000003\r\nThe owner is Khadar, Mohammad <khadar_mohammad@optum.com>\r\n\r\nTS04 \r\nrpa_orx_hsfp_d1 - 999000004\r\nrpa_orx_hsfp_d2 - 999000005\r\nrpa_orx_hsfp_t1 - 999000006\r\nrpa_orx_hsfp_t2 - 999000007\r\nThe owner is Sharma, Brijendra K <brijendra.sharma@optum.com>\r\n",
+        "short_description": "RPA Access TS01 & TS04",
+        "u_error_symptoms": "Direct Assign",
+        "sys_created_on": "2025-02-21 07:02:12",
+        "tags": [
+            [
+                "Order Issue",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41675217",
+        "description": "i am trying to access an application",
+        "short_description": "IRIS - i am trying to access an application",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "sys_created_on": "2025-02-21 07:10:38",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41675861",
+        "description": "I need below responsibilities of IRIS TS02\r\n1.AR SuperUSer\r\n2.Specialty RCM front end\r\n\r\nMSID-esai\r\nemailID-ekg_sai@optum.com\n\nProduct entered by customer: ",
+        "short_description": "TS02 Access Request",
+        "u_error_symptoms": "I need below responsibilities of IRIS TS02\r\n1.AR SuperUSer\r\n2.Specialty RCM front end",
+        "sys_created_on": "2025-02-21 09:41:09",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41675886",
+        "description": "II512 / II702 - Site DSM Down.",
+        "short_description": "http://dsmep0411/DSWeb/default.aspx- Website was not loading",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 09:56:17",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41676425",
+        "description": "iris problem",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-21 11:28:10",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41676615",
+        "description": "II538 - Site DSM Down and not responding as expected while accessing the machines",
+        "short_description": "http://dsmwp0022/DSWeb/default.aspx - Problem with DSM loading.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 12:10:53",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41676756",
+        "description": "Iris status \"Awaiting Shipping\" and PCS status shipped\n\nProduct entered by customer: iris",
+        "short_description": "CH- IRIS orders not closed ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 12:15:38",
+        "tags": [
+            [
+                "Order Issue",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41676924",
+        "description": "So I'm actually I forgot my password to Oracle. I just reset my password for it, just different, but then I realized that it's oracle",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": " Unable to Login",
+        "sys_created_on": "2025-02-21 12:32:59",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41677320",
+        "description": "got a laptop replacement yesterday and now I can not get IRIS to pull up ",
+        "short_description": "IRIS not working on new laptop",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 13:07:15",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41677545",
+        "description": "2 issues; first hyper links from roboform would not open Microsoft edge, nor would Microsoft edge open from pinned link on desk top; restarted, then IRIS wouldn't open past log in screen",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 13:19:00",
+        "tags": [
+            [
+                "User Login",
+                "Errors",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41677781",
+        "description": "Trying to sign in to IRIS and change password",
+        "short_description": "IRIS - Trying to sign in to IRIS and change password",
+        "u_error_symptoms": "Trying to sign in to IRIS and change password but failed",
+        "sys_created_on": "2025-02-21 13:30:44",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41677905",
+        "description": "Hi Team,\r\nDuring load test we identified that requests going to rxclaims were failing. Got to know from Sravanthi Ranga that some instances like QA6 used to be down during offshore hrs due to which we are seeing failures in SOA end.\r\nSo to mitigate it, we need some solution.\r\nwe connect below endpoints for connecting Rxclaim\r\nhttps://aestageproxy.uhc.com/upm3/optumrxmember/SelectPharmacyMembersV4\r\nhttps://gateway-stage.optum.com/api/uat/cel/member/v5/ws\r\n",
+        "short_description": "Route iris traffic to book1 and book2 during load test",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 13:44:32",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41678144",
+        "description": "Error loading annotation note on rxs in PVS",
+        "short_description": "Error loading annotation note on rxs in PVS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 13:48:19",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41678905",
+        "description": "Need to submit an IRIS TS02 access ticket",
+        "short_description": "IRIS TS02 - Access request",
+        "u_error_symptoms": "Need to submit an IRIS TS02 access ticket",
+        "sys_created_on": "2025-02-21 14:16:17",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41678919",
+        "description": "Need access for  IRIS TS02",
+        "short_description": "Need access for  IRIS TS02",
+        "u_error_symptoms": "Request or Update Access to IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-21 14:16:43",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41679125",
+        "description": "Iris is not loading it keeps giving me an error message",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Error: Could Not Login to Media Type Basic Telephony",
+        "u_error_symptoms": " Could not login to Media Type Basic Telephony\r\n  -  Connection to server on http://localhost:11111/oacti/ and port &IEU_UWQ_SERVER_PORT lost",
+        "sys_created_on": "2025-02-21 14:23:43",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41679217",
+        "description": "Resetting password, not allow me to complete it.",
+        "short_description": " IRIS - Resetting password, not allow me to complete it.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 14:26:51",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41679312",
+        "description": "IRIS ISSUES",
+        "short_description": "IRIS (Integrated Rx Information System) - Search funtion not working properly",
+        "u_error_symptoms": "Search funtion not working properly",
+        "sys_created_on": "2025-02-21 14:30:01",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41679622",
+        "description": "IRIS is not letting me log in ",
+        "short_description": "IRIS (Integrated Rx Information System) - IRIS is not letting me log in ",
+        "u_error_symptoms": "IRIS is not letting me log in ",
+        "sys_created_on": "2025-02-21 14:41:11",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41680632",
+        "description": "Resetting password, not allow me to complete it.",
+        "short_description": " IRIS - Resetting password, not allow me to complete it.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 15:16:07",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41681288",
+        "description": "Apps not loading, IEX, IRIS, AC\n\nProduct entered by customer: Apps not loading, IEX, IRIS, AC",
+        "short_description": "Apps not loading, IEX, IRIS, AC",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 15:38:38",
+        "tags": [
+            [
+                "Launch Issues",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41681867",
+        "description": "getting error \"ora-01722: invalid number\" when going into orders in iris, did an end task but didnt resolve, so had to restart\n\nProduct entered by customer: ",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 15:57:15",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41681831",
+        "description": "Hi Team,\r\n\r\nPlease reset the below IRIS password, user not getting password reset link via email  and she is not able to reset the password, she dont have old password.\r\n\r\nrpa_hdp_ops_p14",
+        "short_description": "Password reset",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 15:57:55",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41682330",
+        "description": "iris spinning //shut down//had to reboot\n\nProduct entered by customer: ",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 16:12:59",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41682624",
+        "description": "when trying to open IRIS it doenst open/ its trying to download it and does nothing",
+        "short_description": "IRIS it doenst open/ its trying to download it and does nothing",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 16:22:01",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41682652",
+        "description": "Iris system froze. Cleared teams cache and edge cache. Rebooted. Genesys providing error message \" Cannot connect to the softphone. Please restart the softphone and log in again. ",
+        "short_description": "Iris froze",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 16:22:53",
+        "tags": [
+            [
+                "Latency",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41682778",
+        "description": "iris spins",
+        "short_description": "IRIS Issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 16:26:31",
+        "tags": [
+            [
+                "Latency",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41682610",
+        "description": "Need to determine how two patients are in same doc set (docset ID = 7705511823)",
+        "short_description": "Need to determine how two patients are in same doc set",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 16:28:08",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41682877",
+        "description": "Pooled PV agents are having issues with creating faxes in Pharmacy Central and having them appear in IRIS.  See attached triage document.",
+        "short_description": "Fax communication issue between Pharmacy Central and IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 16:30:47",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41683086",
+        "description": "As part of upgradation project, we are finalizing impacted objects to be remediated. We got to know that few of the impacted list are not being used in current system.\r\nI have attached the list of objects identified. We would request your help to confirm if those objects are still in use or not in Production as of now.\r\n\r\n*** Only need data on the Packages Tab.  Please provide ASAP.  Suggest looking for scheduled concurrent programs, checking V$SQL, reviewing the code,  Check SVN for last update date, and any other method which you can think of to see if the packages are being used\r\n",
+        "short_description": "Need to know if Objects being used in IRIS Production  - Packages Tab Only",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 16:36:19",
+        "tags": [
+            [
+                "User Request",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41683246",
+        "description": "now it says cannot display the page. Login session occurred at system failure has occurred.",
+        "short_description": "IRIS - unable to change password | Password must not contain repeating characters.",
+        "u_error_symptoms": "password must not contain repeating characters",
+        "sys_created_on": "2025-02-21 16:41:47",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41683030",
+        "description": "incoming calls from IRIS popping up wrong patient \r\n4 out of 5 calls that come in IRIS today bring up completely wrong patient profile",
+        "short_description": "KS950 - incoming calls from IRIS popping up wrong patient ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 16:46:28",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41684948",
+        "description": "insurance claim rejecting for rej 99 communication error for several days now. per notes a case was submitted to CRM and CAG maintaince but still no update after several days,  bios was contacted regarding the issue who referred to open an INC\r\n\r\nProduct entered by customer: ",
+        "short_description": "insurance claim rejecting for rej 99 communication error for several days now",
+        "u_error_symptoms": "insurance claim rejecting for rej 99 communication error for several days now. per notes a case was submitted to CRM and CAG maintaince but still no update after several days,  bios was contacted regarding the issue who referred to open an INC\r\n\r\nProduct entered by customer: ",
+        "sys_created_on": "2025-02-21 17:42:01",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41685920",
+        "description": "iris application just closed order and then froze. unable to access pt account",
+        "short_description": "IRIS (Integrated Rx Information System) - Freezes - Abandoned Live Chat",
+        "u_error_symptoms": "Freezes",
+        "sys_created_on": "2025-02-21 18:19:33",
+        "tags": [
+            [
+                "Latency",
+                "User Login",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41686223",
+        "description": "CH- Orders not closed in IRIS\n\nProduct entered by customer: iris",
+        "short_description": "CH- Orders not closed in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 18:32:35",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41686713",
+        "description": "when trying to access some orders in IRIS off the sales order form I get a system pop up: ORA-Invalide # 01722",
+        "short_description": "IRIS - when trying to access some orders in IRIS off the sales order form I get a system pop up: ORA-Invalide # 01722",
+        "u_error_symptoms": "when trying to access some orders in IRIS off the sales order form I get a system pop up: ORA-Invalide # 01722",
+        "sys_created_on": "2025-02-21 18:53:37",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41686802",
+        "description": "PSC sent for rxs with rfs already",
+        "short_description": "PSC sent for rxs with rfs already",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 18:58:28",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41687103",
+        "description": "pharmacy portal cannot login",
+        "short_description": "IRIS (Integrated Rx Information System) - pharmacy portal cannot login",
+        "u_error_symptoms": "pharmacy portal cannot login",
+        "sys_created_on": "2025-02-21 19:10:34",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41687296",
+        "description": "Hi Team,\r\nUser was not able reset the password and she is not getting password reset link to reset the password, please reset the password from your side\r\n\r\nrpa_hdp_r76a_14",
+        "short_description": "Password reset",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 19:19:10",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41687373",
+        "description": "Last week, I was having issues with IRIS freezing and not allowing me to close out of the application at all. It is starting to have the same issue again. I have cleared cache and restarted. It works for a few calls, then freezes again. I have even unplugged my internet and restarted. Same issue.",
+        "short_description": "IRIS Freezing, unable to close it or end process in task mgr",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 19:20:16",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41687811",
+        "description": "Unable to add credit card for payments to account #440014511.\n\nProduct entered by customer: ",
+        "short_description": "Convenient Checkout - Unable to add credit card for payments to account",
+        "u_error_symptoms": "Unable to add credit card for payments to account #440014511.\r\n\r\nProduct entered by customer: ",
+        "sys_created_on": "2025-02-21 19:37:51",
+        "tags": [
+            [
+                "Payment"
+            ]
+        ]
+    },
+    {
+        "number": "INC41688160",
+        "description": "I was prompted to change my password in IRIS on Tuesday the 18th.  I was out of the office Wednesday and Thursday.  When I put in my new password today it is not working.  I also tried my old password.  Need help with IRIS password.  Thank you",
+        "short_description": "IRIS password reset",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 19:51:01",
+        "tags": [
+            [
+                "Password",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41688638",
+        "description": "INC41688160\r\nNANETT WINFIELD",
+        "short_description": "IRIS password reset",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 20:11:42",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41688815",
+        "description": "IRIS keeps freezing while using it. Also mepro was not loading earlier, might have fixed that tho.",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 20:17:16",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41690011",
+        "description": "Seeing most of the calls are over 4s for the API \"/api/clin/rxapi/orders/v1/release-copay-hold\" call. Front end has a time frame of 4s for the page to load. 603 out of 845 calls in the lst 24 hours (2/21) for release copay hold take 4 seconds or longer to respond. \r\n\r\nhttps://phi-splunk.optum.com/en-US/app/optum_iris/search?q=search%20index%3Dcba_iris%20%7C%20spath%20%22message.request.uri%22%20%7C%20search%20%22message.request.uri%22%3D%22%2Fapi%2Fclin%2Frxapi%2Forders%2Fv1%2Frelease-copay-hold%22%20%7C%20rename%20message.elapsed_time%20as%20time%20%7C%20where%20time%3E4000%20%7C%20stats%20count&display.page.search.mode=smart&dispatch.sample_ratio=1&earliest=-24h%40h&latest=now&display.page.search.tab=statistics&display.general.type=statistics&sid=1740171846.480987_4A89A347-3C3C-4E2F-9489-0DBFBC8A8D2E\r\n\r\nHow do we make these calls faster at this end? Why is this slow? ",
+        "short_description": "Release Co Pay Hold",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 21:18:42",
+        "tags": [
+            [
+                "Order Issue",
+                "Latency",
+                "User Request",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41690262",
+        "description": " application frozen",
+        "short_description": "MS950- IRIS- application frozen",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 21:23:45",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41690393",
+        "description": "I was prompted to change my password in IRIS on Tuesday the 18th.  I was out of the office Wednesday and Thursday.  When I put in my new password today it is not working.  I also tried my old password.  Need help with IRIS password.  Thank you",
+        "short_description": "IRIS password reset",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 21:25:41",
+        "tags": [
+            [
+                "Password",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41690550",
+        "description": "iris not allowing me to change active ins to inactive",
+        "short_description": "Selected Issue: IRIS - iris not allowing me to change active ins to inactive",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 21:33:05",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41690765",
+        "description": "https://gateway.optum.com/api/fin/rxapi/payments/v1/parties/{PARTY_ID}.\r\ncan you please check why this calls taking time over 3s.\r\n\r\nhttps://phi-splunk.optum.com/en-US/app/optum_iris/search?earliest=-1d%40d&latest=%40d&q=search%20index%3Dcba_iris%20%22message.request.uri%22%3D%22%2Fapi%2Ffin%2Frxapi%2Fpayments%2Fv1%2Fparties%2F*%22%20%7C%20rename%20message.elapsed_time%20as%20time%20%7C%20where%20time%3E3000%20%7C%20stats%20count&display.page.search.mode=smart&dispatch.sample_ratio=1&display.page.search.tab=statistics&display.general.type=statistics&sid=1740174372.495621_4A89A347-3C3C-4E2F-9489-0DBFBC8A8D2E\r\n\r\n3,430 requests yesterday were over 3s out of 3,893 calls total\r\n\r\nhttps://phi-splunk.optum.com/en-US/app/optum_iris/search?q=search%20index%3Dcba_iris%20%22message.request.uri%22%3D%22%2Fapi%2Ffin%2Frxapi%2Fpayments%2Fv1%2Fparties%2F*%22%20%7C%20stats%20count&display.page.search.mode=smart&dispatch.sample_ratio=1&earliest=-1d%40d&latest=%40d&display.page.search.tab=statistics&display.general.type=statistics&sid=1740174395.495720_4A89A347-3C3C-4E2F-9489-0DBFBC8A8D2E\r\n\r\n\r\nhttps://dtsaas.uhc.com/e/956e9318-977f-41b9-8214-a38c2ce748a2/ui/services/SERVICE-A3D133B8D46E2A1C/purepaths?servicefilter=0%1E7%11SERVICE-A3FF66CC060591E0%150%15%15SERVICE-F6E30E6F954DBB39%150%15%15SERVICE-CA400FFF1D880C94%150%15%15SERVICE-A3D133B8D46E2A1C%151%15%15&gtf=c_1740031200000_1740117600000&gf=-2613913813573485945\r\n\r\n\r\nhttps://dtsaas.uhc.com/e/956e9318-977f-41b9-8214-a38c2ce748a2/ui/services/SERVICE-A3D133B8D46E2A1C/purepaths?servicefilter=0%1E7%11SERVICE-A3FF66CC060591E0%150%15%15SERVICE-F6E30E6F954DBB39%150%15%15SERVICE-CA400FFF1D880C94%150%15%15SERVICE-A3D133B8D46E2A1C%151%150%1F0%133000000%144611686018427387%15&gtf=c_1740031200000_1740117600000&gf=-2613913813573485945",
+        "short_description": "we're seeing frontend load time of 4s - https://gateway.optum.com/api/fin/rxapi/payments/v1/parties/{PARTY_ID}",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 21:54:24",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41691356",
+        "description": "Iris will not allow to exit out",
+        "short_description": "Selected Issue: Other - Iris will not allow to exit out",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 22:14:31",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41690985",
+        "description": "Please Run Activate Skill Set Monday night 02/24 @10pm cst Purge N\r\n\r\nCR#7457 - Request to exclude Dose Optimization Hold from PA queues\r\n1.\tExclude: Dose optimization Hold \u2013 Run Refresh\r\n\u2022\tADVOCATE BRX\r\n\u2022\tPRIOR AUTH BRX\r\n\u2022\tSPFE SELECT CCH BOT\r\n\u2022\tSPFE UNIQUE PAYOR\r\n\r\nCR#6660 - OA routing for orders in CY313 to be routed to appropriate skill set once OOS hold is removed.\r\n1.\tHDP OOS BOT \u2013 Run Refresh\r\n\u2022\tDelete:  CY313\r\n\u2022\tADD: LTOOS Hold \u2013 Required ALL\r\n\u2022\tDelete: SS_HDP_LTOOS\r\n\u2022\tExclude: \r\no\tOOS Manual Hold\r\no\tRetry\r\no\tSMS\r\no\tResend \u2013 Order Type/Order Cell Number\r\no\tPt? hold w/hold comment\r\no\tCy 312\r\n2.\tSS_ HDP LTOOS\r\n\u2022\tInactivate\r\n\r\n\r\n",
+        "short_description": "Run Activate Skill Set Monday night 02/24 @10pm cst Purge N",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 22:16:07",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41691430",
+        "description": "shipped order with error",
+        "short_description": "IRIS orders will not close",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 22:19:54",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41691824",
+        "description": "500 response spike 02/21 3:30 pm \thttps://rxsprrsoa.uhc.com/GetDrugDetailOSB/proxy_service/getDrugDetails. Can you please let us know what caused it?\r\n\r\ncom.sun.xml.messaging.saaj.SOAPExceptionImpl: com.sun.xml.messaging.saaj.SOAPExceptionImpl: Message send failed\r\n\tat com.sun.xml.messaging.saaj.client.p2p.HttpSOAPConnection.call(HttpSOAPConnection.java:143)\r\n\tat com.optum.rx.integration.helper.IntegrationHelper.doSoapCall(IntegrationHelper.java:98)\r\n\tat com.optum.rx.integration.service.IntegrationService.processSoapRequest(IntegrationService.java:63)\r\n\tat com.optum.rx.integration.controller.IntegrationController.processSoapRequest(IntegrationController.java:60)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:731)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandle",
+        "short_description": "500 response spike 02/21 3:30 pm \thttps://rxsprrsoa.uhc.com/GetDrugDetailOSB/proxy_service/getDrugDetails",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-21 22:58:25",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41693776",
+        "description": "So we are having issues, we meaning my team having issues with Iris and it has crashed for some people. Some are just having. Problems running claims, Communication errors.\r\nI did get an e-mail stating that Iris is going down on the 22nd through the 23rd, but not right now. I'm just wondering if you can update on anything.",
+        "short_description": "IRIS (Integrated Rx Information System) - Application Maintenance",
+        "u_error_symptoms": "Application Maintenance",
+        "sys_created_on": "2025-02-22 06:31:29",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41693912",
+        "description": "CHG2540993 Role Swap of OptumRx Production Environments.\r\n\r\nStart: Friday 02/21/2025 at 11pm CT\r\nEstimated Completion: 02/22/2025 at 12:00 am CT\r\n\r\n",
+        "short_description": "CHG2540993",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-22 07:10:45",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41694052",
+        "description": "Bot is unable to  login in IRIS application due to incorrect credentials and it is unable to process the orders for ORX HDP COGNITIVE ANALYTICS AIT AUTOMATION",
+        "short_description": "Bot is unable to  login in IRIS application due to incorrect credentials and it is unable to process the orders for ORX HDP COGNITIVE ANALYTICS AIT AUTOMATION",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-22 08:48:40",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41695286",
+        "description": "i called earlier and the guy fixed the headset and now i cant get into iris",
+        "short_description": "IRIS - Minimized Application",
+        "u_error_symptoms": "Minimized iris application",
+        "sys_created_on": "2025-02-22 15:15:49",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41695313",
+        "description": "whenever get into any application, it freezes up, i restarted 3 times already, no internet",
+        "short_description": "IRIS (Integrated Rx Information System) - Randomly Crashes / Freezing",
+        "u_error_symptoms": "crashes / freezes",
+        "sys_created_on": "2025-02-22 15:25:53",
+        "tags": [
+            [
+                "Launch Issues",
+                "Latency",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41695601",
+        "description": "I been having issue with IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "Launch Issues",
+        "sys_created_on": "2025-02-22 16:41:23",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41695885",
+        "description": "IRIS Frozen",
+        "short_description": "IRIS Frozen",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-22 17:58:31",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41695884",
+        "description": " IRIS - Frozen and just keeps on spinning",
+        "short_description": "CA950 - IRIS - Frozen and just keeps on spinning",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-22 18:18:07",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41696455",
+        "description": "iris froze",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "Unable to find issue for IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-22 21:10:06",
+        "tags": [
+            [
+                "Latency",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41697053",
+        "description": "Hi Team,\r\nWhen it is happening:\r\nIRIS is scheduled to have outage as per below details (for your reference  CHG2621074)\r\nBegin Date\r\n\t\r\nBegin Time\r\n\t\r\nEnd Date\r\n\t\r\nEnd Time\r\n\t\r\nDuration\r\n\r\n\r\n2/22/2025  \r\n\t\r\n10:00 PM CT\r\n\t\r\n2/23/2025\r\n \r\n\t\r\n06:00 AM CT\r\n\t\r\n8 hours\r\nWhat is the impact: During these 8 hours application will not be available for the bots to process the inventory.\r\nAction taken by Support team:\r\nSupport Ops team will pause the above automations prior to 2/21/2025  10:00 PM CT.\r\nSupport Ops team will resume the above automations after 2/22/2025  6:00 AM CT.\r\n \r\nList of automations: (Would be paused during the IRIS downtime)\r\nORX HDP FIRST FILL HOLD\r\n\r\n\r\nORX SPH PRIOR AUTHORIZATION\r\n\r\n\r\nORX HDP OOS Proactive Outreach\r\n\r\n\r\nORX HDP PA REJECT 75\r\n\r\n\r\nORX HDP REJECT CODE 70\r\n\r\n\r\nORX SPH Fax Resend Specialty\r\n\r\n\r\nORX SPH PRICE CHECK FAILURE AUTOMATION\r\n\r\n\r\nORX SPH SPECIALTY MBI (NEW ORDER)\r\n\r\n\r\nORX SPH SPECIALTY MBI (REORDER)\r\n\r\n\r\nORX SPH SPECIALTY SALES PA HOLD\r\n\r\n\r\nORX HDP REJECT CODE 76\r\n\r\n\r\nORX SPH SPECIALTY SALES SELECT PA AUTOMATION\r\n\r\n\r\nORX SPH SPECIALTY REAL TIME CMM AND PA\r\n\r\n\r\nORX SPH SPECIALTY HUB REFERRAL\r\n\r\n\r\nORX SPH SPECIALTY DATE OF SERVICE\r\n\r\n\r\nORX SPH LCA AUTOMATION\r\n\r\n\r\nORX HDP RETURN ASSIST\r\n\r\n\r\nORX HPC FINAL FAX\r\n\r\n\r\nORX DEX 7X\r\n\r\n\r\nORX HDP COGNITIVE STATE REGULATION AUTOMATION\r\n\r\n\r\nORX HDP ELIGIBILITY CHECK AND PLAN TERMINATION\r\n\r\n\r\nORX SPH ELIGIBILITY CHECK SPECIALTY RX\r\n\r\n\r\nORX SPH SPECIALTY REFILL TOO SOON AND DUR88 REJECT\r\n\r\n\r\nORX HDP COGNITIVE RESENDS AUTOMATION\r\n\r\n\r\nORX HDP COGNITIVE FORMULARY SELECTION\r\n\r\n\r\nORX HDP PRESCRIBER ID\r\n\r\n\r\nORX HDP COGNITIVE MRD HOLD RELEASE AUTOMATION\r\n\r\n\r\nORX HDP ORPHAN PSC CANCELLATION\r\n\r\n\r\nORX HDP INBOUND RX TRANSFER\r\n\r\n\r\nORX SPH COGNITIVE MRD HOLD RELEASE\r\n\r\n\r\nORX SPH SPECIALTY CMP DIALER\r\n\r\n\r\nORX HDP REALTIME PA UPDATES\r\n\r\n\r\nORX SPH SPECIALTY DATA CHECK VALIDATION\r\n\r\n\r\nORX SPH SPECIALTY REJECT 76\r\n\r\n\r\nORX SPH SPECIALTY PA DISPOSITION\r\n\r\n\r\nORX SPH SPECIALTY WEB REFILL ORDER SETUP\r\n\r\n\r\nORX HDP COGNITIVE ANALYTICS AIT AUTOMATION\r\n\r\n\r\nORX HDP ELIGIBILITY CHECK AUTOMATION\r\n\r\n\r\nORX HDP ORDER VALIDATION\r\n\r\n\r\nORX HDP REPROCESS PV HOLD\r\n\r\n\r\nORX HDP TRANSFER ASSIST\r\n\r\n\r\nORX PAP MANUFACTURERS LETTERS PART D\r\n\r\n\r\nORX PA AUDIT CASE FILE AUTOMATION\r\n\r\n\r\nORX SPH SPECIALTY HUB REFERAL\r\nEAA-ORX-HDP-CarrierReturns\r\nEAA-ORX-SPH-PSSC-Dialer-Documentation\r\nEAA-ORX-SPH-Duration Consent Notes",
+        "short_description": "IRIS - INTEGRATED Rx INFORMATION SYSTEM - Outage Notification",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-23 03:03:39",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41697245",
+        "description": "TX950  - IRIS issue\r\n\r\nError: Hmmm\u2026 can't reach this page",
+        "short_description": "TX950  - IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-23 04:16:19",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41697278",
+        "description": "I am kicked out of iris not sure what's going on - soemthingabout the network error - clear the cache and reboot and it didn't help - logged back in and it doesn't do anything",
+        "short_description": "IRIS - unable to access",
+        "u_error_symptoms": "can't rach this page",
+        "sys_created_on": "2025-02-23 04:32:01",
+        "tags": [
+            [
+                "Launch Issues",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41697286",
+        "description": "TX950  - IRIS issue",
+        "short_description": "TX950  - IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-23 04:38:08",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41697297",
+        "description": "CA950 - IRIS issue",
+        "short_description": "CA950 - IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-23 04:51:01",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41697306",
+        "description": "KS015 - IRIS issue",
+        "short_description": "KS015 - IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-23 04:57:13",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41698112",
+        "description": "IMPACT AVOID - UNITEDHEALTHCARE IRIS FOR HEALTH ",
+        "short_description": "IMPACT AVOID - UNITEDHEALTHCARE IRIS FOR HEALTH ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-23 11:05:16",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41698184",
+        "description": "OWI_PRD_WT_IRIS_DPR_ERX_PRD ErrorCode=40 JobTime=2025022306020000 Action=ABEND Server=WP000039174 JS=WP000039174#OWI_PRD_LDERXC Environment=PRD EI=WP000039174#OWI_PRD_LDERXC(2025022306000000) JobCPU=WP000039174 Full Msg Text=eventtype= 101 ;origschedname= 0AAAAAAAAAA3D2PB ;schedcpu= WP000039174 ;schedid= 0AAAAAAAAAA3D2PB ;schedname= OWI_PRD_LDERXC ;jobcpu= WP000039174 ;jobnumber= 2955903 ;jobstatus_enum= 5 ;jobname= OWI_PRD_WT_IRIS_DPR_ERX_PRD ;jobuser= MS\rx_eraid ;everyrate= 0 ;jobrecoveryaction_enum= 1 ;jobeventtimestamp= 2025022306020000 ;jobmessagetxt= ;jobkeyflag= 0 ;jobeffst= 1740290405 ;jobestst= 0 ;jobestdur= 159 ;jobdeadlineep= 0 ;jobretcode= 40 ;schedtime= 2025022306000000 ;mdm= rp000090672.uhc.com Domain: wp000039174 Origin: rp000090672.uhc.com Application: TIVOLI WORKLOAD SCHEDULER - DISTRIBUTED (MS2) Category: Job Source: TWSd Severity: Warning Alertid: 0025321288",
+        "short_description": "WP000039174 Job OWI_PRD_WT_IRIS_DPR_ERX_PRD generated an ABEND alarm at 2025022306020000",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-23 12:02:41",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41698894",
+        "description": "Per user her IRIS app is freezing.\r\nIf the user click on the search option it freeze.",
+        "short_description": "IRIS issue - Freezing",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-23 17:38:56",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41698932",
+        "description": "My Iris requested to update the password. I was able to update it, but after I login, it keeps looping back to the login screen. It doesn't show an error message, but it keeps going back to the login after I login with the new password.",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-23 18:00:42",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41699432",
+        "description": "cant pull up iris and ac need to restart multiple times before i got the access back",
+        "short_description": "Iris - Unable to access.",
+        "u_error_symptoms": "Unable to access.",
+        "sys_created_on": "2025-02-23 23:24:32",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41699990",
+        "description": "IRIS application is not working. ",
+        "short_description": "IRIS (Integrated Rx Information System) - Shortcuts are missing from IRIS dashboard",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 04:33:50",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41701333",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod\r\n \r\nNeed IRIS Access for TS02 environment\r\n \r\nEMP ID - \t002293638\r\nMSID - as183\r\nEmail ID - \tanantharaaman_s@optum.com\r\n \r\nResponsibilities:\r\nOM Super User\r\nCAG Maintenance\r\nPharmacist\r\nSpecialty pharmacists \r\nDrug File Maintenance\r\nPO Super User\n\nProduct entered by customer: ",
+        "short_description": "Need IRIS Access for TS02 environment",
+        "u_error_symptoms": "Unable to find issue for IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-24 09:36:57",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41701420",
+        "description": "When I price check a rx, the rx are not matching on the same line.",
+        "short_description": "IRIS, Ghost ticket pushed by the system, user is offline",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 09:51:47",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41701686",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod\r\n\r\nNeed IRIS Access for TS02 environment\r\n\r\nEMP ID - 002296421\r\nMSID - aadilap\r\nEmail ID - aysath_adilap@optum.com\r\n\r\nResponsibilities:\r\n\r\nOM Super User\r\n\r\nCAG Maintenance\r\n\r\nPharmacist\r\n\r\nSpecialty pharmacists\r\n\r\nDrug File Maintenance\r\n\r\nPO Super User\n\nProduct entered by customer: ",
+        "short_description": "Need IRIS Access for TS02 environment",
+        "u_error_symptoms": "Unable to find issue for IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-24 10:31:24",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41701891",
+        "description": "Development Environment- TS01\r\nNon User ID- rpa_spt_cop_t1\r\nApply Hold Name-  TIPS HOLD\r\nPlease Reach out me if anything Needed",
+        "short_description": "TS01 Environment- Add 'TIPS HOLD' in the Apply hold list ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 11:04:11",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41702503",
+        "description": "iris error",
+        "short_description": "IRIS (Integrated Rx Information System) - iris error",
+        "u_error_symptoms": "iris error",
+        "sys_created_on": "2025-02-24 12:22:36",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41702613",
+        "description": "I need access to Iris environment for TS02 https://orxpcatst2ebs.uhc.com:4450/OA_HTML/AppsLogin",
+        "short_description": "I need access to Iris environment for TS02",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 12:31:43",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41702870",
+        "description": "CH- Orders not closed in IRIS\n\nProduct entered by customer: IRIS",
+        "short_description": "CH- Orders not closed in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 12:53:25",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41703090",
+        "description": "Issue: One moment so this is here. So I'm trying to open my iris but, You just told me to change my password, but I've been trying everything here. It's not letting me. I use my current password and I tried the new password. I tried a couple by the way, and it's not working. I think I'm locked out. And another thing, my Outlook, uh, my e-mail is not working.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to login over IRIS",
+        "sys_created_on": "2025-02-24 13:06:52",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41703465",
+        "description": "when i open the rxclaim you are not able to open that correctly ",
+        "short_description": "IRIS (Integrated Rx Information System) - IRIS Work Queue Error APP-IEU-241025",
+        "u_error_symptoms": "IRIS Work Queue Error APP-IEU-241025",
+        "sys_created_on": "2025-02-24 13:20:51",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41703559",
+        "description": "I need a access for IRIS TS02 env.\n\nProduct entered by customer: IRIS TS02",
+        "short_description": "IRIS",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-24 13:24:08",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41703959",
+        "description": "I am having trouble getting login to IRIS",
+        "short_description": "FLW - IRIS (Integrated Rx Information System) - unable to create new password for IRIS",
+        "u_error_symptoms": "unable to create new password for IRIS",
+        "sys_created_on": "2025-02-24 13:40:04",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41704404",
+        "description": "iris issue",
+        "short_description": "IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 13:56:13",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41704516",
+        "description": "im unable to login to IRIS",
+        "short_description": "IRIS, unable to login",
+        "u_error_symptoms": "unable to login",
+        "sys_created_on": "2025-02-24 14:00:27",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41704659",
+        "description": "Unable to change the password in IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-24 14:04:51",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41704672",
+        "description": "When running the following concurrent request in IRIS for Specialty CAG the reports are erroring out. The last time this happened there was a transaction that had a date populated in the order field. The two concurrent requests that is erroring out is XXSPLT RCM AR Detail Aging Report and XXIRIS Detailed Aging Report\r\n\r\n\r\nPlease assign to MSA ORACLE EBS (RXS) - SPT",
+        "short_description": "IRIS for Specialty CAG the reports are erroring out",
+        "u_error_symptoms": "When running the following concurrent request in IRIS for Specialty CAG the reports are erroring out. The last time this happened there was a transaction that had a date populated in the order field. The two concurrent requests that is erroring out is XXSPLT RCM AR Detail Aging Report and XXIRIS Detailed Aging Report",
+        "sys_created_on": "2025-02-24 14:05:17",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41704674",
+        "description": "WWIKT, Will not allow me to type anything or close out of it.",
+        "short_description": "WWIKT",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 14:05:18",
+        "tags": [
+            [
+                "User Request",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41704717",
+        "description": "I was just trying to login to system I have done with reset my password into IRIS, but it didn't get in it shows login is successful but unable to get in its blinking",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to login into IRIS",
+        "sys_created_on": "2025-02-24 14:06:33",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41704682",
+        "description": "Please move forward with cancelling XXIRIS DEX Hold M3P Data Fix Program (INC40887402) & XXSPLT M3P 057 Orders Reverse and Rebill DF (INC40887923), along with the reports M3P_REVERSE_AND_REBILL_APPLIED_LIST and M3P DEX HOLD IMPACT",
+        "short_description": "Turn off 'work around' jobs from 01/01 M3P Issues",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 14:07:13",
+        "tags": [
+            [
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41705043",
+        "description": "I was prompted to change my password but IRIS is not allowing me to do so. ",
+        "short_description": "IRIS - I was prompted to change my password but IRIS is not allowing me to do so. ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 14:15:35",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41705345",
+        "description": "unable to sign in with IRIS application.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to sign in with IRIS application.\r\nerror- log in failed",
+        "sys_created_on": "2025-02-24 14:23:20",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41706609",
+        "description": "IRIS freezing on login",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 14:58:07",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41706702",
+        "description": "Iris not working correctly. cannot adjudicate orders. cannot cancel orders.  copays now have commas instead of periods.  account balance not showing on order.  unable to complete orders.",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 15:00:44",
+        "tags": [
+            [
+                "Order Issue",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41707068",
+        "description": "Restarted systems. Iris wasn't functioning properly for me to assist mbrs and to place refills or update orders. \nAssistance needed - No",
+        "short_description": "Iris error",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 15:09:37",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41707281",
+        "description": "WILL NOT LET ME LOG INTO IRIS, DUE TO INCORRECT PASSWORD.....",
+        "short_description": "IRIS = WILL NOT LET ME LOG INTO IRIS, DUE TO INCORRECT PASSWORD.....",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 15:15:17",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41707513",
+        "description": "Iris issue",
+        "short_description": " IRIS (Integrated Rx Information System) - Unable to access",
+        "u_error_symptoms": " Unable to access",
+        "sys_created_on": "2025-02-24 15:18:30",
+        "tags": [
+            [
+                "Launch Issues",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41707694",
+        "description": "i need access to iris and pv central",
+        "short_description": "Secure - Pending Manual status for IRIS request",
+        "u_error_symptoms": "Pending Manual status for IRIS request",
+        "sys_created_on": "2025-02-24 15:23:10",
+        "tags": [
+            [
+                "User Login",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41707837",
+        "description": "no pw, incorrect pw --- ",
+        "short_description": "IRIS login issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 15:27:05",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41707914",
+        "description": "Entered password incorrectly too many times and received this message\n\"Login failed. Please verify your login information or contact the system administrator\"",
+        "short_description": "Selected Issue: IRIS: NO RESPONSE",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 15:29:18",
+        "tags": [
+            [
+                "Latency",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41708095",
+        "description": "i tried to change my password for iris and now it wont let me log in ",
+        "short_description": "IRIS password issue.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 15:33:54",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41708119",
+        "description": "I am having a problem with my IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "Unable to see co-pay amount on all the orders",
+        "sys_created_on": "2025-02-24 15:34:39",
+        "tags": [
+            [
+                "Order Issue",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41708154",
+        "description": "it is not letting me change my password for IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "invalid password",
+        "sys_created_on": "2025-02-24 15:35:37",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41708711",
+        "description": "i can't access the IRIS ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 15:51:09",
+        "tags": [
+            [
+                "Launch Issues",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41708917",
+        "description": "I entered my password incorrectly:\nLogin failed. Please verify your login information or contact the system administrator.",
+        "short_description": "IRIS password",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 15:57:00",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41708897",
+        "description": "\r\nHi SOA team,\r\n\r\nPlease shutdown the SOA services in TS01.\r\n\r\nRegards,\r\nkoti\r\n",
+        "short_description": "TS01 Applicaiton and DB bounce",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 15:57:01",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41709423",
+        "description": "*having issue login IRIS ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "sys_created_on": "2025-02-24 16:10:41",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41709586",
+        "description": "IRIS unable to login ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "IRIS unable to login ",
+        "sys_created_on": "2025-02-24 16:15:38",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41709619",
+        "description": "i am looking to get my password reset for IRIS program",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-24 16:16:18",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41709557",
+        "description": "EU is getting an error when creating a new password - \"Cannot use the same character\"",
+        "short_description": "IRIS - Password creation issue. ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 16:16:46",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41709685",
+        "description": "IRIS freezing on login",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 16:17:50",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41710047",
+        "description": "Need Manual IRIS PW reset",
+        "short_description": "Need Manual IRIS PW reset",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 16:27:25",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41710056",
+        "description": "WILL NOT LET ME LOG INTO IRIS, DUE TO INCORRECT PASSWORD.....",
+        "short_description": "IRIS = WILL NOT LET ME LOG INTO IRIS, DUE TO INCORRECT PASSWORD.....",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 16:27:35",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41710135",
+        "description": "IRIS password reset",
+        "short_description": "IRIS password reset",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 16:29:54",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41710270",
+        "description": "trying to get help to change the password for Iris\r\nnot able to login to advocate central\r\ncan login to genesys\r\n",
+        "short_description": "CA950 -  Iris: need to change the password",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 16:35:27",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41710776",
+        "description": "Earlier this month, I was having issues with Iris being slow with popping up accounts. I would have to manually bring the account up, then during the call, the account would pop up again. It was running really slow. Ticket after ticket was done and I was sent a new laptop.. It was doing ok, but today it started happening right when I started work. I cleared my cache and history in edge and chrome, rebooted, took a couple of calls and the issue is still happening.  ",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 16:46:20",
+        "tags": [
+            [
+                "Latency",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41711804",
+        "description": "trying help to get into IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-24 17:13:39",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41712186",
+        "description": "For chrome and edge, after login in IRIS , java application gets downloaded and there we see \"cannot login to media type basic telephony\".\r\nI have also attached screenshot for the same.\r\nPlease help on what needs to be done for this fix.",
+        "short_description": "IRIS - TS02 - facing error - \"cannot login to media type basic telephony\"",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 17:23:38",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41712316",
+        "description": "I am unable to cancel orders, getting rejection \"error occurred in xxiris_om_canc_lines_p: ORA-01722: Invalid Number",
+        "short_description": "IRIS (Integrated Rx Information System) -  I am unable to cancel orders, getting rejection \"error occurred in xxiris_om_canc_lines_p: ORA-01722: Invalid Number",
+        "u_error_symptoms": "I am unable to cancel orders, getting rejection \"error occurred in xxiris_om_canc_lines_p: ORA-01722: Invalid Number",
+        "sys_created_on": "2025-02-24 17:27:41",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41712680",
+        "description": "\"XXIRIS New Refill Smoothing Drop Date Update DF\" Refill Smoothing 3/11/2025 to 3/14/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) \u2013 SPT",
+        "short_description": "\"XXIRIS New Refill Smoothing Drop Date Update DF\" Refill Smoothing 3/11/2025 to 3/14/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) \u2013 SPT",
+        "u_error_symptoms": "\"XXIRIS New Refill Smoothing Drop Date Update DF\" Refill Smoothing 3/11/2025 to 3/14/2025 Please see attached doc for additional details. Please assign to Babu, Pradhamasetti R. MSA ORACLE EBS (RXS) \u2013 SPT",
+        "sys_created_on": "2025-02-24 17:38:30",
+        "tags": [
+            [
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41712822",
+        "description": "Tried to create an account for member for mail order and once i tried to save, IRIS would not fully load up to 5 mins: rebooted and clear cache as well and the problem still there",
+        "short_description": "IRIS - Mail order would not fully load up and once i tried to save.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 17:43:18",
+        "tags": [
+            [
+                "Order Issue",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41713729",
+        "description": "I had an issue on Saturday night, there was an IRIS Outage last Satruday. I just need a ticket for the issue on Saturday",
+        "short_description": "Informational - Had an IRIS issue on Saturday - 02/22/2025",
+        "u_error_symptoms": "Had an IRIS issue on Saturday - 02/22/2025",
+        "sys_created_on": "2025-02-24 18:12:19",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41713758",
+        "description": "Unable to see paid claims on my end , cust amt not sowing on main tab but i am able to see copay only if i go to billing tab on SOF ",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 18:13:09",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41713774",
+        "description": "iris will not let me click on anything or type",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 18:13:36",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41714185",
+        "description": "When trying to create a new account for new member it does not let me enter address and freezes up when trying to save. Been spinning for address research for 10 min now.",
+        "short_description": "When trying to create a new account for new member it does not let me enter address",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 18:27:04",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41714276",
+        "description": "IRIS freezing up; unable to utilize the HFF tab and when attempting to click on the tab, the mouse screens just spins.",
+        "short_description": "IRIS freezing up",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 18:29:59",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41714387",
+        "description": "Iris's screen turning black, not letting me add a member's phone #. I just a replaced laptop",
+        "short_description": "IRIS - Iris's screen turning black, not letting me add a member's phone #. I just a replaced laptop",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 18:32:39",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41715480",
+        "description": "failed to add and use CCs multiple times. cleared caches, restarted, went back to members file and found recently placed order missing, as well as the RX that was used to order today 2/24. ",
+        "short_description": "IRIS - CC & RX issues",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 19:08:15",
+        "tags": [
+            [
+                "Payment",
+                "Order Issue",
+                "Crash",
+                "nonsense",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41715763",
+        "description": "We are not receiving EPMP data in IRIS TS02 for some tables. Can you please check at what level the issue/disconnection is?",
+        "short_description": "EPMP data flow to IRIS issue in TS02",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 19:17:39",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41716023",
+        "description": "Cant deploy using dsm",
+        "short_description": "Symantec Management Platform (Altiris) - Deployment Option Failed",
+        "u_error_symptoms": "Deployment Option Failed",
+        "sys_created_on": "2025-02-24 19:25:44",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41716031",
+        "description": "i have a few escalated member regarding order 780144484, site 41 states we got the package returned to us but the order has not been update so it is just sitting there.  site 41 states they put in INC41647591 created on 2-19-25.  Please I need an update member is out of medication, thank you",
+        "short_description": "IRIS - Status update  INC41647591 ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 19:26:03",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41716101",
+        "description": "failed to add and use CCs multiple times. cleared caches, restarted, went back to members file and found recently placed order missing, as well as the RX that was used to order today 2/24. \r\nINC41715480\r\n-Java 421 is installed normally along with java settings for IRIS. No other java software installed. All TLS settings are set in Java settings as they should be.\r\n-EU did not get a screenshot of the CC error as he states it's something they receive daily (payment failed, contact bank), they tried the member's wife's CC and while he was able to get the card added, the payment failed. After it failed, he chose SHIP AND BILL on the new order for capsules. Member had both tab and cap for the same drug on file, so two rx's. After his troubleshooting the rx updated to show tab and LTOOS. An RX for the capsules is missing in the rx history now.\r\n-Have received \"ORA-01403: no data found\" error on price checks\r\n-Since already cleared edge and java cache before restarting pc before submitting ticket, escalating INC41715480 to MSA ORACLE EBS (RXS) - SPT\r\n-Had David go into https://goto.optum.com/ViewMyTickets and add any PHI such as account number, name, etc in the protected information field for the IRIS team to identify the account with issues\r\n-Will add the IRIS triage questions once received from David\r\nEU has screenshots of the account showing issues with the RX's but since they contain PHI asked David to hold onto them and provide to IRIS Team once they reach out",
+        "short_description": "IRIS - CC and RX issues",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 19:29:30",
+        "tags": [
+            [
+                "Payment",
+                "Order Issue",
+                "Crash",
+                "nonsense",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41717135",
+        "description": "I'm having issues with Iris. I'd already emailed the Star District team but it's actually interfering with my daily activities so I was trying to see if I could get a troubleshooting. Well again just to background,  I try to make edits or cancel an order, I get some sort of error message involving the number OR017.\r\nSo for example any orders it won't let me call her on profile, prescription won't let me cancel blind and certain holes won't let me see.\r\nCertain pharmacy goals.",
+        "short_description": "Got some sort of error message involving the number OR01722. Invalid numbers ",
+        "u_error_symptoms": "Got some sort of error message involving the number OR01722. Invalid numbers ",
+        "sys_created_on": "2025-02-24 20:01:56",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41717189",
+        "description": "iris spins and ac logs me out",
+        "short_description": "IRIS -spins and ac logs me out.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 20:03:24",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41717241",
+        "description": "Relaunch Iirs",
+        "short_description": "IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "IRIS (Integrated Rx Information System)",
+        "sys_created_on": "2025-02-24 20:04:40",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41717688",
+        "description": "unable to login to IRIS ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-24 20:20:33",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41717839",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod.\r\n\r\n\r\nNeed IRIS Access for DV06 environment \r\n\r\nResponsibilities: OM Super User CAG Maintenance Pharmacist Specialty pharmacists Drug File Maintenance PO Super User\r\n\r\nProtected Information was moved to secure confidential data field in the incident record\r\n\r\n\r\nProduct entered by customer: ",
+        "short_description": "Need IRIS Access for DV06 environment ",
+        "u_error_symptoms": "Need IRIS Access for DV06 environment ",
+        "sys_created_on": "2025-02-24 20:26:02",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41717904",
+        "description": "When i try to enter a PSC in IRIS, the first medication i enter will either get crossed out or it will not have the HFF option highlighted",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 20:28:17",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41718047",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod.\r\n\r\n\r\nNeed IRIS Access for DV06 environment \r\n\r\nResponsibilities: \r\nOM Super User \r\nCAG Maintenance \r\nPharmacist \r\nSpecialty pharmacists\r\n Drug File Maintenance\r\n PO Super User\r\n\r\nProtected Information was moved to secure confidential data field in the incident record\r\n\r\nProduct entered by customer: ",
+        "short_description": "Need IRIS Access for DV06 environment ",
+        "u_error_symptoms": "Need IRIS Access for DV06 environment \r\n",
+        "sys_created_on": "2025-02-24 20:33:00",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41718179",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod.\r\n\r\n\r\nNeed IRIS Access for DV06 environment \r\n\r\nResponsibilities: OM Super User CAG Maintenance Pharmacist Specialty pharmacists Drug File Maintenance PO Super User\r\n\r\nProtected Information was moved to secure confidential data field in the incident record\r\n\r\n\r\nProduct entered by customer: ",
+        "short_description": "Need IRIS Access for DV06 environment ",
+        "u_error_symptoms": "Need IRIS Access for DV06 environment ",
+        "sys_created_on": "2025-02-24 20:37:06",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41718180",
+        "description": "need DBA team to perform a query to delete some data for our team",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 20:37:07",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41718305",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod.\r\n\r\n\r\nNeed IRIS Access for DV06 environment \r\n\r\nResponsibilities: OM Super User CAG Maintenance Pharmacist Specialty pharmacists Drug File Maintenance PO Super User\r\n\r\nProtected Information was moved to secure confidential data field in the incident record\r\n\r\n\r\nProduct entered by customer: ",
+        "short_description": "Need IRIS Access for DV06 environment ",
+        "u_error_symptoms": "Need IRIS Access for DV06 environment ",
+        "sys_created_on": "2025-02-24 20:41:02",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41718318",
+        "description": "IRIS and  Genesys  programs  hanging up ",
+        "short_description": "IRIS and  Genesys  programs  hanging up ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 20:41:27",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41718436",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod.\r\n\r\n\r\nNeed IRIS Access for DV06 environment \r\n\r\n\r\nResponsibilities: OM Super User CAG Maintenance Pharmacist Specialty pharmacists Drug File Maintenance PO Super User\r\n\r\nProtected Information was moved to secure confidential data field in the incident record\r\n\r\n\r\nProduct entered by customer: ",
+        "short_description": " Need IRIS Access for DV06 environment ",
+        "u_error_symptoms": "Need IRIS Access for DV06 environment ",
+        "sys_created_on": "2025-02-24 20:44:45",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41719632",
+        "description": "repsonse time is very slow ",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 21:28:12",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41720328",
+        "description": "will not load",
+        "short_description": "IRIS - will not load",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 21:54:45",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41720685",
+        "description": "I cannot do price checks.  I've been having issues since Friday.",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 22:07:25",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41721082",
+        "description": "Hi i needed an order to be updated in IRIS O#781349591 with tracking number1ZC6R5150100577122",
+        "short_description": "IRIS (Integrated Rx Information System) - an order to be updated",
+        "u_error_symptoms": "an order to be updated",
+        "sys_created_on": "2025-02-24 22:25:20",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41721211",
+        "description": "please send to CCG Scrum Team under Gaurav Arora:   gaurav_10@optum.com\r\nSpanish selected, when sp agent clicks 'Cancelar' button, session is closed displays in english\r\nPlease refer to DE1025543 under Scrum and Scrummer\r\n\r\nwhen SMS order is created and agent navigates to the payment tab, and goes to add credit card from on screen widget with spanish as the language selected,\r\n\r\nwhen agent hits the cancel button, then the message displayes will read Su sesion cancelar\r\n\r\n\r\n\r\nsteps:\r\n\r\n\r\n\r\nResponsibility:\u00a0 Specialty CS rep\r\n\r\n1. Create sms order\r\n\r\n2. go to payment tab\r\n\r\n3. click on add CC\r\n\r\n4. select Spanish- screen changes to espanol\r\n\r\n5. click on on screen option- Entrada en pantalla\r\n\r\n6. scroll down on the on screen option, click on Cancelar\r\n\r\n7. message displays in english, instead of spanish....\r\n\r\n\r\nAcceptance Criteria\r\n\r\ngiven specialty cs rep\r\n\r\nwhen processing payment from SOF\r\n\r\nand selected language is spanish for on screen widget\r\n\r\nthen when i click cancel button- session cancelled displays in spanish\n\nProduct entered by customer: please send to CCG Scrum Team under Gaurav Arora:   gaurav_10@optum.com\r\nSpanish selected, when sp agent clicks 'Cancelar' button, session is closed displays in english\r\nPlease refer to DE1025543 under Scrum and Scrummer",
+        "short_description": "SOF spanish cancelled displays english",
+        "u_error_symptoms": "please send to CCG Scrum Team under Gaurav Arora:   gaurav_10@optum.com\r\nSpanish selected, when sp agent clicks 'Cancelar' button, session is closed displays in english\r\nPlease refer to DE1025543 under Scrum and Scrummer",
+        "sys_created_on": "2025-02-24 22:32:00",
+        "tags": [
+            [
+                "Alert",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41721749",
+        "description": "IRIS help please\r\norder 782770423 is getting this hold that i have not seen b4 and need assistance\r\nQMSI export Hold\r\ncomment\r\nErr_ID: 2251838025 Code: -6533 Msg: ORA-06533: Subscript beyond count Back Trace: ORA-06512: at \"APPS.XXIRIS_DOMS_SPECIALTY_UTIL_K\", line 743\r\nORA-06512: at \"APPS.XXIRIS_DOMS_SPECIALTY_UTIL_K\", line 743\n\nProduct entered by customer: ",
+        "short_description": "IRIS help please order 782770423 is getting this hold that i have not seen b4 and need assistance QMSI export Hold comment Err_ID: 2251838025 Code: -6533 Msg: ORA-06533: Subscript beyond count Back Trace: ORA-06512: at \"APPS.XXIRIS_DOMS_SPECIALTY_UTI",
+        "u_error_symptoms": "IRIS help please\r\norder 782770423 is getting this hold that i have not seen b4 and need assistance\r\nQMSI export Hold\r\ncomment\r\nErr_ID: 2251838025 Code: -6533 Msg: ORA-06533: Subscript beyond count Back Trace: ORA-06512: at \"APPS.XXIRIS_DOMS_SPECIALTY_UTIL_K\", line 743\r\nORA-06512: at \"APPS.XXIRIS_DOMS_SPECIALTY_UTIL_K\", line 743\r\n\r\nProduct entered by customer: ",
+        "sys_created_on": "2025-02-24 23:04:15",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41721913",
+        "description": "Hi i needed an order to be updated in IRIS O#785200239-1 with tracking number 9270190350467918804111",
+        "short_description": "IRIS (Integrated Rx Information System) -  needed an order to be updated in IRIS",
+        "u_error_symptoms": "Hi i needed an order to be updated in IRIS O#785200239-1 with tracking number 9270190350467918804111",
+        "sys_created_on": "2025-02-24 23:16:03",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41721971",
+        "description": "Attaching the triggered email.\r\nScheduled the meeting with Soma to get the information on below\r\nTried searching for LOCATION_INTELLIGENCE_IRIS_STAGE in  the Addressvalidation and github, didn't find any references.\r\n\r\nCould you please let us know on below things\r\n\u2022\twhere are we are using it LOCATION_INTELLIGENCE_IRIS_STAGE\r\n\u2022\tsteps to attest it\r\n\u2022\tsteps to Renew the Secrect.\r\n\u2022\tAdjusting in the code, if we have to  modify anything in config/Addressvalidation service.\r\n\u2022\tTesting.\r\n\u2022\tWhat is the corresponding  (LOCATION_INTELLIGENCE_IRIS_STAGE) one for prod \r\n",
+        "short_description": "Cayman: AddressValidation: Client Name LOCATION_INTELLIGENCE_IRIS_STAGE: Expiry",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 23:22:36",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41722028",
+        "description": "EU has been having recurring issues with IRIS and had called multiple times about it. \r\nFollowing up on a ticket.",
+        "short_description": "WI950 - Following up on 2 ticket regarding recurring IRIS issue.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 23:25:34",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41722123",
+        "description": "need report of orders rejecting with Reject 92 that have been looping reported by RxClaim team to Christine hoppe\r\n\r\n92 - System Unavailable/Host Unavailable\r\nNew processor,visit www.optum.com/en/cspfor details.",
+        "short_description": "need report of orders rejecting with Reject 92 that have been looping reported by RxClaim team to Christine hoppe",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-24 23:33:12",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41722343",
+        "description": "I tried updating my IRIS account, this website is blocked due to United Health Group policies ",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": " Launch Issues",
+        "sys_created_on": "2025-02-24 23:50:26",
+        "tags": [
+            [
+                "Launch Issues",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41724117",
+        "description": "http://apvep79707.ms.ds.uhc.com/Altiris/NS/Agent/connectiontest.asp has problem on application SYMANTEC MANAGEMENT PLATFORM",
+        "short_description": "SYMANTEC MANAGEMENT PLATFORM - http://apvep79707.ms.ds.uhc.com/Altiris/NS/Agent/connectiontest.asp has problem on application SYMANTEC MANAGEMENT PLATFORM",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 06:25:14",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41724718",
+        "description": "Need IRIS Access for DV06 environment \r\nResponsibilities: OM Super User CAG Maintenance Pharmacist Specialty pharmacists Drug File Maintenance PO Super User\r\n\r\n**Protected Information was moved to secure confidential data field in the incident record**\r\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - Need IRIS Access for DV06 environment ",
+        "u_error_symptoms": "Need IRIS Access for DV06 environment ",
+        "sys_created_on": "2025-02-25 07:29:19",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41725441",
+        "description": "Request to switch ON profile: XXIRIS_US6156489_EMAIL_DATA_HYGIENE_PF",
+        "short_description": "US6156489 - Feb Release 10.5.6 - Switch ON  Profile - XXIRIS_US6156489_EMAIL_DATA_HYGIENE_PF",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 08:59:53",
+        "tags": [
+            [
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41727295",
+        "description": "ship orders whit errors assigned to ORX_OV_PCS_SPT",
+        "short_description": "IRIS (Integrated Rx Information System) - ship orders whit errors assigned to ORX_OV_PCS_SPT",
+        "u_error_symptoms": "ship orders whit errors assigned to ORX_OV_PCS_SPT",
+        "sys_created_on": "2025-02-25 11:48:28",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41727463",
+        "description": "iris not loading and iv not working restarted",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 11:59:34",
+        "tags": [
+            [
+                "Launch Issues",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41727996",
+        "description": "Image Viewer is not functional or taking minutes to load each image",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 12:27:52",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41728144",
+        "description": "work was not loaded into Camunda",
+        "short_description": "HDP Growth IBT Camunda Application - Work was not loaded into Camunda",
+        "u_error_symptoms": "work was not loaded into Camunda",
+        "sys_created_on": "2025-02-25 12:33:12",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41728599",
+        "description": "image viewer not working",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 12:52:02",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41728512",
+        "description": "IRIS IV PVS latency issues related to INC41724462",
+        "short_description": "IRIS IV PVS latency issues related to INC41724462",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 12:55:46",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41728872",
+        "description": "Didn't survey code 2775 in master survey list on TS02\r\n\r\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - Didn't survey code 2775 in master survey list on TS02",
+        "u_error_symptoms": "Didn't survey code 2775 in master survey list on TS02",
+        "sys_created_on": "2025-02-25 13:01:33",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41728981",
+        "description": "/api/clin/rxapi/verses/v1/verse-rules/ HTTPStatus=504 \"(110: Connection timed out) while reading response header from upstream\"",
+        "short_description": "VERSE-RULES service high latency issue.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 13:09:11",
+        "tags": [
+            [
+                "Latency",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41729418",
+        "description": "my workbench and my image viewer is not working",
+        "short_description": "Request for Help Desk support - image viewer ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 13:17:02",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41729524",
+        "description": "I cannot reste my password in IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - unable to reset IRIS password",
+        "u_error_symptoms": "unable to reset IRIS password",
+        "sys_created_on": "2025-02-25 13:19:53",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41729575",
+        "description": "781222523-1- Order not closed \r\nPacked status in PCS, NO Tracking number.\r\n\r\nIRIS Status- APS in process\r\n\r\n<ns2:StatusResponse xmlns:ns2=\"http://wms.softeon.response.com/order\">\r\n<ReturnStatus>0</ReturnStatus>\r\n</ns2:StatusResponse>\n\nProduct entered by customer: PCS/IRIS/WMS",
+        "short_description": "CH- Orders not closed in IRIS ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 13:21:12",
+        "tags": [
+            [
+                "Order Issue",
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41729914",
+        "description": "time to change password but it wont take anything I enter, following criteria for password. keep getting \"error Password was not changed\" ",
+        "short_description": "IRIS password",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 13:31:09",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41730286",
+        "description": "reset password on rxclaims for book 2",
+        "short_description": "RxClaims",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 13:38:51",
+        "tags": [
+            [
+                "Password",
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41730330",
+        "description": "EPMP Gan msgs not populating",
+        "short_description": "EPMP Gan msgs not populating",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 13:42:15",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41730465",
+        "description": "IRIS impact on ELR network issue",
+        "short_description": "IRIS and Cayman impact on ELR network issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 13:46:31",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41730874",
+        "description": "reset my IRIS password \r\n",
+        "short_description": "IRIS (Integrated Rx Information System) - unable to log in - password is not changed",
+        "u_error_symptoms": "password is not changed",
+        "sys_created_on": "2025-02-25 13:50:28",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41731588",
+        "description": "ORA-01722: INVALID NUMBER. NO CLAIMS ADJUDICATING.",
+        "short_description": "IRIS - ORA-01722: INVALID NUMBER. NO CLAIMS ADJUDICATING.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 14:00:15",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41732901",
+        "description": "image viewer is not working, keeps giving error\n\nProduct entered by customer: image viewer",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 14:18:54",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41733605",
+        "description": "Image viewer in IRIS is not working, affecting other consulting pharmacists.\n\nProduct entered by customer: Image viewer in IRIS",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 14:29:47",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41734092",
+        "description": "Iamge viewer not working.",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 14:36:58",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41734558",
+        "description": "\uf0a7\t\u201cPlease assign to IRIS-Pharmacy Central Non Prod\u201d\r\nRightFax  is getting transmission error message for most faxes\n\nProduct entered by customer: \uf0a7\t\u201cPlease assign to IRIS-Pharmacy Central Non Prod\u201d\r\nRightFax",
+        "short_description": "IRIS (Integrated Rx Information System), RightFax  is getting transmission error message for most faxes",
+        "u_error_symptoms": "RightFax  is getting transmission error message for most faxes\r\n",
+        "sys_created_on": "2025-02-25 14:43:42",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41734968",
+        "description": "Please close aged orders in IRIS \r\n781848106-1\tCannot find tracking number but viewed camera and order did leave our facility. Package ID# is 0990590781848106-101\r\n782414021-1\tCannot find tracking number but viewed camera and order did leave our facility. Package ID# is 0952050782414021-101\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - Please close aged orders in IRIS ",
+        "u_error_symptoms": "Please close aged orders in IRIS \r\n781848106-1\tCannot find tracking number but viewed camera and order did leave our facility. Package ID# is 0990590781848106-101\r\n782414021-1\tCannot find tracking number but viewed camera and order did leave our facility. Package ID# is 0952050782414021-101",
+        "sys_created_on": "2025-02-25 14:50:03",
+        "tags": [
+            [
+                "Order Issue",
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41735100",
+        "description": "IRIS image viewer is not working.  It shows \"Welcome to IBM content Navigator\"\n\nProduct entered by customer: IRIS",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 14:52:19",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41735360",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod. In TS02 I am getting an MRD hold that states \"REST Service returned WLB error with no error description. Check SOA logs for details. MSG_CONTROL_ID: 20250225100226874978\" when creating an order.\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) -  In TS02 I am getting an MRD hold that states \"REST Service returned WLB error with no error description. ",
+        "u_error_symptoms": " In TS02 I am getting an MRD hold that states \"REST Service returned WLB error with no error description. ",
+        "sys_created_on": "2025-02-25 14:55:59",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41735494",
+        "description": "Image viewer not working.\n\nProduct entered by customer: Image Viewer",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "503: Site Temporarily Out of Service",
+        "sys_created_on": "2025-02-25 14:58:05",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41736734",
+        "description": "COMMUNICATION ERROR MESSAGE",
+        "short_description": " IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 15:13:17",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41736921",
+        "description": "IMAGE VIEWER FOR IRIS NOT WORKING",
+        "short_description": "IRIS Image Viewer issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 15:15:39",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41736970",
+        "description": "Iris image viewer is down. I am unable to get the image viewer open at this time. It is the IBM splash box only.\n\nProduct entered by customer: Iris Image Viewer",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 15:16:12",
+        "tags": [
+            [
+                "Image Viewer",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41737338",
+        "description": "the image viewer will not open",
+        "short_description": "IRIS Image Viewer won't open",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 15:21:22",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41737345",
+        "description": "I'm unable to login to IRIS ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "I'm unable to login to IRIS ",
+        "sys_created_on": "2025-02-25 15:21:27",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41737566",
+        "description": "Image viewer is not loading any content. I cleared cache already but it is still only loads a blank white screen.\n\nProduct entered by customer: ",
+        "short_description": "Image Viewer not loading ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 15:25:07",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41738237",
+        "description": "ORACLE /IRIS IMAGE VIEWER IS NOT WORKING.\r\nWas working with no issues this morning. At around 650am PST it stopped working.  \r\nOpening Image view from oracle does populate an IBM content navigator window but nothing displays. It initially requested a log in, I signed in with my MS id information which failed. Now when i open image view its just a blank screen not even a log in option. Several agents from my team are also experiencing this same issue\n\nProduct entered by customer: oracle/iris image viewer",
+        "short_description": "Self Service Ticket - Image viewer",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 15:36:38",
+        "tags": [
+            [
+                "Latency",
+                "User Login",
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41738795",
+        "description": "I am trying place an order and I have my SME helping me but the status on her side and status on my side is different",
+        "short_description": "IRIS (Integrated Rx Information System) - Account status not changing when refreshing",
+        "u_error_symptoms": "Account status not changing when refreshing",
+        "sys_created_on": "2025-02-25 15:46:16",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41736785",
+        "description": "ImageViewer for IRIS issues\r\nUser Restarted and still getting error pop up",
+        "short_description": "KS950 - ImageViewer for IRIS issues",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 15:47:31",
+        "tags": [
+            [
+                "Errors",
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41739376",
+        "description": "XXIRIS_US6655827_SOF_NOTE_SWITCH_PF is OFF",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 15:56:02",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41741452",
+        "description": "trying to get into an application called IRIS\r\nlogin verification failed\r\ndid a password reset but did not send an email",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": " Unable to Login",
+        "sys_created_on": "2025-02-25 16:40:44",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41741537",
+        "description": "Issue where some IRIS TEXT Opt-INs are not being passed to Salesforce (vendor); we have identified thousands of phone numbers under that category (see attached file\n\nProduct entered by customer: ProComms",
+        "short_description": "IRIS (Integrated Rx Information System) - Issue where some IRIS TEXT Opt-INs are not being passed to Salesforce (vendor); we have identified thousands of phone numbers under that category (see attached file",
+        "u_error_symptoms": "Issue where some IRIS TEXT Opt-INs are not being passed to Salesforce (vendor); we have identified thousands of phone numbers under that category (see attached file\r\n",
+        "sys_created_on": "2025-02-25 16:42:20",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41741976",
+        "description": "User was unable to access IRIS password needs to be reset.",
+        "short_description": "Unable to access IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 16:51:09",
+        "tags": [
+            [
+                "Launch Issues",
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41742056",
+        "description": "User is unable to start IRIS. When clicking on the link to start IRIS, the JAVA splash screen appears but IRIS does not start\n\nProduct entered by customer: Java: RCO_Applications",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 16:51:51",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41742310",
+        "description": "I'm  Unable to Login to login to IRIS not loading INC41724462 ",
+        "short_description": "IRIS (Integrated Rx Information System) slow not updating the password INC41724462 ",
+        "u_error_symptoms": "please contact your administrator",
+        "sys_created_on": "2025-02-25 16:57:21",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41743298",
+        "description": "I'm unable to login to IRIS. I did the restart and try to clear the cache but still getting the same issue.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Login failed. Please verify login information or contact the system administration.",
+        "sys_created_on": "2025-02-25 17:22:07",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41743900",
+        "description": "My computer froze. Cannot find my id. ",
+        "short_description": "IRIS (Integrated Rx Information System) - frozen",
+        "u_error_symptoms": "Froze",
+        "sys_created_on": "2025-02-25 17:37:08",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41744004",
+        "description": "IRIS would not let me enter certain drugs despite restarting program, clearing cache, and using generic. I did a reset of the entire computer and it worked. \r\n\r\nNO ADDITIONAL HELP IS NEEDED THIS IS JUST TO RECEIVE TICKET INFORMATION\n\nProduct entered by customer: ",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 17:40:23",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41744266",
+        "description": "iris is blacked out, and ive had to restart several times today already - now screen is black and i am unable to get it back",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 17:47:20",
+        "tags": [
+            [
+                "Latency",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41744296",
+        "description": "iris keeps freezing  and unable to close out through task manager to finish orders ",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 17:48:14",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41745030",
+        "description": "Iris asked me to make a new password then when I go in to log in it dosent accept my new password and also dosent accept my old password",
+        "short_description": "IRIS (Integrated Rx Information System) - Password Reset",
+        "u_error_symptoms": "Password Reset",
+        "sys_created_on": "2025-02-25 18:09:39",
+        "tags": [
+            [
+                "Password"
+            ]
+        ]
+    },
+    {
+        "number": "INC41745625",
+        "description": "My iris, when I trying to save a medication. It keep running and running in circles",
+        "short_description": "IRIS (Integrated Rx Information System) - stuck on loading ",
+        "u_error_symptoms": "stuck on laoding ",
+        "sys_created_on": "2025-02-25 18:27:22",
+        "tags": [
+            [
+                "Launch Issues",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41746112",
         "description": "IRIS password issue",
-        "action": "Unable to login in was instructed to change password and will not accept",
-        "open_time": "2025-02-03T17:19:26.000Z",
+        "short_description": "IRIS password issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 18:43:57",
         "tags": [
             [
                 "Password"
@@ -342,131 +15283,284 @@ data = {
         ]
     },
     {
-        "in_id": "INC41355024",
-        "description": "IRIS (Integrated Rx Information System) - Unable to Login",
-        "action": "So ive been reassignment for 4 months and so i cant get into iris or genesys. i dont know if this gets deleted . Im using thoses systems. well I havent logged in since october so it says contact your administrator. I havent had to to use those to accept occations.",
-        "open_time": "2025-02-03T13:39:00.000Z",
+        "number": "INC41746732",
+        "description": "IRIS is not  receiving inventory transactions from Procure to Pay",
+        "short_description": "IRIS (Integrated Rx Information System) -IRIS is not  receiving inventory transactions from Procure to Pay",
+        "u_error_symptoms": "IRIS is not  receiving inventory transactions from Procure to Pay",
+        "sys_created_on": "2025-02-25 19:03:00",
         "tags": [
             [
-                "User Login"
+                "?"
             ]
         ]
     },
     {
-        "in_id": "INC41359822",
-        "description": "IRIS (Integrated Rx Information System) - Launch Issues",
-        "action": "I am unable to login to IRIS, I changed my password earlier, now it's not allowing me",
-        "open_time": "2025-02-03T15:41:41.000Z",
+        "number": "INC41747078",
+        "description": "MY JAVA WON['T COME UP I DID CACHE",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 19:13:33",
         "tags": [
             [
-                "Launch Issues"
+                "Errors"
             ]
         ]
     },
     {
-        "in_id": "INC41356200",
-        "description": "IRIS (Integrated Rx Information System) - Unable to Login",
-        "action": "Unable to login to Oracle",
-        "open_time": "2025-02-03T14:15:45.000Z",
+        "number": "INC41747548",
+        "description": "Please assign to \"IRIS-Pharmacy Central Non Prod\" ServiceNow Group - IRIS TS02 Database - DBA Team - Same issue as Prod with ELR POD being down. DBA team needs to resolve same way they resolve Production.",
+        "short_description": "Please assign to \"IRIS-Pharmacy Central Non Prod\" ServiceNow Group - IRIS TS02 Database - DBA Team - Same issue as Prod with ELR POD being down",
+        "u_error_symptoms": "Please assign to \"IRIS-Pharmacy Central Non Prod\" ServiceNow Group - IRIS TS02 Database - DBA Team - Same issue as Prod with ELR POD being down",
+        "sys_created_on": "2025-02-25 19:29:18",
         "tags": [
             [
-                "User Login"
+                "User Request"
             ]
         ]
     },
     {
-        "in_id": "INC41362227",
-        "description": "IRIS - unable to log in",
-        "action": "im having trouble getting into citrix  showing my password is incorrect \r\n\" 2nd concern - unable to log in to IRIS",
-        "open_time": "2025-02-03T16:43:12.000Z",
+        "number": "INC41747618",
+        "description": "When initiating clarification faxes from Pharmacy Central from beta production environment, MD comm is not created getting on the IRIS side sporadically which results in faxes not being sent.\n\nProduct entered by customer: IRIS\r\nAssign to following workgroup: MSA ORACLE EBS (RXS) \u2013 SPT",
+        "short_description": "IRIS - MD comm is not created ",
+        "u_error_symptoms": "MD comm is not created ",
+        "sys_created_on": "2025-02-25 19:31:09",
         "tags": [
             [
-                "User Login"
+                "User Request"
             ]
         ]
     },
     {
-        "in_id": "INC41362365",
-        "description": "Selected Issue: IRIS",
-        "action": "PROMTED TO CHANGE PASSWORD IT KEEPS GIIVING AN ERROR SAID IT ACCEPTED ON PASSWORD WHEN I TRIED TO LOGIN  IT DID NOT ACCEPT IT AND NOT TAKING ANY PASSWORDS THAT I TRY TO USE THAT MEET THE CRITERIA",
-        "open_time": "2025-02-03T16:47:25.000Z",
+        "number": "INC41747652",
+        "description": "There was a request to have Support look further into a non-replicable defect - DE781600 -  - please review the code for the following to determine the RCA. \r\nOLD INC - INC31579238  ",
+        "short_description": "There was a request to have Support look further into a non-replicable defect - DE781600 - ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 19:35:00",
         "tags": [
             [
-                "Password"
+                "?"
             ]
         ]
     },
     {
-        "in_id": "INC41364010",
-        "description": "IRIS (Integrated Rx Information System) - Unable to Login",
-        "action": "I cannot login in IRIS",
-        "open_time": "2025-02-03T17:33:57.000Z",
+        "number": "INC41748318",
+        "description": "Since 9 am this morning my team has been unable to recall orders in IRIS. Orders that were recalled around 9am never came back to be fixed. They ended up shipping out. Typically recalling an order takes 5-10 minutes when its Aps in process status, today however, no order seem to be recalling. The status shows recall was submitted.",
+        "short_description": "IRIS (Integrated Rx Information System) - Since 9 am this morning my team has been unable to recall orders in IRIS. Orders that were recalled around 9am never came back to be fixed. They ended up shipping out. Typically recalling an order takes 5-10 ",
+        "u_error_symptoms": "Since 9 am this morning my team has been unable to recall orders in IRIS. Orders that were recalled around 9am never came back to be fixed. They ended up shipping out. Typically recalling an order takes 5-10 minutes when its Aps in process status, today however, no order seem to be recalling. The status shows recall was submitted.",
+        "sys_created_on": "2025-02-25 19:55:33",
         "tags": [
             [
-                "User Login"
+                "Order Issue"
             ]
         ]
     },
     {
-        "in_id": "INC41355845",
-        "description": "IRIS - cannot sign in for a week",
-        "action": "I HAVE BEEN TRYING TO SIGN INTO IRIS FOR A WEEK NOW MY SUP SAYS I SHOULD STILL HAVE ACCESS BUT SYSTEM PROMPT ME TO CHANGE MY PASSWORD IT WORKED ONCE BUT I CANT SIGN IN",
-        "open_time": "2025-02-03T14:05:46.000Z",
+        "number": "INC41748462",
+        "description": "doc id 1284011237 on doc set  7705907486 needs to be on doc set 7705907484",
+        "short_description": "doc set merge",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 20:03:29",
         "tags": [
             [
-                "User Login"
+                "?"
             ]
         ]
     },
     {
-        "in_id": "INC41362614",
-        "description": "IRIS (Integrated Rx Information System) - Launch Issues",
-        "action": "Hi I I have to enter my systems through Genesis and I was trying to get into.",
-        "open_time": "2025-02-03T16:54:26.000Z",
+        "number": "INC41748777",
+        "description": "constant mouse focus today",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 20:10:41",
         "tags": [
             [
-                "Launch Issues"
+                "?"
             ]
         ]
     },
     {
-        "in_id": "INC41363973",
-        "description": "IRIS (Integrated Rx Information System) - Launch Issues",
-        "action": "having trouble with iris, every time I have a call, need to have reversal in the claim it stuck and freeze, to use it need to force close when I reopen it works",
-        "open_time": "2025-02-03T17:32:43.000Z",
+        "number": "INC41748870",
+        "description": "IRIS\r\nplease put IRIS threshold check for all HDP orgs on hold for 3 hours\r\norg 3, 7, 8, 32, 33, 34, 41|\r\nassign to Sushil Saxena Team please\n\nProduct entered by customer: ",
+        "short_description": "XXIRIS OM QMSI Threshold Check",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 20:13:54",
         "tags": [
             [
-                "Launch Issues"
+                "Alert",
+                "User Request",
+                "nonsense"
             ]
         ]
     },
     {
-        "in_id": "INC41355914",
-        "description": "IRIS (Integrated Rx Information System) - Unable to Login",
-        "action": "I am unable to login to IRIS my password didn't push through.",
-        "open_time": "2025-02-03T14:07:50.000Z",
+        "number": "INC41749374",
+        "description": "Iris lagging and spinning during calls.  occasionally has to be shut down and reopened to stop spinning. ",
+        "short_description": "IRIS issues",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 20:30:50",
         "tags": [
             [
-                "User Login"
+                "Latency",
+                "Errors",
+                "Crash"
             ]
         ]
     },
     {
-        "in_id": "INC41358410",
-        "description": "Selected Issue: OMNI Genesys (WWE)",
-        "action": "Submitting ticket request due to outage time being over 10 minutes: System froze and Genesys call error where call details and call would not release from system. restarted PC - VPN timeout causing delay rejoining back online.",
-        "open_time": "2025-02-03T15:09:36.000Z",
+        "number": "INC41749843",
+        "description": "I am having issue with the IRIS Application.",
+        "short_description": "IRIS (Integrated Rx Information System) - User's Account information was not coming up in the IRIS Application.",
+        "u_error_symptoms": "User's Account information was not coming up in the IRIS Application.",
+        "sys_created_on": "2025-02-25 20:47:42",
         "tags": [
             [
-                "User Requests"
+                "User Login",
+                "Errors"
             ]
         ]
     },
     {
-        "in_id": "INC41361317",
-        "description": "Selected Issue: IRIS",
-        "action": "hff iris freeze",
-        "open_time": "2025-02-03T16:20:07.000Z",
+        "number": "INC41750352",
+        "description": "getting error A/Central and Iris not loading, both programs",
+        "short_description": "Advocate Central Error / IRIS freezing",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 21:05:59",
+        "tags": [
+            [
+                "Launch Issues",
+                "Latency",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41750477",
+        "description": "Please run activate skill set Wed night\r\nIRIS Skill Set: Rems Verification Queue\r\nRemove/Delete: Hold REMS Rph Consult Hold - Exclude",
+        "short_description": "Run Activate Skill Set Wednesday night 02/26 @10pm cst Purge N",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 21:22:49",
+        "tags": [
+            [
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41750986",
+        "description": "I have working with IRIS and have been having issues ",
+        "short_description": "IRIS (Integrated Rx Information System) - Information does not match the data being inputted",
+        "u_error_symptoms": "Iris has display issues/",
+        "sys_created_on": "2025-02-25 21:27:59",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41751261",
+        "description": "IRIS shows outgoing texts for Refill Reminders and patient claims they have not received any",
+        "short_description": "IRIS   shows outgoing texts for Refill Reminders and patient claims they have not received any",
+        "u_error_symptoms": "IRIS shows outgoing texts for Refill Reminders and patient claims they have not received any",
+        "sys_created_on": "2025-02-25 21:37:01",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41751325",
+        "description": "Orders that are being recalled are not being recalled and stuck in APS\n\nProduct entered by customer: MSA ORACLE EBS (RXS) \u2013 SPT",
+        "short_description": "Orders that are being recalled are not being recalled and stuck in APS  Product entered by customer: MSA ORACLE EBS (RXS) \u2013 SPT",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 21:39:25",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41751467",
+        "description": "want to add users to lookup table XXIRIS_ADDRESS_UPDATION_USERS\r\nJennifer Presley                             jpresl3\r\nJessica Herrera                             jherr13\r\nElizabeth Garcia                          egarc45\r\nTina Grudman                               tgrudma\r\nNina Kwak                                       nkwak\r\nRobin Vail                                         rvail2\r\n",
+        "short_description": "want to add users to lookup table XXIRIS_ADDRESS_UPDATION_USERS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 21:47:26",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41751698",
+        "description": "Hi i needed an order to be updated in IRIS O#782262177-1 with tracking number 1ZC6R5151300568459",
+        "short_description": "IRIS (Integrated Rx Information System) - Hi i needed an order to be updated in IRIS O#782262177-1 with tracking number 1ZC6R5151300568459",
+        "u_error_symptoms": "Hi i needed an order to be updated in IRIS O#782262177-1 with tracking number 1ZC6R5151300568459",
+        "sys_created_on": "2025-02-25 21:53:25",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41751896",
+        "description": "I AM GETTING INVALID NUMBER WHEN I GO INTO PT ORDER INFO AND WHEN I TRY TO CLOSE IRIS I GET A ERROR MESSAGE AS WELL. \r\n\r\nUninstalled java settings for KANA. Left java settings for PAS installed\r\nUpdated java from 411 to 421, reinstalled java settings for IRIS. Cleared edge cache, java cache, temp files, restarted pc.\r\nThe only error that seems to be remaining is the AST_INT_PROC_ERROR\r\nAdded IRIS triage info:\r\nSummary of the issue: I am getting error when going into the pt order info and when i try to go out \r\nError(s): invalid number, unable to perform query and asttmcom.ast-form-navigate\r\nWhat is the business impact due to this issue?:I need IRIS to take calls \r\nDetailed steps of the issue (Include screenshots, what you are doing in IRIS at the time of the issue, and what responsibility you are using.):\r\nWhat is supposed to happen if it was working correctly?: I should be able to look at orders in acc and close out with no pop up\r\nWorkaround (include screenshots):\r\nApprox start time of issue:4:00pm(cst)\r\nAny other details you feel may be helpful in finding a resolution: N/A\r\nAdvised Clavis to visit https://goto.optum.com/ViewMyTickets and add any account info to give examples in the protected information field\r\nEscalated to IRIS team",
+        "short_description": "IRIS - Errors entering into pt order info and unable to see booked orders",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 22:00:39",
+        "tags": [
+            [
+                "Order Issue",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41752018",
+        "description": "It is in relation to my IRIS application I could not do a price check and refill",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "It is in relation to my IRIS application I could not do a price check and refill",
+        "sys_created_on": "2025-02-25 22:04:48",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41752960",
+        "description": "my iris is froze when setting up advance order",
+        "short_description": "My iris is froze when setting up advance order",
+        "u_error_symptoms": "IRIS froze when setting up advance order",
+        "sys_created_on": "2025-02-25 22:51:17",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41753374",
+        "description": "I AM GETTING INVALID NUMBER WHEN I GO INTO PT ORDER INFO AND WHEN I TRY TO CLOSE IRIS I GET A ERROR MESSAGE AS WELL. \r\nINC41751896\r\nUninstalled java settings for KANA. Left java settings for PAS installed\r\nUpdated java from 411 to 421, reinstalled java settings for IRIS. Cleared edge cache, java cache, temp files, restarted pc.\r\nThe only error that seems to be remaining is the AST_INT_PROC_ERROR\r\nAdded IRIS triage info:\r\nSummary of the issue: I am getting error when going into the pt order info and when i try to go out \r\nError(s): invalid number, unable to perform query and asttmcom.ast-form-navigate\r\nWhat is the business impact due to this issue?:I need IRIS to take calls \r\nDetailed steps of the issue (Include screenshots, what you are doing in IRIS at the time of the issue, and what responsibility you are using.):\r\nWhat is supposed to happen if it was working correctly?: I should be able to look at orders in acc and close out with no pop up\r\nWorkaround (include screenshots):\r\nApprox start time of issue:4:00pm(cst)\r\nAny other details you feel may be helpful in finding a resolution: N/A\r\nAdvised Clavis to visit https://goto.optum.com/ViewMyTickets and add any account info to give examples in the protected information field\r\nEscalated to IRIS team",
+        "short_description": "IRIS - Errors entering into pt order info and unable to see booked orders",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 23:19:46",
+        "tags": [
+            [
+                "Order Issue",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41753522",
+        "description": "user said that she needs ticket no for documentation after performing troubleshooting due to delayed IRIS performance ",
+        "short_description": "IRIS - Delayed  Issue ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-25 23:31:14",
         "tags": [
             [
                 "Latency"
@@ -474,10 +15568,144 @@ data = {
         ]
     },
     {
-        "in_id": "INC41360543",
-        "description": "FLW - IRIS (Integrated Rx Information System) - Freezing",
-        "action": "I'm having an issue with my IRIS system",
-        "open_time": "2025-02-03T16:01:30.000Z",
+        "number": "INC41753972",
+        "description": "Hi i needed an order to be updated in IRIS O#783456290-1 with tracking number 1ZC6R5150100594452",
+        "short_description": "IRIS - needed an order to be update",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 00:07:37",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41754449",
+        "description": " Iris will not let me check Prices/Unable to place orders\r\n",
+        "short_description": " Iris will not let me check Prices/Unable to place orders",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 01:12:09",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41755133",
+        "description": "Please unlock IRISADMIN frontend id",
+        "short_description": "Please unlock IRISADMIN frontend id",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 03:57:51",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41755491",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod\r\n\r\nIssue  - XXIRIS Process Inbound eRx communications program is running with Inactive phase in TS02 env\r\n\r\nWe are facing issue after submitting XXIRIS Process Inbound eRx communications program. \r\n\r\nRequest ID \u2013 822595848\r\nPhase \u2013 Inactive\r\nStatus \u2013 No Manager\r\nEnv -TS02\r\n\r\nAs part of Pharmacy central regression , we need to create new Erx to validate Image Viewer cases. \r\nCurrently we are blocked due to this issue and need to complete regression today.\r\n\r\nCould you please help on this as soon as possible.\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - XXIRIS Process Inbound eRx communications program is running with Inactive phase in TS02 env",
+        "u_error_symptoms": "We are facing issue after submitting XXIRIS Process Inbound eRx communications program. ",
+        "sys_created_on": "2025-02-26 06:02:59",
+        "tags": [
+            [
+                "Alert"
+            ]
+        ]
+    },
+    {
+        "number": "INC41755512",
+        "description": "System did not apply a DUR Hold with a non-mail order med added via Clinical Data Request.\n\nProduct entered by customer: IRIS\r\nAssign to: MSA ORACLE EBS (RXS) \u2013 SPT",
+        "short_description": "IRIS  - System did not apply a DUR Hold with a non-mail order med added via Clinical Data Request.",
+        "u_error_symptoms": "System did not apply a DUR Hold with a non-mail order med added via Clinical Data Request.\r\n",
+        "sys_created_on": "2025-02-26 06:08:52",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41755822",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod.\r\nNeed IRIS Access for DV06 environment \r\n\r\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - Request or Update Access to IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "Need IRIS Access for DV06 environment \r\n",
+        "sys_created_on": "2025-02-26 07:50:07",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41756594",
+        "description": "I can't login to Iris.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 11:22:31",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41756809",
+        "description": "Medflow accounts stuck, Please assign to Assign to HDP-GROWTH-IBT-CAMUNDA-SPT, Abhishek Pandey",
+        "short_description": "HDP Growth IBT Camunda Application - Medflow accounts stuck, Please assign to Assign to HDP-GROWTH-IBT-CAMUNDA-SPT",
+        "u_error_symptoms": "Medflow accounts stuck, Please assign to Assign to HDP-GROWTH-IBT-CAMUNDA-SPT",
+        "sys_created_on": "2025-02-26 12:03:52",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41757261",
+        "description": "ASSIGN TO :ORX PCS SA-SPT \r\n\r\n<Protected Information was moved to secure confidential data field in the incident record>\r\n\r\nProduct entered by customer: ",
+        "short_description": "Orders not closed in IRIS",
+        "u_error_symptoms": "ASSIGN TO :ORX PCS SA-SPT \r\n",
+        "sys_created_on": "2025-02-26 12:54:55",
+        "tags": [
+            [
+                "Order Issue",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41757355",
+        "description": "Iris will not give me price checks and is doing abnormal holds when trying to process orders ",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 13:02:11",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41758089",
+        "description": "Med comm ID: \r\n5335603620\r\n5335694848\r\n5335694838\r\n5335694824--\r\n5335603576---\r\n5335694785---\r\n5335694852---\r\n\r\nNeed attached to doc set ID 7706020336\r\n\r\n\r\norder#785744024",
+        "short_description": "missing images ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 13:41:24",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41758228",
+        "description": "IRIS KEEPS FREEZING EVERY TIME I TRY TO MAKE NY CHANGES ",
+        "short_description": "IRIS freezing on account trying to remove autofill",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 13:46:54",
         "tags": [
             [
                 "Latency"
@@ -485,22 +15713,376 @@ data = {
         ]
     },
     {
-        "in_id": "INC41359989",
-        "description": "IRIS (Integrated Rx Information System) - Unable to Login",
-        "action": "I want to reset IRIS password.",
-        "open_time": "2025-02-03T15:46:25.000Z",
+        "number": "INC41758329",
+        "description": "IRIS Go-Live of HAZ KIT CTAG Config Change - US8149602 (PROCOMS-E-880)\r\nPlease update alert 68 and 69 queries. Please find them in attachment\n\nProduct entered by customer: ",
+        "short_description": "IRIS - Please update alert 68 and 69 queries. Please find them in attachment",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 13:51:21",
         "tags": [
             [
-                "User Login",
+                "Alert",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41759036",
+        "description": "I am having a hard time with IRIS, it is not allowing me to take payments",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to View Image or take Payments",
+        "u_error_symptoms": "Unable to View Image or take Payments",
+        "sys_created_on": "2025-02-26 14:15:33",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41758804",
+        "description": "Med comm ID: \r\n5335603620\r\n5335694848\r\n5335694838\r\n5335694824\r\n5335603576\r\n5335694785\r\n5335694852\r\n",
+        "short_description": "Need imaging payloads for below medocmm Ids",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 14:18:01",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41759150",
+        "description": "BOT given AITs in IRIS with the AIT form presenting inappropriately for wrong directions when the directions did NOT change",
+        "short_description": "BOT given AITs in IRIS for wrong directions erroneously",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 14:25:56",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41759878",
+        "description": "Requesting access to TS02\r\n\r\nMSID: mkirby16\r\nemail: michael.kirby@optum.com\r\n\r\nIRIS Role: Pharmacist",
+        "short_description": "Requesting access to TS02",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 14:41:32",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41759947",
+        "description": "order not closed in Iris",
+        "short_description": "Iris - order not closed ",
+        "u_error_symptoms": "order not closed in Iris",
+        "sys_created_on": "2025-02-26 14:44:13",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41760273",
+        "description": "I cant open the details for a patient ",
+        "short_description": "IRIS - I cant open the details for a patient ",
+        "u_error_symptoms": "I cant open the details for a patient ",
+        "sys_created_on": "2025-02-26 14:54:42",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41760312",
+        "description": "can not create  new account without freezing and errors ",
+        "short_description": "IRIS -can not create  new account without freezing and errors ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 14:56:09",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41760611",
+        "description": "im trying to fix this issue on my iris and i tried multiple times of restarting and its still the same ",
+        "short_description": "IRIS - Multiple Image Viewer Windows Opening",
+        "u_error_symptoms": "Request Processing Error",
+        "sys_created_on": "2025-02-26 15:05:32",
+        "tags": [
+            [
+                "Errors",
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41760662",
+        "description": "iris keeps showing me error messages when saving things as well as when it comes to the customer amt i cannot see it but other can and i keep getting error pop ups",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 15:06:50",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41760912",
+        "description": "iris kept freezing while working on an acct for a refill and update the address has to try 3 time to enter and it foroze each time was able to enter on the 4th try\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - kept freezing while working on an acct for a refill and update the address has to try 3 time to enter and it foroze each time was able to enter on the 4th try",
+        "u_error_symptoms": "kept freezing while working on an acct for a refill and update the address has to try 3 time to enter and it foroze each time was able to enter on the 4th try",
+        "sys_created_on": "2025-02-26 15:13:50",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41760982",
+        "description": "password reset",
+        "short_description": "IRIS password reset",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 15:15:55",
+        "tags": [
+            [
                 "Password"
             ]
         ]
     },
     {
-        "in_id": "INC41356967",
-        "description": "IRIS (Integrated Rx Information System) - Unable to Login",
-        "action": "I am unable to log in and unable to reset password",
-        "open_time": "2025-02-03T14:35:33.000Z",
+        "number": "INC41761162",
+        "description": "Need image for Adalimumab to be created on Ord#785744649 for Doc Set ID 7706025629, Med Comm Id 5335763130, Message Id EMAfd2cf1b0c1e843fc9c713e75a70f2039 and linked to Rx#459694437.\n\nProduct entered by customer: Rx Imaging\r\nAssign to following workgroup: TS DS IMG (RXS)-SPT",
+        "short_description": "RXS Imaging - Need image for Adalimumab to be created on Ord#785744649 for Doc Set ID 7706025629",
+        "u_error_symptoms": "Need image for Adalimumab to be created on Ord#785744649 for Doc Set ID 7706025629",
+        "sys_created_on": "2025-02-26 15:21:26",
+        "tags": [
+            [
+                "Image Viewer",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41761206",
+        "description": "Iris not responding",
+        "short_description": "Iris not responding",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 15:22:39",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41761460",
+        "description": "iris FROZE AND WOULD NOT ALLOW ME TO TAKE IT DOWN so I had to take down, bring up, finish Member request and then call her back to advise ALL fixed!",
+        "short_description": "IRIS (Integrated Rx Information System) - iris FROZE AND WOULD NOT ALLOW ME TO TAKE IT DOWN",
+        "u_error_symptoms": "iris FROZE AND WOULD NOT ALLOW ME TO TAKE IT DOWN",
+        "sys_created_on": "2025-02-26 15:30:39",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41761513",
+        "description": "I need access for IRIS TS02",
+        "short_description": "IRIS TS02 - Need access",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 15:32:09",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41761916",
+        "description": "order closed in wms",
+        "short_description": "Request for Help Desk support",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 15:45:03",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41762239",
+        "description": "In reference to INC41640795 a Datafix is needed to ensure that \r\n1) Customer Response is updated to Approved and \r\n2) Update the drop date if it is Null.\r\nAfter ad-hoc data fix, need recurring data fix until defect resolved",
+        "short_description": "Datafix Needed in Reference to INC41640795",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 15:58:52",
+        "tags": [
+            [
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41762491",
+        "description": "User indicates an image would be under  med comm ID\r\n\r\n5336856292\r\n\r\nIf there is an image can you please attach it to doc set ID 7706113400\r\n",
+        "short_description": "missing image ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 16:18:04",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41763113",
+        "description": "Iris keeps freezing or just spinning",
+        "short_description": "Iris keeps freezing or just spinning",
+        "u_error_symptoms": "Iris keeps freezing or just spinning",
+        "sys_created_on": "2025-02-26 16:20:41",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41763811",
+        "description": "Hi, Please help to load images for 1. WELLBUTRIN-XL TAB 300MG : ImageRequest: 7706026202:2EF5F0EF854C96E0E0639BBEC90A74FA with MD COMM ID: 5335717732 to DOCSET ID 7706026196\r\n2. BELSOMRA     TAB 10MG: ImageRequest: 7706026197:2EF5F0EF854496E0E0639BBEC90A74FA with MD COMM ID:5335629478 to DOCSET ID 7706026196",
+        "short_description": "Missing images /Docset merge",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 16:51:36",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41764262",
+        "description": "This ticket is to be worked on by ORX_dispensing_it_support_ ONLY. These orders have been delivered to the patients but are still stating APS in Process in Iris. All orders have been Force shipped and re-exported to host but that did not seem to help with the issue.\n\nProduct entered by customer: ",
+        "short_description": "ORx Tri-PE B (Mesa) - These orders have been delivered to the patients but are still stating APS in Process in Iris",
+        "u_error_symptoms": "These orders have been delivered to the patients but are still stating APS in Process in Iris.",
+        "sys_created_on": "2025-02-26 16:54:42",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41765124",
+        "description": "Not seeing the dashboard in IRIS. I cleared edge cache & JAVA & then restarted the pc\n\nProduct entered by customer: Iris",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "Not seeing the dashboard in IRIS. I cleared edge cache & JAVA & then restarted the pc",
+        "sys_created_on": "2025-02-26 17:22:43",
+        "tags": [
+            [
+                "Launch Issues",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41765564",
+        "description": "IRIS locking up, error when trying to reopen.",
+        "short_description": "Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 17:37:13",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41765706",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod.\r\n\r\n\r\nNeed IRIS Access for TS03 environment \r\nEMP ID - 000914451\r\nMSID - cgadipe1\r\nEmail ID - chandrashekar_gadipelli@optum.com\r\nResponsibilities: OM Super User CAG Maintenance Pharmacist Specialty pharmacists Drug File Maintenance PO Super User\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - Need IRIS Access for TS03 environment ",
+        "u_error_symptoms": "Please assign to IRIS-Pharmacy Central Non Prod.\r\n",
+        "sys_created_on": "2025-02-26 17:41:31",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41765757",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod.\r\n\r\n\r\nNeed IRIS Access for TS03 environment \r\nEMP ID - 002293638\r\nMSID - as183\r\nEmail ID - anantharaaman_s@optum.com\r\nResponsibilities: OM Super User CAG Maintenance Pharmacist Specialty pharmacists Drug File Maintenance PO Super User\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - Need IRIS Access for TS03 environment ",
+        "u_error_symptoms": "Need IRIS Access for TS03 environment ",
+        "sys_created_on": "2025-02-26 17:43:16",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41765800",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod.\r\n\r\n\r\nNeed IRIS Access for TS03 environment \r\nEMP ID - 002181619\r\nMSID - Schoutap\r\nEmail ID - srikanth_choutapally@optum.com\r\nResponsibilities: OM Super User CAG Maintenance Pharmacist Specialty pharmacists Drug File Maintenance PO Super User\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - Need IRIS Access for TS03 environment ",
+        "u_error_symptoms": "Need IRIS Access for TS03 environment ",
+        "sys_created_on": "2025-02-26 17:45:14",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41765985",
+        "description": "IRIS window viewer",
+        "short_description": "IRIS Image Viewer - IRIS window viewer",
+        "u_error_symptoms": "keep getting multple windows for image viewer",
+        "sys_created_on": "2025-02-26 17:52:30",
+        "tags": [
+            [
+                "Image Viewer"
+            ]
+        ]
+    },
+    {
+        "number": "INC41766721",
+        "description": "Need Iris O#779584246 closed that is stuck in APS In Process.",
+        "short_description": "IRIS (Integrated Rx Information System) -  stuck in APS In Process.",
+        "u_error_symptoms": "tuck in APS In Process.",
+        "sys_created_on": "2025-02-26 18:16:40",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41766873",
+        "description": "Please escalate to IRIS team.  Account number 465704012 is getting internal error when trying to add payment card.  Not my system issue but just this account. ",
+        "short_description": "IRIS - Account number is getting internal error when trying to add payment card.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 18:22:32",
+        "tags": [
+            [
+                "User Login",
+                "Payment"
+            ]
+        ]
+    },
+    {
+        "number": "INC41766946",
+        "description": "submitted ticket IRIS keeps locking and freezing I backed out and logged off reboot and when i log back in it tells me the files are being worked on by me and I cant access or it will lock? Everything goes around and around to process but either never finishes the circle of death or it never processes it stops and does not finish",
+        "short_description": "(OBO) - Selected Issue: IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 18:25:20",
         "tags": [
             [
                 "User Login"
@@ -508,42 +16090,48 @@ data = {
         ]
     },
     {
-        "in_id": "INC41353280",
-        "description": "IRIS (Integrated Rx Information System) - Unable to Login",
-        "action": "I tried to reset my password unable to login...",
-        "open_time": "2025-02-03T11:41:20.000Z",
+        "number": "INC41767181",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod.\r\n\r\n\r\nNeed IRIS Access for TS03 environment \r\nEMP ID - 002288319\r\nMSID - ssin1307\r\nEmail ID - sachindhrum_singh@optum.com\r\nResponsibilities: OM Super User CAG Maintenance Pharmacist Specialty pharmacists Drug File Maintenance PO Super User\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - Need IRIS Access for TS03 environment ",
+        "u_error_symptoms": "Need IRIS Access for TS03 environment ",
+        "sys_created_on": "2025-02-26 18:34:11",
         "tags": [
             [
-                "User Login",
-                "Password"
+                "?"
             ]
         ]
     },
     {
-        "in_id": "INC41356291",
-        "description": "IRIS (Integrated Rx Information System) - IRIS - unable to reset my password.",
-        "action": "IRIS - unable to reset my password.",
-        "open_time": "2025-02-03T14:18:29.000Z",
+        "number": "INC41767650",
+        "description": "issues with Iris hanging",
+        "short_description": "issues with Iris hanging",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 18:52:05",
         "tags": [
             [
-                "Password"
+                "Latency"
             ]
         ]
     },
     {
-        "in_id": "INC41352824",
-        "description": "Gryphon First Run for 5000 records transfer",
-        "action": "Update Alert 301 query to run Gryphon First run for 5000 records.\r\n\r\nRun the Request Set to transfer files to Gryphon\r\nRequest Set:  \r\nParameters: \r\nGryphon Reassigned Outbound\r\nGryphon Litigators Outbound",
-        "open_time": "2025-02-03T10:30:58.000Z",
+        "number": "INC41767871",
+        "description": "The task button from the DUR screen does not display relevant task information needed to easily review DUR\u2019s. It appears the logic is set to display the \u201cOM RPh\u201d tasks related to DURs since this is what HDP uses. Since \u201cSP RPH DUR\u201d has been added for the SMS side it does not show on the task screen even though it is relevant to DUR and would benefit the clarifying RPh. Display all also shows nothing be that relevant to dur or not.\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - The task button from the DUR screen does not display relevant task information needed to easily review DUR's",
+        "u_error_symptoms": "The task button from the DUR screen does not display relevant task information needed to easily review DUR's",
+        "sys_created_on": "2025-02-26 18:58:28",
         "tags": [
-            "?"
+            [
+                "User Request",
+                "nonsense"
+            ]
         ]
     },
     {
-        "in_id": "INC41353257",
-        "description": "IRIS (Integrated Rx Information System) - Unable to Login",
-        "action": "I am unable to login IRIS",
-        "open_time": "2025-02-03T11:37:20.000Z",
+        "number": "INC41769030",
+        "description": "IRIS - unable to login ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to login ",
+        "sys_created_on": "2025-02-26 19:40:47",
         "tags": [
             [
                 "User Login"
@@ -551,13 +16139,473 @@ data = {
         ]
     },
     {
-        "in_id": "INC41360307",
-        "description": "Need to have 'Cag Maintenance responsibility' resposibility in DV02",
-        "action": "Need to have 'Cag Maintenance responsibility' resposibility in DV02 please\r\n\r\nMSID: horella\r\nEMP ID: 002094481",
-        "open_time": "2025-02-03T15:54:36.000Z",
+        "number": "INC41769649",
+        "description": "Iris - Freezes - Unable to navigate - Genesys also  ",
+        "short_description": "Iris - Freezes - Unable to navigate - Genesys also  ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 20:08:12",
         "tags": [
             [
-                "User Requests"
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41770435",
+        "description": "Every morning I get a message that something called endpoint is uninstalling, then I get one that says the uninstallation has been completed. After that I when I log into Genesys Workspace I get a message that states that my internet is not supported. At some point during the day I will get a call that disconnects but the information will not leave my screen and close out at the end of the day I have to force workspace to close. ",
+        "short_description": "Genesys connection issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 20:27:56",
+        "tags": [
+            [
+                "Latency",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41771942",
+        "description": "Faxback Images viewable in md comm, but not getting linked to respective SOFs ",
+        "short_description": "Faxback Images viewable in md comm, but not getting linked to respective SOFs ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 21:32:00",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41772557",
+        "description": "on a cll iris froze while in hff/pip tab",
+        "short_description": "on a cll iris froze while in hff/pip tab",
+        "u_error_symptoms": "on a cll iris froze while in hff/pip tab",
+        "sys_created_on": "2025-02-26 21:51:59",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41772675",
+        "description": "XXIRIS SFTP To Gateway                             | XXIRIS_OB_DIALER, OUTBOUND, o857007210.out,  | E                                                              \r\n                                                                     /db1000/app/oracle/rxeprr/apps/conc/out/,                                                                     \r\n                                                                     UHS_INPUT_CCPR                    \r\n\r\nHI Deepak, Please assign resource for this ticket. Thanks!                                                                             \r\n",
+        "short_description": "Daily 4 to 6 FTP programs are failing. Need to check RCA and Fix. ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-26 21:58:51",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41775170",
+        "description": "Order needs to be closed in IRIS",
+        "short_description": "Order needs to be closed in IRIS - 785792778",
+        "u_error_symptoms": "Order needs to be closed in IRIS",
+        "sys_created_on": "2025-02-27 01:37:14",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41775222",
+        "description": "From: Sangston, Stephen F <stephen.sangston@optum.com> \r\nSent: Friday, December 6, 2024 12:47 PM\r\nTo: IRIS System Administrators <OptumRx_IRIS_SystemAdministrators@optum.com>\r\nCc: Jett, Amanda R <amanda.r.jett@optum.com>\r\nSubject: Potential 2025 clone for TS03\r\n \r\nGood afternoon everyone and Happy Friday! I know we are only in early December, but wanted to put feelers out regarding a possible clone of production for TS03. Due to operations peak season needs, we would likely be looking at March, but wanted to get your preliminary thoughts on feasibility. Thank you!\r\n \r\n",
+        "short_description": " 2025 clone for TS03",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 01:54:30",
+        "tags": [
+            [
+                "Alert",
+                "User Request",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41775651",
+        "description": "Incident has been created as below files are not moved from respective paths for mentioned hours from Azure. FileName : CEP2_DNC_20250226.txt.camelLock, FilePath : /mnt/cep2azure/CEP_AZURE_SOURCE_DATA/PRD/WIP/CEP2_FL_IRIS_DONT_CALL_AND_EMAIL_AZ_0.1/CEP2_DNC_20250226.txt.camelLock, Hours : 7.  Kindly check the file activity",
+        "short_description": "File Not moving in Azure :: WIP/CEP2_FL_IRIS_DONT_CALL_AND_EMAIL_AZ_0.1",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 04:00:05",
+        "tags": [
+            [
+                "User Request",
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41775776",
+        "description": "EPE checkouts to be performed after deployment.",
+        "short_description": "Deployment Change - CHG2627863 - EPE 25.2.2 release",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 04:32:20",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41776120",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod.\r\n\r\n\r\nNeed IRIS Access for TS03 environment \r\nEMP ID - 002296421\r\nMSID - aadilap\r\nEmail ID - aysath_adilapa@optum.com\r\nResponsibilities: OM Super User CAG Maintenance Pharmacist Specialty pharmacists Drug File Maintenance PO Super User\n\nProduct entered by customer: ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to find issue for IRIS (Integrated Rx Information System)",
+        "u_error_symptoms": "Please assign to IRIS-Pharmacy Central Non Prod.",
+        "sys_created_on": "2025-02-27 06:01:23",
+        "tags": [
+            [
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41776128",
+        "description": "Please assign to IRIS-Pharmacy Central Non Prod.\r\n\r\n\r\nNeed IRIS Access for TS03 environment \r\nEMP ID - 002241446\r\nMSID - buppala\r\nEmail ID - bhanuprakash_uppala@optum.com\r\nResponsibilities: OM Super User CAG Maintenance Pharmacist Specialty pharmacists Drug File Maintenance PO Super User\n\nProduct entered by customer: ",
+        "short_description": "Self Service Ticket",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 06:02:31",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41777244",
+        "description": "\nThe kafka client certificate orx-pharmac142efab3e57ac03f (rg-pharmacy-central-kafka-np-d738692/hcc-dataplatform-certificate-v1/orx-pharmac142efab3e57ac03f) has been manually renewed via HCP Console.\nYour new certificate will expire on Fri, 27 Feb 2026 10:00:43 UTC.\nThe new certificate download information has been sent to: aditya_puri@optum.com, deepak_varshney1@optum.com, gaurav_sahu@optum.com, gourav_gujral@optum.com, govindarao_g@optum.com, muthu_thirumeniramanathan@optum.com, orx_pc_devops@ds.uhc.com, prashant.mangidkar@optum.com, sabyasachi.sarma@optum.com, sandeep.aragu@optum.com, satya.chundru@optum.com, sowmya_surisetti@optum.com.\nA renewal email and INC will be sent around Sun, 28 Dec 2025 14:00:43 UTC.\nPlease update all uses of this certificate immediately with the newly sent certificate to avoid any expiration resulting in downtime for your application(s).\n\t",
+        "short_description": "Kafka Certificate Renewal",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 10:01:16",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41777522",
+        "description": "PRB1443966 COB hold issue . we  need to check roles mapped in IRIS prod. please guide us.KIndly share Prod SharePoint xamls to map the code and logs and provide Iris credentials to compare all the favorites mapped.",
+        "short_description": "PRB1443966 COB hold issue . we  need to check roles mapped in IRIS prod. please guide us.KIndly share Prod sharepoint xamls to map the code and logs and provide Iris credentials to compare all the favorites maaped.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 10:46:42",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41777654",
+        "description": "Validate and update xxiris_con table",
+        "short_description": "Validate and update xxiris_con table",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 11:07:59",
+        "tags": [
+            [
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41777710",
+        "description": "2 + days aged orders need to be cleared in WMS and Iris please send to ORx_Dispensing_IT_Support <OptumRx_Dispensing_IT_Support_DL@ds.uhc.com> orders  784777313 784172568 delivered, 784864546 ,785356820 in transit",
+        "short_description": "ORx Pharmacy Control System - 2 + days aged orders need to be cleared in WMS and Iris",
+        "u_error_symptoms": "2 + days aged orders need to be cleared in WMS and Iris",
+        "sys_created_on": "2025-02-27 11:16:01",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41778284",
+        "description": "Good morning- Please look in to all order that I have attached file , all order are picked status in IRIS and ship set different in order admin , please look in to and assist on closing in IRIS. thank you!",
+        "short_description": "IRIS - Please look in to all order that I have attached file , all order are picked status in IRIS and ship set different in order admin ,",
+        "u_error_symptoms": "Please look in to all order that I have attached file , all order are picked status in IRIS and ship set different in order admin , please look in to and assist on closing in IRIS.",
+        "sys_created_on": "2025-02-27 12:27:53",
+        "tags": [
+            [
+                "Order Issue",
+                "User Request"
+            ]
+        ]
+    },
+    {
+        "number": "INC41778508",
+        "description": "Need access to IRIS  TS02 Environment with Pharmacist role.\r\n\r\n    a. Please assign to \"IRIS-Pharmacy Central Non Prod\" ServiceNow Group\r\n    b. Application - IRIS\r\n\r\nProduct entered by customer: ",
+        "short_description": "Need access to IRIS TS02 Environment with Pharmacist role.",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 12:50:08",
+        "tags": [
+            [
+                "?"
+            ]
+        ]
+    },
+    {
+        "number": "INC41778529",
+        "description": "CH- Orders not closed in IRIS\n\nProduct entered by customer: IRIS",
+        "short_description": "CH- Orders not closed in IRIS",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 12:51:38",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41778577",
+        "description": "Need  help to login  to IRIS TS02  Environment with Pharmacist role.\r\n\r\n    I am getting below error message when I logged in to IRIS TS02\r\n\"Login failed. Please verify your login information or contact the system administrator.\"\r\n\r\nKindly fix this issue ASAP for project work.\r\n\r\n",
+        "short_description": "Not able to login into the  IRIS application TS02 environment ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 12:56:24",
+        "tags": [
+            [
+                "User Login",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41778722",
+        "description": "INC41758228\r\nERICA GARCIA",
+        "short_description": "IRIS freezing on account trying to remove autofill",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 13:08:17",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41778992",
+        "description": "I'm not able to login to my IRIS.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to login",
+        "sys_created_on": "2025-02-27 13:22:07",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41779748",
+        "description": "getting an error for IRIS app, your resources does not have a valid role assigned ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to open a window, lacks permission",
+        "u_error_symptoms": "your resources does not have a valid role assigned",
+        "sys_created_on": "2025-02-27 13:57:26",
+        "tags": [
+            [
+                "Launch Issues",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41779802",
+        "description": "unable to access IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Launch Issues",
+        "u_error_symptoms": "Receiving prompt to download frmservlet inside IRIS",
+        "sys_created_on": "2025-02-27 13:59:26",
+        "tags": [
+            [
+                "Launch Issues"
+            ]
+        ]
+    },
+    {
+        "number": "INC41779913",
+        "description": "need to close order in wms/iris",
+        "short_description": "Need to close order in wms/iris",
+        "u_error_symptoms": "need to close order in wms/iris",
+        "sys_created_on": "2025-02-27 14:04:26",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41779952",
+        "description": "Issue: Unable to login over IRIS, Unable to change the password.",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to reset the IRIS password.",
+        "sys_created_on": "2025-02-27 14:06:04",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41780920",
+        "description": "This is the fall out from the P1 on 02/24 \r\nNeed a query that shows the RXs that went out on 02/24 that did not ship with its intended paperwork \r\nneeds to list the following -\t\r\nMember first name\r\n-\tMember last name\r\n-\tRx  impacted\r\n-\tHDP or Specialty\r\n-\tDate Shipped\r\nplease see attached email and spread sheet\r\n",
+        "short_description": "Query request for orders that did not ship their intended paperwork  on 02/24 due to P1 ",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 14:43:23",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41781255",
+        "description": "Unable to load PH511 DSM\r\nhttp://dsmep0310/DSWeb/default.aspx",
+        "short_description": "PH511 DSM issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 14:51:21",
+        "tags": [
+            [
+                "User Request",
+                "Data Fix"
+            ]
+        ]
+    },
+    {
+        "number": "INC41781352",
+        "description": "@orx_dispensing_it_Support Only : Ticket was previously opened this order is currently showing shipped in PCS but it is still opened in IRIS. It is still showing up in the aging report. The ticket previously open: INC41633247\n\nProduct entered by customer: ",
+        "short_description": "Ticket was previously opened this order is currently showing shipped in PCS but it is still opened in IRIS",
+        "u_error_symptoms": "Ticket was previously opened this order is currently showing shipped in PCS but it is still opened in IRIS",
+        "sys_created_on": "2025-02-27 14:51:37",
+        "tags": [
+            [
+                "Order Issue"
+            ]
+        ]
+    },
+    {
+        "number": "INC41782998",
+        "description": "unable to login to IRIS",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": " Unable to Login",
+        "sys_created_on": "2025-02-27 15:44:19",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41783013",
+        "description": "Iris not applying rx consent note to office based medications when refill/new rx is received. Consent was previously documented per process; however, when MDO sent in refill/new rx- rx consent note was not applied allowing dialer calls to make outreach to patient who had previously provided duration consent for the 2025 benefit year.\n\nProduct entered by customer: Iris",
+        "short_description": "Iris not applying Rx Consent note automatically as intended for office based medications",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 15:44:57",
+        "tags": [
+            [
+                "nonsense"
+            ]
+        ]
+    },
+    {
+        "number": "INC41783412",
+        "description": "IRIS is frozen, again. Did a restart and cleared cache. Tried using IRIS again, frozen instantly. Cannot exit. Cannot task manager. Have to shut down entire system to close out. This has been an issue for about 2 weeks now. ",
+        "short_description": "IRIS freezing adding new member",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 15:57:02",
+        "tags": [
+            [
+                "Launch Issues",
+                "Latency",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41783520",
+        "description": "Unable to login to the MBRs account information, where the MBRs CC info is at. Keep getting this error \"Error Page\nYou have encountered an unexpected error. Please contact your System Administrator for assistance.\" Even after restarting IRIS.\n",
+        "short_description": "IRIS - Unable to login to the MBRs account information,",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 16:00:55",
+        "tags": [
+            [
+                "User Login",
+                "Errors"
+            ]
+        ]
+    },
+    {
+        "number": "INC41783673",
+        "description": "When I try to login to citrix enter my password it says incorrect password ",
+        "short_description": "IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "Unable to Login",
+        "sys_created_on": "2025-02-27 16:06:00",
+        "tags": [
+            [
+                "Password",
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41784022",
+        "description": "I' am putting my details on help me link but it states that \"unable to verify you\".",
+        "short_description": "IRIS - unable to verify user while login.",
+        "u_error_symptoms": "Unable to verify you.",
+        "sys_created_on": "2025-02-27 16:16:31",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41784914",
+        "description": "Unable to login on my iris...",
+        "short_description": " IRIS (Integrated Rx Information System) - Unable to Login",
+        "u_error_symptoms": "unable to login on my IRIS",
+        "sys_created_on": "2025-02-27 16:44:03",
+        "tags": [
+            [
+                "User Login"
+            ]
+        ]
+    },
+    {
+        "number": "INC41785221",
+        "description": "IRIS - lagging, random pop ups, random error message - PSC REQUEST, REFILL, ADDING/CHANGING ADDRESS - it will make a sound and wont allow me to type unless I HARD FORCE QUIT, HFF/PIP - the mouse icon rotates in circle until it gives me error message. (GOING TO RESTART) ",
+        "short_description": "IRIS issue",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 16:54:53",
+        "tags": [
+            [
+                "Errors",
+                "Crash"
+            ]
+        ]
+    },
+    {
+        "number": "INC41785327",
+        "description": "Latency in PV Central 02/27/2025",
+        "short_description": "Latency in PV Central 02/27/2025",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 16:58:40",
+        "tags": [
+            [
+                "Latency"
+            ]
+        ]
+    },
+    {
+        "number": "INC41785885",
+        "description": "Content Match failed for LTM CTC IRIS Contactinfo Domain: epmp-api ltm-ctc Origin: ORX-Zabbix-Prod Application: Enterprise Preference Management Platform (EPMP) - APIs Category: Application Source: ORX-ZABBIX Severity: Major Alertid: 0025963682",
+        "short_description": "Content Match failed for LTM CTC IRIS Contactinfo",
+        "u_error_symptoms": "",
+        "sys_created_on": "2025-02-27 17:13:24",
+        "tags": [
+            [
+                "Alert",
+                "User Request"
             ]
         ]
     }
@@ -574,7 +16622,7 @@ tag_counts = defaultdict(lambda: defaultdict(int))
 
 # Process each entry in the JSON data
 for entry in parsed_data:
-    open_time = datetime.strptime(entry["open_time"], "%Y-%m-%dT%H:%M:%S.%fZ")
+    open_time = datetime.strptime(entry["sys_created_on"], "%Y-%m-%dT%H:%M:%S.%fZ")
     hour_str = open_time.strftime("%Y-%m-%d %H:00")
     
     for tag_list in entry["tags"]:

@@ -27,7 +27,8 @@ def update_ticket(ticket):
     return updated_ticket
 
 def text_too_big(text):
-    return len(text.split()) > 512
+    print("This text is too big. Forcing it to be 512 characters.")
+    return len(text) > 512
 
 
 def process_ticket(ticket):
@@ -56,7 +57,8 @@ def process_ticket(ticket):
         processed_texts.add(raw_text)
 
         # Check whether the raw_text is too large
-        text_too_big(raw_text)
+        if text_too_big(raw_text):
+            raw_text = raw_text[:511]
 
 
         # Split raw_text into phrases and get the tags

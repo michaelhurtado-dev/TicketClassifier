@@ -37,7 +37,7 @@ parent_categories = {
     "General Error": "Errors",
     "FRM Error": "Errors",
     "Service Down": "Errors",
-    "Java": "Errors",
+    "Java": "Errors"
 }
 
 
